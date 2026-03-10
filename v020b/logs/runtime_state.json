@@ -1,122 +1,287 @@
 {
   "positions": {
-    "COMP-USDT-SWAP": {
-      "inst_id": "COMP-USDT-SWAP",
-      "side": "short",
-      "qty": 1018.7,
-      "avg_px": 16.75,
-      "last_px": 16.75,
-      "unrealized_pnl": 0.0,
-      "margin": 568.7741666666667,
-      "atr": 0.09450000000000021,
-      "stop_price": 16.939,
-      "next_pyramid_price": 16.708000000000002,
-      "entry_time": "2026-03-10 15:13:42",
-      "base_unit_qty": 1018.7,
+    "BAND-USDT-SWAP": {
+      "inst_id": "BAND-USDT-SWAP",
+      "side": "long",
+      "qty": 7890.0,
+      "avg_px": 0.2166724207858049,
+      "last_px": 0.2187,
+      "unrealized_pnl": 11.263599999999263,
+      "margin": 569.8484666666667,
+      "atr": 0.0024750000000000037,
+      "stop_price": 0.21386,
+      "next_pyramid_price": 0.2174525,
+      "entry_time": "2026-03-10 23:43:00",
+      "base_unit_qty": 7890.0,
       "units": 1,
-      "system_name": "Turtle 20",
-      "entry_period": 20,
-      "exit_period": 10,
-      "signal_time": "2026-03-10 15:13:42"
-    },
-    "LQTY-USDT-SWAP": {
-      "inst_id": "LQTY-USDT-SWAP",
-      "side": "short",
-      "qty": 5916.9,
-      "avg_px": 0.2836968835031861,
-      "last_px": 0.2875,
-      "unrealized_pnl": -7.118719999997998,
-      "margin": 559.5353633333333,
-      "atr": 0.0022050000000000012,
-      "stop_price": 0.28782,
-      "next_pyramid_price": 0.28449749999999996,
-      "entry_time": "2026-03-10 15:13:58",
-      "base_unit_qty": 5916.9,
-      "units": 1,
-      "system_name": "Turtle 20",
-      "entry_period": 20,
-      "exit_period": 10,
-      "signal_time": "2026-03-10 15:13:58"
-    },
-    "CELO-USDT-SWAP": {
-      "inst_id": "CELO-USDT-SWAP",
-      "side": "short",
-      "qty": 22494.0,
-      "avg_px": 0.0742467858095499,
-      "last_px": 0.0743,
-      "unrealized_pnl": -7.945199999984653,
-      "margin": 556.7024,
-      "atr": 0.00037000000000000227,
-      "stop_price": 0.07504000000000001,
-      "next_pyramid_price": 0.07446,
-      "entry_time": "2026-03-10 15:15:16",
-      "base_unit_qty": 22494.0,
-      "units": 1,
-      "system_name": "Turtle 20",
-      "entry_period": 20,
-      "exit_period": 10,
-      "signal_time": "2026-03-10 15:15:16"
-    },
-    "CFX-USDT-SWAP": {
-      "inst_id": "CFX-USDT-SWAP",
-      "side": "short",
-      "qty": 3320.0,
-      "avg_px": 0.0504,
-      "last_px": 0.05031,
-      "unrealized_pnl": 0.0,
-      "margin": 0.0,
-      "atr": 0.0003655000000000002,
-      "stop_price": 0.051041,
-      "next_pyramid_price": 0.05021775,
-      "entry_time": "2026-03-10 15:16:59",
-      "base_unit_qty": 3320.0,
-      "units": 1,
-      "system_name": "Turtle 20",
-      "entry_period": 20,
-      "exit_period": 10,
-      "signal_time": "2026-03-10 15:16:59"
+      "system_name": "Turtle 55",
+      "entry_period": 55,
+      "exit_period": 20,
+      "signal_time": "2026-03-10 23:43:00"
     }
   },
   "closed_trades": [
     {
-      "time": "2026-03-10 15:16:39",
-      "inst_id": "GMT-USDT-SWAP",
+      "time": "2026-03-10 23:45:13",
+      "inst_id": "IOTA-USDT-SWAP",
       "side": "short",
-      "qty": 155033.0,
-      "entry_px": 0.0108800061922301,
-      "exit_px": 0.01099,
-      "pnl": -17.052669999990986,
-      "pnl_pct": -1.0109719225017724,
+      "qty": 2690.0,
+      "entry_px": 0.06317,
+      "exit_px": 0.06319,
+      "pnl": -0.05379999999997914,
+      "pnl_pct": -0.0316605983852972,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "reason": "ATR стоп 2.0N",
+      "duration_sec": 118
+    },
+    {
+      "time": "2026-03-10 23:52:59",
+      "inst_id": "XTZ-USDT-SWAP",
+      "side": "short",
+      "qty": 4670.0,
+      "entry_px": 0.3604509850107067,
+      "exit_px": 0.3618,
+      "pnl": -6.299899999999691,
+      "pnl_pct": -0.3742575399684994,
       "units": 1,
       "system_name": "Turtle 20",
       "reason": "Канальный выход 10 свечей",
-      "duration_sec": 170
+      "duration_sec": 471
+    },
+    {
+      "time": "2026-03-11 00:03:33",
+      "inst_id": "RAVE-USDT-SWAP",
+      "side": "short",
+      "qty": 1498.0,
+      "entry_px": 0.2357368825100134,
+      "exit_px": 0.24629,
+      "pnl": -15.808569999999937,
+      "pnl_pct": -4.47665099225122,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "reason": "ATR стоп 2.0N",
+      "duration_sec": 195
+    },
+    {
+      "time": "2026-03-11 00:04:28",
+      "inst_id": "RAVE-USDT-SWAP",
+      "side": "short",
+      "qty": 1495.0,
+      "entry_px": 0.23739,
+      "exit_px": 0.24278,
+      "pnl": -8.058050000000009,
+      "pnl_pct": -2.270525295926537,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "reason": "ATR стоп 2.0N",
+      "duration_sec": 17
     }
   ],
   "balance_history": [
     {
-      "time": "2026-03-10 15:14:19",
-      "balance_total": 85369.47638184707,
-      "balance_available": 83904.51606781827,
-      "balance_used": 1456.4242200000108
+      "time": "2026-03-10 23:29:38",
+      "balance_total": 85302.40392296907,
+      "balance_available": 85294.7273975033,
+      "balance_used": 7.676525465765735
     },
     {
-      "time": "2026-03-10 15:15:01",
-      "balance_total": 85373.39386355606,
-      "balance_available": 83904.51606781827,
-      "balance_used": 1460.3413100000107
+      "time": "2026-03-10 23:30:20",
+      "balance_total": 85303.25687024306,
+      "balance_available": 85294.7273975033,
+      "balance_used": 8.529472739755874
     },
     {
-      "time": "2026-03-10 15:15:47",
-      "balance_total": 85368.91018470898,
-      "balance_available": 83346.97861421827,
-      "balance_used": 2014.2490600000265
+      "time": "2026-03-10 23:31:02",
+      "balance_total": 85301.5509756951,
+      "balance_available": 85294.7273975033,
+      "balance_used": 6.8235781918047
     },
     {
-      "time": "2026-03-10 15:16:42",
-      "balance_total": 85339.86801902657,
-      "balance_available": 83665.5018960433,
-      "balance_used": 1664.9797700000177
+      "time": "2026-03-10 23:31:54",
+      "balance_total": 85301.5509756951,
+      "balance_available": 85294.7273975033,
+      "balance_used": 6.8235781918047
+    },
+    {
+      "time": "2026-03-10 23:32:46",
+      "balance_total": 85304.10981751703,
+      "balance_available": 85294.7273975033,
+      "balance_used": 9.382420013731462
+    },
+    {
+      "time": "2026-03-10 23:33:28",
+      "balance_total": 85304.10981751703,
+      "balance_available": 85294.7273975033,
+      "balance_used": 9.382420013731462
+    },
+    {
+      "time": "2026-03-10 23:34:09",
+      "balance_total": 85301.5509756951,
+      "balance_available": 85294.7273975033,
+      "balance_used": 6.8235781918047
+    },
+    {
+      "time": "2026-03-10 23:43:37",
+      "balance_total": 85294.5406057104,
+      "balance_available": 84156.75018830331,
+      "balance_used": 1130.9673999999995
+    },
+    {
+      "time": "2026-03-10 23:44:29",
+      "balance_total": 85293.6058976186,
+      "balance_available": 84156.75018830331,
+      "balance_used": 1131.7383999999995
+    },
+    {
+      "time": "2026-03-10 23:45:15",
+      "balance_total": 85298.31958737303,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1133.6281999999997
+    },
+    {
+      "time": "2026-03-10 23:45:57",
+      "balance_total": 85291.79837195307,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1127.9601999999995
+    },
+    {
+      "time": "2026-03-10 23:46:39",
+      "balance_total": 85292.71506740298,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1127.1711999999998
+    },
+    {
+      "time": "2026-03-10 23:47:32",
+      "balance_total": 85291.86219995303,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1127.1711999999998
+    },
+    {
+      "time": "2026-03-10 23:48:25",
+      "balance_total": 85298.17457867302,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1133.4831999999997
+    },
+    {
+      "time": "2026-03-10 23:49:06",
+      "balance_total": 85299.49454193299,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1133.9501999999995
+    },
+    {
+      "time": "2026-03-10 23:49:48",
+      "balance_total": 85298.70548670298,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1133.1611999999993
+    },
+    {
+      "time": "2026-03-10 23:50:46",
+      "balance_total": 85299.34953178298,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1133.8051999999996
+    },
+    {
+      "time": "2026-03-10 23:51:38",
+      "balance_total": 85298.49659799303,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1133.8051999999996
+    },
+    {
+      "time": "2026-03-10 23:52:19",
+      "balance_total": 85297.15937848297,
+      "balance_available": 84159.57379525331,
+      "balance_used": 1131.6151999999995
+    },
+    {
+      "time": "2026-03-10 23:53:01",
+      "balance_total": 85292.97912213551,
+      "balance_available": 84712.20896483664,
+      "balance_used": 574.800066666666
+    },
+    {
+      "time": "2026-03-10 23:53:52",
+      "balance_total": 85297.7134535155,
+      "balance_available": 84712.20896483664,
+      "balance_used": 579.5340666666661
+    },
+    {
+      "time": "2026-03-10 23:54:43",
+      "balance_total": 85298.50250874551,
+      "balance_available": 84712.20896483664,
+      "balance_used": 580.323066666666
+    },
+    {
+      "time": "2026-03-10 23:55:33",
+      "balance_total": 85303.23684012551,
+      "balance_available": 84712.20896483664,
+      "balance_used": 585.057066666666
+    },
+    {
+      "time": "2026-03-10 23:56:24",
+      "balance_total": 85296.9243982855,
+      "balance_available": 84712.20896483664,
+      "balance_used": 578.745066666666
+    },
+    {
+      "time": "2026-03-10 23:57:16",
+      "balance_total": 85290.61195644551,
+      "balance_available": 84712.20896483664,
+      "balance_used": 572.433066666666
+    },
+    {
+      "time": "2026-03-10 23:57:57",
+      "balance_total": 85286.6666802955,
+      "balance_available": 84712.20896483664,
+      "balance_used": 568.488066666666
+    },
+    {
+      "time": "2026-03-10 23:58:48",
+      "balance_total": 85296.98824470583,
+      "balance_available": 84712.20896483664,
+      "balance_used": 577.9560666666661
+    },
+    {
+      "time": "2026-03-10 23:59:39",
+      "balance_total": 85287.45573552551,
+      "balance_available": 84712.20896483664,
+      "balance_used": 569.277066666666
+    },
+    {
+      "time": "2026-03-11 00:00:39",
+      "balance_total": 85241.08627517466,
+      "balance_available": 84375.46865638682,
+      "balance_used": 859.6511604006663
+    },
+    {
+      "time": "2026-03-11 00:01:20",
+      "balance_total": 85236.76498254936,
+      "balance_available": 84375.46865638682,
+      "balance_used": 855.3301702446664
+    },
+    {
+      "time": "2026-03-11 00:02:11",
+      "balance_total": 85223.89896536691,
+      "balance_available": 84375.46865638682,
+      "balance_used": 840.7608483246662
+    },
+    {
+      "time": "2026-03-11 00:02:52",
+      "balance_total": 85227.4489975794,
+      "balance_available": 84375.46865638682,
+      "balance_used": 847.7191818006663
+    },
+    {
+      "time": "2026-03-11 00:03:34",
+      "balance_total": 85116.36528718112,
+      "balance_available": 84529.35754499777,
+      "balance_used": 581.9010666666661
+    },
+    {
+      "time": "2026-03-11 00:04:29",
+      "balance_total": 85058.7020187108,
+      "balance_available": 84473.39874005187,
+      "balance_used": 581.9010666666661
     }
   ]
 }
