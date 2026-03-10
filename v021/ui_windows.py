@@ -35,6 +35,8 @@ from app_core import (
     TIMEFRAME_LABELS,
     WINDOW_ICON_PATH,
     BotConfig,
+    ClosedTrade,
+    PositionState,
     build_app_stylesheet,
     detect_is_dark_theme,
     format_clock,

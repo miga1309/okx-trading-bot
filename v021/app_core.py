@@ -6,8 +6,8 @@ import threading
 from dataclasses import dataclass, field, asdict
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import List
-
+from typing import List, Optional
+from PyQt6.QtWidgets import QApplication
 from PyQt6.QtGui import QColor, QPalette
 
 APP_DIR = Path(__file__).resolve().parent

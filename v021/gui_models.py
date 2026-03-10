@@ -1,7 +1,7 @@
 from PyQt6.QtCore import QAbstractTableModel, QModelIndex, Qt
 from PyQt6.QtGui import QColor
 
-from app_core import ClosedTrade, PositionState, format_time_string, gradient_pnl_color
+from app_core import ClosedTrade, PositionState, format_time_string, gradient_pnl_color, format_duration
 
 class PositionTableModel(QAbstractTableModel):
     HEADERS = [

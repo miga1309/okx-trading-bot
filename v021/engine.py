@@ -20,6 +20,7 @@ from app_core import (
     EngineStatsLogger,
     TRADE_CSV,
     ENGINE_STATS_FILE,
+    is_hidden_instrument,
 )
 from exchange import OkxGateway
 
