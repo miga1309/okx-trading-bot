@@ -1,0 +1,41 @@
+{"ts": "2026-03-10 15:13:29", "event": "bot_started", "version": "v0.20c", "account": "demo", "timeframe": "1m", "scan_interval_sec": 5, "position_check_interval_sec": 2, "snapshot_interval_sec": 2, "risk_per_trade_pct": 1.0, "max_position_notional_pct": 2.0, "max_units_per_symbol": 0, "pyramid_scales": [1.0, 0.75, 0.5, 0.25], "blacklist": ["USDC-USDT-SWAP", "XSR-USDT-SWAP", "BREV-USDT-SWAP"]}
+{"ts": "2026-03-10 15:13:31", "event": "cycle_started", "open_positions": 0, "blocked_instruments": 0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:13:31", "event": "positions_synced", "exchange_positions": 0, "tracked_positions": 0, "removed_positions": []}
+{"ts": "2026-03-10 15:13:41", "event": "entry_signal", "inst_id": "COMP-USDT-SWAP", "side": "short", "price": 16.76, "atr": 0.10400000000000027, "system_name": "Turtle 20", "timeframe": "1m"}
+{"ts": "2026-03-10 15:13:42", "event": "position_opened", "inst_id": "COMP-USDT-SWAP", "side": "short", "qty": 1018.7, "price": 16.76, "atr": 0.10400000000000027, "stop_price": 16.968000000000004, "system_name": "Turtle 20", "timeframe": "1m", "balance_total": 85380.39698632306, "balance_available": 85372.71344211328}
+{"ts": "2026-03-10 15:13:48", "event": "entry_signal", "inst_id": "GMT-USDT-SWAP", "side": "short", "price": 0.01094, "atr": 5.600000000000006e-05, "system_name": "Turtle 20", "timeframe": "1m"}
+{"ts": "2026-03-10 15:13:49", "event": "position_opened", "inst_id": "GMT-USDT-SWAP", "side": "short", "qty": 155033.0, "price": 0.01094, "atr": 5.600000000000006e-05, "stop_price": 0.011052, "system_name": "Turtle 20", "timeframe": "1m", "balance_total": 85380.39746689137, "balance_available": 84803.08611419662}
+{"ts": "2026-03-10 15:13:57", "event": "entry_signal", "inst_id": "LQTY-USDT-SWAP", "side": "short", "price": 0.2855, "atr": 0.002005000000000001, "system_name": "Turtle 20", "timeframe": "1m"}
+{"ts": "2026-03-10 15:13:58", "event": "position_opened", "inst_id": "LQTY-USDT-SWAP", "side": "short", "qty": 5916.9, "price": 0.2855, "atr": 0.002005000000000001, "stop_price": 0.28951, "system_name": "Turtle 20", "timeframe": "1m", "balance_total": 85372.87418375835, "balance_available": 84464.89073419661}
+{"ts": "2026-03-10 15:14:17", "event": "positions_check_started", "tracked_positions": 3}
+{"ts": "2026-03-10 15:14:19", "event": "snapshot", "balance_total": 85369.47638184707, "balance_available": 83904.51606781827, "balance_used": 1456.4242200000108, "open_positions": 3, "closed_trades": 0, "open_pnl": 0.0, "realized_pnl": 0, "winrate": 0.0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:14:19", "event": "cycle_finished", "duration_sec": 48.002, "open_positions": 3, "closed_trades": 0}
+{"ts": "2026-03-10 15:14:24", "event": "cycle_started", "open_positions": 3, "blocked_instruments": 0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:14:24", "event": "positions_synced", "exchange_positions": 3, "tracked_positions": 3, "removed_positions": []}
+{"ts": "2026-03-10 15:14:59", "event": "positions_check_started", "tracked_positions": 3}
+{"ts": "2026-03-10 15:15:01", "event": "snapshot", "balance_total": 85373.39386355606, "balance_available": 83904.51606781827, "balance_used": 1460.3413100000107, "open_positions": 3, "closed_trades": 0, "open_pnl": -8.64561999998924, "realized_pnl": 0, "winrate": 0.0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:15:01", "event": "cycle_finished", "duration_sec": 36.867, "open_positions": 3, "closed_trades": 0}
+{"ts": "2026-03-10 15:15:06", "event": "cycle_started", "open_positions": 3, "blocked_instruments": 0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:15:06", "event": "positions_synced", "exchange_positions": 3, "tracked_positions": 3, "removed_positions": []}
+{"ts": "2026-03-10 15:15:15", "event": "entry_signal", "inst_id": "CELO-USDT-SWAP", "side": "short", "price": 0.0746, "atr": 0.00028000000000000176, "system_name": "Turtle 20", "timeframe": "1m"}
+{"ts": "2026-03-10 15:15:16", "event": "position_opened", "inst_id": "CELO-USDT-SWAP", "side": "short", "qty": 22494.0, "price": 0.0746, "atr": 0.00028000000000000176, "stop_price": 0.07516, "system_name": "Turtle 20", "timeframe": "1m", "balance_total": 85368.06812103506, "balance_available": 83904.51606781827}
+{"ts": "2026-03-10 15:15:44", "event": "positions_check_started", "tracked_positions": 4}
+{"ts": "2026-03-10 15:15:46", "event": "pyramid_skipped", "inst_id": "LQTY-USDT-SWAP", "side": "short", "units": 1, "reason": "стоп ещё не переведён в безубыток", "last_price": 0.2838, "next_pyramid_price": 0.28449749999999996}
+{"ts": "2026-03-10 15:15:47", "event": "snapshot", "balance_total": 85368.91018470898, "balance_available": 83346.97861421827, "balance_used": 2014.2490600000265, "open_positions": 4, "closed_trades": 0, "open_pnl": -5.32021999998917, "realized_pnl": 0, "winrate": 0.0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:15:47", "event": "cycle_finished", "duration_sec": 41.51, "open_positions": 4, "closed_trades": 0}
+{"ts": "2026-03-10 15:15:52", "event": "cycle_started", "open_positions": 4, "blocked_instruments": 0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:15:53", "event": "positions_synced", "exchange_positions": 4, "tracked_positions": 4, "removed_positions": []}
+{"ts": "2026-03-10 15:16:37", "event": "positions_check_started", "tracked_positions": 4}
+{"ts": "2026-03-10 15:16:39", "event": "position_closed", "inst_id": "GMT-USDT-SWAP", "side": "short", "qty": 155033.0, "entry_price": 0.0108800061922301, "exit_price": 0.01099, "atr": 5.450000000000004e-05, "stop_price": 0.011051, "units": 1, "reason": "Канальный выход 10 свечей"}
+{"ts": "2026-03-10 15:16:41", "event": "pyramid_skipped", "inst_id": "CELO-USDT-SWAP", "side": "short", "units": 1, "reason": "стоп ещё не переведён в безубыток", "last_price": 0.0744, "next_pyramid_price": 0.07446}
+{"ts": "2026-03-10 15:16:42", "event": "snapshot", "balance_total": 85339.86801902657, "balance_available": 83665.5018960433, "balance_used": 1664.9797700000177, "open_positions": 3, "closed_trades": 1, "open_pnl": -11.631139999982718, "realized_pnl": -17.052669999990986, "winrate": 0.0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:16:42", "event": "cycle_finished", "duration_sec": 49.622, "open_positions": 3, "closed_trades": 1}
+{"ts": "2026-03-10 15:16:47", "event": "cycle_started", "open_positions": 3, "blocked_instruments": 0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:16:47", "event": "positions_synced", "exchange_positions": 3, "tracked_positions": 3, "removed_positions": []}
+{"ts": "2026-03-10 15:16:58", "event": "entry_signal", "inst_id": "CFX-USDT-SWAP", "side": "short", "price": 0.0504, "atr": 0.00036450000000000024, "system_name": "Turtle 20", "timeframe": "1m"}
+{"ts": "2026-03-10 15:16:59", "event": "position_opened", "inst_id": "CFX-USDT-SWAP", "side": "short", "qty": 3320.0, "price": 0.0504, "atr": 0.00036450000000000024, "stop_price": 0.051129, "system_name": "Turtle 20", "timeframe": "1m", "balance_total": 85351.88887475393, "balance_available": 83665.5018960433}
+{"ts": "2026-03-10 15:17:14", "event": "bot_stopped", "open_positions": 4, "closed_trades": 1}
+{"ts": "2026-03-10 15:17:14", "event": "positions_check_started", "tracked_positions": 4}
+{"ts": "2026-03-10 15:17:16", "event": "pyramid_skipped", "inst_id": "CELO-USDT-SWAP", "side": "short", "units": 1, "reason": "стоп ещё не переведён в безубыток", "last_price": 0.0743, "next_pyramid_price": 0.07446}
+{"ts": "2026-03-10 15:17:18", "event": "snapshot", "balance_total": 85331.87451155394, "balance_available": 83109.5636576733, "balance_used": 2215.4848500000194, "open_positions": 4, "closed_trades": 1, "open_pnl": -15.063919999982652, "realized_pnl": -17.052669999990986, "winrate": 0.0, "timeframe": "1m"}
+{"ts": "2026-03-10 15:17:18", "event": "cycle_finished", "duration_sec": 30.804, "open_positions": 4, "closed_trades": 1}

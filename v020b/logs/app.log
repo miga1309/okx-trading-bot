@@ -1,0 +1,880 @@
+2026-03-10 15:13:29,236 | INFO | HTTP Request: GET https://www.okx.com/api/v5/public/instruments?instType=SWAP "HTTP/2 200 OK"
+2026-03-10 15:13:29,269 | INFO | Loaded 114 swap instruments
+2026-03-10 15:13:31,664 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/positions?instType=SWAP "HTTP/2 200 OK"
+2026-03-10 15:13:32,038 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=1INCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:32,040 | INFO | 1INCH-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.04, flips 71%)
+2026-03-10 15:13:32,343 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=2Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:32,346 | INFO | 2Z-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.06, flips 70%)
+2026-03-10 15:13:32,652 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=A-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:32,963 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AAVE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:32,965 | INFO | AAVE-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.17)
+2026-03-10 15:13:33,264 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ACT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:33,273 | INFO | ACT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.04, flips 68%)
+2026-03-10 15:13:33,570 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ADA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:33,580 | INFO | ADA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.760%)
+2026-03-10 15:13:33,884 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AI16Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:33,889 | INFO | AI16Z-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.013%)
+2026-03-10 15:13:34,196 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AKITA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:34,563 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ALGO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:34,605 | INFO | ALGO-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.806%)
+2026-03-10 15:13:34,910 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ARB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:34,915 | INFO | ARB-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.23)
+2026-03-10 15:13:35,212 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:35,536 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASTER-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:35,539 | INFO | ASTER-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.22)
+2026-03-10 15:13:35,844 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ATOM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:36,140 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AUCTION-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:36,456 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AVAX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:36,466 | INFO | AVAX-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.056%)
+2026-03-10 15:13:36,780 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AXS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:37,076 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BAND-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:37,090 | INFO | BAND-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.420%)
+2026-03-10 15:13:37,398 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:37,401 | INFO | BCH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.292%)
+2026-03-10 15:13:37,705 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BIO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:38,009 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BLUAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:38,328 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BNB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:38,331 | INFO | BNB-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.513%)
+2026-03-10 15:13:38,649 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:38,652 | INFO | BOME-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.21)
+2026-03-10 15:13:38,952 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BRETT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:38,961 | INFO | BRETT-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 100%)
+2026-03-10 15:13:39,256 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BTC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:39,268 | INFO | BTC-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.151%)
+2026-03-10 15:13:39,588 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CAT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:39,886 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CATI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:40,188 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CELO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:40,521 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CFX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:40,824 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CHZ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:41,174 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:41,475 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COMP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:41,851 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2026-03-10 15:13:41,885 | INFO | Placing order COMP-USDT-SWAP sell qty=1018.7
+2026-03-10 15:13:42,288 | INFO | HTTP Request: POST https://www.okx.com/api/v5/trade/order "HTTP/2 200 OK"
+2026-03-10 15:13:45,003 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:45,006 | INFO | CRO-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:13:45,325 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:45,625 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOGE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:45,633 | INFO | DOGE-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.00, flips 68%)
+2026-03-10 15:13:45,937 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:45,941 | INFO | DOT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.04, flips 73%)
+2026-03-10 15:13:46,247 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ENA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:46,251 | INFO | ENA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.967%)
+2026-03-10 15:13:46,556 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=EOS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:46,567 | INFO | EOS-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.144%)
+2026-03-10 15:13:46,872 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:46,883 | INFO | ETC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.481%)
+2026-03-10 15:13:47,181 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:47,202 | INFO | ETH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.489%)
+2026-03-10 15:13:47,522 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHFI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:47,527 | INFO | ETHFI-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.820%)
+2026-03-10 15:13:47,835 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHW-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:47,839 | INFO | ETHW-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 71%)
+2026-03-10 15:13:48,143 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FIL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:48,150 | INFO | FIL-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.539%)
+2026-03-10 15:13:48,471 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FLOKI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:48,476 | INFO | FLOKI-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.04, flips 76%)
+2026-03-10 15:13:48,794 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=GMT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:49,221 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2026-03-10 15:13:49,226 | INFO | Placing order GMT-USDT-SWAP sell qty=155033.0
+2026-03-10 15:13:49,588 | INFO | HTTP Request: POST https://www.okx.com/api/v5/trade/order "HTTP/2 200 OK"
+2026-03-10 15:13:52,425 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=H-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:52,456 | INFO | H-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.21)
+2026-03-10 15:13:52,759 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HBAR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:52,767 | INFO | HBAR-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.728%)
+2026-03-10 15:13:53,068 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HMSTR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:53,077 | INFO | HMSTR-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.098%)
+2026-03-10 15:13:53,372 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:53,677 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ICP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:53,692 | INFO | ICP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.519%)
+2026-03-10 15:13:54,007 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IMX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:54,011 | INFO | IMX-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.06, flips 76%)
+2026-03-10 15:13:54,310 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=INJ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:54,617 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IOTA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:54,626 | INFO | IOTA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.292%)
+2026-03-10 15:13:54,925 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=JUP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:54,938 | INFO | JUP-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.136%)
+2026-03-10 15:13:55,246 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KAITO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:55,547 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KSM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:55,557 | INFO | KSM-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.643%)
+2026-03-10 15:13:55,874 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LDO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:55,877 | INFO | LDO-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.27)
+2026-03-10 15:13:56,169 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINEA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:56,190 | INFO | LINEA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.641%)
+2026-03-10 15:13:56,505 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:56,509 | INFO | LINK-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.088%)
+2026-03-10 15:13:56,805 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LIT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:56,817 | INFO | LIT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.947%)
+2026-03-10 15:13:57,121 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LPT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:57,130 | INFO | LPT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.218%)
+2026-03-10 15:13:57,431 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LQTY-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:13:57,892 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2026-03-10 15:13:57,896 | INFO | Placing order LQTY-USDT-SWAP sell qty=5916.9
+2026-03-10 15:13:58,325 | INFO | HTTP Request: POST https://www.okx.com/api/v5/trade/order "HTTP/2 200 OK"
+2026-03-10 15:14:01,060 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LRC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:01,064 | INFO | LRC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.323%)
+2026-03-10 15:14:01,369 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LTC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:01,375 | INFO | LTC-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.24)
+2026-03-10 15:14:01,679 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MAGIC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:01,683 | INFO | MAGIC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.450%)
+2026-03-10 15:14:01,982 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MAJOR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:02,314 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MASK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:02,623 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MET-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:02,627 | INFO | MET-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.557%)
+2026-03-10 15:14:02,946 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MINA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:02,950 | INFO | MINA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.509%)
+2026-03-10 15:14:03,253 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MKR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:03,575 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MUBARAK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:03,885 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NEAR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:03,888 | INFO | NEAR-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.529%)
+2026-03-10 15:14:04,186 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NEO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:04,197 | INFO | NEO-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.479%)
+2026-03-10 15:14:04,504 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NOT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:04,507 | INFO | NOT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.510%)
+2026-03-10 15:14:04,808 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=OP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:04,815 | INFO | OP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.330%)
+2026-03-10 15:14:05,123 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=PEPE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:05,134 | INFO | PEPE-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.01, flips 68%)
+2026-03-10 15:14:05,515 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=PIGGY-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:05,869 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=QTUM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:05,883 | INFO | QTUM-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.337%)
+2026-03-10 15:14:06,183 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=RAVE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:06,505 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=RESOLV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:06,910 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ROBO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:07,205 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SAND-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:07,225 | INFO | SAND-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 69%)
+2026-03-10 15:14:07,554 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SCR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:07,855 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SHIB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:07,870 | INFO | SHIB-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 76%)
+2026-03-10 15:14:08,184 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SKY-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:08,484 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SOL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:08,814 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SOLV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:09,137 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SPK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:09,142 | INFO | SPK-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.648%)
+2026-03-10 15:14:09,451 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=STRK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:09,456 | INFO | STRK-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.725%)
+2026-03-10 15:14:09,767 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SUI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:10,069 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SUSHI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:10,076 | INFO | SUSHI-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.27)
+2026-03-10 15:14:10,374 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SYRUP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:10,386 | INFO | SYRUP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.531%)
+2026-03-10 15:14:10,756 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST1234-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:11,105 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST3103-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:11,411 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST3110-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:11,717 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=THETA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:11,725 | INFO | THETA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.435%)
+2026-03-10 15:14:12,026 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TON-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:12,341 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TRIA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:12,655 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TRX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:12,659 | INFO | TRX-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.246%)
+2026-03-10 15:14:12,966 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TSLA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:12,970 | INFO | TSLA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.595%)
+2026-03-10 15:14:13,270 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XAG-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:13,279 | INFO | XAG-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.567%)
+2026-03-10 15:14:13,577 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XAU-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:13,587 | INFO | XAU-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.25)
+2026-03-10 15:14:13,892 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XLM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:13,896 | INFO | XLM-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.10, flips 69%)
+2026-03-10 15:14:14,197 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XPL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:14,207 | INFO | XPL-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.19)
+2026-03-10 15:14:14,513 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XRP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:14,521 | INFO | XRP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.621%)
+2026-03-10 15:14:14,818 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XTZ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:14,834 | INFO | XTZ-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.542%)
+2026-03-10 15:14:15,152 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:15,157 | INFO | YB-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.677%)
+2026-03-10 15:14:15,451 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YFI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:15,469 | INFO | YFI-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.06, flips 71%)
+2026-03-10 15:14:15,768 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YGG-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:16,085 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZAMA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:16,089 | INFO | ZAMA-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 94%)
+2026-03-10 15:14:16,458 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZBCN-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:16,805 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZETA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:16,810 | INFO | ZETA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.416%)
+2026-03-10 15:14:17,109 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZIL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:17,116 | INFO | ZIL-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.241%)
+2026-03-10 15:14:17,418 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COMP-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:14:17,730 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=COMP-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:14:18,030 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=GMT-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:14:18,332 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=GMT-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:14:18,644 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LQTY-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:14:18,947 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=LQTY-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:14:19,321 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2026-03-10 15:14:24,775 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/positions?instType=SWAP "HTTP/2 200 OK"
+2026-03-10 15:14:25,163 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=1INCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:25,204 | INFO | 1INCH-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 71%)
+2026-03-10 15:14:25,517 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=2Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:25,520 | INFO | 2Z-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.06, flips 68%)
+2026-03-10 15:14:25,831 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=A-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:26,134 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AAVE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:26,137 | INFO | AAVE-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.17)
+2026-03-10 15:14:26,437 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ACT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:26,447 | INFO | ACT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.05, flips 68%)
+2026-03-10 15:14:26,745 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ADA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:26,753 | INFO | ADA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.760%)
+2026-03-10 15:14:27,053 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AI16Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:27,062 | INFO | AI16Z-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.013%)
+2026-03-10 15:14:27,362 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AKITA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:27,679 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ALGO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:27,682 | INFO | ALGO-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.806%)
+2026-03-10 15:14:27,982 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ARB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:27,992 | INFO | ARB-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.23)
+2026-03-10 15:14:28,288 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:28,606 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASTER-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:28,610 | INFO | ASTER-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.25)
+2026-03-10 15:14:28,977 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ATOM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:29,315 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AUCTION-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:29,627 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AVAX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:29,630 | INFO | AVAX-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.053%)
+2026-03-10 15:14:29,930 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AXS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:30,240 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BAND-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:30,244 | INFO | BAND-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.420%)
+2026-03-10 15:14:30,565 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:30,569 | INFO | BCH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.314%)
+2026-03-10 15:14:30,889 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BIO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:31,187 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BLUAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:31,493 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BNB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:31,502 | INFO | BNB-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.513%)
+2026-03-10 15:14:31,799 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:31,811 | INFO | BOME-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.21)
+2026-03-10 15:14:32,111 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BRETT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:32,120 | INFO | BRETT-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 100%)
+2026-03-10 15:14:32,430 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BTC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:32,434 | INFO | BTC-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.163%)
+2026-03-10 15:14:32,734 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CAT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:33,039 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CATI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:33,362 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CELO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:33,672 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CFX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:33,971 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CHZ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:34,300 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:34,612 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:34,615 | INFO | CRO-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:14:34,913 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:35,222 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOGE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:35,231 | INFO | DOGE-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.04, flips 68%)
+2026-03-10 15:14:35,529 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:35,540 | INFO | DOT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.00, flips 70%)
+2026-03-10 15:14:35,839 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ENA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:35,847 | INFO | ENA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.967%)
+2026-03-10 15:14:36,204 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=EOS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:36,207 | INFO | EOS-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.144%)
+2026-03-10 15:14:36,511 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:36,518 | INFO | ETC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.481%)
+2026-03-10 15:14:36,810 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:36,826 | INFO | ETH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.490%)
+2026-03-10 15:14:37,122 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHFI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:37,135 | INFO | ETHFI-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.837%)
+2026-03-10 15:14:37,439 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHW-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:37,445 | INFO | ETHW-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 71%)
+2026-03-10 15:14:37,741 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FIL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:37,755 | INFO | FIL-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.539%)
+2026-03-10 15:14:38,051 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FLOKI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:38,064 | INFO | FLOKI-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.00, flips 76%)
+2026-03-10 15:14:38,386 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=H-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:38,390 | INFO | H-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.24)
+2026-03-10 15:14:38,695 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HBAR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:38,699 | INFO | HBAR-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.728%)
+2026-03-10 15:14:39,018 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HMSTR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:39,022 | INFO | HMSTR-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.098%)
+2026-03-10 15:14:39,332 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:39,631 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ICP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:39,645 | INFO | ICP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.519%)
+2026-03-10 15:14:39,943 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IMX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:39,953 | INFO | IMX-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.03, flips 73%)
+2026-03-10 15:14:40,261 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=INJ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:40,265 | INFO | INJ-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:14:40,561 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IOTA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:40,574 | INFO | IOTA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.292%)
+2026-03-10 15:14:40,894 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=JUP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:40,898 | INFO | JUP-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.133%)
+2026-03-10 15:14:41,200 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KAITO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:41,516 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KSM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:41,520 | INFO | KSM-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.643%)
+2026-03-10 15:14:41,813 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LDO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:42,122 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINEA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:42,136 | INFO | LINEA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.640%)
+2026-03-10 15:14:42,438 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:42,447 | INFO | LINK-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.088%)
+2026-03-10 15:14:42,745 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LIT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:42,756 | INFO | LIT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.947%)
+2026-03-10 15:14:43,078 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LPT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:43,082 | INFO | LPT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.218%)
+2026-03-10 15:14:43,378 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LRC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:43,391 | INFO | LRC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.323%)
+2026-03-10 15:14:43,685 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LTC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:43,699 | INFO | LTC-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.24)
+2026-03-10 15:14:44,016 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MAGIC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:44,020 | INFO | MAGIC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.450%)
+2026-03-10 15:14:44,336 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MAJOR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:44,340 | INFO | MAJOR-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.111%)
+2026-03-10 15:14:44,636 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MASK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:44,951 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MET-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:44,955 | INFO | MET-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.557%)
+2026-03-10 15:14:45,261 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MINA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:45,264 | INFO | MINA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.509%)
+2026-03-10 15:14:45,570 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MKR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:45,870 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MUBARAK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:46,180 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NEAR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:46,187 | INFO | NEAR-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.529%)
+2026-03-10 15:14:46,493 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NEO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:46,497 | INFO | NEO-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.479%)
+2026-03-10 15:14:46,803 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NOT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:46,809 | INFO | NOT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.510%)
+2026-03-10 15:14:47,105 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=OP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:47,118 | INFO | OP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.330%)
+2026-03-10 15:14:47,419 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=PEPE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:47,426 | INFO | PEPE-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.01, flips 68%)
+2026-03-10 15:14:47,792 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=PIGGY-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:48,131 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=QTUM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:48,144 | INFO | QTUM-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.337%)
+2026-03-10 15:14:48,442 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=RAVE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:48,746 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=RESOLV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:49,074 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ROBO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:49,371 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SAND-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:49,381 | INFO | SAND-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 69%)
+2026-03-10 15:14:49,677 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SCR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:49,980 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SHIB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:49,994 | INFO | SHIB-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 76%)
+2026-03-10 15:14:50,314 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SKY-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:50,615 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SOL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:50,914 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SOLV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:51,231 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SPK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:51,234 | INFO | SPK-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.648%)
+2026-03-10 15:14:51,537 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=STRK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:51,543 | INFO | STRK-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.725%)
+2026-03-10 15:14:51,843 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SUI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:52,149 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SUSHI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:52,158 | INFO | SUSHI-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.27)
+2026-03-10 15:14:52,457 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SYRUP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:52,467 | INFO | SYRUP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.531%)
+2026-03-10 15:14:52,763 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST1234-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:53,065 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST3103-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:53,383 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST3110-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:53,681 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=THETA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:53,689 | INFO | THETA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.435%)
+2026-03-10 15:14:53,994 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TON-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:54,296 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TRIA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:54,605 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TRX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:54,609 | INFO | TRX-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.246%)
+2026-03-10 15:14:54,930 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TSLA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:54,939 | INFO | TSLA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.595%)
+2026-03-10 15:14:55,241 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XAG-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:55,252 | INFO | XAG-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.567%)
+2026-03-10 15:14:55,546 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XAU-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:55,561 | INFO | XAU-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.25)
+2026-03-10 15:14:55,862 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XLM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:55,868 | INFO | XLM-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.10, flips 69%)
+2026-03-10 15:14:56,176 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XPL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:56,180 | INFO | XPL-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.19)
+2026-03-10 15:14:56,475 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XRP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:56,488 | INFO | XRP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.621%)
+2026-03-10 15:14:56,786 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XTZ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:56,800 | INFO | XTZ-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.542%)
+2026-03-10 15:14:57,099 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:57,108 | INFO | YB-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.677%)
+2026-03-10 15:14:57,406 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YFI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:57,416 | INFO | YFI-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.06, flips 71%)
+2026-03-10 15:14:57,717 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YGG-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:58,020 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZAMA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:58,027 | INFO | ZAMA-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 94%)
+2026-03-10 15:14:58,404 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZBCN-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:58,744 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZETA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:58,748 | INFO | ZETA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.416%)
+2026-03-10 15:14:59,053 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZIL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:14:59,057 | INFO | ZIL-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.241%)
+2026-03-10 15:14:59,374 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COMP-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:14:59,677 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=COMP-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:14:59,988 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=GMT-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:15:00,283 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=GMT-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:15:00,604 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LQTY-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:15:00,902 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=LQTY-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:15:01,227 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2026-03-10 15:15:06,604 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/positions?instType=SWAP "HTTP/2 200 OK"
+2026-03-10 15:15:06,996 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=1INCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:07,016 | INFO | 1INCH-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.01, flips 69%)
+2026-03-10 15:15:07,323 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=2Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:07,330 | INFO | 2Z-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.06, flips 66%)
+2026-03-10 15:15:07,640 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=A-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:07,947 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AAVE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:07,953 | INFO | AAVE-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.17)
+2026-03-10 15:15:08,263 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ACT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:08,269 | INFO | ACT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.05, flips 68%)
+2026-03-10 15:15:08,579 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ADA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:08,584 | INFO | ADA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.760%)
+2026-03-10 15:15:08,903 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AI16Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:08,907 | INFO | AI16Z-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.013%)
+2026-03-10 15:15:09,220 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AKITA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:09,536 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ALGO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:09,541 | INFO | ALGO-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.805%)
+2026-03-10 15:15:09,846 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ARB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:09,853 | INFO | ARB-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.23)
+2026-03-10 15:15:10,173 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:10,487 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASTER-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:10,491 | INFO | ASTER-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:15:10,797 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ATOM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:11,097 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AUCTION-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:11,413 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AVAX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:11,417 | INFO | AVAX-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.051%)
+2026-03-10 15:15:11,723 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AXS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:12,048 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BAND-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:12,054 | INFO | BAND-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.420%)
+2026-03-10 15:15:12,372 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:12,376 | INFO | BCH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.314%)
+2026-03-10 15:15:12,682 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BIO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:12,981 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BLUAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:13,297 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BNB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:13,300 | INFO | BNB-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.483%)
+2026-03-10 15:15:13,602 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:13,607 | INFO | BOME-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.22)
+2026-03-10 15:15:13,909 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BRETT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:13,916 | INFO | BRETT-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 100%)
+2026-03-10 15:15:14,216 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BTC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:14,223 | INFO | BTC-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.179%)
+2026-03-10 15:15:14,530 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CAT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:14,836 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CATI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:15,147 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CELO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:15,511 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2026-03-10 15:15:15,557 | INFO | Placing order CELO-USDT-SWAP sell qty=22494.0
+2026-03-10 15:15:16,002 | INFO | HTTP Request: POST https://www.okx.com/api/v5/trade/order "HTTP/2 200 OK"
+2026-03-10 15:15:18,619 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CFX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:18,928 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CHZ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:19,240 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:19,537 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:19,549 | INFO | CRO-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:15:19,890 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:21,009 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOGE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:21,013 | INFO | DOGE-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 68%)
+2026-03-10 15:15:21,328 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:21,336 | INFO | DOT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.03, flips 70%)
+2026-03-10 15:15:21,652 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ENA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:21,663 | INFO | ENA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.870%)
+2026-03-10 15:15:21,984 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=EOS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:21,988 | INFO | EOS-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.144%)
+2026-03-10 15:15:22,298 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:22,301 | INFO | ETC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.481%)
+2026-03-10 15:15:22,610 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:22,616 | INFO | ETH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.490%)
+2026-03-10 15:15:22,918 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHFI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:22,925 | INFO | ETHFI-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.837%)
+2026-03-10 15:15:23,241 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHW-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:23,245 | INFO | ETHW-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 74%)
+2026-03-10 15:15:23,545 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FIL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:23,557 | INFO | FIL-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.538%)
+2026-03-10 15:15:23,859 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FLOKI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:23,869 | INFO | FLOKI-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.00, flips 75%)
+2026-03-10 15:15:24,224 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=H-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:24,229 | INFO | H-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.24)
+2026-03-10 15:15:24,533 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HBAR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:24,540 | INFO | HBAR-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.728%)
+2026-03-10 15:15:24,896 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HMSTR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:24,908 | INFO | HMSTR-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.098%)
+2026-03-10 15:15:25,218 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:25,531 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ICP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:25,535 | INFO | ICP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.518%)
+2026-03-10 15:15:25,836 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IMX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:25,845 | INFO | IMX-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 73%)
+2026-03-10 15:15:26,144 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=INJ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:26,155 | INFO | INJ-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.27)
+2026-03-10 15:15:26,462 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IOTA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:26,466 | INFO | IOTA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.292%)
+2026-03-10 15:15:26,768 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=JUP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:26,777 | INFO | JUP-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.134%)
+2026-03-10 15:15:27,089 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KAITO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:27,408 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KSM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:27,412 | INFO | KSM-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.643%)
+2026-03-10 15:15:27,716 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LDO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:28,017 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINEA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:28,026 | INFO | LINEA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.640%)
+2026-03-10 15:15:28,329 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:28,337 | INFO | LINK-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.088%)
+2026-03-10 15:15:28,637 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LIT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:28,646 | INFO | LIT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.947%)
+2026-03-10 15:15:28,958 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LPT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:28,962 | INFO | LPT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.218%)
+2026-03-10 15:15:29,266 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LRC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:29,271 | INFO | LRC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.322%)
+2026-03-10 15:15:29,566 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LTC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:29,579 | INFO | LTC-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.25)
+2026-03-10 15:15:29,883 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MAGIC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:29,890 | INFO | MAGIC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.450%)
+2026-03-10 15:15:30,196 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MAJOR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:30,200 | INFO | MAJOR-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.111%)
+2026-03-10 15:15:30,504 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MASK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:30,808 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MET-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:30,815 | INFO | MET-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.557%)
+2026-03-10 15:15:31,118 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MINA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:31,126 | INFO | MINA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.509%)
+2026-03-10 15:15:31,430 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MKR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:31,733 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MUBARAK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:32,037 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NEAR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:32,045 | INFO | NEAR-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.576%)
+2026-03-10 15:15:32,353 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NEO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:32,357 | INFO | NEO-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.479%)
+2026-03-10 15:15:32,658 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NOT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:32,664 | INFO | NOT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.510%)
+2026-03-10 15:15:33,031 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=OP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:33,075 | INFO | OP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.330%)
+2026-03-10 15:15:33,379 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=PEPE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:33,695 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=PIGGY-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:33,998 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=QTUM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:34,009 | INFO | QTUM-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.337%)
+2026-03-10 15:15:34,314 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=RAVE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:34,626 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=RESOLV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:34,931 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ROBO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:35,230 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SAND-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:35,239 | INFO | SAND-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 69%)
+2026-03-10 15:15:35,538 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SCR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:35,842 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SHIB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:35,855 | INFO | SHIB-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.00, flips 76%)
+2026-03-10 15:15:36,157 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SKY-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:36,466 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SOL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:36,770 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SOLV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:37,073 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SPK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:37,083 | INFO | SPK-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.648%)
+2026-03-10 15:15:37,392 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=STRK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:37,395 | INFO | STRK-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.725%)
+2026-03-10 15:15:37,691 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SUI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:38,009 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SUSHI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:38,013 | INFO | SUSHI-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.27)
+2026-03-10 15:15:38,315 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SYRUP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:38,323 | INFO | SYRUP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.575%)
+2026-03-10 15:15:38,623 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST1234-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:38,950 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST3103-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:39,259 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST3110-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:39,560 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=THETA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:39,569 | INFO | THETA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.435%)
+2026-03-10 15:15:39,869 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TON-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:40,184 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TRIA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:40,491 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TRX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:40,494 | INFO | TRX-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.246%)
+2026-03-10 15:15:40,797 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TSLA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:40,803 | INFO | TSLA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.595%)
+2026-03-10 15:15:41,104 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XAG-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:41,111 | INFO | XAG-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.567%)
+2026-03-10 15:15:41,418 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XAU-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:41,422 | INFO | XAU-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:15:41,719 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XLM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:41,732 | INFO | XLM-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.08, flips 70%)
+2026-03-10 15:15:42,035 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XPL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:42,044 | INFO | XPL-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.20)
+2026-03-10 15:15:42,346 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XRP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:42,354 | INFO | XRP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.606%)
+2026-03-10 15:15:42,658 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XTZ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:42,665 | INFO | XTZ-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.543%)
+2026-03-10 15:15:42,961 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:42,976 | INFO | YB-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.676%)
+2026-03-10 15:15:43,285 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YFI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:43,288 | INFO | YFI-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.09, flips 71%)
+2026-03-10 15:15:43,590 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YGG-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:43,895 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZAMA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:43,904 | INFO | ZAMA-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 94%)
+2026-03-10 15:15:44,220 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZBCN-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:44,533 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZETA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:44,536 | INFO | ZETA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.416%)
+2026-03-10 15:15:44,836 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZIL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:44,846 | INFO | ZIL-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.241%)
+2026-03-10 15:15:45,150 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COMP-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:15:45,455 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=COMP-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:15:45,765 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=GMT-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:15:46,071 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=GMT-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:15:46,373 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LQTY-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:15:46,676 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=LQTY-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:15:46,999 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CELO-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:15:47,298 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=CELO-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:15:47,740 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2026-03-10 15:15:53,090 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/positions?instType=SWAP "HTTP/2 200 OK"
+2026-03-10 15:15:53,523 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=1INCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:53,526 | INFO | 1INCH-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.01, flips 69%)
+2026-03-10 15:15:53,899 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=2Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:53,934 | INFO | 2Z-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.06, flips 66%)
+2026-03-10 15:15:54,312 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=A-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:54,713 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AAVE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:54,750 | INFO | AAVE-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.17)
+2026-03-10 15:15:55,120 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ACT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:55,160 | INFO | ACT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.05, flips 70%)
+2026-03-10 15:15:55,531 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ADA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:55,570 | INFO | ADA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.760%)
+2026-03-10 15:15:55,940 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AI16Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:55,980 | INFO | AI16Z-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.013%)
+2026-03-10 15:15:56,346 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AKITA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:56,771 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ALGO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:56,800 | INFO | ALGO-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.805%)
+2026-03-10 15:15:57,178 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ARB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:57,211 | INFO | ARB-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.23)
+2026-03-10 15:15:57,585 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:58,004 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASTER-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:58,026 | INFO | ASTER-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:15:58,391 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ATOM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:58,820 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AUCTION-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:59,200 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AVAX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:15:59,245 | INFO | AVAX-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.051%)
+2026-03-10 15:15:59,621 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AXS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:00,023 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BAND-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:00,061 | INFO | BAND-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.420%)
+2026-03-10 15:16:00,439 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:00,471 | INFO | BCH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.314%)
+2026-03-10 15:16:00,856 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BIO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:01,255 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BLUAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:01,651 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BNB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:01,692 | INFO | BNB-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.483%)
+2026-03-10 15:16:02,061 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:02,101 | INFO | BOME-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.22)
+2026-03-10 15:16:02,483 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BRETT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:02,511 | INFO | BRETT-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 100%)
+2026-03-10 15:16:02,884 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BTC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:03,297 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CAT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:03,698 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CATI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:04,097 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CFX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:04,498 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CHZ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:04,910 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:05,312 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:05,352 | INFO | CRO-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:16:05,717 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:06,133 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOGE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:06,165 | INFO | DOGE-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 68%)
+2026-03-10 15:16:06,550 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:06,575 | INFO | DOT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.05, flips 70%)
+2026-03-10 15:16:06,952 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ENA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:06,986 | INFO | ENA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.870%)
+2026-03-10 15:16:07,378 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=EOS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:07,396 | INFO | EOS-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.144%)
+2026-03-10 15:16:07,763 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:07,806 | INFO | ETC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.481%)
+2026-03-10 15:16:08,184 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:08,217 | INFO | ETH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.489%)
+2026-03-10 15:16:08,582 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHFI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:08,627 | INFO | ETHFI-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.871%)
+2026-03-10 15:16:09,009 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHW-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:09,039 | INFO | ETHW-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.03, flips 71%)
+2026-03-10 15:16:09,412 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FIL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:09,447 | INFO | FIL-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.538%)
+2026-03-10 15:16:09,825 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FLOKI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:09,857 | INFO | FLOKI-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.04, flips 78%)
+2026-03-10 15:16:10,226 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=H-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:10,267 | INFO | H-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.24)
+2026-03-10 15:16:10,633 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HBAR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:10,677 | INFO | HBAR-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.416%)
+2026-03-10 15:16:11,051 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HMSTR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:11,089 | INFO | HMSTR-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.098%)
+2026-03-10 15:16:11,467 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:11,872 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ICP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:11,908 | INFO | ICP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.518%)
+2026-03-10 15:16:12,288 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IMX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:12,319 | INFO | IMX-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 73%)
+2026-03-10 15:16:12,694 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=INJ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:12,730 | INFO | INJ-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.27)
+2026-03-10 15:16:13,092 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IOTA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:13,138 | INFO | IOTA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.323%)
+2026-03-10 15:16:13,502 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=JUP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:13,550 | INFO | JUP-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.133%)
+2026-03-10 15:16:13,911 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KAITO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:14,323 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KSM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:14,365 | INFO | KSM-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.600%)
+2026-03-10 15:16:14,736 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LDO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:15,144 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINEA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:15,181 | INFO | LINEA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.641%)
+2026-03-10 15:16:15,550 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:15,590 | INFO | LINK-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.088%)
+2026-03-10 15:16:15,963 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LIT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:16,002 | INFO | LIT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.947%)
+2026-03-10 15:16:16,371 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LPT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:16,410 | INFO | LPT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.218%)
+2026-03-10 15:16:16,788 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LRC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:16,818 | INFO | LRC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.322%)
+2026-03-10 15:16:17,181 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LTC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:17,226 | INFO | LTC-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.25)
+2026-03-10 15:16:17,601 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MAGIC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:17,636 | INFO | MAGIC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.450%)
+2026-03-10 15:16:18,006 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MAJOR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:18,049 | INFO | MAJOR-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 94%)
+2026-03-10 15:16:18,426 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MASK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:18,833 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MET-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:18,867 | INFO | MET-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.557%)
+2026-03-10 15:16:19,240 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MINA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:19,278 | INFO | MINA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.509%)
+2026-03-10 15:16:19,653 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MKR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:20,070 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=MUBARAK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:20,483 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NEAR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:20,500 | INFO | NEAR-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.638%)
+2026-03-10 15:16:20,872 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NEO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:20,908 | INFO | NEO-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.479%)
+2026-03-10 15:16:21,278 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=NOT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:21,317 | INFO | NOT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.510%)
+2026-03-10 15:16:21,701 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=OP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:21,728 | INFO | OP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.330%)
+2026-03-10 15:16:22,117 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=PEPE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:22,503 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=PIGGY-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:22,927 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=QTUM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:22,951 | INFO | QTUM-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.337%)
+2026-03-10 15:16:23,323 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=RAVE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:23,723 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=RESOLV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:24,141 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ROBO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:24,539 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SAND-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:24,577 | INFO | SAND-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 69%)
+2026-03-10 15:16:24,952 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SCR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:25,379 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SHIB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:25,392 | INFO | SHIB-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.03, flips 76%)
+2026-03-10 15:16:25,759 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SKY-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:26,162 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SOL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:26,589 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SOLV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:26,977 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SPK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:27,018 | INFO | SPK-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.648%)
+2026-03-10 15:16:27,407 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=STRK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:27,427 | INFO | STRK-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.725%)
+2026-03-10 15:16:27,784 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SUI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:28,203 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SUSHI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:28,242 | INFO | SUSHI-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.27)
+2026-03-10 15:16:28,611 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=SYRUP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:28,652 | INFO | SYRUP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.575%)
+2026-03-10 15:16:29,034 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST1234-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:29,426 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST3103-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:29,845 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TEST3110-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:30,300 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=THETA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:30,306 | INFO | THETA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.435%)
+2026-03-10 15:16:30,667 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TON-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:31,085 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TRIA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:31,491 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TRX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:31,523 | INFO | TRX-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.246%)
+2026-03-10 15:16:31,899 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=TSLA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:31,934 | INFO | TSLA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.595%)
+2026-03-10 15:16:32,308 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XAG-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:32,347 | INFO | XAG-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.566%)
+2026-03-10 15:16:32,713 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XAU-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:32,757 | INFO | XAU-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:16:33,133 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XLM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:33,165 | INFO | XLM-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.05, flips 70%)
+2026-03-10 15:16:33,535 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XPL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:33,577 | INFO | XPL-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.20)
+2026-03-10 15:16:33,962 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XRP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:33,986 | INFO | XRP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.606%)
+2026-03-10 15:16:34,353 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=XTZ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:34,393 | INFO | XTZ-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.543%)
+2026-03-10 15:16:34,776 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:34,803 | INFO | YB-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.737%)
+2026-03-10 15:16:35,179 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YFI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:35,214 | INFO | YFI-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 68%)
+2026-03-10 15:16:35,582 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=YGG-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:35,992 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZAMA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:36,034 | INFO | ZAMA-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 94%)
+2026-03-10 15:16:36,406 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZBCN-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:36,826 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZETA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:36,852 | INFO | ZETA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.416%)
+2026-03-10 15:16:37,219 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ZIL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:37,262 | INFO | ZIL-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.241%)
+2026-03-10 15:16:37,631 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COMP-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:16:38,038 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=COMP-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:16:38,462 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=GMT-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:16:38,855 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=GMT-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:16:38,891 | INFO | Closing position GMT-USDT-SWAP. Канальный выход 10 свечей
+2026-03-10 15:16:39,333 | INFO | HTTP Request: POST https://www.okx.com/api/v5/trade/close-position "HTTP/2 200 OK"
+2026-03-10 15:16:40,704 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LQTY-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:16:41,110 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=LQTY-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:16:41,536 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CELO-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:16:41,933 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=CELO-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:16:42,331 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2026-03-10 15:16:47,813 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/positions?instType=SWAP "HTTP/2 200 OK"
+2026-03-10 15:16:48,245 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=1INCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:48,251 | INFO | 1INCH-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.02, flips 66%)
+2026-03-10 15:16:48,615 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=2Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:49,030 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=A-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:49,439 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AAVE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:49,477 | INFO | AAVE-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.19)
+2026-03-10 15:16:49,867 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ACT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:49,891 | INFO | ACT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.05, flips 73%)
+2026-03-10 15:16:50,258 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ADA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:50,298 | INFO | ADA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.760%)
+2026-03-10 15:16:50,673 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AI16Z-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:50,711 | INFO | AI16Z-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.013%)
+2026-03-10 15:16:51,072 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AKITA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:51,505 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ALGO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:51,531 | INFO | ALGO-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.806%)
+2026-03-10 15:16:51,915 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ARB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:51,943 | INFO | ARB-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.23)
+2026-03-10 15:16:52,331 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:52,713 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ASTER-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:52,755 | INFO | ASTER-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.27)
+2026-03-10 15:16:53,124 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ATOM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:53,531 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AUCTION-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:53,939 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AVAX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:53,975 | INFO | AVAX-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.046%)
+2026-03-10 15:16:54,348 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=AXS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:54,765 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BAND-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:54,789 | INFO | BAND-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.420%)
+2026-03-10 15:16:55,157 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BCH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:55,197 | INFO | BCH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.314%)
+2026-03-10 15:16:55,577 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BIO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:55,971 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BLUAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:56,374 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BNB-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:56,416 | INFO | BNB-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.482%)
+2026-03-10 15:16:56,806 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:56,824 | INFO | BOME-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.22)
+2026-03-10 15:16:57,190 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BRETT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:57,233 | INFO | BRETT-USDT-SWAP: пропуск входа, ровный рынок (слишком много одинаковых закрытий 100%)
+2026-03-10 15:16:57,596 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=BTC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:58,010 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CAT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:58,425 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CATI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:58,816 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CFX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:16:59,267 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"
+2026-03-10 15:16:59,270 | INFO | Placing order CFX-USDT-SWAP sell qty=3320.0
+2026-03-10 15:16:59,625 | INFO | HTTP Request: POST https://www.okx.com/api/v5/trade/order "HTTP/2 200 OK"
+2026-03-10 15:17:02,421 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CHZ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:02,840 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COAI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:03,231 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:03,257 | INFO | CRO-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.26)
+2026-03-10 15:17:03,632 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CRV-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:04,033 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOGE-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:04,458 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=DOT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:04,475 | INFO | DOT-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.00, flips 70%)
+2026-03-10 15:17:04,861 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ENA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:04,888 | INFO | ENA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.774%)
+2026-03-10 15:17:05,262 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=EOS-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:05,298 | INFO | EOS-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.174%)
+2026-03-10 15:17:05,684 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETC-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:05,707 | INFO | ETC-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.361%)
+2026-03-10 15:17:06,081 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETH-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:06,117 | INFO | ETH-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.489%)
+2026-03-10 15:17:06,503 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHFI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:06,530 | INFO | ETHFI-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.889%)
+2026-03-10 15:17:06,901 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ETHW-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:06,939 | INFO | ETHW-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.03, flips 71%)
+2026-03-10 15:17:07,310 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FIL-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:07,357 | INFO | FIL-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.539%)
+2026-03-10 15:17:07,743 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=FLOKI-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:07,779 | INFO | FLOKI-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.04, flips 78%)
+2026-03-10 15:17:08,143 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=GMT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:08,550 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=H-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:08,599 | INFO | H-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.24)
+2026-03-10 15:17:08,973 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HBAR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:09,012 | INFO | HBAR-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.312%)
+2026-03-10 15:17:09,396 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HMSTR-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:09,427 | INFO | HMSTR-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.098%)
+2026-03-10 15:17:09,796 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=HOME-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:10,205 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=ICP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:10,253 | INFO | ICP-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.518%)
+2026-03-10 15:17:10,620 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IMX-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:10,663 | INFO | IMX-USDT-SWAP: пропуск входа, ровный рынок (пила без направления: ER 0.06, flips 76%)
+2026-03-10 15:17:11,051 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=INJ-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:11,086 | INFO | INJ-USDT-SWAP: пропуск входа, ровный рынок (слишком маленькие тела свечей 0.27)
+2026-03-10 15:17:11,471 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=IOTA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:11,508 | INFO | IOTA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.524%)
+2026-03-10 15:17:11,894 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=JUP-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:11,927 | INFO | JUP-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.125%)
+2026-03-10 15:17:12,317 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KAITO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:12,732 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=KSM-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:12,753 | INFO | KSM-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.600%)
+2026-03-10 15:17:13,122 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LDO-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:13,543 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINEA-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:13,567 | INFO | LINEA-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.641%)
+2026-03-10 15:17:13,952 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LINK-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:13,978 | INFO | LINK-USDT-SWAP: пропуск входа, ровный рынок (низкий ATR 0.094%)
+2026-03-10 15:17:14,381 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LIT-USDT-SWAP&bar=1m&limit=61 "HTTP/2 200 OK"
+2026-03-10 15:17:14,392 | INFO | LIT-USDT-SWAP: пропуск входа, ровный рынок (узкий диапазон 0.947%)
+2026-03-10 15:17:14,872 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=COMP-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:17:15,278 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=COMP-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:17:15,696 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=LQTY-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:17:16,077 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=LQTY-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:17:16,501 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CELO-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:17:16,906 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=CELO-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:17:17,290 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/candles?instId=CFX-USDT-SWAP&bar=1m&limit=26 "HTTP/2 200 OK"
+2026-03-10 15:17:17,699 | INFO | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=CFX-USDT-SWAP "HTTP/2 200 OK"
+2026-03-10 15:17:18,167 | INFO | HTTP Request: GET https://www.okx.com/api/v5/account/balance "HTTP/2 200 OK"

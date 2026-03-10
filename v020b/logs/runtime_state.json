@@ -1,0 +1,122 @@
+{
+  "positions": {
+    "COMP-USDT-SWAP": {
+      "inst_id": "COMP-USDT-SWAP",
+      "side": "short",
+      "qty": 1018.7,
+      "avg_px": 16.75,
+      "last_px": 16.75,
+      "unrealized_pnl": 0.0,
+      "margin": 568.7741666666667,
+      "atr": 0.09450000000000021,
+      "stop_price": 16.939,
+      "next_pyramid_price": 16.708000000000002,
+      "entry_time": "2026-03-10 15:13:42",
+      "base_unit_qty": 1018.7,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "entry_period": 20,
+      "exit_period": 10,
+      "signal_time": "2026-03-10 15:13:42"
+    },
+    "LQTY-USDT-SWAP": {
+      "inst_id": "LQTY-USDT-SWAP",
+      "side": "short",
+      "qty": 5916.9,
+      "avg_px": 0.2836968835031861,
+      "last_px": 0.2875,
+      "unrealized_pnl": -7.118719999997998,
+      "margin": 559.5353633333333,
+      "atr": 0.0022050000000000012,
+      "stop_price": 0.28782,
+      "next_pyramid_price": 0.28449749999999996,
+      "entry_time": "2026-03-10 15:13:58",
+      "base_unit_qty": 5916.9,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "entry_period": 20,
+      "exit_period": 10,
+      "signal_time": "2026-03-10 15:13:58"
+    },
+    "CELO-USDT-SWAP": {
+      "inst_id": "CELO-USDT-SWAP",
+      "side": "short",
+      "qty": 22494.0,
+      "avg_px": 0.0742467858095499,
+      "last_px": 0.0743,
+      "unrealized_pnl": -7.945199999984653,
+      "margin": 556.7024,
+      "atr": 0.00037000000000000227,
+      "stop_price": 0.07504000000000001,
+      "next_pyramid_price": 0.07446,
+      "entry_time": "2026-03-10 15:15:16",
+      "base_unit_qty": 22494.0,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "entry_period": 20,
+      "exit_period": 10,
+      "signal_time": "2026-03-10 15:15:16"
+    },
+    "CFX-USDT-SWAP": {
+      "inst_id": "CFX-USDT-SWAP",
+      "side": "short",
+      "qty": 3320.0,
+      "avg_px": 0.0504,
+      "last_px": 0.05031,
+      "unrealized_pnl": 0.0,
+      "margin": 0.0,
+      "atr": 0.0003655000000000002,
+      "stop_price": 0.051041,
+      "next_pyramid_price": 0.05021775,
+      "entry_time": "2026-03-10 15:16:59",
+      "base_unit_qty": 3320.0,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "entry_period": 20,
+      "exit_period": 10,
+      "signal_time": "2026-03-10 15:16:59"
+    }
+  },
+  "closed_trades": [
+    {
+      "time": "2026-03-10 15:16:39",
+      "inst_id": "GMT-USDT-SWAP",
+      "side": "short",
+      "qty": 155033.0,
+      "entry_px": 0.0108800061922301,
+      "exit_px": 0.01099,
+      "pnl": -17.052669999990986,
+      "pnl_pct": -1.0109719225017724,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "reason": "Канальный выход 10 свечей",
+      "duration_sec": 170
+    }
+  ],
+  "balance_history": [
+    {
+      "time": "2026-03-10 15:14:19",
+      "balance_total": 85369.47638184707,
+      "balance_available": 83904.51606781827,
+      "balance_used": 1456.4242200000108
+    },
+    {
+      "time": "2026-03-10 15:15:01",
+      "balance_total": 85373.39386355606,
+      "balance_available": 83904.51606781827,
+      "balance_used": 1460.3413100000107
+    },
+    {
+      "time": "2026-03-10 15:15:47",
+      "balance_total": 85368.91018470898,
+      "balance_available": 83346.97861421827,
+      "balance_used": 2014.2490600000265
+    },
+    {
+      "time": "2026-03-10 15:16:42",
+      "balance_total": 85339.86801902657,
+      "balance_available": 83665.5018960433,
+      "balance_used": 1664.9797700000177
+    }
+  ]
+}
