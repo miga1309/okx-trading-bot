@@ -2,3 +2,6 @@
 .env.*
 config_private.py
 secrets.json
+logs/*
+__pycache__/
+*.pyc
