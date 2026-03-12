@@ -1,0 +1,3078 @@
+import csv
+import json
+import logging
+import os
+import sys
+import threading
+import time
+from decimal import Decimal, ROUND_DOWN, InvalidOperation
+from dataclasses import dataclass, field, asdict
+from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+from dotenv import load_dotenv
+from PyQt6.QtCore import QAbstractTableModel, QModelIndex, QObject, QPoint, Qt, QThread, QTimer, pyqtSignal, QEvent
+from PyQt6.QtGui import QColor, QIcon, QPainter, QPen, QPolygon, QPalette
+from PyQt6.QtWidgets import (
+    QApplication,
+    QComboBox,
+    QDoubleSpinBox,
+    QFormLayout,
+    QGridLayout,
+    QGroupBox,
+    QHBoxLayout,
+    QHeaderView,
+    QLabel,
+    QLineEdit,
+    QMainWindow,
+    QMessageBox,
+    QPushButton,
+    QSpinBox,
+    QTabWidget,
+    QTableView,
+    QTextEdit,
+    QVBoxLayout,
+    QWidget,
+)
+
+import okx.Account as Account
+import okx.MarketData as MarketData
+import okx.PublicData as PublicData
+import okx.Trade as Trade
+
+from telegram_notifier import TelegramNotifier
+
+
+APP_DIR = Path(__file__).resolve().parent
+APP_VERSION = "v021c"
+WINDOW_ICON_PATH = APP_DIR / "turtle_traders_icon_v3.png"
+LOG_DIR = APP_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+TRADE_CSV = LOG_DIR / "trades.csv"
+ENGINE_STATS_FILE = LOG_DIR / "engine_stats.jsonl"
+APP_LOG = LOG_DIR / "app.log"
+HIDDEN_INSTRUMENTS = {"BREV-USDT-SWAP"}
+HIDDEN_PREFIXES = ("BREV-",)
+
+def is_hidden_instrument(inst_id: object) -> bool:
+    value = str(inst_id or "").upper()
+    return value in HIDDEN_INSTRUMENTS or any(value.startswith(prefix) for prefix in HIDDEN_PREFIXES)
+
+STATE_FILE = LOG_DIR / "runtime_state.json"
+
+
+TIMEFRAME_TO_SECONDS = {
+    "1m": 60,
+    "5m": 300,
+    "15m": 900,
+    "30m": 1800,
+    "1H": 3600,
+    "1D": 86400,
+}
+
+TIMEFRAME_LABELS = {
+    "1m": "1 минута",
+    "5m": "5 минут",
+    "15m": "15 минут",
+    "30m": "30 минут",
+    "1H": "1 час",
+    "1D": "1 день",
+}
+
+
+def format_clock(value: Optional[float]) -> str:
+    if not value:
+        return "—"
+    try:
+        return datetime.fromtimestamp(value).strftime("%H:%M:%S")
+    except Exception:
+        return "—"
+
+
+def format_time_string(value: object) -> str:
+    text = str(value or "").strip()
+    if not text:
+        return "—"
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%H:%M:%S", "%Y-%m-%dT%H:%M:%S"):
+        try:
+            return datetime.strptime(text, fmt).strftime("%H:%M:%S")
+        except ValueError:
+            continue
+    if " " in text:
+        tail = text.split(" ")[-1]
+        if len(tail) >= 8:
+            return tail[:8]
+    if "T" in text:
+        tail = text.split("T")[-1]
+        if len(tail) >= 8:
+            return tail[:8]
+    return text[:8]
+
+
+
+
+def format_duration(seconds: object) -> str:
+    try:
+        total = int(float(seconds or 0))
+    except Exception:
+        return "—"
+    if total <= 0:
+        return "—"
+    hours, rem = divmod(total, 3600)
+    minutes, secs = divmod(rem, 60)
+    if hours > 0:
+        return f"{hours}ч {minutes:02d}м"
+    if minutes > 0:
+        return f"{minutes}м {secs:02d}с"
+    return f"{secs}с"
+
+
+def gradient_pnl_color(pnl_pct: float) -> QColor:
+    if pnl_pct >= 10:
+        return QColor(10, 120, 40)
+    if pnl_pct >= 5:
+        return QColor(20, 145, 55)
+    if pnl_pct > 2:
+        return QColor(40, 165, 70)
+    if pnl_pct > 0:
+        return QColor(85, 180, 95)
+    if pnl_pct <= -10:
+        return QColor(150, 20, 20)
+    if pnl_pct <= -5:
+        return QColor(176, 35, 35)
+    if pnl_pct < -2:
+        return QColor(200, 60, 60)
+    if pnl_pct < 0:
+        return QColor(220, 95, 95)
+    return QColor(32, 32, 32)
+
+
+
+def detect_is_dark_theme(app: QApplication) -> bool:
+    palette = app.palette()
+    window = palette.color(QPalette.ColorRole.Window)
+    text = palette.color(QPalette.ColorRole.WindowText)
+    return window.lightness() < text.lightness()
+
+
+def build_app_stylesheet(is_dark: bool) -> str:
+    if is_dark:
+        return """
+            QMainWindow, QWidget {
+                background: #0f172a;
+                color: #e5e7eb;
+            }
+            QGroupBox {
+                font-weight: 700;
+                color: #e5e7eb;
+                border: 1px solid #334155;
+                border-radius: 12px;
+                margin-top: 12px;
+                padding-top: 10px;
+                background: #111827;
+            }
+            QGroupBox::title {
+                subcontrol-origin: margin;
+                left: 12px;
+                padding: 0 6px;
+                color: #cbd5e1;
+                background: #111827;
+            }
+            QLabel {
+                color: #e5e7eb;
+                background: transparent;
+            }
+            QLabel[card="true"] {
+                background: #111827;
+                color: #e5e7eb;
+                border: 1px solid #334155;
+                border-radius: 12px;
+                padding: 8px 10px;
+            }
+            QComboBox, QLineEdit, QTextEdit, QDoubleSpinBox, QSpinBox, QTableView {
+                background: #111827;
+                color: #f8fafc;
+                border: 1px solid #334155;
+                border-radius: 10px;
+                selection-background-color: #1d4ed8;
+                selection-color: #ffffff;
+            }
+            QComboBox {
+                padding: 3px 7px;
+                min-height: 24px;
+            }
+            QLineEdit, QDoubleSpinBox, QSpinBox {
+                padding: 3px 7px;
+                min-height: 24px;
+            }
+            QComboBox::drop-down {
+                border: none;
+                width: 26px;
+                background: #1f2937;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            QComboBox QAbstractItemView {
+                background: #111827;
+                color: #f8fafc;
+                selection-background-color: #1d4ed8;
+                selection-color: #ffffff;
+            }
+            QTableView {
+                gridline-color: #243041;
+                alternate-background-color: #0b1220;
+                background: #111827;
+                color: #e5e7eb;
+                border: 1px solid #334155;
+                border-radius: 12px;
+            }
+            QTableView::item {
+                padding: 4px;
+            }
+            QTextEdit {
+                background: #0b1220;
+                color: #e5e7eb;
+                selection-background-color: #1d4ed8;
+                selection-color: #ffffff;
+                border: 1px solid #334155;
+                border-radius: 12px;
+            }
+            QHeaderView::section {
+                background: #1f2937;
+                color: #cbd5e1;
+                border: 1px solid #334155;
+                padding: 6px;
+                font-weight: 700;
+            }
+            QTabWidget::pane {
+                border: 1px solid #334155;
+                background: #111827;
+                border-radius: 12px;
+            }
+            QTabBar::tab {
+                background: #172033;
+                color: #cbd5e1;
+                border: 1px solid #334155;
+                border-bottom: none;
+                padding: 8px 14px;
+                margin-right: 4px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            QTabBar::tab:selected {
+                background: #1d4ed8;
+                color: #ffffff;
+            }
+            QPushButton {
+                padding: 6px 10px;
+                border-radius: 10px;
+                background: #1d4ed8;
+                color: #ffffff;
+                border: 1px solid #2563eb;
+                font-weight: 700;
+            }
+            QPushButton:hover {
+                background: #2563eb;
+            }
+            QPushButton:disabled {
+                color: #94a3b8;
+                background: #1f2937;
+                border-color: #334155;
+            }
+            QPushButton#toggleBotButton[running="true"] {
+                background: #b91c1c;
+                border: 1px solid #dc2626;
+                color: #ffffff;
+            }
+            QPushButton#toggleBotButton[running="true"]:hover {
+                background: #dc2626;
+            }
+            QPushButton#toggleBotButton[running="false"] {
+                background: #059669;
+                border: 1px solid #10b981;
+                color: #ffffff;
+            }
+            QPushButton#toggleBotButton[running="false"]:hover {
+                background: #10b981;
+            }
+        """
+    return """
+        QMainWindow, QWidget {
+            background: #f3f6fb;
+            color: #111827;
+        }
+        QGroupBox {
+            font-weight: 700;
+            color: #111827;
+            border: 1px solid #d6dde8;
+            border-radius: 12px;
+            margin-top: 12px;
+            padding-top: 10px;
+            background: #ffffff;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin;
+            left: 12px;
+            padding: 0 6px;
+            color: #334155;
+            background: #ffffff;
+        }
+        QLabel {
+            color: #111827;
+            background: transparent;
+        }
+        QLabel[card="true"] {
+            background: #ffffff;
+            color: #111827;
+            border: 1px solid #d6dde8;
+            border-radius: 12px;
+            padding: 8px 10px;
+        }
+        QComboBox, QLineEdit, QTextEdit, QDoubleSpinBox, QSpinBox, QTableView {
+            background: #ffffff;
+            color: #111827;
+            border: 1px solid #d6dde8;
+            border-radius: 10px;
+            selection-background-color: #dbeafe;
+            selection-color: #111827;
+        }
+        QComboBox {
+            padding: 3px 7px;
+            min-height: 24px;
+        }
+        QLineEdit, QDoubleSpinBox, QSpinBox {
+            padding: 3px 7px;
+            min-height: 24px;
+        }
+        QComboBox::drop-down {
+            border: none;
+            width: 26px;
+            background: #eef2f7;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        QComboBox QAbstractItemView {
+            background: #ffffff;
+            color: #111827;
+            selection-background-color: #dbeafe;
+            selection-color: #111827;
+        }
+        QTableView {
+            gridline-color: #e5e7eb;
+            alternate-background-color: #f8fafc;
+            background: #ffffff;
+            color: #111827;
+            border: 1px solid #d6dde8;
+            border-radius: 12px;
+        }
+        QTableView::item {
+            padding: 4px;
+        }
+        QTextEdit {
+            background: #ffffff;
+            color: #111827;
+            selection-background-color: #dbeafe;
+            selection-color: #111827;
+            border: 1px solid #d6dde8;
+            border-radius: 12px;
+        }
+        QHeaderView::section {
+            background: #eff4fb;
+            color: #1f2937;
+            border: 1px solid #d6dde8;
+            padding: 6px;
+            font-weight: 700;
+        }
+        QTabWidget::pane {
+            border: 1px solid #d6dde8;
+            background: #ffffff;
+            border-radius: 12px;
+        }
+        QTabBar::tab {
+            background: #e8eef8;
+            color: #334155;
+            border: 1px solid #d6dde8;
+            border-bottom: none;
+            padding: 8px 14px;
+            margin-right: 4px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        QTabBar::tab:selected {
+            background: #2563eb;
+            color: #ffffff;
+        }
+        QPushButton {
+            padding: 6px 10px;
+            border-radius: 10px;
+            background: #2563eb;
+            color: #ffffff;
+            border: 1px solid #3b82f6;
+            font-weight: 700;
+        }
+        QPushButton:hover {
+            background: #3b82f6;
+        }
+        QPushButton:disabled {
+            color: #9ba3af;
+            background: #f6f7f9;
+        }
+        QPushButton#toggleBotButton[running="true"] {
+            background: #dc2626;
+            border: 1px solid #ef4444;
+            color: #ffffff;
+        }
+        QPushButton#toggleBotButton[running="true"]:hover {
+            background: #ef4444;
+        }
+        QPushButton#toggleBotButton[running="false"] {
+            background: #059669;
+            border: 1px solid #10b981;
+            color: #ffffff;
+        }
+        QPushButton#toggleBotButton[running="false"]:hover {
+            background: #10b981;
+        }
+    """
+def setup_logging() -> None:
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s | %(levelname)s | %(message)s",
+        handlers=[
+            logging.FileHandler(APP_LOG, encoding="utf-8"),
+            logging.StreamHandler(sys.stdout),
+        ],
+    )
+
+
+@dataclass
+class BotConfig:
+    api_key: str
+    secret_key: str
+    passphrase: str
+    flag: str = "1"  # 0 = main, 1 = demo
+    timeframe: str = "15m"
+    td_mode: str = "isolated"
+    leverage: int = 1
+    scan_interval_sec: int = 5
+    position_check_interval_sec: int = 2
+    balance_refresh_sec: int = 3
+    risk_per_trade_pct: float = 1.0
+    max_position_notional_pct: float = 2.0
+    long_entry_period: int = 55
+    short_entry_period: int = 20
+    long_exit_period: int = 20
+    short_exit_period: int = 10
+    atr_period: int = 20
+    atr_stop_multiple: float = 2.0
+    add_unit_every_atr: float = 0.5
+    max_units_per_symbol: int = 0
+    snapshot_interval_sec: int = 2
+    gui_refresh_ms: int = 1000
+    flat_lookback_candles: int = 32
+    min_channel_range_pct: float = 0.82
+    min_atr_pct: float = 0.14
+    min_body_to_range_ratio: float = 0.24
+    min_efficiency_ratio: float = 0.15
+    max_direction_flip_ratio: float = 0.72
+    blacklist: List[str] = field(default_factory=lambda: ["USDC-USDT-SWAP", "XSR-USDT-SWAP", "BREV-USDT-SWAP"])
+
+    telegram_enabled: bool = False
+    telegram_bot_token: str = ""
+    telegram_chat_id: str = ""
+    pyramid_second_unit_scale: float = 0.75
+    pyramid_third_unit_scale: float = 0.50
+    pyramid_fourth_unit_scale: float = 0.25
+    pyramid_break_even_buffer_atr: float = 0.05
+    pyramid_min_progress_atr: float = 0.60
+    pyramid_min_body_ratio: float = 0.35
+    pyramid_min_stop_distance_atr: float = 0.80
+    breakout_buffer_atr: float = 0.10
+    breakout_min_body_atr: float = 0.42
+    breakout_close_near_extreme_ratio: float = 0.42
+    breakout_min_range_expansion: float = 1.00
+    breakout_max_prebreak_distance_atr: float = 4.2
+    breakout_retest_invalid_ratio: float = 0.72
+    breakout_volume_factor: float = 0.95
+    flat_max_repeated_close_ratio: float = 0.68
+    flat_max_inside_ratio: float = 0.74
+    flat_max_wick_to_range_ratio: float = 0.72
+    flat_min_channel_atr_ratio: float = 2.00
+    flat_max_micro_pullback_ratio: float = 0.84
+    cooldown_after_stop_bars: int = 6
+    cooldown_min_seconds: int = 900
+    cooldown_max_seconds: int = 21600
+    reentry_recovery_atr: float = 0.90
+
+
+@dataclass
+class PositionState:
+    inst_id: str
+    side: str  # long / short
+    qty: float
+    avg_px: float
+    last_px: float
+    unrealized_pnl: float
+    margin: float
+    atr: float
+    stop_price: float
+    next_pyramid_price: float
+    entry_time: str
+    base_unit_qty: float = 0.0
+    units: int = 1
+    system_name: str = ""
+    entry_period: int = 0
+    exit_period: int = 0
+    signal_time: str = ""
+
+
+@dataclass
+class ClosedTrade:
+    time: str
+    inst_id: str
+    side: str
+    qty: float
+    entry_px: float
+    exit_px: float
+    pnl: float
+    pnl_pct: float
+    units: int
+    system_name: str
+    reason: str
+    duration_sec: int = 0
+
+
+class TradeLogger:
+    def __init__(self, csv_path: Path):
+        self.csv_path = csv_path
+        if not self.csv_path.exists():
+            with self.csv_path.open("w", newline="", encoding="utf-8") as f:
+                writer = csv.writer(f)
+                writer.writerow(
+                    [
+                        "time",
+                        "event",
+                        "inst_id",
+                        "side",
+                        "qty",
+                        "price",
+                        "atr",
+                        "stop_price",
+                        "system_name",
+                        "note",
+                    ]
+                )
+
+    def log(self, event: str, inst_id: str, side: str, qty: float, price: float, atr: float, stop_price: float, system_name: str, note: str = "") -> None:
+        with self.csv_path.open("a", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                event,
+                inst_id,
+                side,
+                qty,
+                price,
+                atr,
+                stop_price,
+                system_name,
+                note,
+            ])
+
+
+class EngineStatsLogger:
+    def __init__(self, path: Path):
+        self.path = path
+        self.path.parent.mkdir(exist_ok=True)
+        self.lock = threading.Lock()
+
+    def log(self, event_type: str, **payload) -> None:
+        event = {
+            "ts": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "event": event_type,
+        }
+        event.update(self._normalize(payload))
+        line = json.dumps(event, ensure_ascii=False)
+        with self.lock:
+            with self.path.open("a", encoding="utf-8") as f:
+                f.write(line + "\n")
+
+    def _normalize(self, value):
+        if isinstance(value, dict):
+            return {str(k): self._normalize(v) for k, v in value.items()}
+        if isinstance(value, (list, tuple)):
+            return [self._normalize(v) for v in value]
+        if isinstance(value, datetime):
+            return value.strftime("%Y-%m-%d %H:%M:%S")
+        if isinstance(value, Path):
+            return str(value)
+        if isinstance(value, (str, int, float, bool)) or value is None:
+            return value
+        return str(value)
+
+
+class OkxGateway:
+    COMPLIANCE_RESTRICTION_CODES = {"51155"}
+    LOT_SIZE_ERROR_CODES = {"51121"}
+    POSITION_LIMIT_ERROR_CODES = {"54031"}
+    CLOSE_MARKET_LIMIT_ERROR_CODES = {"51108"}
+
+    def __init__(self, cfg: BotConfig):
+        self.cfg = cfg
+        self.account_api = Account.AccountAPI(cfg.api_key, cfg.secret_key, cfg.passphrase, False, cfg.flag)
+        self.market_api = MarketData.MarketAPI(flag=cfg.flag)
+        self.public_api = PublicData.PublicAPI(flag=cfg.flag)
+        self.trade_api = Trade.TradeAPI(cfg.api_key, cfg.secret_key, cfg.passphrase, False, cfg.flag)
+        self.instrument_cache: Dict[str, dict] = {}
+        self.swap_ids: List[str] = []
+        self.refresh_instruments()
+
+    def refresh_instruments(self) -> None:
+        resp = self.public_api.get_instruments(instType="SWAP")
+        data = resp.get("data", [])
+        self.instrument_cache = {x["instId"]: x for x in data if x.get("state") == "live"}
+        self.swap_ids = sorted([
+            inst_id for inst_id in self.instrument_cache
+            if inst_id.endswith("-USDT-SWAP") and not is_hidden_instrument(inst_id)
+        ])
+        logging.info("Loaded %s swap instruments", len(self.swap_ids))
+
+    def get_account_balance(self) -> dict:
+        return self.account_api.get_account_balance()
+
+    def get_positions(self) -> List[dict]:
+        resp = self.account_api.get_positions(instType="SWAP")
+        return resp.get("data", [])
+
+    def get_candles(self, inst_id: str, bar: str, limit: int) -> List[List[float]]:
+        # OKX returns newest first; convert to oldest -> newest and close only closed candles (skip newest forming candle).
+        resp = self.market_api.get_candlesticks(instId=inst_id, bar=bar, limit=str(limit + 1))
+        raw = resp.get("data", [])
+        if len(raw) < limit + 1:
+            return []
+        closed = raw[1 : limit + 1]
+        closed.reverse()
+        candles: List[List[float]] = []
+        for row in closed:
+            candles.append([
+                int(row[0]),
+                float(row[1]),
+                float(row[2]),
+                float(row[3]),
+                float(row[4]),
+                float(row[5]) if len(row) > 5 else 0.0,
+            ])
+        return candles
+
+    def get_ticker_last(self, inst_id: str) -> float:
+        resp = self.market_api.get_ticker(instId=inst_id)
+        data = resp.get("data", [])
+        if not data:
+            raise RuntimeError(f"No ticker for {inst_id}")
+        return float(data[0]["last"])
+
+    def instrument_info(self, inst_id: str) -> dict:
+        info = self.instrument_cache.get(inst_id)
+        if not info:
+            self.refresh_instruments()
+            info = self.instrument_cache.get(inst_id)
+        if not info:
+            raise KeyError(f"Instrument not found: {inst_id}")
+        return info
+
+    def close_position(self, inst_id: str, note: str = "") -> dict:
+        logging.info("Closing position %s. %s", inst_id, note)
+        return self.trade_api.close_positions(instId=inst_id, mgnMode=self.cfg.td_mode)
+
+    def close_position_by_reduce_only(self, inst_id: str, side: str, qty: float) -> dict:
+        info = self.instrument_info(inst_id)
+        lot_sz = float(info.get("lotSz") or 1.0)
+        min_sz = float(info.get("minSz") or lot_sz)
+        max_mkt_sz = float(info.get("maxMktSz") or 0.0)
+        close_side = "sell" if side == "long" else "buy"
+        remaining = max(0.0, float(qty or 0.0))
+        filled = 0.0
+        responses = []
+
+        for _ in range(32):
+            if remaining < min_sz:
+                break
+            chunk = remaining
+            if max_mkt_sz > 0:
+                chunk = min(chunk, max_mkt_sz)
+            chunk = float(self.format_size(chunk, lot_sz) or 0.0)
+            if chunk < min_sz:
+                chunk = min_sz if remaining >= min_sz else 0.0
+                chunk = float(self.format_size(chunk, lot_sz) or 0.0)
+            if chunk <= 0:
+                break
+            resp = self.place_market_order(inst_id, close_side, chunk, reduce_only=True)
+            responses.append(resp)
+            if resp.get("code") != "0":
+                return {"code": "1", "msg": "reduce_only_close_failed", "data": responses}
+            remaining = max(0.0, remaining - chunk)
+            filled += chunk
+            if remaining < min_sz:
+                break
+
+        return {"code": "0", "msg": "reduce_only_close_ok", "filled": filled, "remaining": remaining, "data": responses}
+
+    def format_size(self, qty: float, lot_sz: float) -> str:
+        try:
+            qty_dec = Decimal(str(qty))
+            step_dec = Decimal(str(lot_sz))
+            if step_dec <= 0:
+                return format(qty_dec.normalize(), "f")
+            units = (qty_dec / step_dec).to_integral_value(rounding=ROUND_DOWN)
+            normalized = (units * step_dec).normalize()
+            return format(normalized, "f")
+        except (InvalidOperation, ValueError, TypeError):
+            return str(qty)
+
+    def place_market_order(self, inst_id: str, side: str, qty: float, reduce_only: bool = False) -> dict:
+        info = self.instrument_info(inst_id)
+        params = dict(
+            instId=inst_id,
+            tdMode=self.cfg.td_mode,
+            side=side,
+            posSide="net",
+            ordType="market",
+            sz=self.format_size(qty, float(info.get("lotSz") or 1.0)),
+        )
+        if reduce_only:
+            params["reduceOnly"] = "true"
+        logging.info("Placing order %s %s qty=%s", inst_id, side, qty)
+        return self.trade_api.place_order(**params)
+
+
+class TurtleEngine(QObject):
+    snapshot = pyqtSignal(dict)
+    log_line = pyqtSignal(str)
+    status = pyqtSignal(str)
+    error = pyqtSignal(str)
+
+    def __init__(self, cfg: BotConfig):
+        super().__init__()
+        self.cfg = cfg
+        self.gateway = OkxGateway(cfg)
+        self.trade_logger = TradeLogger(TRADE_CSV)
+        self.stats_logger = EngineStatsLogger(ENGINE_STATS_FILE)
+        self.running = False
+        self.lock = threading.Lock()
+        self.position_state: Dict[str, PositionState] = {}
+        self.closed_trades: List[ClosedTrade] = []
+        self.balance_history: List[dict] = []
+        self._load_state()
+        self.last_scan_started_at: Optional[float] = None
+        self.last_scan_finished_at: Optional[float] = None
+        self.last_positions_check_at: Optional[float] = None
+        self.last_entry_scan_at: Optional[float] = None
+        self.last_snapshot_emitted_at: Optional[float] = None
+        self.blocked_instruments: Dict[str, str] = {}
+        self.temp_blocked_until: Dict[str, float] = {}
+        self.close_retry_after: Dict[str, float] = {}
+        self.recent_stopouts: Dict[str, dict] = {}
+        self.telegram = TelegramNotifier(
+            enabled=cfg.telegram_enabled,
+            bot_token=cfg.telegram_bot_token,
+            chat_id=cfg.telegram_chat_id,
+        )
+
+    def _fmt_price(self, value: float) -> str:
+        try:
+            return f"{float(value):.6f}"
+        except Exception:
+            return str(value)
+
+    def _notify(self, text: str) -> None:
+        try:
+            self.telegram.send(text)
+        except Exception as exc:
+            logging.warning("Telegram notify failed: %s", exc)
+
+    def _load_state(self) -> None:
+        if not STATE_FILE.exists():
+            self.position_state = {}
+            self.closed_trades = []
+            self.balance_history = []
+            return
+        try:
+            data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+            if isinstance(data, dict) and "positions" in data:
+                self.position_state = {k: PositionState(**v) for k, v in data.get("positions", {}).items()}
+                self.closed_trades = [ClosedTrade(**x) for x in data.get("closed_trades", [])]
+                self.balance_history = list(data.get("balance_history", []))[-2000:]
+            else:
+                # backward compatibility with old file that stored only positions dict
+                self.position_state = {k: PositionState(**v) for k, v in data.items()}
+                self.closed_trades = []
+                self.balance_history = []
+        except Exception as exc:
+            logging.warning("Failed to load state: %s", exc)
+            self.position_state = {}
+            self.closed_trades = []
+            self.balance_history = []
+
+    def _save_state(self) -> None:
+        payload = {
+            "positions": {k: asdict(v) for k, v in self.position_state.items()},
+            "closed_trades": [asdict(x) for x in self.closed_trades[-500:]],
+            "balance_history": self.balance_history[-2000:],
+        }
+        STATE_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    def start(self) -> None:
+        if self.running:
+            return
+        self.running = True
+        self.stats_logger.log(
+            "bot_started",
+            version=APP_VERSION,
+            account=("main" if self.cfg.flag == "0" else "demo"),
+            timeframe=self.cfg.timeframe,
+            scan_interval_sec=self.cfg.scan_interval_sec,
+            position_check_interval_sec=self.cfg.position_check_interval_sec,
+            snapshot_interval_sec=self.cfg.snapshot_interval_sec,
+            risk_per_trade_pct=self.cfg.risk_per_trade_pct,
+            max_position_notional_pct=self.cfg.max_position_notional_pct,
+            max_units_per_symbol=self.cfg.max_units_per_symbol,
+            pyramid_scales=[
+                1.0,
+                self.cfg.pyramid_second_unit_scale,
+                self.cfg.pyramid_third_unit_scale,
+                self.cfg.pyramid_fourth_unit_scale,
+            ],
+            blacklist=list(self.cfg.blacklist),
+        )
+        self.status.emit("Бот запущен")
+        self.log_line.emit("Торговый движок запущен")
+        self._notify("✅ OKX Turtle Bot запущен")
+        self.run_loop()
+
+    def stop(self) -> None:
+        self.running = False
+        self.stats_logger.log(
+            "bot_stopped",
+            open_positions=len(self.position_state),
+            closed_trades=len(self.closed_trades),
+        )
+        self.status.emit("Бот остановлен")
+        self.log_line.emit("Получена команда остановки")
+        self._notify("⛔ OKX Turtle Bot остановлен")
+
+    def run_loop(self) -> None:
+        while self.running:
+            cycle_started_at = time.time()
+            try:
+                self.last_scan_started_at = cycle_started_at
+                self.stats_logger.log(
+                    "cycle_started",
+                    open_positions=len(self.position_state),
+                    blocked_instruments=len(self.blocked_instruments),
+                    timeframe=self.cfg.timeframe,
+                )
+                self.sync_positions_from_exchange()
+                self.scan_markets()
+                self.manage_open_positions()
+                self.emit_snapshot()
+                self.last_scan_finished_at = time.time()
+                self.stats_logger.log(
+                    "cycle_finished",
+                    duration_sec=round(self.last_scan_finished_at - cycle_started_at, 3),
+                    open_positions=len(self.position_state),
+                    closed_trades=len(self.closed_trades),
+                )
+            except Exception as exc:
+                msg = f"Ошибка в цикле стратегии: {exc}"
+                logging.exception(msg)
+                self.stats_logger.log("cycle_error", error=str(exc))
+                self.error.emit(msg)
+                self.log_line.emit(msg)
+                self._notify(f"⚠️ Ошибка в цикле стратегии\n\n{msg}")
+            time.sleep(self.cfg.scan_interval_sec)
+
+    def sync_positions_from_exchange(self) -> None:
+        exchange_positions = self.gateway.get_positions()
+        seen = set()
+        for pos in exchange_positions:
+            inst_id = pos.get("instId")
+            pos_side = self._detect_side_from_pos(pos)
+            if not inst_id or pos_side not in {"long", "short"}:
+                continue
+            seen.add(inst_id)
+            qty = abs(float(pos.get("pos") or 0.0))
+            if qty <= 0:
+                continue
+            avg_px = float(pos.get("avgPx") or 0.0)
+            last_px = float(pos.get("markPx") or pos.get("last") or avg_px)
+            upl = float(pos.get("upl") or 0.0)
+            margin = float(pos.get("margin") or 0.0)
+            current = self.position_state.get(inst_id)
+            if current:
+                current.qty = qty
+                current.avg_px = avg_px
+                current.last_px = last_px
+                current.unrealized_pnl = upl
+                current.margin = margin
+            else:
+                atr = self.compute_atr(inst_id)
+                stop_price = avg_px - self.cfg.atr_stop_multiple * atr if pos_side == "long" else avg_px + self.cfg.atr_stop_multiple * atr
+                next_pyramid = avg_px + self.cfg.add_unit_every_atr * atr if pos_side == "long" else avg_px - self.cfg.add_unit_every_atr * atr
+                self.position_state[inst_id] = PositionState(
+                    inst_id=inst_id,
+                    side=pos_side,
+                    qty=qty,
+                    avg_px=avg_px,
+                    last_px=last_px,
+                    unrealized_pnl=upl,
+                    margin=margin,
+                    atr=atr,
+                    stop_price=stop_price,
+                    next_pyramid_price=next_pyramid,
+                    entry_time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    signal_time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    system_name="sync",
+                    entry_period=self.cfg.long_entry_period if pos_side == "long" else self.cfg.short_entry_period,
+                    exit_period=self.cfg.long_exit_period if pos_side == "long" else self.cfg.short_exit_period,
+                )
+        removed = []
+        for inst_id in list(self.position_state):
+            if inst_id not in seen:
+                removed.append(inst_id)
+                del self.position_state[inst_id]
+        self._save_state()
+        self.stats_logger.log(
+            "positions_synced",
+            exchange_positions=len(exchange_positions),
+            tracked_positions=len(self.position_state),
+            removed_positions=removed,
+        )
+
+    def _detect_side_from_pos(self, pos: dict) -> Optional[str]:
+        pos_value = float(pos.get("pos") or 0.0)
+        if pos_value > 0:
+            return "long"
+        if pos_value < 0:
+            return "short"
+        side = (pos.get("posSide") or "").lower()
+        if side in {"long", "short"}:
+            return side
+        return None
+
+    def _timeframe_seconds(self) -> int:
+        tf = str(self.cfg.timeframe or "").strip().lower()
+        mapping = {
+            "1m": 60,
+            "3m": 180,
+            "5m": 300,
+            "15m": 900,
+            "30m": 1800,
+            "1h": 3600,
+            "2h": 7200,
+            "4h": 14400,
+            "6h": 21600,
+            "12h": 43200,
+            "1d": 86400,
+        }
+        return mapping.get(tf, 900)
+
+    def _stopout_cooldown_seconds(self) -> int:
+        raw = self._timeframe_seconds() * max(1, int(self.cfg.cooldown_after_stop_bars))
+        raw = max(int(self.cfg.cooldown_min_seconds), raw)
+        raw = min(int(self.cfg.cooldown_max_seconds), raw)
+        return raw
+
+    def _register_stopout(self, state: PositionState, exit_price: float, reason: str) -> None:
+        lower_reason = str(reason or "").lower()
+        if "atr стоп" not in lower_reason:
+            return
+        cooldown_sec = self._stopout_cooldown_seconds()
+        self.recent_stopouts[state.inst_id] = {
+            "side": state.side,
+            "exit_price": float(exit_price),
+            "stop_price": float(state.stop_price),
+            "atr": float(max(state.atr, 1e-12)),
+            "until": time.time() + cooldown_sec,
+            "reason": reason,
+        }
+
+    def _recent_stopout_blocks_entry(self, inst_id: str, side: str, price: float) -> tuple[bool, str]:
+        data = self.recent_stopouts.get(inst_id)
+        if not data:
+            return False, "ok"
+
+        now_ts = time.time()
+        if float(data.get("until", 0.0)) <= now_ts:
+            self.recent_stopouts.pop(inst_id, None)
+            return False, "ok"
+
+        prev_side = str(data.get("side") or "")
+        exit_price = float(data.get("exit_price") or 0.0)
+        atr = float(max(data.get("atr") or 0.0, 1e-12))
+
+        # Если пытаемся войти в ту же сторону слишком близко к свежему stop-out — блокируем.
+        if prev_side == side:
+            distance = abs(price - exit_price)
+            if distance < atr * self.cfg.reentry_recovery_atr:
+                remain = max(1, int(data["until"] - now_ts))
+                return True, (
+                    f"cooldown после ATR-стопа ещё активен {remain}s; "
+                    f"цена отошла только на {distance / atr:.2f} ATR"
+                )
+
+        return False, "ok"
+
+    def scan_markets(self) -> None:
+        for inst_id in self.gateway.swap_ids:
+            if not self.running:
+                break
+            blocked_until = self.temp_blocked_until.get(inst_id, 0.0)
+            if blocked_until and blocked_until > time.time():
+                continue
+            if inst_id in self.cfg.blacklist or inst_id in self.blocked_instruments or is_hidden_instrument(inst_id):
+                continue
+            if inst_id in self.position_state:
+                continue
+            try:
+                self.evaluate_entry(inst_id)
+            except Exception as exc:
+                self.log_line.emit(f"{inst_id}: ошибка анализа входа: {exc}")
+                logging.warning("Entry eval failed for %s: %s", inst_id, exc)
+
+    def evaluate_entry(self, inst_id: str) -> None:
+        lookback = max(
+            self.cfg.long_entry_period,
+            self.cfg.short_entry_period,
+            self.cfg.atr_period,
+            self.cfg.long_exit_period,
+            self.cfg.short_exit_period,
+            self.cfg.flat_lookback_candles,
+        ) + 8
+        candles = self.gateway.get_candles(inst_id, self.cfg.timeframe, lookback)
+        if len(candles) < lookback:
+            return
+
+        last = candles[-1]
+        price = float(last[4])
+        atr = self.calculate_atr_from_candles(candles, self.cfg.atr_period)
+        if atr <= 0 or price <= 0:
+            return
+
+        cooldown_blocked_long, cooldown_reason_long = self._recent_stopout_blocks_entry(inst_id, "long", price)
+        cooldown_blocked_short, cooldown_reason_short = self._recent_stopout_blocks_entry(inst_id, "short", price)
+
+        is_flat, flat_reason = self.is_flat_market(candles, price, atr)
+        if is_flat:
+            logging.info("%s: пропуск входа, flat-filter (%s)", inst_id, flat_reason)
+            return
+
+        structure_blocked, structure_reason = self._detect_structure_risk(candles, atr)
+        if structure_blocked:
+            logging.info("%s: пропуск входа, structure-filter (%s)", inst_id, structure_reason)
+            return
+
+        long_level = max(float(c[2]) for c in candles[-self.cfg.long_entry_period:])
+        short_level = min(float(c[3]) for c in candles[-self.cfg.short_entry_period:])
+        last_high = float(last[2])
+        last_low = float(last[3])
+
+        if last_high >= long_level:
+            if cooldown_blocked_long:
+                logging.info("%s: long-сигнал отклонён (%s)", inst_id, cooldown_reason_long)
+                return
+            ok, reason = self._confirm_breakout(candles, atr, "long", long_level)
+            if ok:
+                self.stats_logger.log(
+                    "entry_signal",
+                    inst_id=inst_id,
+                    side="long",
+                    price=price,
+                    atr=atr,
+                    system_name="Turtle 55",
+                    timeframe=self.cfg.timeframe,
+                )
+                self.enter_position(inst_id, "long", price, atr, "Turtle 55")
+            else:
+                self.stats_logger.log(
+                    "entry_rejected",
+                    inst_id=inst_id,
+                    side="long",
+                    price=price,
+                    atr=atr,
+                    reason=reason,
+                )
+                logging.info("%s: long-сигнал отклонён (%s)", inst_id, reason)
+            return
+
+        if last_low <= short_level:
+            if cooldown_blocked_short:
+                logging.info("%s: short-сигнал отклонён (%s)", inst_id, cooldown_reason_short)
+                return
+            ok, reason = self._confirm_breakout(candles, atr, "short", short_level)
+            if ok:
+                self.stats_logger.log(
+                    "entry_signal",
+                    inst_id=inst_id,
+                    side="short",
+                    price=price,
+                    atr=atr,
+                    system_name="Turtle 20",
+                    timeframe=self.cfg.timeframe,
+                )
+                self.enter_position(inst_id, "short", price, atr, "Turtle 20")
+            else:
+                self.stats_logger.log(
+                    "entry_rejected",
+                    inst_id=inst_id,
+                    side="short",
+                    price=price,
+                    atr=atr,
+                    reason=reason,
+                )
+                logging.info("%s: short-сигнал отклонён (%s)", inst_id, reason)
+
+    def is_flat_market(self, candles: List[List[float]], price: float, atr: float) -> tuple[bool, str]:
+        if not candles or price <= 0:
+            return True, "нет данных для оценки волатильности"
+
+        lookback = min(len(candles), max(10, self.cfg.flat_lookback_candles))
+        window = candles[-lookback:]
+        highs = [float(c[2]) for c in window]
+        lows = [float(c[3]) for c in window]
+        opens = [float(c[1]) for c in window]
+        closes = [float(c[4]) for c in window]
+        volumes = [float(c[5]) if len(c) > 5 else 0.0 for c in window]
+
+        channel = max(highs) - min(lows)
+        channel_range_pct = (channel / price) * 100.0 if price > 0 else 0.0
+        atr_pct = (atr / price) * 100.0 if price > 0 else 0.0
+        channel_atr_ratio = channel / max(atr, 1e-12)
+
+        repeated_close_ratio = 0.0
+        if len(closes) > 1:
+            unchanged = sum(
+                1 for i in range(1, len(closes))
+                if abs(closes[i] - closes[i - 1]) <= max(price * 0.00005, atr * 0.03, 1e-12)
+            )
+            repeated_close_ratio = unchanged / (len(closes) - 1)
+
+        candle_ranges = [max(float(c[2]) - float(c[3]), 1e-12) for c in window]
+        body_ratios = [abs(float(c[4]) - float(c[1])) / rng for c, rng in zip(window, candle_ranges)]
+        avg_body_ratio = sum(body_ratios) / len(body_ratios) if body_ratios else 0.0
+        wick_ratios = [1.0 - br for br in body_ratios]
+        avg_wick_ratio = sum(wick_ratios) / len(wick_ratios) if wick_ratios else 0.0
+
+        inside_count = 0
+        for i in range(1, len(window)):
+            if window[i][2] <= window[i - 1][2] and window[i][3] >= window[i - 1][3]:
+                inside_count += 1
+        inside_ratio = inside_count / max(1, len(window) - 1)
+
+        net_move = abs(closes[-1] - closes[0]) if len(closes) > 1 else 0.0
+        travel = sum(abs(closes[i] - closes[i - 1]) for i in range(1, len(closes)))
+        efficiency_ratio = (net_move / travel) if travel > 0 else 0.0
+
+        directions = []
+        for opn, cls in zip(opens, closes):
+            delta = cls - opn
+            if abs(delta) <= max(price * 0.00003, atr * 0.02, 1e-12):
+                directions.append(0)
+            else:
+                directions.append(1 if delta > 0 else -1)
+
+        flips = 0
+        non_zero_dirs = [d for d in directions if d != 0]
+        for i in range(1, len(non_zero_dirs)):
+            if non_zero_dirs[i] != non_zero_dirs[i - 1]:
+                flips += 1
+        flip_ratio = flips / max(1, len(non_zero_dirs) - 1)
+
+        micro_pullbacks = 0
+        for i in range(2, len(closes)):
+            prev_move = closes[i - 1] - closes[i - 2]
+            curr_move = closes[i] - closes[i - 1]
+            if abs(prev_move) > 0 and abs(curr_move) > 0 and (prev_move > 0 > curr_move or prev_move < 0 < curr_move):
+                if abs(curr_move) <= abs(prev_move) * 1.15:
+                    micro_pullbacks += 1
+        micro_pullback_ratio = micro_pullbacks / max(1, len(closes) - 2)
+
+        avg_volume = sum(volumes) / len(volumes) if volumes else 0.0
+        last_volume = volumes[-1] if volumes else 0.0
+        volume_dry = avg_volume > 0 and last_volume < avg_volume * 0.72
+
+        # Совсем мёртвый рынок баним сразу
+        if channel_range_pct < self.cfg.min_channel_range_pct * 0.60:
+            return True, f"крайне узкий диапазон {channel_range_pct:.3f}%"
+        if atr_pct < self.cfg.min_atr_pct * 0.60:
+            return True, f"крайне низкий ATR {atr_pct:.3f}%"
+        if channel_atr_ratio < self.cfg.flat_min_channel_atr_ratio * 0.72:
+            return True, f"канал слишком мал к ATR {channel_atr_ratio:.2f}"
+
+        hard_flags = []
+        soft_flags = []
+
+        if repeated_close_ratio >= self.cfg.flat_max_repeated_close_ratio:
+            hard_flags.append(f"повторяющиеся закрытия {repeated_close_ratio:.0%}")
+        if inside_ratio >= self.cfg.flat_max_inside_ratio:
+            hard_flags.append(f"inside-bars {inside_ratio:.0%}")
+        if flip_ratio > self.cfg.max_direction_flip_ratio:
+            hard_flags.append(f"пила {flip_ratio:.0%}")
+        if micro_pullback_ratio > self.cfg.flat_max_micro_pullback_ratio:
+            hard_flags.append(f"микроретесты {micro_pullback_ratio:.0%}")
+
+        if avg_body_ratio < self.cfg.min_body_to_range_ratio:
+            soft_flags.append(f"маленькие тела {avg_body_ratio:.2f}")
+        if avg_wick_ratio > self.cfg.flat_max_wick_to_range_ratio:
+            soft_flags.append(f"много теней {avg_wick_ratio:.2f}")
+        if efficiency_ratio < self.cfg.min_efficiency_ratio:
+            soft_flags.append(f"низкая эффективность {efficiency_ratio:.2f}")
+        if volume_dry:
+            soft_flags.append("затухающий объём")
+
+        # 2 жёстких признака или 1 жёсткий + 2 мягких уже считаем плохим рынком
+        if len(hard_flags) >= 2:
+            return True, "; ".join(hard_flags[:2])
+        if len(hard_flags) >= 1 and len(soft_flags) >= 2:
+            return True, "; ".join((hard_flags + soft_flags)[:3])
+
+        # Слабый диапазон + слабое направленное движение
+        if channel_atr_ratio < self.cfg.flat_min_channel_atr_ratio and efficiency_ratio < self.cfg.min_efficiency_ratio * 1.05:
+            return True, f"слабая структура диапазона {channel_atr_ratio:.2f} / {efficiency_ratio:.2f}"
+
+        return False, "ok"
+
+    def _detect_structure_risk(self, candles: List[List[float]], atr: float) -> tuple[bool, str]:
+        if len(candles) < 12:
+            return False, "ok"
+
+        window = candles[-12:]
+        highs = [float(c[2]) for c in window]
+        lows = [float(c[3]) for c in window]
+        closes = [float(c[4]) for c in window]
+
+        swing_span = max(highs) - min(lows)
+
+        if swing_span <= atr * 1.9:
+            false_breaks = 0
+            for i in range(2, len(window)):
+                prev_high = max(float(c[2]) for c in window[:i])
+                prev_low = min(float(c[3]) for c in window[:i])
+                h = float(window[i][2])
+                l = float(window[i][3])
+                c = float(window[i][4])
+                if h > prev_high and c <= prev_high:
+                    false_breaks += 1
+                if l < prev_low and c >= prev_low:
+                    false_breaks += 1
+            if false_breaks >= 3:
+                return True, f"серия ложных выносов ({false_breaks})"
+
+        base_touches_high = 0
+        base_touches_low = 0
+        top = max(highs)
+        bottom = min(lows)
+        threshold = atr * 0.30
+        for h, l in zip(highs, lows):
+            if abs(top - h) <= threshold:
+                base_touches_high += 1
+            if abs(l - bottom) <= threshold:
+                base_touches_low += 1
+
+        if base_touches_high >= 5 and base_touches_low >= 5 and swing_span < atr * 2.5:
+            return True, "слишком плотная база"
+
+        center = (top + bottom) / 2.0
+        close_cluster = sum(1 for c in closes if abs(c - center) <= atr * 0.34)
+        if close_cluster >= max(8, int(len(closes) * 0.75)):
+            return True, "цена прилипла к центру диапазона"
+
+        return False, "ok"
+
+        window = candles[-12:]
+        highs = [float(c[2]) for c in window]
+        lows = [float(c[3]) for c in window]
+        closes = [float(c[4]) for c in window]
+
+        swing_span = max(highs) - min(lows)
+        if swing_span <= atr * 2.0:
+            false_breaks = 0
+            for i in range(2, len(window)):
+                prev_high = max(float(c[2]) for c in window[:i])
+                prev_low = min(float(c[3]) for c in window[:i])
+                h = float(window[i][2])
+                l = float(window[i][3])
+                c = float(window[i][4])
+                if h > prev_high and c <= prev_high:
+                    false_breaks += 1
+                if l < prev_low and c >= prev_low:
+                    false_breaks += 1
+            if false_breaks >= 2:
+                return True, f"серия ложных выносов ({false_breaks})"
+
+        base_touches_high = 0
+        base_touches_low = 0
+        top = max(highs)
+        bottom = min(lows)
+        threshold = atr * 0.35
+        for h, l in zip(highs, lows):
+            if abs(top - h) <= threshold:
+                base_touches_high += 1
+            if abs(l - bottom) <= threshold:
+                base_touches_low += 1
+        if base_touches_high >= 4 and base_touches_low >= 4 and swing_span < atr * 3.2:
+            return True, "плотная база без выхода"
+
+        center = (top + bottom) / 2.0
+        close_cluster = sum(1 for c in closes if abs(c - center) <= atr * 0.45)
+        if close_cluster >= max(6, int(len(closes) * 0.65)):
+            return True, "цена залипает у центра диапазона"
+
+        return False, "ok"
+
+    def _confirm_breakout(self, candles: List[List[float]], atr: float, side: str, level: float) -> tuple[bool, str]:
+        if len(candles) < 6:
+            return False, "недостаточно свечей для подтверждения"
+
+        last = candles[-1]
+        prev = candles[-2]
+        prev2 = candles[-3]
+
+        opn = float(last[1])
+        high = float(last[2])
+        low = float(last[3])
+        close = float(last[4])
+        volume = float(last[5]) if len(last) > 5 else 0.0
+
+        last_range = max(high - low, 1e-12)
+        prev_range = max(float(prev[2]) - float(prev[3]), 1e-12)
+        body = abs(close - opn)
+
+        avg_volume = 0.0
+        vol_window = candles[-6:-1]
+        if vol_window:
+            vols = [float(c[5]) if len(c) > 5 else 0.0 for c in vol_window]
+            avg_volume = sum(vols) / len(vols) if vols else 0.0
+
+        score = 0
+        reasons = []
+
+        if body >= atr * self.cfg.breakout_min_body_atr:
+            score += 1
+        else:
+            reasons.append(f"слабое тело {body / max(atr, 1e-12):.2f} ATR")
+
+        if last_range >= prev_range * self.cfg.breakout_min_range_expansion:
+            score += 1
+        else:
+            reasons.append("без расширения диапазона")
+
+        if avg_volume <= 0 or volume >= avg_volume * self.cfg.breakout_volume_factor:
+            score += 1
+        else:
+            reasons.append("объём ниже среднего")
+
+        if side == "long":
+            if close >= level + atr * self.cfg.breakout_buffer_atr:
+                score += 1
+            else:
+                reasons.append("закрытие слабо выше уровня")
+
+            if (high - close) / last_range <= self.cfg.breakout_close_near_extreme_ratio:
+                score += 1
+            else:
+                reasons.append("закрытие далеко от high")
+
+            prebreak_distance = max(0.0, level - float(prev[4]))
+            if prebreak_distance <= atr * self.cfg.breakout_max_prebreak_distance_atr:
+                score += 1
+            else:
+                reasons.append("вход сильно запоздал")
+
+            retest_depth = max(0.0, level - low)
+            if retest_depth / last_range <= self.cfg.breakout_retest_invalid_ratio:
+                score += 1
+            else:
+                reasons.append("слишком глубокий ретест")
+
+            if float(prev[2]) > level and float(prev[4]) < level - atr * 0.12:
+                reasons.append("предыдущий слабый вынос вверх")
+            else:
+                score += 1
+
+        else:
+            if close <= level - atr * self.cfg.breakout_buffer_atr:
+                score += 1
+            else:
+                reasons.append("закрытие слабо ниже уровня")
+
+            if (close - low) / last_range <= self.cfg.breakout_close_near_extreme_ratio:
+                score += 1
+            else:
+                reasons.append("закрытие далеко от low")
+
+            prebreak_distance = max(0.0, float(prev[4]) - level)
+            if prebreak_distance <= atr * self.cfg.breakout_max_prebreak_distance_atr:
+                score += 1
+            else:
+                reasons.append("вход сильно запоздал")
+
+            retest_depth = max(0.0, high - level)
+            if retest_depth / last_range <= self.cfg.breakout_retest_invalid_ratio:
+                score += 1
+            else:
+                reasons.append("слишком глубокий ретест")
+
+            if float(prev[3]) < level and float(prev[4]) > level + atr * 0.12:
+                reasons.append("предыдущий слабый вынос вниз")
+            else:
+                score += 1
+
+        # Требуем не идеальный пробой, а хороший набор признаков
+        if score >= 5:
+            return True, "ok"
+
+        return False, ", ".join(reasons[:3]) if reasons else f"недостаточно подтверждений ({score})"
+
+    def calculate_atr_from_candles(self, candles: List[List[float]], period: int) -> float:
+        if len(candles) < period + 1:
+            return 0.0
+        trs = []
+        for i in range(1, len(candles)):
+            high = candles[i][2]
+            low = candles[i][3]
+            prev_close = candles[i - 1][4]
+            tr = max(high - low, abs(high - prev_close), abs(low - prev_close))
+            trs.append(tr)
+        recent = trs[-period:]
+        return sum(recent) / len(recent)
+
+    def compute_atr(self, inst_id: str) -> float:
+        candles = self.gateway.get_candles(inst_id, self.cfg.timeframe, self.cfg.atr_period + 5)
+        return self.calculate_atr_from_candles(candles, self.cfg.atr_period)
+
+    def _extract_available_usdt(self, account: dict) -> float:
+        data = account.get("data", [])
+        if not data:
+            return 0.0
+        root = data[0]
+        details = root.get("details", []) or []
+        for item in details:
+            if str(item.get("ccy", "")).upper() == "USDT":
+                for key in ("availBal", "availEq", "cashBal", "eq"):
+                    try:
+                        value = float(item.get(key) or 0.0)
+                    except (TypeError, ValueError):
+                        value = 0.0
+                    if value > 0:
+                        return value
+        for key in ("availEq", "adjEq", "totalEq"):
+            try:
+                value = float(root.get(key) or 0.0)
+            except (TypeError, ValueError):
+                value = 0.0
+            if value > 0:
+                return value
+        return 0.0
+
+    def _extract_total_usdt(self, account: dict) -> float:
+        data = account.get("data", [])
+        if not data:
+            return 0.0
+        root = data[0]
+        try:
+            total = float(root.get("totalEq") or 0.0)
+        except (TypeError, ValueError):
+            total = 0.0
+        if total > 0:
+            return total
+        return self._extract_available_usdt(account)
+
+    def _extract_order_error(self, resp: dict) -> tuple[str, str]:
+        data = resp.get("data", []) or []
+        if not data:
+            return str(resp.get("code") or ""), str(resp.get("msg") or "")
+        first = data[0] or {}
+        return str(first.get("sCode") or resp.get("code") or ""), str(first.get("sMsg") or resp.get("msg") or "")
+
+    def _handle_order_rejection(self, inst_id: str, resp: dict, context: str = "ордер") -> None:
+        code, message = self._extract_order_error(resp)
+        safe_message = (message or "").strip()
+
+        if code in OkxGateway.COMPLIANCE_RESTRICTION_CODES:
+            self.blocked_instruments[inst_id] = message or "Local compliance restriction"
+            if inst_id not in self.cfg.blacklist:
+                self.cfg.blacklist.append(inst_id)
+            self.log_line.emit(f"{inst_id}: исключён из сканирования из-за ограничений биржи ({code}: {safe_message})")
+            logging.warning("Instrument %s blocked by exchange compliance: %s", inst_id, message)
+            self._notify(
+                f"🚫 Инструмент исключён биржей\n\n"
+                f"Инструмент: {inst_id}\n"
+                f"Контекст: {context}\n"
+                f"Код: {code}\n"
+                f"Причина: {safe_message}"
+            )
+            return
+
+        if code in OkxGateway.POSITION_LIMIT_ERROR_CODES:
+            cooldown_sec = 6 * 60 * 60
+            self.temp_blocked_until[inst_id] = time.time() + cooldown_sec
+            self.blocked_instruments[inst_id] = safe_message or "Exchange open position limit reached"
+            self.log_line.emit(f"{inst_id}: временно исключён из сканирования на 6 часов из-за лимита позиции биржи ({code}: {safe_message})")
+            logging.warning("Instrument %s blocked by exchange position limit: %s", inst_id, message)
+            self._notify(
+                f"⚠️ Инструмент временно исключён\n\n"
+                f"Инструмент: {inst_id}\n"
+                f"Контекст: {context}\n"
+                f"Код: {code}\n"
+                f"Причина: {safe_message}\n"
+                f"Пауза: 6 часов"
+            )
+            return
+
+        if code in OkxGateway.LOT_SIZE_ERROR_CODES:
+            self.log_line.emit(f"{inst_id}: отклонение {context} из-за шага лота ({code}: {safe_message}). Инструмент пропущен до следующего цикла.")
+            logging.warning("Lot size rejection for %s: %s", inst_id, message)
+            self._notify(
+                f"⚠️ Отклонение ордера по шагу лота\n\n"
+                f"Инструмент: {inst_id}\n"
+                f"Контекст: {context}\n"
+                f"Код: {code}\n"
+                f"Причина: {safe_message}"
+            )
+            return
+
+        self.stats_logger.log("order_rejected", inst_id=inst_id, context=context, code=code, reason=safe_message or str(resp))
+        self.log_line.emit(f"{inst_id}: биржа отклонила {context}: {resp}")
+        self._notify(
+            f"⚠️ Биржа отклонила {context}\n\n"
+            f"Инструмент: {inst_id}\n"
+            f"Код: {code}\n"
+            f"Причина: {safe_message or str(resp)}"
+        )
+
+    def enter_position(self, inst_id: str, side: str, price: float, atr: float, system_name: str) -> None:
+        account = self.gateway.get_account_balance()
+        data = account.get("data", [])
+        if not data:
+            return
+        total_eq = self._extract_total_usdt(account)
+        available_eq = self._extract_available_usdt(account)
+        if total_eq <= 0 or available_eq <= 0:
+            return
+        info = self.gateway.instrument_info(inst_id)
+        ct_val = float(info.get("ctVal") or 1.0)
+        lot_sz = float(info.get("lotSz") or 1.0)
+        min_sz = float(info.get("minSz") or lot_sz)
+        max_mkt_sz = float(info.get("maxMktSz") or 0.0)
+
+        risk_amount = total_eq * (self.cfg.risk_per_trade_pct / 100.0)
+        risk_per_contract = atr * ct_val * self.cfg.atr_stop_multiple
+        if risk_per_contract <= 0 or price <= 0 or ct_val <= 0:
+            return
+
+        qty_by_risk = risk_amount / risk_per_contract
+        max_notional = available_eq * (self.cfg.max_position_notional_pct / 100.0)
+        qty_by_notional = max_notional / (price * ct_val)
+        qty = min(qty_by_risk, qty_by_notional)
+        if max_mkt_sz > 0:
+            qty = min(qty, max_mkt_sz)
+        qty = self.floor_to_step(qty, lot_sz)
+        if qty < min_sz:
+            return
+
+        order_side = "buy" if side == "long" else "sell"
+        resp = self.gateway.place_market_order(inst_id, order_side, qty)
+        if resp.get("code") != "0":
+            self._handle_order_rejection(inst_id, resp, "ордер")
+            return
+
+        stop_price = price - self.cfg.atr_stop_multiple * atr if side == "long" else price + self.cfg.atr_stop_multiple * atr
+        next_pyramid = price + self.cfg.add_unit_every_atr * atr if side == "long" else price - self.cfg.add_unit_every_atr * atr
+        state = PositionState(
+            inst_id=inst_id,
+            side=side,
+            qty=qty,
+            avg_px=price,
+            last_px=price,
+            unrealized_pnl=0.0,
+            margin=0.0,
+            atr=atr,
+            stop_price=stop_price,
+            next_pyramid_price=next_pyramid,
+            entry_time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            base_unit_qty=qty,
+            signal_time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            units=1,
+            system_name=system_name,
+            entry_period=self.cfg.long_entry_period if side == "long" else self.cfg.short_entry_period,
+            exit_period=self.cfg.long_exit_period if side == "long" else self.cfg.short_exit_period,
+        )
+        self.position_state[inst_id] = state
+        self._save_state()
+        self.stats_logger.log("position_opened", inst_id=inst_id, side=side, qty=qty, price=price, atr=atr, stop_price=stop_price, system_name=system_name, timeframe=self.cfg.timeframe, balance_total=total_eq, balance_available=available_eq)
+        self.trade_logger.log("OPEN", inst_id, side, qty, price, atr, stop_price, system_name, "Первичный вход")
+        self.log_line.emit(f"Открыта {side} позиция {inst_id}, qty={qty}, ATR={atr:.6f}, stop={stop_price:.6f}")
+        self._notify(
+            f"{'📈' if side == 'long' else '📉'} Открыта {side.upper()} позиция\n\n"
+            f"Инструмент: {inst_id}\n"
+            f"Цена входа: {self._fmt_price(price)}\n"
+            f"Qty: {qty}\n"
+            f"ATR: {self._fmt_price(atr)}\n"
+            f"Стоп: {self._fmt_price(stop_price)}\n"
+            f"Юнитов: 1\n"
+            f"Система: {system_name}"
+        )
+
+    def manage_open_positions(self) -> None:
+        self.stats_logger.log("positions_check_started", tracked_positions=len(self.position_state))
+        for inst_id, state in list(self.position_state.items()):
+            retry_after = self.close_retry_after.get(inst_id, 0.0)
+            if retry_after and retry_after > time.time():
+                continue
+            try:
+                self.update_and_maybe_exit_or_pyramid(state)
+            except Exception as exc:
+                self.log_line.emit(f"{inst_id}: ошибка управления позицией: {exc}")
+                logging.warning("Manage failed for %s: %s", inst_id, exc)
+
+    def update_and_maybe_exit_or_pyramid(self, state: PositionState) -> None:
+        candles = self.gateway.get_candles(state.inst_id, self.cfg.timeframe, max(state.exit_period, self.cfg.atr_period) + 5)
+        if not candles:
+            return
+        current_price = self.gateway.get_ticker_last(state.inst_id)
+        state.last_px = current_price
+        atr = self.calculate_atr_from_candles(candles, self.cfg.atr_period)
+        if atr > 0:
+            state.atr = atr
+        state.stop_price = self.trailing_stop(state, state.atr, current_price)
+
+        exit_window = candles[-state.exit_period :]
+        exit_long_level = min(c[3] for c in exit_window)
+        exit_short_level = max(c[2] for c in exit_window)
+
+        stop_hit = (state.side == "long" and current_price <= state.stop_price) or (state.side == "short" and current_price >= state.stop_price)
+        turtle_exit = (state.side == "long" and current_price <= exit_long_level) or (state.side == "short" and current_price >= exit_short_level)
+
+        if stop_hit:
+            profitable_trade = (current_price > state.avg_px) if state.side == "long" else (current_price < state.avg_px)
+            if profitable_trade:
+                pnl_pct = ((current_price - state.avg_px) / state.avg_px * 100.0) if state.side == "long" else ((state.avg_px - current_price) / state.avg_px * 100.0)
+                self.stats_logger.log(
+                    "atr_stop_ignored_in_profit",
+                    inst_id=state.inst_id,
+                    side=state.side,
+                    price=current_price,
+                    avg_price=state.avg_px,
+                    stop_price=state.stop_price,
+                    pnl_pct=pnl_pct,
+                    units=state.units,
+                )
+                self.log_line.emit(
+                    f"{state.inst_id}: ATR стоп {self.cfg.atr_stop_multiple}N проигнорирован, прибыльная позиция {pnl_pct:.2f}% ждёт канальный выход"
+                )
+            else:
+                self.close_position(state, current_price, f"ATR стоп {self.cfg.atr_stop_multiple}N")
+                return
+        if turtle_exit:
+            self.close_position(state, current_price, f"Канальный выход {state.exit_period} свечей")
+            return
+        self.try_pyramid(state, current_price, candles)
+        self._save_state()
+
+    def trailing_stop(self, state: PositionState, atr: float, last_close: float) -> float:
+        if atr <= 0:
+            return state.stop_price
+        stop_multiple = self.cfg.atr_stop_multiple
+        if state.units >= 4:
+            stop_multiple = min(stop_multiple, 1.10)
+        elif state.units >= 3:
+            stop_multiple = min(stop_multiple, 1.30)
+        elif state.units >= 2:
+            stop_multiple = min(stop_multiple, 1.60)
+
+        if state.side == "long":
+            candidate = last_close - stop_multiple * atr
+            return max(state.stop_price, candidate)
+        candidate = last_close + stop_multiple * atr
+        return min(state.stop_price, candidate)
+
+    def _pyramid_unit_scale(self, current_units: int) -> float:
+        if current_units <= 1:
+            return self.cfg.pyramid_second_unit_scale
+        if current_units == 2:
+            return self.cfg.pyramid_third_unit_scale
+        return self.cfg.pyramid_fourth_unit_scale
+
+    def _has_locked_break_even(self, state: PositionState) -> bool:
+        buffer = max(state.atr * self.cfg.pyramid_break_even_buffer_atr, state.avg_px * 0.0002)
+        if state.side == "long":
+            return state.stop_price >= state.avg_px + buffer
+        return state.stop_price <= state.avg_px - buffer
+
+    def _trend_confirms_pyramid(self, state: PositionState, last_close: float, candles: List[List[float]]) -> tuple[bool, str]:
+        if not candles:
+            return False, "нет свечей для подтверждения"
+        if state.atr <= 0:
+            return False, "ATR недоступен"
+        if state.units == 1 and not self._has_locked_break_even(state):
+            return False, "стоп ещё не переведён в безубыток"
+
+        progress = abs(last_close - state.avg_px)
+        if progress < state.atr * self.cfg.pyramid_min_progress_atr:
+            return False, f"недостаточный прогресс {progress / state.atr:.2f} ATR"
+
+        distance_to_stop = abs(last_close - state.stop_price)
+        if distance_to_stop < state.atr * self.cfg.pyramid_min_stop_distance_atr:
+            return False, f"слишком близко к стопу {distance_to_stop / state.atr:.2f} ATR"
+
+        is_flat, flat_reason = self.is_flat_market(candles, last_close, state.atr)
+        if is_flat:
+            return False, f"рынок выровнялся ({flat_reason})"
+
+        last_candle = candles[-1]
+        candle_range = max(last_candle[2] - last_candle[3], 1e-12)
+        body_ratio = abs(last_candle[4] - last_candle[1]) / candle_range
+        if body_ratio < self.cfg.pyramid_min_body_ratio:
+            return False, f"слабая импульсная свеча {body_ratio:.2f}"
+
+        if state.side == "long":
+            if last_candle[4] <= last_candle[1]:
+                return False, "последняя свеча не бычья"
+            if len(candles) >= 2 and last_candle[4] < candles[-2][4]:
+                return False, "нет продолжения вверх"
+        else:
+            if last_candle[4] >= last_candle[1]:
+                return False, "последняя свеча не медвежья"
+            if len(candles) >= 2 and last_candle[4] > candles[-2][4]:
+                return False, "нет продолжения вниз"
+
+        return True, ""
+
+    def _lock_profit_after_pyramid(self, state: PositionState, fill_price: float) -> None:
+        if state.atr <= 0 or state.units <= 1:
+            return
+
+        if state.side == "long":
+            if state.units == 2:
+                floor = state.avg_px + state.atr * self.cfg.pyramid_break_even_buffer_atr
+            elif state.units == 3:
+                floor = state.avg_px + state.atr * 0.35
+            else:
+                floor = state.avg_px + state.atr * 0.65
+            tightened = fill_price - max(state.atr * 1.10, 1e-12)
+            state.stop_price = max(state.stop_price, floor, tightened)
+        else:
+            if state.units == 2:
+                floor = state.avg_px - state.atr * self.cfg.pyramid_break_even_buffer_atr
+            elif state.units == 3:
+                floor = state.avg_px - state.atr * 0.35
+            else:
+                floor = state.avg_px - state.atr * 0.65
+            tightened = fill_price + max(state.atr * 1.10, 1e-12)
+            state.stop_price = min(state.stop_price, floor, tightened)
+
+    def try_pyramid(self, state: PositionState, last_close: float, candles: List[List[float]]) -> None:
+        if self.cfg.max_units_per_symbol > 0 and state.units >= self.cfg.max_units_per_symbol:
+            return
+        if state.atr <= 0:
+            return
+        should_add = (state.side == "long" and last_close >= state.next_pyramid_price) or (
+            state.side == "short" and last_close <= state.next_pyramid_price
+        )
+        if not should_add:
+            return
+
+        allowed, reason = self._trend_confirms_pyramid(state, last_close, candles)
+        if not allowed:
+            self.stats_logger.log("pyramid_skipped", inst_id=state.inst_id, side=state.side, units=state.units, reason=reason, last_price=last_close, next_pyramid_price=state.next_pyramid_price)
+            self.log_line.emit(f"{state.inst_id}: добор пропущен — {reason}")
+            return
+
+        info = self.gateway.instrument_info(state.inst_id)
+        lot_sz = float(info.get("lotSz") or 1.0)
+        min_sz = float(info.get("minSz") or lot_sz)
+        max_mkt_sz = float(info.get("maxMktSz") or 0.0)
+
+        base_unit_qty = float(state.base_unit_qty or 0.0)
+        if base_unit_qty <= 0:
+            base_unit_qty = float(state.qty or 0.0)
+        if base_unit_qty <= 0:
+            return
+
+        scale = self._pyramid_unit_scale(state.units)
+        add_qty = self.floor_to_step(base_unit_qty * scale, lot_sz)
+        if max_mkt_sz > 0:
+            add_qty = min(add_qty, self.floor_to_step(max_mkt_sz, lot_sz))
+        if add_qty < min_sz:
+            self.log_line.emit(
+                f"{state.inst_id}: добор пропущен, допустимый размер меньше minSz "
+                f"(base={base_unit_qty}, scale={scale}, maxMktSz={max_mkt_sz}, minSz={min_sz})"
+            )
+            return
+
+        projected_total_qty = state.qty + add_qty
+        if projected_total_qty <= 0:
+            return
+        projected_avg_px = ((state.avg_px * state.qty) + (last_close * add_qty)) / projected_total_qty
+        projected_profit_pct = (
+            ((last_close - projected_avg_px) / projected_avg_px * 100.0)
+            if state.side == "long"
+            else ((projected_avg_px - last_close) / projected_avg_px * 100.0)
+        )
+        required_profit_pct = max(0.0, state.units * 5.0)
+        if projected_profit_pct + 1e-9 < required_profit_pct:
+            reason = (
+                f"после добора прибыль {projected_profit_pct:.2f}% меньше требуемых {required_profit_pct:.2f}% "
+                f"для {state.units} добавленных юнитов"
+            )
+            self.stats_logger.log(
+                "pyramid_skipped",
+                inst_id=state.inst_id,
+                side=state.side,
+                units=state.units,
+                reason=reason,
+                last_price=last_close,
+                next_pyramid_price=state.next_pyramid_price,
+                projected_profit_pct=projected_profit_pct,
+                required_profit_pct=required_profit_pct,
+                add_qty=add_qty,
+                scale=scale,
+            )
+            self.log_line.emit(f"{state.inst_id}: добор пропущен — {reason}")
+            return
+
+        order_side = "buy" if state.side == "long" else "sell"
+        attempt_qty = add_qty
+        resp = None
+        while attempt_qty >= min_sz:
+            resp = self.gateway.place_market_order(state.inst_id, order_side, attempt_qty)
+            if resp.get("code") == "0":
+                add_qty = attempt_qty
+                break
+
+            code, message = self._extract_order_error(resp)
+            safe_message = (message or "").strip()
+            if code != "51202":
+                self._handle_order_rejection(state.inst_id, resp, "добор")
+                return
+
+            next_qty = self.floor_to_step(attempt_qty / 2.0, lot_sz)
+            if next_qty >= min_sz and next_qty < attempt_qty:
+                self.log_line.emit(
+                    f"{state.inst_id}: добор {attempt_qty} отклонён по лимиту market-ордера "
+                    f"(51202), пробую меньший размер {next_qty}"
+                )
+                attempt_qty = next_qty
+                continue
+
+            self.log_line.emit(
+                f"{state.inst_id}: добор не выполнен — даже уменьшенный объём превышает лимит "
+                f"market-ордера ({safe_message})"
+            )
+            return
+
+        if not resp or resp.get("code") != "0":
+            return
+
+        old_qty = state.qty
+        state.qty += add_qty
+        state.avg_px = ((state.avg_px * old_qty) + (last_close * add_qty)) / state.qty
+        state.units += 1
+        state.next_pyramid_price = (
+            last_close + self.cfg.add_unit_every_atr * state.atr
+            if state.side == "long"
+            else last_close - self.cfg.add_unit_every_atr * state.atr
+        )
+        self._lock_profit_after_pyramid(state, last_close)
+        added_units = max(0, state.units - 1)
+        total_profit_pct = (
+            ((last_close - state.avg_px) / state.avg_px * 100.0)
+            if state.side == "long"
+            else ((state.avg_px - last_close) / state.avg_px * 100.0)
+        )
+        self.stats_logger.log(
+            "pyramid_added",
+            inst_id=state.inst_id,
+            side=state.side,
+            add_qty=add_qty,
+            total_qty=state.qty,
+            units=state.units,
+            added_units=added_units,
+            fill_price=last_close,
+            avg_price=state.avg_px,
+            stop_price=state.stop_price,
+            scale=scale,
+            total_profit_pct=total_profit_pct,
+            required_profit_pct=added_units * 5.0,
+        )
+        self.trade_logger.log(
+            "PYRAMID",
+            state.inst_id,
+            state.side,
+            add_qty,
+            last_close,
+            state.atr,
+            state.stop_price,
+            state.system_name,
+            f"Добавлен unit #{state.units} scale={scale} total_profit_pct={total_profit_pct:.2f}%",
+        )
+        self.log_line.emit(
+            f"{state.inst_id}: добавлен unit #{state.units}, qty+={add_qty}, "
+            f"scale={scale:.2f}, прибыль после добора={total_profit_pct:.2f}%, новый стоп={self._fmt_price(state.stop_price)}"
+        )
+        self._notify(
+            f"➕ Добавлен юнит\n\n"
+            f"Инструмент: {state.inst_id}\n"
+            f"Сторона: {state.side.upper()}\n"
+            f"Добавлено qty: {add_qty}\n"
+            f"Всего qty: {state.qty}\n"
+            f"Юнитов: {state.units}\n"
+            f"Scale: {scale:.2f}\n"
+            f"Новый стоп: {self._fmt_price(state.stop_price)}\n"
+            f"Цена: {self._fmt_price(last_close)}"
+        )
+
+    def close_position(self, state: PositionState, price: float, reason: str) -> None:
+        resp = self.gateway.close_position(state.inst_id, reason)
+        if resp.get("code") != "0":
+            code, message = self._extract_order_error(resp)
+            safe_message = (message or resp.get("msg") or str(resp)).strip()
+            if code in OkxGateway.CLOSE_MARKET_LIMIT_ERROR_CODES:
+                fallback = self.gateway.close_position_by_reduce_only(state.inst_id, state.side, state.qty)
+                if fallback.get("code") == "0":
+                    self.log_line.emit(f"{state.inst_id}: позиция закрыта reduce-only ордерами из-за лимита market close")
+                    self.close_retry_after.pop(state.inst_id, None)
+                else:
+                    self.close_retry_after[state.inst_id] = time.time() + 60
+                    self.log_line.emit(f"{state.inst_id}: ошибка закрытия reduce-only: {fallback}")
+                    self._notify(
+                        f"⚠️ Ошибка закрытия позиции\n\n"
+                        f"Инструмент: {state.inst_id}\n"
+                        f"Причина: {safe_message}\n"
+                        f"Fallback: {fallback}"
+                    )
+                    return
+            else:
+                self.close_retry_after[state.inst_id] = time.time() + 60
+                self.log_line.emit(f"{state.inst_id}: ошибка закрытия: {resp}")
+                self._notify(
+                    f"⚠️ Ошибка закрытия позиции\n\n"
+                    f"Инструмент: {state.inst_id}\n"
+                    f"Причина: {safe_message}"
+                )
+                return
+        pnl = (price - state.avg_px) * state.qty if state.side == "long" else (state.avg_px - price) * state.qty
+        pnl_pct = ((price - state.avg_px) / state.avg_px * 100.0) if state.side == "long" else ((state.avg_px - price) / state.avg_px * 100.0)
+        self.stats_logger.log("position_closed", inst_id=state.inst_id, side=state.side, qty=state.qty, entry_price=state.avg_px, exit_price=price, atr=state.atr, stop_price=state.stop_price, units=state.units, reason=reason)
+        self.trade_logger.log("CLOSE", state.inst_id, state.side, state.qty, price, state.atr, state.stop_price, state.system_name, reason)
+        duration_sec = 0
+        try:
+            duration_sec = max(0, int((datetime.now() - datetime.strptime(state.entry_time, "%Y-%m-%d %H:%M:%S")).total_seconds()))
+        except Exception:
+            duration_sec = 0
+        self.closed_trades.append(ClosedTrade(
+            time=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            inst_id=state.inst_id,
+            side=state.side,
+            qty=state.qty,
+            entry_px=state.avg_px,
+            exit_px=price,
+            pnl=pnl,
+            pnl_pct=pnl_pct,
+            units=state.units,
+            system_name=state.system_name,
+            reason=reason,
+            duration_sec=duration_sec,
+        ))
+        self.closed_trades = self.closed_trades[-500:]
+        self.log_line.emit(f"Позиция {state.inst_id} закрыта. Причина: {reason}")
+        self._register_stopout(state, price, reason)
+
+        emoji = "✅" if pnl >= 0 else "❌"
+        self._notify(
+            f"{emoji} Позиция закрыта\n\n"
+            f"Инструмент: {state.inst_id}\n"
+            f"Сторона: {state.side.upper()}\n"
+            f"Цена входа: {self._fmt_price(state.avg_px)}\n"
+            f"Цена выхода: {self._fmt_price(price)}\n"
+            f"PnL: {pnl:.4f}\n"
+            f"PnL %: {pnl_pct:.2f}%\n"
+            f"Юнитов: {state.units}\n"
+            f"Причина: {reason}"
+        )
+
+        if state.inst_id in self.position_state:
+            del self.position_state[state.inst_id]
+            self.close_retry_after.pop(state.inst_id, None)
+            self._save_state()
+
+    def emit_snapshot(self) -> None:
+        bal = self.gateway.get_account_balance()
+        data = bal.get("data", [{}])
+        details = data[0].get("details", [{}]) if data else [{}]
+        detail = details[0] if details else {}
+
+        open_positions = []
+        for state in self.position_state.values():
+            row = asdict(state)
+            avg_px = float(state.avg_px or 0.0)
+            last_px = float(state.last_px or 0.0)
+            atr = float(state.atr or 0.0)
+            if avg_px > 0:
+                pnl_pct = ((last_px - avg_px) / avg_px * 100.0) if state.side == "long" else ((avg_px - last_px) / avg_px * 100.0)
+                stop_distance_pct = ((last_px - state.stop_price) / last_px * 100.0) if state.side == "long" else ((state.stop_price - last_px) / last_px * 100.0)
+                pyramid_distance_pct = ((state.next_pyramid_price - last_px) / last_px * 100.0) if state.side == "long" else ((last_px - state.next_pyramid_price) / last_px * 100.0)
+                atr_pct = (atr / last_px * 100.0) if last_px > 0 else 0.0
+            else:
+                pnl_pct = 0.0
+                stop_distance_pct = 0.0
+                pyramid_distance_pct = 0.0
+                atr_pct = 0.0
+            row["pnl_pct"] = pnl_pct
+            row["atr_pct"] = atr_pct
+            row["stop_distance_pct"] = stop_distance_pct
+            row["pyramid_distance_pct"] = pyramid_distance_pct
+            row["trend_strength_atr"] = (abs(last_px - avg_px) / atr) if atr > 0 else 0.0
+            row["added_units"] = max(0, int(state.units) - 1)
+            open_positions.append(row)
+
+        open_pnl = sum(float(x.get("unrealized_pnl", 0.0)) for x in open_positions)
+        longs = sum(1 for x in open_positions if x.get("side") == "long")
+        shorts = sum(1 for x in open_positions if x.get("side") == "short")
+        avg_pnl_pct = sum(float(x.get("pnl_pct", 0.0)) for x in open_positions) / len(open_positions) if open_positions else 0.0
+        best_open = max((float(x.get("pnl_pct", 0.0)) for x in open_positions), default=0.0)
+        worst_open = min((float(x.get("pnl_pct", 0.0)) for x in open_positions), default=0.0)
+        realized_pnl = sum(x.pnl for x in self.closed_trades)
+        wins = sum(1 for x in self.closed_trades if x.pnl > 0)
+        losses = sum(1 for x in self.closed_trades if x.pnl < 0)
+        winrate = wins / len(self.closed_trades) * 100.0 if self.closed_trades else 0.0
+
+        now_full = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        balance_total = float(data[0].get("totalEq") or 0.0) if data else 0.0
+        balance_available = float(detail.get("availBal") or 0.0)
+        frozen_value = float(detail.get("frozenBal") or 0.0)
+        balance_used = frozen_value if frozen_value > 0 else max(balance_total - balance_available, 0.0)
+        self.balance_history.append({
+            "time": now_full,
+            "balance_total": balance_total,
+            "balance_available": balance_available,
+            "balance_used": balance_used,
+        })
+        self.balance_history = self.balance_history[-2000:]
+        payload = {
+            "timestamp": format_time_string(now_full),
+            "engine": {
+                "last_cycle_started": format_clock(self.last_scan_started_at),
+                "last_cycle_finished": format_clock(self.last_scan_finished_at),
+                "last_snapshot_emitted": format_time_string(now_full),
+                "last_cycle_duration_sec": round(max(0.0, (self.last_scan_finished_at or time.time()) - (self.last_scan_started_at or time.time())), 3) if self.last_scan_started_at else 0.0,
+                "scan_interval_sec": self.cfg.scan_interval_sec,
+                "position_check_interval_sec": self.cfg.position_check_interval_sec,
+                "snapshot_interval_sec": self.cfg.snapshot_interval_sec,
+            },
+            "balance_total": balance_total,
+            "balance_available": balance_available,
+            "balance_used": balance_used,
+            "open_positions": open_positions,
+            "closed_trades": [asdict(x) for x in reversed([x for x in self.closed_trades[-500:] if not is_hidden_instrument(x.inst_id)])],
+            "analytics": {
+                "open_pnl": open_pnl,
+                "avg_open_pnl_pct": avg_pnl_pct,
+                "best_open_pnl_pct": best_open,
+                "worst_open_pnl_pct": worst_open,
+                "long_count": longs,
+                "short_count": shorts,
+                "closed_count": len(self.closed_trades),
+                "realized_pnl": realized_pnl,
+                "wins": wins,
+                "losses": losses,
+                "winrate": winrate,
+            },
+            "balance_history": self.balance_history[-2000:],
+            "settings": {
+                "account": "Основной" if self.cfg.flag == "0" else "Демо",
+                "timeframe": self.cfg.timeframe,
+                "risk_per_trade_pct": self.cfg.risk_per_trade_pct,
+            },
+        }
+        self.last_snapshot_emitted_at = time.time()
+        self.stats_logger.log(
+            "snapshot",
+            balance_total=balance_total,
+            balance_available=balance_available,
+            balance_used=balance_used,
+            open_positions=len(open_positions),
+            closed_trades=len(self.closed_trades),
+            open_pnl=open_pnl,
+            realized_pnl=realized_pnl,
+            winrate=winrate,
+            timeframe=self.cfg.timeframe,
+        )
+        self.snapshot.emit(payload)
+
+    @staticmethod
+    def floor_to_step(value: float, step: float) -> float:
+        if step <= 0:
+            return value
+        try:
+            value_dec = Decimal(str(value))
+            step_dec = Decimal(str(step))
+            units = (value_dec / step_dec).to_integral_value(rounding=ROUND_DOWN)
+            return float(units * step_dec)
+        except (InvalidOperation, ValueError, TypeError, ZeroDivisionError):
+            return 0.0
+
+
+class PositionTableModel(QAbstractTableModel):
+    HEADERS = [
+        "Инструмент",
+        "Сторона",
+        "Qty",
+        "Средняя цена",
+        "Последняя цена",
+        "PnL",
+        "PnL %",
+        "ATR",
+        "ATR %",
+        "Стоп",
+        "До стопа %",
+        "След. добор",
+        "До добора %",
+        "Сила тренда",
+        "Добавлено юнитов",
+        "Система",
+        "Вход",
+    ]
+
+    def __init__(self):
+        super().__init__()
+        self.rows: List[dict] = []
+
+    def update_rows(self, rows: List[dict]) -> None:
+        self.beginResetModel()
+        self.rows = rows
+        self.endResetModel()
+
+    def rowCount(self, parent=QModelIndex()) -> int:
+        return len(self.rows)
+
+    def columnCount(self, parent=QModelIndex()) -> int:
+        return len(self.HEADERS)
+
+    def headerData(self, section, orientation, role=Qt.ItemDataRole.DisplayRole):
+        if role != Qt.ItemDataRole.DisplayRole:
+            return None
+        if orientation == Qt.Orientation.Horizontal:
+            return self.HEADERS[section]
+        return str(section + 1)
+
+    def data(self, index, role=Qt.ItemDataRole.DisplayRole):
+        if not index.isValid():
+            return None
+        row = self.rows[index.row()]
+        side_text = "🟢 LONG" if row.get("side") == "long" else "🔴 SHORT"
+        values = [
+            row.get("inst_id"),
+            side_text,
+            f"{row.get('qty', 0):.6f}",
+            f"{row.get('avg_px', 0):.6f}",
+            f"{row.get('last_px', 0):.6f}",
+            f"{row.get('unrealized_pnl', 0):.4f}",
+            f"{row.get('pnl_pct', 0):.2f}%",
+            f"{row.get('atr', 0):.6f}",
+            f"{row.get('atr_pct', 0):.2f}%",
+            f"{row.get('stop_price', 0):.6f}",
+            f"{row.get('stop_distance_pct', 0):.2f}%",
+            f"{row.get('next_pyramid_price', 0):.6f}",
+            f"{row.get('pyramid_distance_pct', 0):.2f}%",
+            f"{row.get('trend_strength_atr', 0):.2f} ATR",
+            str(int(row.get("added_units", max(0, int(row.get("units", 1)) - 1)))),
+            row.get("system_name"),
+            format_time_string(row.get("entry_time")),
+        ]
+        if role == Qt.ItemDataRole.DisplayRole:
+            return values[index.column()]
+        pnl_pct = float(row.get("pnl_pct", 0.0))
+        if role == Qt.ItemDataRole.BackgroundRole:
+            if pnl_pct > 0:
+                if pnl_pct >= 10:
+                    return QColor(200, 245, 210)
+                if pnl_pct >= 5:
+                    return QColor(220, 250, 228)
+                return QColor(235, 255, 240)
+            if pnl_pct < 0:
+                if pnl_pct <= -10:
+                    return QColor(248, 206, 206)
+                if pnl_pct <= -5:
+                    return QColor(252, 220, 220)
+                return QColor(255, 236, 236)
+            return QColor(255, 255, 255)
+        if role == Qt.ItemDataRole.ForegroundRole:
+            if index.column() in (5, 6, 10, 12, 13):
+                return gradient_pnl_color(pnl_pct if index.column() in (5, 6, 13) else -abs(float(row.get('stop_distance_pct' if index.column()==10 else 'pyramid_distance_pct', 0.0))))
+            if index.column() == 1:
+                return QColor(0, 120, 35) if row.get("side") == "long" else QColor(180, 30, 30)
+            return QColor(20, 20, 20)
+        if role == Qt.ItemDataRole.TextAlignmentRole and index.column() >= 2:
+            return int(Qt.AlignmentFlag.AlignCenter)
+        return None
+
+class ClosedTradesTableModel(QAbstractTableModel):
+    HEADERS = [
+        "Время",
+        "Инструмент",
+        "Сторона",
+        "Qty",
+        "Вход",
+        "Выход",
+        "PnL",
+        "PnL %",
+        "Длительность",
+        "Добавлено юнитов",
+        "Система",
+        "Причина",
+    ]
+
+    def __init__(self):
+        super().__init__()
+        self.rows: List[dict] = []
+
+    def update_rows(self, rows: List[dict]) -> None:
+        self.beginResetModel()
+        self.rows = rows
+        self.endResetModel()
+
+    def rowCount(self, parent=QModelIndex()) -> int:
+        return len(self.rows)
+
+    def columnCount(self, parent=QModelIndex()) -> int:
+        return len(self.HEADERS)
+
+    def headerData(self, section, orientation, role=Qt.ItemDataRole.DisplayRole):
+        if role != Qt.ItemDataRole.DisplayRole:
+            return None
+        if orientation == Qt.Orientation.Horizontal:
+            return self.HEADERS[section]
+        return str(section + 1)
+
+    def data(self, index, role=Qt.ItemDataRole.DisplayRole):
+        if not index.isValid():
+            return None
+        row = self.rows[index.row()]
+        side_text = "🟢 LONG" if row.get("side") == "long" else "🔴 SHORT"
+        values = [
+            row.get("time"),
+            row.get("inst_id"),
+            side_text,
+            f"{row.get('qty', 0):.6f}",
+            f"{row.get('entry_px', 0):.6f}",
+            f"{row.get('exit_px', 0):.6f}",
+            f"{row.get('pnl', 0):.4f}",
+            f"{row.get('pnl_pct', 0):.2f}%",
+            format_duration(row.get("duration_sec", 0)),
+            str(max(0, int(row.get("units", 1)) - 1)),
+            row.get("system_name"),
+            row.get("reason"),
+        ]
+        if role == Qt.ItemDataRole.DisplayRole:
+            return values[index.column()]
+        pnl_pct = float(row.get("pnl_pct", 0.0))
+        if role == Qt.ItemDataRole.BackgroundRole:
+            if pnl_pct > 0:
+                return QColor(232, 252, 236)
+            if pnl_pct < 0:
+                return QColor(255, 235, 235)
+        if role == Qt.ItemDataRole.ForegroundRole:
+            if index.column() in (6, 7):
+                return gradient_pnl_color(pnl_pct)
+            if index.column() == 2:
+                return QColor(0, 120, 35) if row.get("side") == "long" else QColor(180, 30, 30)
+            return QColor(20, 20, 20)
+        if role == Qt.ItemDataRole.TextAlignmentRole and index.column() in (3,4,5,6,7,8,9):
+            return int(Qt.AlignmentFlag.AlignCenter)
+        return None
+
+class BalanceChartWidget(QWidget):
+    STEP_SECONDS = {
+        "1m": 60,
+        "5m": 300,
+        "15m": 900,
+        "30m": 1800,
+        "1H": 3600,
+        "1D": 86400,
+    }
+
+    def __init__(self):
+        super().__init__()
+        self.points: List[dict] = []
+        self.markers: List[dict] = []
+        self.step_code = "1m"
+        self.dark_theme = False
+        self.setMinimumHeight(220)
+
+    def update_points(self, points: List[dict], step_code: Optional[str] = None, markers: Optional[List[dict]] = None) -> None:
+        self.points = points or []
+        if markers is not None:
+            self.markers = markers or []
+        if step_code:
+            self.step_code = step_code
+        self.update()
+
+    def set_step(self, step_code: str) -> None:
+        self.step_code = step_code or "1m"
+        self.update()
+
+    def set_dark_theme(self, is_dark: bool) -> None:
+        self.dark_theme = bool(is_dark)
+        self.update()
+
+    def _parse_dt(self, value: object) -> Optional[datetime]:
+        text = str(value or "").strip()
+        if not text:
+            return None
+        for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%H:%M:%S"):
+            try:
+                dt = datetime.strptime(text, fmt)
+                if fmt == "%H:%M:%S":
+                    now = datetime.now()
+                    dt = dt.replace(year=now.year, month=now.month, day=now.day)
+                return dt
+            except ValueError:
+                continue
+        return None
+
+    def _bucket_points(self) -> List[dict]:
+        if not self.points:
+            return []
+        step_sec = self.STEP_SECONDS.get(self.step_code, 60)
+        parsed: List[Tuple[datetime, dict]] = []
+        for point in self.points:
+            dt = self._parse_dt(point.get("time"))
+            if dt is None:
+                continue
+            parsed.append((dt, point))
+        if not parsed:
+            return []
+        parsed.sort(key=lambda item: item[0])
+        buckets: List[dict] = []
+        bucket_start = None
+        bucket_values: List[float] = []
+        last_dt: Optional[datetime] = None
+        for dt, point in parsed:
+            ts = int(dt.timestamp())
+            aligned_ts = ts - (ts % step_sec)
+            aligned = datetime.fromtimestamp(aligned_ts)
+            if bucket_start is None:
+                bucket_start = aligned
+            if aligned != bucket_start:
+                if bucket_values:
+                    buckets.append({
+                        "time": bucket_start.strftime("%H:%M:%S" if self.step_code not in {"1D"} else "%m-%d"),
+                        "value": bucket_values[-1],
+                        "open": bucket_values[0],
+                        "close": bucket_values[-1],
+                        "high": max(bucket_values),
+                        "low": min(bucket_values),
+                        "samples": len(bucket_values),
+                    })
+                bucket_start = aligned
+                bucket_values = []
+            bucket_values.append(float(point.get("balance_total", 0.0)))
+            last_dt = dt
+        if bucket_values and bucket_start is not None:
+            buckets.append({
+                "time": bucket_start.strftime("%H:%M:%S" if self.step_code not in {"1D"} else "%m-%d"),
+                "value": bucket_values[-1],
+                "open": bucket_values[0],
+                "close": bucket_values[-1],
+                "high": max(bucket_values),
+                "low": min(bucket_values),
+                "samples": len(bucket_values),
+            })
+        if len(buckets) == 1 and last_dt is not None:
+            buckets[0]["time"] = last_dt.strftime("%H:%M:%S" if self.step_code not in {"1D"} else "%m-%d")
+        return buckets[-30:]
+
+    def paintEvent(self, event) -> None:
+        painter = QPainter(self)
+        painter.setRenderHint(QPainter.RenderHint.Antialiasing)
+        outer = self.rect()
+        rect = outer.adjusted(12, 12, -12, -12)
+        bg_color = QColor(15, 23, 42) if self.dark_theme else QColor(250, 250, 250)
+        border_color = QColor(51, 65, 85) if self.dark_theme else QColor(210, 210, 210)
+        muted_color = QColor(148, 163, 184) if self.dark_theme else QColor(120, 120, 120)
+        grid_color = QColor(37, 48, 65) if self.dark_theme else QColor(232, 232, 232)
+        text_color = QColor(226, 232, 240) if self.dark_theme else QColor(90, 90, 90)
+
+        painter.fillRect(outer, bg_color)
+        painter.setPen(QPen(border_color, 1))
+        painter.drawRoundedRect(rect, 8, 8)
+
+        bucketed = self._bucket_points()
+        if not bucketed:
+            painter.setPen(muted_color)
+            painter.drawText(rect, int(Qt.AlignmentFlag.AlignCenter), "График баланса появится после накопления snapshot-истории")
+            return
+
+        plot = rect.adjusted(46, 22, -16, -34)
+        values = [float(point.get("value", 0.0)) for point in bucketed]
+        min_val = min(values)
+        max_val = max(values)
+        span = max_val - min_val
+        pad = max(span * 0.15, max(abs(max_val), 1.0) * 0.01, 1.0)
+        min_plot = min_val - pad
+        max_plot = max_val + pad
+        if abs(max_plot - min_plot) < 1e-12:
+            max_plot += 1.0
+            min_plot -= 1.0
+
+        def value_to_y(value: float) -> int:
+            return int(plot.bottom() - ((value - min_plot) / (max_plot - min_plot)) * plot.height())
+
+        painter.setPen(QPen(grid_color, 1))
+        for frac in (0.25, 0.5, 0.75):
+            y = int(plot.top() + plot.height() * frac)
+            painter.drawLine(plot.left(), y, plot.right(), y)
+
+        if len(values) == 1:
+            x_positions = [plot.center().x()]
+        else:
+            step_x = plot.width() / (len(values) - 1)
+            x_positions = [plot.left() + i * step_x for i in range(len(values))]
+
+        line_points = [(int(x), value_to_y(value)) for x, value in zip(x_positions, values)]
+        start_value = values[0]
+        end_value = values[-1]
+        up_color = QColor(74, 222, 128) if self.dark_theme else QColor(60, 120, 60)
+        down_color = QColor(248, 113, 113) if self.dark_theme else QColor(170, 60, 60)
+        line_color = up_color if end_value >= start_value else down_color
+        area_color = QColor(22, 101, 52, 110) if end_value >= start_value and self.dark_theme else (QColor(127, 29, 29, 110) if self.dark_theme else (QColor(208, 234, 214) if end_value >= start_value else QColor(246, 211, 211)))
+
+        area = QPolygon()
+        area.append(plot.bottomLeft())
+        for x, y in line_points:
+            area.append(QPoint(x, y))
+        area.append(plot.bottomRight())
+        painter.setPen(Qt.PenStyle.NoPen)
+        painter.setBrush(area_color)
+        painter.drawPolygon(area)
+
+        painter.setBrush(Qt.BrushStyle.NoBrush)
+        painter.setPen(QPen(line_color, 2))
+        for i in range(1, len(line_points)):
+            painter.drawLine(line_points[i - 1][0], line_points[i - 1][1], line_points[i][0], line_points[i][1])
+
+        painter.setPen(Qt.PenStyle.NoPen)
+        for idx, (x, y) in enumerate(line_points):
+            painter.setBrush((QColor(203, 213, 225) if self.dark_theme else QColor(46, 46, 46)) if idx < len(line_points) - 1 else QColor(248, 168, 38))
+            radius = 3 if idx < len(line_points) - 1 else 4
+            painter.drawEllipse(x - radius, y - radius, radius * 2, radius * 2)
+
+        marker_index = {str(point.get("time")): i for i, point in enumerate(bucketed)}
+        for marker in self.markers[-200:]:
+            idx = marker_index.get(str(marker.get("bucket_time")))
+            if idx is None or idx >= len(line_points):
+                continue
+            x, y = line_points[idx]
+            pnl = float(marker.get("pnl", 0.0))
+            color = QColor(15, 135, 55) if pnl >= 0 else QColor(190, 45, 45)
+            painter.setBrush(color)
+            painter.drawEllipse(x - 2, y - 8, 4, 4)
+
+        delta_value = end_value - start_value
+        delta_pct = (delta_value / start_value * 100.0) if abs(start_value) > 1e-12 else 0.0
+        painter.setPen(text_color)
+        painter.drawText(rect.adjusted(6, 2, -6, -2), int(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignLeft), f"Max: {max_val:.2f}")
+        painter.drawText(rect.adjusted(6, 2, -6, -2), int(Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignLeft), f"Min: {min_val:.2f}")
+        painter.drawText(rect.adjusted(6, 2, -6, -2), int(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignRight), f"Шаг: {self.step_code} | Δ: {delta_value:+.2f} ({delta_pct:+.2f}%)")
+        painter.drawText(rect.adjusted(6, 2, -6, -2), int(Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignRight), f"{bucketed[-1].get('time', '—')} | Последнее: {end_value:.2f} | Точек: {len(bucketed)}")
+
+
+class WorkerThread(QThread):
+    def __init__(self, engine: TurtleEngine):
+        super().__init__()
+        self.engine = engine
+
+    def run(self) -> None:
+        self.engine.start()
+
+
+class StartWindow(QWidget):
+    start_requested = pyqtSignal(BotConfig)
+
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle(f"OKX Turtle Bot {APP_VERSION} — параметры запуска")
+        self.setMinimumWidth(520)
+        self._build_ui()
+
+    def apply_system_theme(self) -> None:
+        app = QApplication.instance()
+        if app is None:
+            return
+        self._is_dark_theme = detect_is_dark_theme(app)
+        self.setStyleSheet(build_app_stylesheet(self._is_dark_theme))
+
+    def eventFilter(self, watched, event) -> bool:
+        if watched is QApplication.instance() and event.type() in {QEvent.Type.ApplicationPaletteChange, QEvent.Type.PaletteChange, QEvent.Type.ThemeChange}:
+            QTimer.singleShot(0, self.apply_system_theme)
+        return super().eventFilter(watched, event)
+
+    def _build_ui(self) -> None:
+        layout = QVBoxLayout(self)
+
+        form = QFormLayout()
+
+        self.account_combo = QComboBox()
+        self.account_combo.addItems(["Основной", "Демо"])
+        self.account_combo.setCurrentIndex(1)
+        form.addRow("Аккаунт:", self.account_combo)
+
+        self.timeframe_combo = QComboBox()
+        for code, label in TIMEFRAME_LABELS.items():
+            self.timeframe_combo.addItem(f"{label} ({code})", code)
+        self.timeframe_combo.setCurrentIndex(2)
+        form.addRow("Шаг свечей:", self.timeframe_combo)
+
+        self.risk_spin = QDoubleSpinBox()
+        self.risk_spin.setDecimals(2)
+        self.risk_spin.setRange(0.1, 5.0)
+        self.risk_spin.setValue(1.0)
+        self.risk_spin.setSuffix(" %")
+        self.risk_spin.hide()
+
+        defaults_hint = QLabel(
+            "Параметры стратегии зафиксированы под Turtle v021: S1 20/10, S2 55/20, ATR 20, стоп 2N, усиленный anti-flat / anti-fake-breakout."
+        )
+        defaults_hint.setWordWrap(True)
+        form.addRow("Стратегия:", defaults_hint)
+
+        layout.addLayout(form)
+
+        hint = QLabel(
+            "Ключи API читаются из файла .env. Для демо обязательно используйте demo API key. "
+            "В OKX демо-запросы должны идти в simulated trading окружение."
+        )
+        hint.setWordWrap(True)
+        layout.addWidget(hint)
+
+        self.start_button = QPushButton("Применить параметры")
+        self.start_button.clicked.connect(self._emit_start)
+        layout.addWidget(self.start_button)
+
+    def _emit_start(self) -> None:
+        load_dotenv(APP_DIR / ".env")
+        api_key = os.getenv("OKX_API_KEY", "")
+        secret_key = os.getenv("OKX_SECRET_KEY", "")
+        passphrase = os.getenv("OKX_PASSPHRASE", "")
+        telegram_enabled = os.getenv("TELEGRAM_ENABLED", "0").strip() == "1"
+        telegram_bot_token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+        telegram_chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+        if not all([api_key, secret_key, passphrase]):
+            QMessageBox.critical(self, "Нет ключей", "Создай файл .env рядом с main.py и заполни OKX_API_KEY / OKX_SECRET_KEY / OKX_PASSPHRASE")
+            return
+        cfg = BotConfig(
+            api_key=api_key,
+            secret_key=secret_key,
+            passphrase=passphrase,
+            flag="0" if self.account_combo.currentIndex() == 0 else "1",
+            timeframe=self.timeframe_combo.currentData(),
+            risk_per_trade_pct=1.0,
+            scan_interval_sec=5,
+            position_check_interval_sec=2,
+            snapshot_interval_sec=2,
+            gui_refresh_ms=1000,
+            long_entry_period=55,
+            short_entry_period=20,
+            long_exit_period=20,
+            short_exit_period=10,
+            atr_period=20,
+            atr_stop_multiple=2.0,
+            telegram_enabled=telegram_enabled,
+            telegram_bot_token=telegram_bot_token,
+            telegram_chat_id=telegram_chat_id,
+        )
+        self.start_requested.emit(cfg)
+
+
+class MainWindow(QMainWindow):
+    def apply_system_theme(self) -> None:
+        app = QApplication.instance()
+        if app is None:
+            return
+        self._is_dark_theme = detect_is_dark_theme(app)
+        stylesheet = build_app_stylesheet(self._is_dark_theme)
+        self.setStyleSheet(stylesheet)
+        if hasattr(self, "balance_chart") and self.balance_chart is not None:
+            self.balance_chart.set_dark_theme(self._is_dark_theme)
+        if hasattr(self, "table") and self.table is not None:
+            self.table.viewport().update()
+        if hasattr(self, "closed_table") and self.closed_table is not None:
+            self.closed_table.viewport().update()
+        if hasattr(self, "start_window") and self.start_window is not None:
+            self.start_window.setStyleSheet(stylesheet)
+
+    def eventFilter(self, watched, event) -> bool:
+        app = QApplication.instance()
+        event_type = event.type() if event is not None else None
+        theme_events = {QEvent.Type.ApplicationPaletteChange, QEvent.Type.PaletteChange}
+        if hasattr(QEvent.Type, "ThemeChange"):
+            theme_events.add(QEvent.Type.ThemeChange)
+        if watched is app and event_type in theme_events:
+            QTimer.singleShot(0, self.apply_system_theme)
+        return super().eventFilter(watched, event)
+
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle(f"OKX Turtle Bot {APP_VERSION}")
+        if WINDOW_ICON_PATH.exists():
+            icon = QIcon(str(WINDOW_ICON_PATH))
+            self.setWindowIcon(icon)
+            app = QApplication.instance()
+            if app is not None:
+                app.setWindowIcon(icon)
+        self.setMinimumSize(1480, 930)
+        self.engine: Optional[TurtleEngine] = None
+        self.worker: Optional[WorkerThread] = None
+        self.table_model = PositionTableModel()
+        self.closed_table_model = ClosedTradesTableModel()
+        self.latest_snapshot: Optional[dict] = None
+        self.current_cfg: Optional[BotConfig] = None
+        self._bot_running = False
+        self._is_dark_theme = False
+        self._build_ui()
+        self.apply_system_theme()
+        self._sync_toggle_button_state()
+        app = QApplication.instance()
+        if app is not None:
+            app.installEventFilter(self)
+
+    def _build_ui(self) -> None:
+        root = QWidget()
+        self.setCentralWidget(root)
+        layout = QVBoxLayout(root)
+        layout.setContentsMargins(8, 8, 8, 8)
+        layout.setSpacing(6)
+
+        self.start_window = StartWindow()
+        self.start_window.start_requested.connect(self.set_pending_config)
+        self.start_window.setMaximumHeight(165)
+        layout.addWidget(self.start_window, stretch=0)
+
+        top_panels = QHBoxLayout()
+        top_panels.setSpacing(6)
+
+        metrics_box = QGroupBox("Статистика")
+        metrics_layout = QGridLayout(metrics_box)
+        self.lbl_status = QLabel("Статус: ожидание запуска")
+        self.lbl_account = QLabel("Аккаунт: —")
+        self.lbl_timeframe = QLabel("Таймфрейм: —")
+        self.lbl_total = QLabel("Баланс: 0")
+        self.lbl_available = QLabel("Доступно: 0")
+        self.lbl_frozen = QLabel("Использовано: 0")
+        self.lbl_positions = QLabel("Открытых позиций: 0")
+        self.lbl_last_update = QLabel("Последнее обновление: —")
+        self.lbl_engine_cycle = QLabel("Последний цикл движка: —")
+        self.lbl_snapshot_signal = QLabel("Последний snapshot: —")
+        self.lbl_cycle_duration = QLabel("Цикл движка: —")
+        self.lbl_balance_trend = QLabel("Изменение баланса: Сегодня 0.00% | 7 дней 0.00%")
+        self.lbl_risk_panel = QLabel("Использовано риска: 0.00% / 0.00%")
+        self.lbl_trade_speed = QLabel("Сделок сегодня: 0 | Средняя длительность: —")
+        labels = [
+            self.lbl_status,
+            self.lbl_account,
+            self.lbl_timeframe,
+            self.lbl_total,
+            self.lbl_available,
+            self.lbl_frozen,
+            self.lbl_positions,
+            self.lbl_last_update,
+            self.lbl_engine_cycle,
+            self.lbl_snapshot_signal,
+            self.lbl_cycle_duration,
+            self.lbl_balance_trend,
+            self.lbl_risk_panel,
+            self.lbl_trade_speed,
+        ]
+        metrics_layout.setContentsMargins(6, 6, 6, 6)
+        metrics_layout.setHorizontalSpacing(6)
+        metrics_layout.setVerticalSpacing(4)
+        for idx, lbl in enumerate(labels):
+            lbl.setProperty("card", "true")
+            lbl.setMinimumHeight(24)
+            lbl.setMaximumHeight(30)
+            metrics_layout.addWidget(lbl, idx // 3, idx % 3)
+        balance_chart_header = QGridLayout()
+        balance_chart_header.setContentsMargins(0, 2, 0, 2)
+        balance_chart_header.setHorizontalSpacing(10)
+        balance_chart_header.setVerticalSpacing(6)
+        self.lbl_balance_chart_title = QLabel("График баланса")
+        self.lbl_balance_chart_title.setProperty("card", "true")
+        self.lbl_balance_chart_title.setMinimumHeight(36)
+        balance_chart_header.addWidget(self.lbl_balance_chart_title, 0, 0)
+        self.balance_chart_step_combo = QComboBox()
+        self.balance_chart_step_combo.addItem("1 минута", "1m")
+        self.balance_chart_step_combo.addItem("5 минут", "5m")
+        self.balance_chart_step_combo.addItem("15 минут", "15m")
+        self.balance_chart_step_combo.addItem("30 минут", "30m")
+        self.balance_chart_step_combo.addItem("1 час", "1H")
+        self.balance_chart_step_combo.addItem("1 день", "1D")
+        self.balance_chart_step_combo.setCurrentIndex(0)
+        self.balance_chart_step_combo.setMinimumWidth(150)
+        self.balance_chart_step_combo.currentIndexChanged.connect(self.on_balance_chart_step_changed)
+        balance_chart_header.addWidget(self.balance_chart_step_combo, 0, 1)
+        self.lbl_balance_step = QLabel("Шаг: 1m")
+        self.lbl_balance_step.setProperty("card", "true")
+        self.lbl_balance_step.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.lbl_balance_step.setMinimumHeight(36)
+        balance_chart_header.addWidget(self.lbl_balance_step, 0, 2)
+        self.lbl_balance_points = QLabel("Показано значений: 0/30")
+        self.lbl_balance_points.setProperty("card", "true")
+        self.lbl_balance_points.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.lbl_balance_points.setMinimumHeight(36)
+        balance_chart_header.addWidget(self.lbl_balance_points, 0, 3)
+        balance_chart_header.setColumnStretch(0, 2)
+        balance_chart_header.setColumnStretch(1, 0)
+        balance_chart_header.setColumnStretch(2, 1)
+        balance_chart_header.setColumnStretch(3, 1)
+        metrics_layout.addLayout(balance_chart_header, 5, 0, 1, 3)
+        self.balance_chart = BalanceChartWidget()
+        self.balance_chart.setMinimumHeight(110)
+        self.balance_chart.setMaximumHeight(150)
+        metrics_layout.addWidget(self.balance_chart, 6, 0, 1, 3)
+        top_panels.addWidget(metrics_box, 3)
+
+        analytics_box = QGroupBox("Блок аналитики")
+        analytics_layout = QGridLayout(analytics_box)
+        self.lbl_open_pnl = QLabel("Open PnL: 0")
+        self.lbl_avg_open = QLabel("Средний PnL %: 0")
+        self.lbl_best = QLabel("Лучший PnL %: 0")
+        self.lbl_worst = QLabel("Худший PnL %: 0")
+        self.lbl_long_short = QLabel("Long/Short: 0 / 0")
+        self.lbl_realized = QLabel("Реализованный PnL: 0")
+        self.lbl_closed_stats = QLabel("Закрытых сделок: 0")
+        self.lbl_winrate = QLabel("Winrate: 0%")
+        self.lbl_position_map = QLabel("Карта позиций: —")
+        self.lbl_position_map.setWordWrap(True)
+        analytics_labels = [
+            self.lbl_open_pnl,
+            self.lbl_avg_open,
+            self.lbl_best,
+            self.lbl_worst,
+            self.lbl_long_short,
+            self.lbl_realized,
+            self.lbl_closed_stats,
+            self.lbl_winrate,
+        ]
+        analytics_layout.setContentsMargins(6, 6, 6, 6)
+        analytics_layout.setHorizontalSpacing(6)
+        analytics_layout.setVerticalSpacing(4)
+        for idx, lbl in enumerate(analytics_labels):
+            lbl.setProperty("card", "true")
+            lbl.setMinimumHeight(24)
+            lbl.setMaximumHeight(30)
+            analytics_layout.addWidget(lbl, idx // 2, idx % 2)
+        self.lbl_position_map.setProperty("card", "true")
+        self.lbl_position_map.setMaximumHeight(52)
+        analytics_layout.addWidget(self.lbl_position_map, 4, 0, 1, 2)
+        top_panels.addWidget(analytics_box, 1)
+        layout.addLayout(top_panels, stretch=0)
+
+        filter_box = QGroupBox("Фильтры таблицы")
+        filter_layout = QHBoxLayout(filter_box)
+        self.filter_text = QLineEdit()
+        self.filter_text.setPlaceholderText("Поиск по инструменту...")
+        self.filter_text.textChanged.connect(self.apply_filters)
+        filter_layout.addWidget(self.filter_text)
+
+        self.filter_side = QComboBox()
+        self.filter_side.addItems(["Все", "Long", "Short"])
+        self.filter_side.currentIndexChanged.connect(self.apply_filters)
+        filter_layout.addWidget(self.filter_side)
+
+        self.filter_pnl = QComboBox()
+        self.filter_pnl.addItems(["Все", "Прибыльные", "Убыточные"])
+        self.filter_pnl.currentIndexChanged.connect(self.apply_filters)
+        filter_layout.addWidget(self.filter_pnl)
+        filter_box.setMaximumHeight(64)
+        layout.addWidget(filter_box, stretch=0)
+
+        button_row = QHBoxLayout()
+        button_row.setSpacing(6)
+        self.toggle_button = QPushButton("Запустить бота")
+        self.toggle_button.setObjectName("toggleBotButton")
+        self.toggle_button.clicked.connect(self.toggle_engine)
+        button_row.addWidget(self.toggle_button)
+
+        self.btn_refresh = QPushButton("Обновить таблицу")
+        self.btn_refresh.clicked.connect(self.request_snapshot)
+        self.btn_refresh.setEnabled(False)
+        button_row.addWidget(self.btn_refresh)
+        button_row.addStretch(1)
+        layout.addLayout(button_row, stretch=0)
+
+        self.tabs = QTabWidget()
+        self.table = QTableView()
+        self.table.setModel(self.table_model)
+        self.table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
+        self.table.setAlternatingRowColors(True)
+        self.tabs.addTab(self.table, "Открытые позиции")
+
+        self.closed_table = QTableView()
+        self.closed_table.setModel(self.closed_table_model)
+        self.closed_table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
+        self.closed_table.setAlternatingRowColors(True)
+        self.tabs.addTab(self.closed_table, "Закрытые сделки")
+
+        self.log_text = QTextEdit()
+        self.log_text.setReadOnly(True)
+        self.tabs.addTab(self.log_text, "Лог работы")
+        self.tabs.setDocumentMode(True)
+        layout.addWidget(self.tabs, stretch=14)
+
+        self.gui_timer = QTimer(self)
+        self.gui_timer.timeout.connect(self.request_snapshot)
+        self.gui_timer.start(1000)
+
+    def set_pending_config(self, cfg: BotConfig) -> None:
+        self.current_cfg = cfg
+        account = "Основной" if cfg.flag == "0" else "Демо"
+        self.append_log(f"Параметры обновлены: {account}, {cfg.timeframe}")
+
+    def _sync_toggle_button_state(self) -> None:
+        if not hasattr(self, "toggle_button"):
+            return
+        if self._bot_running:
+            self.toggle_button.setText("Остановить бота")
+            self.toggle_button.setProperty("running", True)
+        else:
+            self.toggle_button.setText("Запустить бота")
+            self.toggle_button.setProperty("running", False)
+        self.toggle_button.style().unpolish(self.toggle_button)
+        self.toggle_button.style().polish(self.toggle_button)
+        self.toggle_button.update()
+
+    def toggle_engine(self) -> None:
+        if self.worker and self.worker.isRunning():
+            self.stop_engine()
+            return
+        if self.current_cfg is None:
+            self.start_window._emit_start()
+            if self.current_cfg is None:
+                return
+        self.launch_engine(self.current_cfg)
+
+    def launch_engine(self, cfg: BotConfig) -> None:
+        if self.worker and self.worker.isRunning():
+            QMessageBox.information(self, "Уже запущен", "Сначала останови текущего бота")
+            return
+        self.current_cfg = cfg
+        try:
+            self.engine = TurtleEngine(cfg)
+        except Exception as exc:
+            QMessageBox.critical(self, "Ошибка запуска", str(exc))
+            return
+        self.engine.snapshot.connect(self.on_snapshot)
+        self.engine.log_line.connect(self.append_log)
+        self.engine.status.connect(self.on_status)
+        self.engine.error.connect(self.on_error)
+        self.worker = WorkerThread(self.engine)
+        self.worker.start()
+        self._bot_running = True
+        self._sync_toggle_button_state()
+        self.btn_refresh.setEnabled(True)
+        self.append_log("Бот запущен пользователем")
+
+    def stop_engine(self) -> None:
+        if self.engine:
+            self.engine.stop()
+            self.append_log("Остановка запрошена")
+        if self.worker:
+            self.worker.quit()
+            self.worker.wait(2000)
+        self._bot_running = False
+        self._sync_toggle_button_state()
+
+    def request_snapshot(self) -> None:
+        if self.latest_snapshot:
+            self.on_snapshot(self.latest_snapshot)
+
+    def refresh_from_latest_snapshot(self) -> None:
+        self.request_snapshot()
+
+    def on_snapshot(self, payload: dict) -> None:
+        self.latest_snapshot = payload
+        self.lbl_account.setText(f"Аккаунт: {payload['settings']['account']}")
+        self.lbl_timeframe.setText(f"Таймфрейм: {payload['settings']['timeframe']}")
+        self.lbl_total.setText(f"Баланс: {payload['balance_total']:.0f}")
+        self.lbl_available.setText(f"Доступно: {payload['balance_available']:.0f}")
+        self.lbl_frozen.setText(f"Использовано: {payload.get('balance_used', 0.0):.0f}")
+        self.lbl_positions.setText(f"Открытых позиций: {len(payload['open_positions'])}")
+        self.lbl_last_update.setText(f"Последнее обновление: {payload['timestamp']}")
+        engine_info = payload.get("engine", {})
+        self.lbl_engine_cycle.setText(f"Последний цикл движка: {engine_info.get('last_cycle_finished', '—')}")
+        self.lbl_snapshot_signal.setText(f"Последний snapshot: {engine_info.get('last_snapshot_emitted', payload['timestamp'])}")
+        cycle_duration = float(engine_info.get('last_cycle_duration_sec', 0.0) or 0.0)
+        self.lbl_cycle_duration.setText(f"Цикл движка: {cycle_duration:.2f} сек")
+        if cycle_duration > 10:
+            self.lbl_cycle_duration.setStyleSheet("color: #b42318; font-weight: 700;")
+        elif cycle_duration >= 5:
+            self.lbl_cycle_duration.setStyleSheet("color: #b26a00; font-weight: 700;")
+        else:
+            self.lbl_cycle_duration.setStyleSheet("color: #0b7a28; font-weight: 700;")
+
+        analytics = payload.get("analytics", {})
+        self.lbl_open_pnl.setText(f"Open PnL: {analytics.get('open_pnl', 0.0):.4f}")
+        self.lbl_avg_open.setText(f"Средний PnL %: {analytics.get('avg_open_pnl_pct', 0.0):.2f}%")
+        self.lbl_best.setText(f"Лучший PnL %: {analytics.get('best_open_pnl_pct', 0.0):.2f}%")
+        self.lbl_worst.setText(f"Худший PnL %: {analytics.get('worst_open_pnl_pct', 0.0):.2f}%")
+        self.lbl_long_short.setText(f"Long/Short: {analytics.get('long_count', 0)} / {analytics.get('short_count', 0)}")
+        self.lbl_realized.setText(f"Реализованный PnL: {analytics.get('realized_pnl', 0.0):.4f}")
+        self.lbl_closed_stats.setText(f"Закрытых сделок: {analytics.get('closed_count', 0)}")
+        self.lbl_winrate.setText(f"Winrate: {analytics.get('winrate', 0.0):.2f}% ({analytics.get('wins', 0)}/{max(1, analytics.get('closed_count', 0))})")
+        self.lbl_balance_trend.setText(f"Изменение баланса: Сегодня {analytics.get('day_change_pct', 0.0):+.2f}% | 7 дней {analytics.get('week_change_pct', 0.0):+.2f}%")
+        self.lbl_risk_panel.setText(f"Использовано риска: {analytics.get('used_risk_pct', 0.0):.2f}% / {analytics.get('max_risk_budget_pct', 0.0):.2f}%")
+        self.lbl_trade_speed.setText(f"Сделок сегодня: {analytics.get('trades_today', 0)} | Средняя длительность: {format_duration(analytics.get('avg_duration_sec', 0))}")
+        position_map = analytics.get('position_map', [])
+        if position_map:
+            chunks = []
+            for item in position_map:
+                side_icon = '🟢' if item.get('side') == 'long' else '🔴'
+                chunks.append(f"{side_icon} {item.get('inst_id')}: {float(item.get('pnl_pct', 0.0)):+.2f}%")
+            self.lbl_position_map.setText("Карта позиций: " + " | ".join(chunks))
+        else:
+            self.lbl_position_map.setText("Карта позиций: —")
+        self._apply_status_style(self.lbl_open_pnl, analytics.get('open_pnl', 0.0))
+        self._apply_status_style(self.lbl_avg_open, analytics.get('avg_open_pnl_pct', 0.0), percent=True)
+        self._apply_status_style(self.lbl_best, analytics.get('best_open_pnl_pct', 0.0), percent=True)
+        self._apply_status_style(self.lbl_worst, analytics.get('worst_open_pnl_pct', 0.0), percent=True)
+        self._apply_status_style(self.lbl_realized, analytics.get('realized_pnl', 0.0))
+        self._apply_status_style(self.lbl_winrate, analytics.get('winrate', 0.0), percent=True)
+        self._apply_status_style(self.lbl_balance_trend, analytics.get('day_change_pct', 0.0), percent=True)
+        balance_history = payload.get('balance_history', [])
+        closed_markers = []
+        for trade in payload.get('closed_trades', []):
+            ts = str(trade.get('time', ''))
+            if len(ts) >= 19:
+                bucket_time = ts[11:19] if self.balance_chart_step_combo.currentData() != '1D' else ts[5:10]
+            else:
+                bucket_time = ts
+            closed_markers.append({'bucket_time': bucket_time, 'pnl': trade.get('pnl', 0.0)})
+        self.balance_chart.update_points(balance_history, self.balance_chart_step_combo.currentData(), closed_markers)
+        shown_points = len(self.balance_chart._bucket_points()) if hasattr(self.balance_chart, '_bucket_points') else 0
+        self.lbl_balance_points.setText(f"Показано значений: {shown_points}/30")
+
+        self.apply_filters()
+
+    def on_balance_chart_step_changed(self, *_args) -> None:
+        if not self.latest_snapshot:
+            return
+        balance_history = self.latest_snapshot.get("balance_history", [])
+        closed_markers = []
+        for trade in self.latest_snapshot.get('closed_trades', []):
+            ts = str(trade.get('time', ''))
+            bucket_time = ts[11:19] if self.balance_chart_step_combo.currentData() != '1D' and len(ts) >= 19 else (ts[5:10] if len(ts) >= 10 else ts)
+            closed_markers.append({'bucket_time': bucket_time, 'pnl': trade.get('pnl', 0.0)})
+        self.balance_chart.update_points(balance_history, self.balance_chart_step_combo.currentData(), closed_markers)
+        self.lbl_balance_points.setText(f"Показано значений: {len(self.balance_chart._bucket_points())}/30")
+
+    def _apply_status_style(self, label: QLabel, value: float, percent: bool = False) -> None:
+        try:
+            numeric = float(value)
+        except (TypeError, ValueError):
+            numeric = 0.0
+        if self._is_dark_theme:
+            neutral = "#e5e7eb"
+        else:
+            neutral = "#202020"
+        if numeric > 0:
+            color = "#16a34a"
+        elif numeric < 0:
+            color = "#dc2626"
+        else:
+            color = neutral
+        font_weight = "600" if percent or numeric != 0 else "500"
+        card_style = label.property("card") == "true"
+        extra = "background: transparent;"
+        if card_style:
+            extra = ""
+        label.setStyleSheet(f"color: {color}; font-weight: {font_weight}; {extra}")
+
+    def apply_filters(self) -> None:
+        if not self.latest_snapshot:
+            self.table_model.update_rows([])
+            self.closed_table_model.update_rows([])
+            return
+        search = self.filter_text.text().strip().lower()
+        side_filter = self.filter_side.currentText()
+        pnl_filter = self.filter_pnl.currentText()
+
+        def match(row: dict) -> bool:
+            inst = str(row.get("inst_id", "")).lower()
+            if is_hidden_instrument(row.get("inst_id")):
+                return False
+            side = str(row.get("side", "")).lower()
+            pnl_pct = float(row.get("pnl_pct", 0.0))
+            if search and search not in inst:
+                return False
+            if side_filter == "Long" and side != "long":
+                return False
+            if side_filter == "Short" and side != "short":
+                return False
+            if pnl_filter == "Прибыльные" and pnl_pct < 0:
+                return False
+            if pnl_filter == "Убыточные" and pnl_pct >= 0:
+                return False
+            return True
+
+        open_rows = [row for row in self.latest_snapshot.get("open_positions", []) if match(row)]
+        open_rows.sort(key=lambda x: float(x.get("pnl_pct", 0.0)), reverse=True)
+        self.table_model.update_rows(open_rows)
+
+        closed_rows = [row for row in self.latest_snapshot.get("closed_trades", []) if match(row)]
+        closed_rows.sort(key=lambda x: float(x.get("pnl_pct", 0.0)), reverse=True)
+        self.closed_table_model.update_rows(closed_rows)
+
+    def append_log(self, message: str) -> None:
+        upper_message = str(message).upper()
+        if "BREV-" in upper_message:
+            return
+        ts = datetime.now().strftime("%H:%M:%S")
+        self.log_text.append(f"[{ts}] {message}")
+        doc = self.log_text.document()
+        max_blocks = 400
+        while doc.blockCount() > max_blocks:
+            cursor = self.log_text.textCursor()
+            cursor.movePosition(cursor.MoveOperation.Start)
+            cursor.select(cursor.SelectionType.BlockUnderCursor)
+            cursor.removeSelectedText()
+            cursor.deleteChar()
+
+    def on_status(self, message: str) -> None:
+        self.lbl_status.setText(f"Статус: {message}")
+        lower = message.lower()
+        if "запущен" in lower:
+            self._bot_running = True
+            self.lbl_status.setStyleSheet("color: #16a34a; font-weight: 700;")
+        elif "остановлен" in lower:
+            self._bot_running = False
+            self.lbl_status.setStyleSheet("color: #dc2626; font-weight: 700;")
+        else:
+            self.lbl_status.setStyleSheet("")
+        self._sync_toggle_button_state()
+        self.append_log(message)
+
+    def on_error(self, message: str) -> None:
+        self.append_log(message)
+
+def main() -> None:
+    setup_logging()
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    window.show()
+    sys.exit(app.exec())
+
+
+if __name__ == "__main__":
+    main()
