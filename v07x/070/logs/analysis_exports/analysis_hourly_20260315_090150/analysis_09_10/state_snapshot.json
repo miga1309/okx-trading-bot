@@ -1,0 +1,27 @@
+{
+  "hour_window_start": "2026-03-15 09:00:00",
+  "hour_window_end": "2026-03-15 10:00:00",
+  "open_positions": [
+    {
+      "timestamp": "2026-03-15 09:00:18",
+      "trade_id": "20260315_084541_BNB-USDT-SWAP_long",
+      "inst_id": "BNB-USDT-SWAP",
+      "side": "long",
+      "event_type": "SNAPSHOT",
+      "price": 659.3,
+      "avg_entry_price": 660.0,
+      "stop_price": 659.22,
+      "next_unit_level": 660.32,
+      "units": 1,
+      "qty_total": 390.0,
+      "pnl_usd": -2.730000000000177,
+      "pnl_pct": -0.10606060606061295,
+      "mfe_pct": 0.0,
+      "mae_pct": 0.0,
+      "atr": 0.425,
+      "position_age_sec": 877,
+      "reason_code": "",
+      "reason": "Минутный snapshot позиции"
+    }
+  ]
+}

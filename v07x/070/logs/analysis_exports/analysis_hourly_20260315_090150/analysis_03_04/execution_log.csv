@@ -1,0 +1,112 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,1INCH-USDT-SWAP,0.0,0.0971,27859.0,,,long,True,2026-03-15 03:00:43,20260315_030043_1INCH-USDT-SWAP_long
+OPEN,1INCH-USDT-SWAP,0.0,0.0971,27859.0,,Первичный вход,long,True,2026-03-15 03:00:43,20260315_030043_1INCH-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.5097,177.0,,,long,True,2026-03-15 03:00:44,20260315_030044_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.5097,177.0,,Первичный вход,long,True,2026-03-15 03:00:44,20260315_030044_NEAR-USDT-SWAP_long
+close_pending_exchange,1INCH-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:00:47,20260315_030043_1INCH-USDT-SWAP_long
+position_closed,NEAR-USDT-SWAP,0.0,0.0,177.0,защита_тренда:_откат_от_пика_6.40r_→_0.47r,Защита тренда: откат от пика 6.40R → 0.47R,long,True,2026-03-15 03:01:24,20260315_030044_NEAR-USDT-SWAP_long
+CLOSE,NEAR-USDT-SWAP,0.0,1.3427,177.0,,Защита тренда: откат от пика 6.40R → 0.47R,long,True,2026-03-15 03:01:24,20260315_030044_NEAR-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.5097,177.1,,,long,True,2026-03-15 03:02:04,20260315_030203_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.5097,177.1,,Первичный вход,long,True,2026-03-15 03:02:04,20260315_030203_NEAR-USDT-SWAP_long
+position_closed,NEAR-USDT-SWAP,0.0,0.0,177.1,защита_тренда:_откат_от_пика_2.53r_→_-0.67r,Защита тренда: откат от пика 2.53R → -0.67R,long,True,2026-03-15 03:02:43,20260315_030203_NEAR-USDT-SWAP_long
+CLOSE,NEAR-USDT-SWAP,0.0,1.321,177.1,,Защита тренда: откат от пика 2.53R → -0.67R,long,True,2026-03-15 03:02:43,20260315_030203_NEAR-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.5097,176.9,,,long,True,2026-03-15 03:03:21,20260315_030321_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.5097,176.9,,Первичный вход,long,True,2026-03-15 03:03:21,20260315_030321_NEAR-USDT-SWAP_long
+position_closed,NEAR-USDT-SWAP,0.0,0.0,176.9,защита_тренда:_откат_от_пика_2.90r_→_1.46r,Защита тренда: откат от пика 2.90R → 1.46R,long,True,2026-03-15 03:04:01,20260315_030321_NEAR-USDT-SWAP_long
+CLOSE,NEAR-USDT-SWAP,0.0,1.433,176.9,,Защита тренда: откат от пика 2.90R → 1.46R,long,True,2026-03-15 03:04:01,20260315_030321_NEAR-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.5097,177.2,,,long,True,2026-03-15 03:04:39,20260315_030438_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.5097,177.2,,Первичный вход,long,True,2026-03-15 03:04:39,20260315_030438_NEAR-USDT-SWAP_long
+position_opened,SHIB-USDT-SWAP,0.0,7.29e-06,363.3,,,long,True,2026-03-15 03:05:19,20260315_030518_SHIB-USDT-SWAP_long
+OPEN,SHIB-USDT-SWAP,0.0,7.29e-06,363.3,,Первичный вход,long,True,2026-03-15 03:05:19,20260315_030518_SHIB-USDT-SWAP_long
+position_closed,NEAR-USDT-SWAP,0.0,0.0,177.2,защита_тренда:_откат_от_пика_5.95r_→_0.73r,Защита тренда: откат от пика 5.95R → 0.73R,long,True,2026-03-15 03:05:21,20260315_030438_NEAR-USDT-SWAP_long
+CLOSE,NEAR-USDT-SWAP,0.0,1.3533,177.2,,Защита тренда: откат от пика 5.95R → 0.73R,long,True,2026-03-15 03:05:21,20260315_030438_NEAR-USDT-SWAP_long
+position_closed,1INCH-USDT-SWAP,0.0,0.0,27859.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-15 03:09:46,20260315_030043_1INCH-USDT-SWAP_long
+CLOSE,1INCH-USDT-SWAP,0.0,0.0969,27859.0,,ATR стоп 2.0N,long,True,2026-03-15 03:09:46,20260315_030043_1INCH-USDT-SWAP_long
+position_opened,XAG-USDT-SWAP,0.0,82.07,3264.0,,,long,True,2026-03-15 03:10:24,20260315_031024_XAG-USDT-SWAP_long
+OPEN,XAG-USDT-SWAP,0.0,82.07,3264.0,,Первичный вход,long,True,2026-03-15 03:10:24,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:10:26,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:11:42,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:12:56,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:14:10,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:15:25,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:16:37,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:17:49,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:19:00,20260315_031024_XAG-USDT-SWAP_long
+position_closed,SHIB-USDT-SWAP,0.0,0.0,363.3,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-15 03:20:11,20260315_030518_SHIB-USDT-SWAP_long
+CLOSE,SHIB-USDT-SWAP,0.0,6.87e-06,363.3,,ATR стоп 2.0N,long,True,2026-03-15 03:20:11,20260315_030518_SHIB-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:20:14,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:21:25,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:22:37,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:23:48,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:25:00,20260315_031024_XAG-USDT-SWAP_long
+position_opened,BCH-USDT-SWAP,0.0,463.8,57.67,,,short,True,2026-03-15 03:25:38,20260315_032537_BCH-USDT-SWAP_short
+OPEN,BCH-USDT-SWAP,0.0,463.8,57.67,,Первичный вход,short,True,2026-03-15 03:25:38,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:26:16,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:27:26,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:28:37,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:29:49,20260315_031024_XAG-USDT-SWAP_long
+position_opened,MET-USDT-SWAP,0.0,0.1627,1624.0,,,short,True,2026-03-15 03:30:26,20260315_033026_MET-USDT-SWAP_short
+OPEN,MET-USDT-SWAP,0.0,0.1627,1624.0,,Первичный вход,short,True,2026-03-15 03:30:26,20260315_033026_MET-USDT-SWAP_short
+position_opened,TRX-USDT-SWAP,0.0,0.2974,8.78,,,short,True,2026-03-15 03:30:27,20260315_033027_TRX-USDT-SWAP_short
+OPEN,TRX-USDT-SWAP,0.0,0.2974,8.78,,Первичный вход,short,True,2026-03-15 03:30:27,20260315_033027_TRX-USDT-SWAP_short
+close_pending_exchange,TRX-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:30:30,20260315_033027_TRX-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:31:05,20260315_031024_XAG-USDT-SWAP_long
+position_closed,MET-USDT-SWAP,0.0,0.0,1624.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-15 03:31:42,20260315_033026_MET-USDT-SWAP_short
+CLOSE,MET-USDT-SWAP,0.0,0.163,1624.0,,ATR стоп 2.0N,short,True,2026-03-15 03:31:42,20260315_033026_MET-USDT-SWAP_short
+position_opened,MET-USDT-SWAP,0.0,0.1627,1605.0,,,short,True,2026-03-15 03:32:19,20260315_033219_MET-USDT-SWAP_short
+OPEN,MET-USDT-SWAP,0.0,0.1627,1605.0,,Первичный вход,short,True,2026-03-15 03:32:19,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:32:21,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:32:25,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:33:36,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:34:14,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:34:49,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:35:27,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:36:04,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:36:06,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:36:42,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:37:15,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:37:17,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:37:53,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:38:27,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:39:05,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:39:39,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:40:17,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:40:53,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:41:29,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:42:05,20260315_031024_XAG-USDT-SWAP_long
+position_closed,TRX-USDT-SWAP,0.0,0.0,8.78,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-15 03:42:07,20260315_033027_TRX-USDT-SWAP_short
+CLOSE,TRX-USDT-SWAP,0.0,0.2975,8.78,,ATR стоп 2.0N,short,True,2026-03-15 03:42:07,20260315_033027_TRX-USDT-SWAP_short
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:42:44,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:43:20,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:43:22,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,MET-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:43:56,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:44:31,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:44:33,20260315_032537_BCH-USDT-SWAP_short
+position_closed,MET-USDT-SWAP,0.0,0.0,1605.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-15 03:45:08,20260315_033219_MET-USDT-SWAP_short
+CLOSE,MET-USDT-SWAP,0.0,0.1624,1605.0,,ATR стоп 2.0N,short,True,2026-03-15 03:45:08,20260315_033219_MET-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:45:44,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:45:46,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:46:54,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:46:56,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:48:02,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:48:04,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:49:12,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:49:14,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:50:19,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:50:21,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:51:33,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:51:35,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:52:47,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:52:49,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:54:01,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:54:03,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:55:15,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:55:17,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:56:25,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:56:26,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:57:32,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:57:34,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:58:41,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:58:43,20260315_032537_BCH-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 03:59:49,20260315_031024_XAG-USDT-SWAP_long
+close_pending_exchange,BCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 03:59:51,20260315_032537_BCH-USDT-SWAP_short

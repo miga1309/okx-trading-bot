@@ -1,0 +1,81 @@
+{
+  "exported_at": "2026-03-15 16:35:53",
+  "version": "v079",
+  "account": "Демо",
+  "timeframe": "5m",
+  "trade_mode": "auto",
+  "balance_total": 69016.93679236341,
+  "balance_available": 64288.86184042175,
+  "balance_used": 4718.413933333342,
+  "open_positions_count": 3,
+  "closed_trades_count": 83,
+  "realized_pnl": -1102.4412071132158,
+  "open_pnl": -42.313999999991005,
+  "winrate": 12.048192771084338,
+  "wins": 10,
+  "losses": 72,
+  "signal_funnel": {
+    "cycles": 192,
+    "instruments_scanned": 19020,
+    "prefilter_skipped": 3372,
+    "warmup_rejected": 3177,
+    "flat_filter_rejected": 0,
+    "structure_rejected": 0,
+    "trend_rejected": 0,
+    "liquidity_rejected": 0,
+    "breakout_rejected": 14201,
+    "other_rejected": 1642,
+    "candidates": 152,
+    "ranked_candidates": 145,
+    "orders_sent": 0,
+    "entry_failed": 117,
+    "manual_skipped": 0,
+    "positions_opened": 87,
+    "entry_signals": 117
+  },
+  "signals_detected": 414,
+  "signals_rejected": 19020,
+  "units_added": 17,
+  "stop_moves": 68,
+  "execution_errors": 0,
+  "pyramid_diagnostics_summary": {
+    "attempts": 349,
+    "added": 17,
+    "blocked_by_reason": {
+      "breakeven_not_locked": 306,
+      "max_units_reached": 26
+    }
+  },
+  "reentry_diagnostics_summary": {
+    "checks": 32188,
+    "blocked_cooldown": 738,
+    "blocked_recovery": 738
+  },
+  "breakout_quality_summary": {
+    "rows": 87,
+    "minimal_mode_rows": 87
+  },
+  "rejections_by_code": {
+    "no_fresh_breakout": 14201,
+    "atr_warmup:_цена_или_atr_недоступны_после_прогрева": 3177,
+    "закрытие_не_удержалось_ниже_канала_-_0.15_atr": 675,
+    "закрытие_не_удержалось_выше_канала_+_0.15_atr": 763,
+    "канал_слишком_узкий:_0.36_atr_<_0.50_atr": 12,
+    "cooldown": 76,
+    "turtle20_skip_after_profit": 51,
+    "канал_слишком_узкий:_0.00_atr_<_0.50_atr": 5,
+    "rotation_block": 60
+  },
+  "close_reasons_count": {
+    "stopout_cooldown": 69,
+    "rotation_block": 7,
+    "защита_тренда:_откат_от_пика_4.72r_→_0.05r": 1,
+    "защита_тренда:_откат_от_пика_4.02r_→_-0.04r": 1,
+    "защита_тренда:_откат_от_пика_3.96r_→_1.29r": 1,
+    "защита_тренда:_откат_от_пика_1.30r_→_0.41r": 1,
+    "защита_тренда:_откат_от_пика_11.90r_→_3.30r": 1,
+    "защита_тренда:_откат_от_пика_2.39r_→_0.61r": 1,
+    "защита_тренда:_откат_от_пика_2.33r_→_-0.85r": 1
+  },
+  "problem_symbols": []
+}

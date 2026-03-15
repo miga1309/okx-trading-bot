@@ -1,0 +1,5 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_closed,ETH-USDT-SWAP,0.0,0.0,12.1,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-15 09:00:18,20260315_084540_ETH-USDT-SWAP_long
+CLOSE,ETH-USDT-SWAP,0.0,2146.0,12.1,,ATR стоп 2.0N,long,True,2026-03-15 09:00:18,20260315_084540_ETH-USDT-SWAP_long
+position_closed,BNB-USDT-SWAP,0.0,0.0,390.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-15 09:00:20,20260315_084541_BNB-USDT-SWAP_long
+CLOSE,BNB-USDT-SWAP,0.0,659.2,390.0,,ATR стоп 2.0N,long,True,2026-03-15 09:00:20,20260315_084541_BNB-USDT-SWAP_long

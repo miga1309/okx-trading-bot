@@ -1,0 +1,48 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_closed,ICP-USDT-SWAP,0.0,0.0,99591.6,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-15 07:00:20,20260315_064532_ICP-USDT-SWAP_short
+CLOSE,ICP-USDT-SWAP,0.0,2.667,99591.6,,ATR стоп 2.0N,short,True,2026-03-15 07:00:20,20260315_064532_ICP-USDT-SWAP_short
+close_pending_exchange,IOTA-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:00:22,20260315_065034_IOTA-USDT-SWAP_short
+close_pending_exchange,AXS-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:00:55,20260315_065035_AXS-USDT-SWAP_short
+position_closed,IOTA-USDT-SWAP,0.0,0.0,4161.0,защита_тренда:_откат_от_пика_5.20r_→_-0.14r,Защита тренда: откат от пика 5.20R → -0.14R,short,True,2026-03-15 07:01:27,20260315_065034_IOTA-USDT-SWAP_short
+CLOSE,IOTA-USDT-SWAP,0.0,0.0633,4161.0,,Защита тренда: откат от пика 5.20R → -0.14R,short,True,2026-03-15 07:01:27,20260315_065034_IOTA-USDT-SWAP_short
+close_pending_exchange,AXS-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:02:01,20260315_065035_AXS-USDT-SWAP_short
+close_pending_exchange,AXS-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:03:07,20260315_065035_AXS-USDT-SWAP_short
+close_pending_exchange,AXS-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:04:12,20260315_065035_AXS-USDT-SWAP_short
+close_pending_exchange,AXS-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:05:16,20260315_065035_AXS-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,21291.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-15 07:07:56,20260315_065035_AXS-USDT-SWAP_short
+CLOSE,AXS-USDT-SWAP,0.0,1.2157,21291.0,,ATR стоп 2.0N,short,True,2026-03-15 07:07:56,20260315_065035_AXS-USDT-SWAP_short
+position_opened,KSM-USDT-SWAP,0.0,4.428,5986.0,,,short,True,2026-03-15 07:25:17,20260315_072516_KSM-USDT-SWAP_short
+OPEN,KSM-USDT-SWAP,0.0,4.428,5986.0,,Первичный вход,short,True,2026-03-15 07:25:17,20260315_072516_KSM-USDT-SWAP_short
+position_opened,MINA-USDT-SWAP,0.0,0.05898,44416.0,,,short,True,2026-03-15 07:25:18,20260315_072517_MINA-USDT-SWAP_short
+OPEN,MINA-USDT-SWAP,0.0,0.05898,44416.0,,Первичный вход,short,True,2026-03-15 07:25:18,20260315_072517_MINA-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:25:19,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:25:21,20260315_072517_MINA-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:26:29,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:26:31,20260315_072517_MINA-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:27:39,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:27:41,20260315_072517_MINA-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:28:47,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:29:57,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:29:59,20260315_072517_MINA-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:31:09,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:31:11,20260315_072517_MINA-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:32:19,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:32:21,20260315_072517_MINA-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:33:31,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:33:33,20260315_072517_MINA-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:34:43,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:35:52,20260315_072516_KSM-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:37:03,20260315_072516_KSM-USDT-SWAP_short
+position_closed,KSM-USDT-SWAP,0.0,0.0,5986.0,защита_тренда:_откат_от_пика_1.65r_→_0.08r,Защита тренда: откат от пика 1.65R → 0.08R,short,True,2026-03-15 07:38:11,20260315_072516_KSM-USDT-SWAP_short
+CLOSE,KSM-USDT-SWAP,0.0,4.423,5986.0,,Защита тренда: откат от пика 1.65R → 0.08R,short,True,2026-03-15 07:38:11,20260315_072516_KSM-USDT-SWAP_short
+position_closed,MINA-USDT-SWAP,0.0,0.0,44416.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-15 07:40:30,20260315_072517_MINA-USDT-SWAP_short
+CLOSE,MINA-USDT-SWAP,0.0,0.05901,44416.0,,ATR стоп 2.0N,short,True,2026-03-15 07:40:30,20260315_072517_MINA-USDT-SWAP_short
+position_opened,CRV-USDT-SWAP,0.0,0.2514,10528.0,,,long,True,2026-03-15 07:50:51,20260315_075050_CRV-USDT-SWAP_long
+OPEN,CRV-USDT-SWAP,0.0,0.2514,10528.0,,Первичный вход,long,True,2026-03-15 07:50:51,20260315_075050_CRV-USDT-SWAP_long
+position_closed,CRV-USDT-SWAP,0.0,0.0,10528.0,защита_тренда:_откат_от_пика_2.10r_→_-0.02r,Защита тренда: откат от пика 2.10R → -0.02R,long,True,2026-03-15 07:51:22,20260315_075050_CRV-USDT-SWAP_long
+CLOSE,CRV-USDT-SWAP,0.0,0.2338,10528.0,,Защита тренда: откат от пика 2.10R → -0.02R,long,True,2026-03-15 07:51:22,20260315_075050_CRV-USDT-SWAP_long
+position_opened,CRV-USDT-SWAP,0.0,0.2514,10527.0,,,long,True,2026-03-15 07:51:56,20260315_075155_CRV-USDT-SWAP_long
+OPEN,CRV-USDT-SWAP,0.0,0.2514,10527.0,,Первичный вход,long,True,2026-03-15 07:51:56,20260315_075155_CRV-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.574,1016.0,,,short,True,2026-03-15 07:55:34,20260315_075534_NEO-USDT-SWAP_short
+OPEN,NEO-USDT-SWAP,0.0,2.574,1016.0,,Первичный вход,short,True,2026-03-15 07:55:34,20260315_075534_NEO-USDT-SWAP_short
+close_pending_exchange,NEO-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 07:55:37,20260315_075534_NEO-USDT-SWAP_short

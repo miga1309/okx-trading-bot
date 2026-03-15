@@ -1,0 +1,41 @@
+details,event_type,inst_id,reason_code,timestamp
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:00:14
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:01:20
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:02:24
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:03:27
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:04:31
+,filter_diagnostics,,unknown,2026-03-15 05:04:37
+"{""ts"": ""2026-03-15 05:04:37"", ""event"": ""filter_diagnostics"", ""scan_universe_total"": 115, ""blacklist_count"": 19, ""blocked_count"": 18, ""temp_blocked_count"": 35, ""illiquid_count"": 0, ""stopout_cooldown_count"": 3, ""hard_blocked_unique_count"": 56, ""execution_watchlist_count"": 37, ""open_positions_count"": 1, ""available_after_bans_count"": 59, ""trade_ready_count"": 59, ""signal_funnel"": {""cycle_id"": 566, ""instruments_scanned"": 0, ""prefilter_skipped"": 0, ""warmup_rejected"": 0, ""flat_filter_rejected"": 0, ""structure_rejected"": 0, ""trend_rejected"": 0, ""liquidity_rejected"": 0, ""breakout_rejected"": 0, ""other_rejected"": 0, ""candidates"": 0, ""ranked_candidates"": 0, ""orders_sent"": 0, ""entry_failed"": 0, ""manual_skipped"": 0, ""opened"": 0}}",filter_diagnostics,,,2026-03-15 05:04:37
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:05:37
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:06:46
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:07:57
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:09:07
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:10:15
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:11:20
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:12:25
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:13:30
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:14:35
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:15:39
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:16:42
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:17:44
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:18:46
+,filter_diagnostics,,unknown,2026-03-15 05:19:47
+"{""ts"": ""2026-03-15 05:19:47"", ""event"": ""filter_diagnostics"", ""scan_universe_total"": 115, ""blacklist_count"": 19, ""blocked_count"": 18, ""temp_blocked_count"": 34, ""illiquid_count"": 0, ""stopout_cooldown_count"": 1, ""hard_blocked_unique_count"": 54, ""execution_watchlist_count"": 37, ""open_positions_count"": 1, ""available_after_bans_count"": 61, ""trade_ready_count"": 61, ""signal_funnel"": {""cycle_id"": 593, ""instruments_scanned"": 62, ""prefilter_skipped"": 53, ""warmup_rejected"": 20, ""flat_filter_rejected"": 0, ""structure_rejected"": 0, ""trend_rejected"": 0, ""liquidity_rejected"": 0, ""breakout_rejected"": 42, ""other_rejected"": 0, ""candidates"": 0, ""ranked_candidates"": 0, ""orders_sent"": 0, ""entry_failed"": 0, ""manual_skipped"": 0, ""opened"": 0}}",filter_diagnostics,,,2026-03-15 05:19:47
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:19:49
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:20:55
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:21:58
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:23:01
+,close_pending_exchange,OP-USDT-SWAP,unknown,2026-03-15 05:24:04
+,filter_diagnostics,,unknown,2026-03-15 05:35:07
+"{""ts"": ""2026-03-15 05:35:07"", ""event"": ""filter_diagnostics"", ""scan_universe_total"": 115, ""blacklist_count"": 20, ""blocked_count"": 19, ""temp_blocked_count"": 34, ""illiquid_count"": 0, ""stopout_cooldown_count"": 1, ""hard_blocked_unique_count"": 54, ""execution_watchlist_count"": 37, ""open_positions_count"": 1, ""available_after_bans_count"": 61, ""trade_ready_count"": 60, ""signal_funnel"": {""cycle_id"": 622, ""instruments_scanned"": 60, ""prefilter_skipped"": 55, ""warmup_rejected"": 20, ""flat_filter_rejected"": 0, ""structure_rejected"": 0, ""trend_rejected"": 0, ""liquidity_rejected"": 0, ""breakout_rejected"": 43, ""other_rejected"": 0, ""candidates"": 0, ""ranked_candidates"": 0, ""orders_sent"": 0, ""entry_failed"": 0, ""manual_skipped"": 0, ""opened"": 0}}",filter_diagnostics,,,2026-03-15 05:35:07
+,filter_diagnostics,,unknown,2026-03-15 05:50:25
+"{""ts"": ""2026-03-15 05:50:25"", ""event"": ""filter_diagnostics"", ""scan_universe_total"": 115, ""blacklist_count"": 20, ""blocked_count"": 19, ""temp_blocked_count"": 33, ""illiquid_count"": 0, ""stopout_cooldown_count"": 2, ""hard_blocked_unique_count"": 54, ""execution_watchlist_count"": 37, ""open_positions_count"": 2, ""available_after_bans_count"": 61, ""trade_ready_count"": 59, ""signal_funnel"": {""cycle_id"": 647, ""instruments_scanned"": 62, ""prefilter_skipped"": 53, ""warmup_rejected"": 19, ""flat_filter_rejected"": 0, ""structure_rejected"": 0, ""trend_rejected"": 0, ""liquidity_rejected"": 0, ""breakout_rejected"": 42, ""other_rejected"": 1, ""candidates"": 2, ""ranked_candidates"": 2, ""orders_sent"": 0, ""entry_failed"": 2, ""manual_skipped"": 0, ""opened"": 0}}",filter_diagnostics,,,2026-03-15 05:50:25
+,close_pending_exchange,MASK-USDT-SWAP,unknown,2026-03-15 05:50:26
+,close_pending_exchange,QTUM-USDT-SWAP,unknown,2026-03-15 05:50:28
+,close_pending_exchange,QTUM-USDT-SWAP,unknown,2026-03-15 05:51:37
+,close_pending_exchange,QTUM-USDT-SWAP,unknown,2026-03-15 05:53:57
+,close_pending_exchange,QTUM-USDT-SWAP,unknown,2026-03-15 05:55:08
+,close_pending_exchange,QTUM-USDT-SWAP,unknown,2026-03-15 05:56:13
+,close_pending_exchange,QTUM-USDT-SWAP,unknown,2026-03-15 05:57:18
+,close_pending_exchange,QTUM-USDT-SWAP,unknown,2026-03-15 05:58:23
+,close_pending_exchange,QTUM-USDT-SWAP,unknown,2026-03-15 05:59:27

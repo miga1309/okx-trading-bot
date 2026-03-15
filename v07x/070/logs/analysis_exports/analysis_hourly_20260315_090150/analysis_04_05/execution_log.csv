@@ -1,0 +1,46 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_closed,XAG-USDT-SWAP,0.0,0.0,3264.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-15 04:00:57,20260315_031024_XAG-USDT-SWAP_long
+CLOSE,XAG-USDT-SWAP,0.0,82.2,3264.0,,ATR стоп 2.0N,long,True,2026-03-15 04:00:57,20260315_031024_XAG-USDT-SWAP_long
+position_closed,BCH-USDT-SWAP,0.0,0.0,57.67,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-15 04:06:36,20260315_032537_BCH-USDT-SWAP_short
+CLOSE,BCH-USDT-SWAP,0.0,463.9,57.67,,ATR стоп 2.0N,short,True,2026-03-15 04:06:36,20260315_032537_BCH-USDT-SWAP_short
+position_opened,CELO-USDT-SWAP,0.0,0.0674,40111.0,,,short,True,2026-03-15 04:15:38,20260315_041538_CELO-USDT-SWAP_short
+OPEN,CELO-USDT-SWAP,0.0,0.0674,40111.0,,Первичный вход,short,True,2026-03-15 04:15:38,20260315_041538_CELO-USDT-SWAP_short
+position_opened,CELO-USDT-SWAP,0.0,0.0674,39646.0,,,short,True,2026-03-15 04:16:13,20260315_041612_CELO-USDT-SWAP_short
+OPEN,CELO-USDT-SWAP,0.0,0.0674,39646.0,,Первичный вход,short,True,2026-03-15 04:16:13,20260315_041612_CELO-USDT-SWAP_short
+close_pending_exchange,CELO-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 04:17:26,20260315_041612_CELO-USDT-SWAP_short
+close_pending_exchange,CELO-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 04:19:13,20260315_041612_CELO-USDT-SWAP_short
+position_closed,CELO-USDT-SWAP,0.0,0.0,79757.0,канальный_выход_10_свечей,Канальный выход 10 свечей,short,True,2026-03-15 04:21:28,20260315_041612_CELO-USDT-SWAP_short
+CLOSE,CELO-USDT-SWAP,0.0,0.0734,79757.0,,Канальный выход 10 свечей,short,True,2026-03-15 04:21:28,20260315_041612_CELO-USDT-SWAP_short
+position_opened,1INCH-USDT-SWAP,0.0,0.0964,27801.0,,,short,True,2026-03-15 04:25:45,20260315_042544_1INCH-USDT-SWAP_short
+OPEN,1INCH-USDT-SWAP,0.0,0.0964,27801.0,,Первичный вход,short,True,2026-03-15 04:25:45,20260315_042544_1INCH-USDT-SWAP_short
+close_pending_exchange,1INCH-USDT-SWAP,0.0,0.0,0.0,,,short,True,2026-03-15 04:25:46,20260315_042544_1INCH-USDT-SWAP_short
+position_opened,ETH-USDT-SWAP,0.0,2097.9,12.62,,,short,True,2026-03-15 04:30:39,20260315_043039_ETH-USDT-SWAP_short
+OPEN,ETH-USDT-SWAP,0.0,2097.9,12.62,,Первичный вход,short,True,2026-03-15 04:30:39,20260315_043039_ETH-USDT-SWAP_short
+position_opened,OP-USDT-SWAP,0.0,0.1239,21228.0,,,long,True,2026-03-15 04:35:27,20260315_043526_OP-USDT-SWAP_long
+OPEN,OP-USDT-SWAP,0.0,0.1239,21228.0,,Первичный вход,long,True,2026-03-15 04:35:27,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:38:13,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:39:19,20260315_043526_OP-USDT-SWAP_long
+position_closed,1INCH-USDT-SWAP,0.0,0.0,27801.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-15 04:40:21,20260315_042544_1INCH-USDT-SWAP_short
+CLOSE,1INCH-USDT-SWAP,0.0,0.0965,27801.0,,ATR стоп 2.0N,short,True,2026-03-15 04:40:21,20260315_042544_1INCH-USDT-SWAP_short
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:40:25,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:41:29,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:42:34,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:43:38,20260315_043526_OP-USDT-SWAP_long
+position_closed,ETH-USDT-SWAP,0.0,0.0,12.62,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-15 04:44:10,20260315_043039_ETH-USDT-SWAP_short
+CLOSE,ETH-USDT-SWAP,0.0,2120.96,12.62,,ATR стоп 2.0N,short,True,2026-03-15 04:44:10,20260315_043039_ETH-USDT-SWAP_short
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:44:42,20260315_043526_OP-USDT-SWAP_long
+position_opened,BTC-USDT-SWAP,0.0,71403.1,3.72,,,long,True,2026-03-15 04:45:49,20260315_044548_BTC-USDT-SWAP_long
+OPEN,BTC-USDT-SWAP,0.0,71403.1,3.72,,Первичный вход,long,True,2026-03-15 04:45:49,20260315_044548_BTC-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:45:51,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:46:54,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:47:58,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:49:02,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:50:07,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:51:10,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:52:13,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:53:17,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:54:53,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:55:58,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:57:02,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:58:07,20260315_043526_OP-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.0,0.0,,,long,True,2026-03-15 04:59:10,20260315_043526_OP-USDT-SWAP_long
