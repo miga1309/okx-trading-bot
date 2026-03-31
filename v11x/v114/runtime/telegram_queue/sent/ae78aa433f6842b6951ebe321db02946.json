@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "🚫 Инструмент исключён биржей\n\nИнструмент: RESOLV-USDT-SWAP\nКонтекст: ордер\nКод: 51155\nПричина: You can't trade this pair or borrow this crypto due to local compliance restrictions.",
+  "id": "ae78aa433f6842b6951ebe321db02946",
+  "created_ts": 1774732423.2009792,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,3 @@
+early_exit_flag,early_exit_gap_pct,exit_efficiency,exit_reason,hybrid_stop_mode,inst_id,mfe_pct,realized_pnl_pct,realized_r,side,system_name,trade_id,trend_capture_ratio,trend_move_r,trend_strength_r,turtle_exit_period,units
+False,0.0,-2.27689,stopout_cooldown,DONCHIAN_ACTIVE,XAG-USDT-SWAP,0.0,-1.4186621819275527,0.0,short,Turtle 20,20260319_141015_XAG-USDT-SWAP_short,0.0,0.0,0.0,10,3
+False,0.0,-1.161759,stopout_cooldown,DONCHIAN_ACTIVE,NEO-USDT-SWAP,0.0,-2.3613034196284985,0.0,short,Turtle 20,20260319_141010_NEO-USDT-SWAP_short,0.0,0.0,0.0,10,2

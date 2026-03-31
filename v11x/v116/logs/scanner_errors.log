@@ -1,0 +1,4 @@
+2026-03-29 13:07:16,898 | ERROR | root | market_scanner_runtime:refresh_symbol:305 | Scanner refresh temporary failure for ASP-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 13:14:46,812 | ERROR | root | market_scanner_runtime:refresh_symbol:305 | Scanner refresh temporary failure for SOLV-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 13:38:02,729 | ERROR | root | market_scanner_runtime:refresh_symbol:305 | Scanner refresh temporary failure for XAU-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 13:46:04,659 | ERROR | root | market_scanner_runtime:refresh_symbol:305 | Scanner refresh temporary failure for MKR-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно

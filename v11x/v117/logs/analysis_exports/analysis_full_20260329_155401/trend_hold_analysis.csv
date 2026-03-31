@@ -1,0 +1,8 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,синхронизация:_позиция_отсутствует_на_бирже,ATR_INITIAL,SUI-USDT-SWAP,-0.552678,-3.990023,short,Turtle 20,20260329_153719_SUI-USDT-SWAP_short,INITIAL_RISK,0.138515,1
+False,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,ZIL-USDT-SWAP,-0.61946,-13.99878,short,Turtle 55,20260329_153713_ZIL-USDT-SWAP_short,TREND_ACTIVE,0.044251,2
+False,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,OP-USDT-SWAP,-1.129015,-34.99628,short,Turtle 20,20260329_153717_OP-USDT-SWAP_short,TREND_ACTIVE,0.032261,2
+False,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,INJ-USDT-SWAP,-0.882673,-15.005321,short,Turtle 55,20260329_153715_INJ-USDT-SWAP_short,TREND_ACTIVE,0.058824,3
+False,sync_confirmed_close_after_stop_fault:_pending_recheck,DONCHIAN_ACTIVE,MAGIC-USDT-SWAP,3.139526,22.499918,short,Turtle 20,20260329_154223_MAGIC-USDT-SWAP_short,TREND_ACTIVE,0.139535,1
+False,синхронизация:_позиция_отсутствует_на_бирже,ATR_INITIAL,LQTY-USDT-SWAP,-1.923072,-14.999977,long,Turtle 20,20260329_142332_LQTY-USDT-SWAP_long,INITIAL_RISK,0.128205,1
+False,sync_confirmed_close_after_stop_fault:_pending_recheck,ATR_INITIAL,THETA-USDT-SWAP,0.0,0.0,long,Turtle 20,20260329_142334_THETA-USDT-SWAP_long,INITIAL_RISK,0.25,1

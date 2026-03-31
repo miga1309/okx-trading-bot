@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: ICP-USDT-SWAP\nЦена входа: 2.227000\nQty: 121273.0\nATR: 0.001800\nBootstrap-stop: 2.265000\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "70839494a52f417ba9ff0dc0fb24e608",
+  "created_ts": 1774739345.0734525,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

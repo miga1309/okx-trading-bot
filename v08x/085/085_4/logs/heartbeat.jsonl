@@ -1,0 +1,7 @@
+{"time": "2026-03-17 12:00:02", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-17 12:00:57", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-17 12:01:57", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-17 12:02:57", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-17 12:03:57", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-17 12:04:11", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-17 12:04:11", "component": "app", "status": "shutdown", "exit_code": 0}

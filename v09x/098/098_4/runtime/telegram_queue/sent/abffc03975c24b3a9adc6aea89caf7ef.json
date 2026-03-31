@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: KSM-USDT-SWAP\nЦена входа: 4.358570\nQty: 6031.0\nATR: 0.013800\nСтоп: 4.330970\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "abffc03975c24b3a9adc6aea89caf7ef",
+  "created_ts": 1774220115.9045625,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

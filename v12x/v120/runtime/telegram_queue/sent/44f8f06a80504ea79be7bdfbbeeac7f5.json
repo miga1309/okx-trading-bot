@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: BAND-USDT-SWAP\nСторона: LONG\nЦена входа: 0.202200\nЦена выхода: 0.202100\nPnL: -0.9384\nPnL %: -0.25%\nЮнитов: 1\nПричина: Ротация под новый сигнал LRC-USDT-SWAP",
+  "id": "44f8f06a80504ea79be7bdfbbeeac7f5",
+  "created_ts": 1774845361.1981027,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

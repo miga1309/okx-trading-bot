@@ -1,0 +1,2 @@
+atr,avg_px,close_pending,entry_time,inst_id,last_px,next_unit_level,peak_pnl_pct,peak_unrealized_pnl,pnl_pct,position_age_sec,qty,side,stop_price,trade_id,units,unrealized_pnl
+0.0,1.0089049966666679,False,2026-03-16 15:25:30,BREV-USDT-SWAP,1.0301,1.0089049966666679,0.0,254.34003999998555,6.302365848395864,0,120000.0,long,1.0089049966666679,20260316_152530_BREV-USDT-SWAP_long,1,254.34003999998555

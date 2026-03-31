@@ -1,0 +1,15 @@
+early_exit_flag,early_exit_gap_pct,exit_efficiency,exit_reason,hybrid_stop_mode,inst_id,mfe_pct,realized_pnl_pct,realized_r,side,system_name,trade_id,trend_capture_ratio,trend_move_r,trend_strength_r,turtle_exit_period,units
+False,0.352606,-1.20288,канальный_выход_20_свечей,DONCHIAN_ACTIVE,AVAX-USDT-SWAP,0.352606,-0.2888576777516583,-1.062228,short,Turtle 55,20260322_142132_AVAX-USDT-SWAP_short,-0.819208,1.296652,1.296652,20,4
+False,0.065588,-5.666051,stopout_cooldown,DONCHIAN_ACTIVE,AAVE-USDT-SWAP,0.065588,-0.23895031981687964,-0.955258,short,Turtle 55,20260322_145549_AAVE-USDT-SWAP_short,-3.643202,0.262203,0.262203,20,2
+False,0.745871,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.745871,0.0,0.0,long,Turtle 20,20260322_151528_COMP-USDT-SWAP_long,0.0,4.242424,4.242424,10,1
+False,0.16,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.16,0.0,0.0,short,Turtle 55,20260322_143934_COMP-USDT-SWAP_short,0.0,1.111111,1.111111,20,1
+False,0.106724,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.106724,0.0,0.0,short,Turtle 55,20260322_143813_COMP-USDT-SWAP_short,0.0,0.740741,0.740741,20,1
+False,0.106724,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.106724,0.0,0.0,short,Turtle 55,20260322_143651_COMP-USDT-SWAP_short,0.0,0.740741,0.740741,20,1
+False,0.106724,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.106724,0.0,0.0,short,Turtle 55,20260322_143529_COMP-USDT-SWAP_short,0.0,0.740741,0.740741,20,1
+False,0.04531,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,CRV-USDT-SWAP,0.04531,0.0,0.0,short,Turtle 55,20260322_143028_CRV-USDT-SWAP_short,0.0,0.208333,0.208333,20,1
+False,0.145313,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,ENA-USDT-SWAP,0.157592,0.012278873623326155,0.056865,short,Turtle 55,20260322_142445_ENA-USDT-SWAP_short,0.077916,0.729827,0.729827,20,2
+False,0.075928,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,ENA-USDT-SWAP,0.075928,-0.43808495038583073,-2.029241,short,Turtle 55,20260322_142248_ENA-USDT-SWAP_short,-5.769742,0.351704,0.351704,20,1
+False,0.0,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,ENA-USDT-SWAP,0.0,-0.4115226337448678,0.0,short,Turtle 55,20260322_142135_ENA-USDT-SWAP_short,0.0,0.0,0.0,20,1
+False,0.0,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,DOT-USDT-SWAP,0.069638,0.06963788300834887,0.384614,short,Turtle 55,20260322_140526_DOT-USDT-SWAP_short,0.999998,0.384615,0.384615,20,1
+False,0.0,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,INJ-USDT-SWAP,0.0,0.0,0.0,short,Turtle 55,20260322_140524_INJ-USDT-SWAP_short,0.0,0.0,0.0,20,1
+False,0.0,0.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,FLOKI-USDT-SWAP,0.0,-0.10563380281690635,0.0,short,Turtle 55,20260322_140520_FLOKI-USDT-SWAP_short,0.0,0.0,0.0,20,1

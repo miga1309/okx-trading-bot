@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: INJ-USDT-SWAP\nЦена входа: 3.013000\nQty: 8942.0\nATR: 0.004850\nСтоп: 3.003300\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "6711cd81f41746b6b2943d5e8ac75bb7",
+  "created_ts": 1774379530.490675,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

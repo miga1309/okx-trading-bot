@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: AXS-USDT-SWAP\nЦена входа: 1.126500\nQty: 22210.0\nATR: 0.007525\nBootstrap-stop: 1.192900\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "ba9a58818db140d7ae6342b76f4c7b96",
+  "created_ts": 1774884741.935355,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

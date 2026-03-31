@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: LINK-USDT-SWAP\nСторона: LONG\nЦена входа: 8.497750\nЦена выхода: 8.541000\nPnL: 56.5693\nPnL %: 0.51%\nЮнитов: 4\nПричина: SYNC confirmed close after stop fault: PENDING_RECHECK",
+  "id": "6199314a532946d1a8abbd2dac000422",
+  "created_ts": 1774755957.5262856,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

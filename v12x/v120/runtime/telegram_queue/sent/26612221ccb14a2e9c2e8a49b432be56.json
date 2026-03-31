@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: SAND-USDT-SWAP\nЦена входа: 0.074300\nQty: 2542.0\nATR: 0.000435\nBootstrap-stop: 0.070200\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "26612221ccb14a2e9c2e8a49b432be56",
+  "created_ts": 1774845227.7768395,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

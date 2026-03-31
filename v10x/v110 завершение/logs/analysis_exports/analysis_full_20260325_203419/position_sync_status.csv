@@ -1,0 +1,4 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+0.9159563934426233,False,active,QTUM-USDT-SWAP,0.914,HEALTHY,6100.0,long,0.9089,ACTIVE,SYNC_OK,20260325_193305_QTUM-USDT-SWAP_long
+0.2376759743589745,False,amend_fallback_replace,CRV-USDT-SWAP,0.2375,HEALTHY,46800.0,long,0.236,ACTIVE,SYNC_OK,20260325_194319_CRV-USDT-SWAP_long
+2.4049512820848955,False,active_confirmed,ICP-USDT-SWAP,2.398,HEALTHY,228846.0,long,2.3925,ACTIVE,SYNC_OK,20260325_203203_ICP-USDT-SWAP_long

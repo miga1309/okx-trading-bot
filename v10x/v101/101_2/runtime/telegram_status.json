@@ -1,0 +1,55 @@
+{
+  "app_version": "v101_2",
+  "bot_running": true,
+  "telegram_worker_running": false,
+  "timeframe": "5m",
+  "trade_mode": "auto",
+  "open_positions": 0,
+  "error_count": 0,
+  "balance": {
+    "total": 86179.23481951316,
+    "available": 84200.1162157671,
+    "used": 2000.6688
+  },
+  "positions": [],
+  "scanner": {
+    "total": 109,
+    "scanned": 109,
+    "allowed": 47,
+    "blocked": 62,
+    "dead": 16,
+    "saw": 0,
+    "ripping": 46,
+    "pending": 0,
+    "status": "READY",
+    "ready": 0,
+    "available_after_bans": 109,
+    "scan_universe_total": 109
+  },
+  "top_candidates": [
+    {
+      "inst_id": "NEO-USDT-SWAP",
+      "side": "long",
+      "system_name": "Turtle 20",
+      "score": 7.2727272727272
+    }
+  ],
+  "health": {
+    "connectivity_state": "CONNECTED",
+    "components": {
+      "public": "OK",
+      "private": "OK",
+      "trade": "OK",
+      "market_data": "OK",
+      "ws_public": "OK",
+      "ws_private": "OK"
+    },
+    "engine": "RUNNING",
+    "telegram_worker": "OFF",
+    "market_data_errors": 2,
+    "cycle_duration_sec": 0.0
+  },
+  "latest_errors": [],
+  "chart_image_path": "",
+  "updated_at": "2026-03-23 21:49:42"
+}

@@ -1,0 +1,9 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,XTZ-USDT-SWAP,0.0,0.3716,6968.0,,,long,True,2026-03-26 23:26:07,20260326_232607_XTZ-USDT-SWAP_long
+OPEN,XTZ-USDT-SWAP,0.0,0.3716,6968.0,,Первичный вход + bootstrap-stop,long,True,2026-03-26 23:26:07,20260326_232607_XTZ-USDT-SWAP_long
+position_closed,SUI-USDT-SWAP,0.0,0.0,8472.0,аварийное_закрытие:_market_already_crossed_stop,Аварийное закрытие: market_already_crossed_stop,long,True,2026-03-26 23:26:34,20260326_232246_SUI-USDT-SWAP_long
+CLOSE,SUI-USDT-SWAP,0.0,0.92766,8472.0,,Аварийное закрытие: market_already_crossed_stop,long,True,2026-03-26 23:26:34,20260326_232246_SUI-USDT-SWAP_long
+position_opened,QTUM-USDT-SWAP,0.0,0.851,3006.0,,,long,True,2026-03-26 23:33:01,20260326_233301_QTUM-USDT-SWAP_long
+OPEN,QTUM-USDT-SWAP,0.0,0.851,3006.0,,Первичный вход + bootstrap-stop,long,True,2026-03-26 23:33:01,20260326_233301_QTUM-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.781,907.0,,,short,True,2026-03-26 23:42:50,20260326_234250_NEO-USDT-SWAP_short
+OPEN,NEO-USDT-SWAP,0.0,2.781,907.0,,Первичный вход + bootstrap-stop,short,True,2026-03-26 23:42:50,20260326_234250_NEO-USDT-SWAP_short

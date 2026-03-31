@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: MET-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.131200\nЦена выхода: 0.133800\nPnL: -45.9940\nPnL %: -9.91%\nЮнитов: 1\nПричина: Ротация под новый сигнал CELO-USDT-SWAP",
+  "id": "39968e1d29094063b9d80d58ebae294a",
+  "created_ts": 1774834225.9713116,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

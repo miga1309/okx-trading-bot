@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: ATOM-USDT-SWAP\nЦена входа: 1.636000\nQty: 1687.0\nATR: 0.001150\nBootstrap-stop: 1.659000\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "39fa54437f094d6e8d433e12cfc1307c",
+  "created_ts": 1774793427.474315,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

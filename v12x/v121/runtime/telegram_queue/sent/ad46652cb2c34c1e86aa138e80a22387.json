@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: YFI-USDT-SWAP\nСторона: LONG\nЦена входа: 2475.000000\nЦена выхода: 2449.200000\nPnL: -26.1741\nPnL %: -5.21%\nЮнитов: 1\nПричина: SYNC confirmed close after protective exit: market_already_crossed_stop",
+  "id": "ad46652cb2c34c1e86aa138e80a22387",
+  "created_ts": 1774946892.1383896,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

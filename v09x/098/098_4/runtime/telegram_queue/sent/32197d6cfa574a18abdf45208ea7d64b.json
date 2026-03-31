@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: LTC-USDT-SWAP\nЦена входа: 54.080000\nQty: 45.7\nATR: 0.065500\nСтоп: 53.949000\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "32197d6cfa574a18abdf45208ea7d64b",
+  "created_ts": 1774235137.5461857,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

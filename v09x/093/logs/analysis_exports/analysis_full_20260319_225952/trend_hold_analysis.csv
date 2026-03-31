@@ -1,0 +1,4 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,stopout_cooldown,DONCHIAN_ACTIVE,DOGE-USDT-SWAP,-4.339406,-0.905076,long,Turtle 20,20260319_223025_DOGE-USDT-SWAP_long,TREND_HOLD,4.794521,4
+False,stopout_cooldown,DONCHIAN_ACTIVE,AAVE-USDT-SWAP,-0.634102,-0.4507,long,Turtle 55,20260319_221337_AAVE-USDT-SWAP_long,TREND_HOLD,1.406926,3
+False,stopout_cooldown,DONCHIAN_ACTIVE,TSLA-USDT-SWAP,-2.770581,-1.242737,long,Turtle 20,20260319_220527_TSLA-USDT-SWAP_long,TREND_HOLD,2.229419,1

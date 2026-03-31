@@ -1,0 +1,6 @@
+{"time": "2026-03-26 21:54:57", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-26 21:54:57", "component": "app", "status": "shutdown", "exit_code": 0}
+{"time": "2026-03-26 23:06:43", "component": "app", "status": "startup", "version": "v112_6"}
+{"time": "2026-03-26 23:06:43", "component": "gui", "status": "window_initialized", "version": "v112_6"}
+{"time": "2026-03-26 23:06:46", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-26 23:06:46", "component": "app", "status": "shutdown", "exit_code": 0}

@@ -1,0 +1,4 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+0.3125,False,active_confirmed,LDO-USDT-SWAP,0.3139,HEALTHY,9282.0,long,0.3106,ACTIVE,,20260328_193747_LDO-USDT-SWAP_long
+0.0576286054093215,False,recovered,CFX-USDT-SWAP,0.05759,HEALTHY,4969.2,long,0.05608,ACTIVE,,20260328_200039_CFX-USDT-SWAP_long
+0.1052,False,active_confirmed,OP-USDT-SWAP,0.10514,HEALTHY,26851.0,long,0.10422,ACTIVE,,20260328_200242_OP-USDT-SWAP_long

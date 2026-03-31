@@ -1,0 +1,2 @@
+atr,avg_px,close_pending,entry_time,inst_id,last_px,next_unit_level,peak_pnl_pct,peak_unrealized_pnl,pnl_pct,position_age_sec,qty,side,stop_price,trade_id,units,unrealized_pnl
+0.3765000000000008,70.9,False,2026-03-19 14:11:38,XAG-USDT-SWAP,70.89,70.71175000000001,0.12693935119887645,1.2753000000000483,0.0423131170663122,0,4251.0,short,71.653,20260319_141138_XAG-USDT-SWAP_short,1,0.4251000000002175

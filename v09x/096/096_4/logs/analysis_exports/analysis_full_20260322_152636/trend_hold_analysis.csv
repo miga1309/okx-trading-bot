@@ -1,0 +1,15 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,канальный_выход_20_свечей,DONCHIAN_ACTIVE,AVAX-USDT-SWAP,-1.062228,-0.819208,short,Turtle 55,20260322_142132_AVAX-USDT-SWAP_short,TREND_HOLD,1.296652,4
+False,stopout_cooldown,DONCHIAN_ACTIVE,AAVE-USDT-SWAP,-0.955258,-3.6432,short,Turtle 55,20260322_145549_AAVE-USDT-SWAP_short,TREND_ACTIVE,0.262203,2
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.0,0.0,long,Turtle 20,20260322_151528_COMP-USDT-SWAP_long,TREND_HOLD,4.242424,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.0,0.0,short,Turtle 55,20260322_143934_COMP-USDT-SWAP_short,TREND_HOLD,1.111111,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.0,0.0,short,Turtle 55,20260322_143813_COMP-USDT-SWAP_short,TREND_ACTIVE,0.740741,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.0,0.0,short,Turtle 55,20260322_143651_COMP-USDT-SWAP_short,TREND_ACTIVE,0.740741,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,COMP-USDT-SWAP,0.0,0.0,short,Turtle 55,20260322_143529_COMP-USDT-SWAP_short,TREND_ACTIVE,0.740741,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,CRV-USDT-SWAP,0.0,0.0,short,Turtle 55,20260322_143028_CRV-USDT-SWAP_short,INITIAL_RISK,0.208333,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,DONCHIAN_ACTIVE,ENA-USDT-SWAP,0.056865,0.077916,short,Turtle 55,20260322_142445_ENA-USDT-SWAP_short,TREND_ACTIVE,0.729827,2
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,ENA-USDT-SWAP,-2.029241,-5.769741,short,Turtle 55,20260322_142248_ENA-USDT-SWAP_short,INITIAL_RISK,0.351704,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,ENA-USDT-SWAP,0.0,0.0,short,Turtle 55,20260322_142135_ENA-USDT-SWAP_short,INITIAL_RISK,0.0,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,DOT-USDT-SWAP,0.384614,0.999997,short,Turtle 55,20260322_140526_DOT-USDT-SWAP_short,INITIAL_RISK,0.384615,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,INJ-USDT-SWAP,0.0,0.0,short,Turtle 55,20260322_140524_INJ-USDT-SWAP_short,INITIAL_RISK,0.0,1
+False,ошибка:_первичный_стоп_не_подтверждён_на_бирже,ATR_INITIAL,FLOKI-USDT-SWAP,0.0,0.0,short,Turtle 55,20260322_140520_FLOKI-USDT-SWAP_short,INITIAL_RISK,0.0,1

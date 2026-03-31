@@ -1,0 +1,5 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,аварийное_закрытие:_биржевой_стоп_не_подтверждён,DONCHIAN_ACTIVE,FIL-USDT-SWAP,0.0,0.0,long,Turtle 20,20260324_214205_FIL-USDT-SWAP_long,TREND_HOLD,4.375,1
+False,аварийное_закрытие:_биржевой_стоп_не_подтверждён,DONCHIAN_ACTIVE,IMX-USDT-SWAP,-0.379053,-0.124546,long,Turtle 20,20260324_214202_IMX-USDT-SWAP_long,TREND_HOLD,3.043478,1
+False,аварийное_закрытие:_биржевой_стоп_не_подтверждён,ATR_INITIAL,ARB-USDT-SWAP,-0.444912,-2.002106,short,Turtle 55,20260324_204650_ARB-USDT-SWAP_short,INITIAL_RISK,0.222222,1
+False,аварийное_закрытие:_биржевой_стоп_не_подтверждён,ATR_INITIAL,GMT-USDT-SWAP,-0.909962,-3.002878,short,Turtle 55,20260324_204644_GMT-USDT-SWAP_short,INITIAL_RISK,0.30303,1

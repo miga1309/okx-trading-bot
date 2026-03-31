@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: AVAX-USDT-SWAP\nСторона: LONG\nЦена входа: 9.711726\nЦена выхода: 9.659000\nPnL: -11.5998\nPnL %: -0.54%\nЮнитов: 1\nПричина: SYNC confirmed close after protective exit: market_already_crossed_stop",
+  "id": "c139d90becff4f8ebffca212701b42f3",
+  "created_ts": 1774424869.9261007,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

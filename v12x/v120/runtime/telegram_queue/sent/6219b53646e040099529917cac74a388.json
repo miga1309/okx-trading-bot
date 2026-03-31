@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: AVAX-USDT-SWAP\nСторона: SHORT\nЦена входа: 8.644000\nЦена выхода: 9.424000\nPnL: -214.6560\nPnL %: -45.12%\nЮнитов: 1\nПричина: Ротация под новый сигнал GMT-USDT-SWAP",
+  "id": "6219b53646e040099529917cac74a388",
+  "created_ts": 1774825512.2179286,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

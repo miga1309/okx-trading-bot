@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: SAND-USDT-SWAP\nСторона: LONG\nЦена входа: 0.075300\nЦена выхода: 0.075200\nPnL: -2.6980\nPnL %: -0.66%\nЮнитов: 1\nПричина: Ротация под новый сигнал MAGIC-USDT-SWAP",
+  "id": "8f3fde5ba09b46ed852a9769ff106274",
+  "created_ts": 1774857861.799235,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

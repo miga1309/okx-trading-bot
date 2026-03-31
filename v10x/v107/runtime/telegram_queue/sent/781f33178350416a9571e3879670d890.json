@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: TSLA-USDT-SWAP\nСторона: LONG\nЦена входа: 393.101664\nЦена выхода: 386.150000\nPnL: -48.8702\nPnL %: -1.77%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "781f33178350416a9571e3879670d890",
+  "created_ts": 1774397193.904606,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

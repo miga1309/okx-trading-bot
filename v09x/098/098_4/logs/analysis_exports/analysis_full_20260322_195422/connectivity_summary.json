@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-03-22 19:54:22",
+  "current_state": "IDLE",
+  "incident_count": 0,
+  "recovery_count": 0,
+  "total_degraded_sec": 0.0,
+  "total_disconnected_sec": 0.0,
+  "max_incident_sec": 0.0,
+  "error_types": {},
+  "component_error_counts": {},
+  "components": {},
+  "components_down": []
+}

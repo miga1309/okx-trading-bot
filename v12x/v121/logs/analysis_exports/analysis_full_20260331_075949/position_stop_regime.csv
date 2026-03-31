@@ -1,0 +1,4 @@
+avg_px,exchange_stop_status,hybrid_stop_mode,inst_id,last_px,qty,side,stop_price,sync_status,system_name,trade_id,turtle_exit_period
+0.0762361625821886,active_confirmed,ATR_INITIAL,2Z-USDT-SWAP,0.0759,3346.0,long,0.07443,SYNC_OK,Turtle 55,20260331_033053_2Z-USDT-SWAP_long,20
+0.0800498354801628,active_confirmed,DONCHIAN_ACTIVE,CELO-USDT-SWAP,0.0801,128252.0,long,0.07962000000000001,SYNC_OK,Turtle 20,20260331_033058_CELO-USDT-SWAP_long,10
+0.1400818940182179,recovered,DONCHIAN_ACTIVE,IMX-USDT-SWAP,0.1401,54783.0,short,0.14110999999999999,SYNC_OK,Turtle 55,20260331_060059_IMX-USDT-SWAP_short,20

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: BTC-USDT-SWAP\nЦена входа: 70953.500000\nQty: 3.27\nATR: 114.925000\nСтоп: 70723.650000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "7f336527b8724a91b49d77286f022f06",
+  "created_ts": 1774415100.4211714,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

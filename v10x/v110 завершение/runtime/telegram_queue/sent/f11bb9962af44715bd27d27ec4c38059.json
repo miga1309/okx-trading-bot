@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: AAVE-USDT-SWAP\nЦена входа: 115.400000\nQty: 234.3\nATR: 0.380000\nСтоп: 114.640000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "f11bb9962af44715bd27d27ec4c38059",
+  "created_ts": 1774456401.2074323,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

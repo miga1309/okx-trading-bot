@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: MASK-USDT-SWAP\nЦена входа: 0.427700\nQty: 6095.0\nATR: 0.000830\nСтоп: 0.429360\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "b49c69d895d54aaabe33d4dd729043c8",
+  "created_ts": 1774257119.9151826,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

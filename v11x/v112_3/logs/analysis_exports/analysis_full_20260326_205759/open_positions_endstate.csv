@@ -1,0 +1,2 @@
+atr,avg_px,close_pending,entry_time,inst_id,last_px,next_unit_level,peak_pnl_pct,peak_unrealized_pnl,pnl_pct,position_age_sec,qty,side,stop_price,trade_id,units,unrealized_pnl
+0.6899999999999948,367.0702232142857,False,2026-03-26 20:50:13,TSLA-USDT-SWAP,398.06,366.72522321428573,0.0,0.0,-13.468630041473444,0,1168.0,short,368.4502232142857,20260326_205741_TSLA-USDT-SWAP_short,1,-192.4837928571431

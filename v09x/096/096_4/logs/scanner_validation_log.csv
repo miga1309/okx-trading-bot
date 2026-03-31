@@ -1,0 +1,3 @@
+timestamp,pair,filter_type,user_verdict,review_tags,comment,hit_count,reason,side,timeframe,metrics_json
+2026-03-22 15:18:30,AVAX-USDT-SWAP,GOOD,хороший,"[""хороший""]",,1221,Открытая позиция программы,short,5m,"{""pnl_pct"": -0.43676364320747096, ""unrealized_pnl"": -16.253999999999905, ""units"": 4.0, ""entry_price"": 0.0}"
+2026-03-22 15:18:35,AVAX-USDT-SWAP,GOOD,хороший,"[""хороший""]",,1223,Открытая позиция программы,short,5m,"{""pnl_pct"": -0.43676364320747096, ""unrealized_pnl"": -16.253999999999905, ""units"": 4.0, ""entry_price"": 0.0}"

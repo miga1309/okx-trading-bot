@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: FIL-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.922484\nЦена выхода: 0.927000\nPnL: -24.9450\nPnL %: -0.49%\nЮнитов: 2\nПричина: Аварийное закрытие: market_already_crossed_stop",
+  "id": "6b064d8f36234be5af2ee0d23dfaea6e",
+  "created_ts": 1774394665.421682,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

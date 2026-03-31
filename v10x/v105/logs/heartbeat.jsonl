@@ -1,0 +1,2 @@
+{"time": "2026-03-24 22:25:41", "component": "gui", "status": "close_event", "bot_running": true, "worker_running": true}
+{"time": "2026-03-24 22:25:43", "component": "gui", "status": "alive", "bot_running": true, "transitioning": true, "worker_running": true}

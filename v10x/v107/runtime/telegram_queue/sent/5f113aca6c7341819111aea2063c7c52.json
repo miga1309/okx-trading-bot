@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: QTUM-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.908007\nЦена выхода: 0.915000\nPnL: -36.2530\nPnL %: -0.77%\nЮнитов: 2\nПричина: Аварийное закрытие: market_already_crossed_stop",
+  "id": "5f113aca6c7341819111aea2063c7c52",
+  "created_ts": 1774420675.8980758,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: MAGIC-USDT-SWAP\nСторона: LONG\nЦена входа: 0.057008\nЦена выхода: 0.056950\nPnL: -2.5821\nPnL %: -0.51%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: PENDING_RECHECK",
+  "id": "d19bd5573fe5492289a55d97b3bf1825",
+  "created_ts": 1774835484.333195,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

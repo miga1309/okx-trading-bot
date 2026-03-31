@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: GMT-USDT-SWAP\nЦена входа: 0.006560\nQty: 359485.0\nATR: 0.000282\nBootstrap-stop: 0.009680\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "4ee0eaf183a8497e9d1e3d68abda4749",
+  "created_ts": 1774825514.4714303,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

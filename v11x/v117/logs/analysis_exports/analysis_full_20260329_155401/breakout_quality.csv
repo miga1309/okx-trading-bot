@@ -1,0 +1,13 @@
+atr,body_atr,body_to_range_ratio,breakout_buffer_atr_actual,breakout_level,channel_width_atr,close_beyond_channel_atr,distance_from_breakout_level_atr,donchian_high,donchian_low,entry_mode,entry_price,event,fresh_breakout_true_false,inst_id,side,system_name,timeframe,ts
+0.000365,0.547945,0.333333,0.273973,0.2695,9.863014,0.273973,0.273973,0.2695,0.2659,minimal,0.2696,breakout_quality,True,LQTY-USDT-SWAP,long,Turtle 20,5m,2026-03-29 14:23:33
+0.00014,0.714286,1.0,0.714286,0.1512,8.571429,0.714286,0.714286,0.1512,0.15,minimal,0.1513,breakout_quality,True,THETA-USDT-SWAP,long,Turtle 20,5m,2026-03-29 14:23:35
+0.0001,0.0,0.0,1.0,0.0731,5.0,1.0,1.0,0.0736,0.0731,minimal,0.073,breakout_quality,True,SAND-USDT-SWAP,short,Turtle 20,5m,2026-03-29 15:26:47
+6.7e-06,3.432836,1.0,1.641791,0.003684,13.731343,1.641791,1.641791,0.003776,0.003684,minimal,0.003673,breakout_quality,True,ZIL-USDT-SWAP,short,Turtle 55,5m,2026-03-29 15:37:13
+0.0022,0.909091,1.0,0.909091,2.8,12.272727,0.909091,0.909091,2.827,2.8,minimal,2.798,breakout_quality,True,INJ-USDT-SWAP,short,Turtle 55,5m,2026-03-29 15:37:15
+0.0001185,3.291139,1.0,3.291139,0.10159,7.679325,3.291139,3.291139,0.1025,0.10159,minimal,0.1012,breakout_quality,True,OP-USDT-SWAP,short,Turtle 20,5m,2026-03-29 15:37:17
+0.0010555,1.193747,1.0,0.189484,0.8563,6.215064,0.568451,0.189484,0.86286,0.8563,minimal,0.8561,breakout_quality,True,SUI-USDT-SWAP,short,Turtle 20,5m,2026-03-29 15:37:19
+0.00075,2.666667,0.666667,2.666667,1.645,17.333333,2.666667,2.666667,1.658,1.645,minimal,1.643,breakout_quality,True,ATOM-USDT-SWAP,short,Turtle 55,5m,2026-03-29 15:42:21
+3.25e-05,0.0,0.0,2.153846,0.05627,8.923077,2.153846,2.153846,0.05656,0.05627,minimal,0.0562,breakout_quality,True,MAGIC-USDT-SWAP,short,Turtle 20,5m,2026-03-29 15:42:23
+0.000115,0.0,0.0,2.608696,0.1503,8.695652,2.608696,2.608696,0.1513,0.1503,minimal,0.15,breakout_quality,True,THETA-USDT-SWAP,short,Turtle 20,5m,2026-03-29 15:42:24
+0.000125,0.0,0.0,6.4,0.1877,13.6,0.8,6.4,0.1894,0.1877,minimal,0.1869,breakout_quality,True,SUSHI-USDT-SWAP,short,Turtle 55,5m,2026-03-29 15:46:38
+0.00145,0.0,0.0,2.413793,1.1239,44.275862,2.413793,2.413793,1.1881,1.1239,minimal,1.1204,breakout_quality,True,AXS-USDT-SWAP,short,Turtle 55,5m,2026-03-29 15:51:50

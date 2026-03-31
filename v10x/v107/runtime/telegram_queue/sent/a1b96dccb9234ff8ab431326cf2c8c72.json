@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: XTZ-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.397367\nЦена выхода: 0.395500\nPnL: 45.8726\nPnL %: 0.47%\nЮнитов: 4\nПричина: Канальный выход 10 свечей",
+  "id": "a1b96dccb9234ff8ab431326cf2c8c72",
+  "created_ts": 1774412136.7253008,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

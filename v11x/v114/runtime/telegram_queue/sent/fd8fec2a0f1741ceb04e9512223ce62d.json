@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: LINK-USDT-SWAP\nЦена входа: 8.400000\nQty: 315.53\nATR: 0.011450\nBootstrap-stop: 8.626000\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "fd8fec2a0f1741ceb04e9512223ce62d",
+  "created_ts": 1774739519.3192549,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

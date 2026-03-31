@@ -1,0 +1,3 @@
+components,components_down,duration_prev_state_sec,event,from_state,last_error,start_state,started_at,to_state,ts
+"{'public': {'ok': True, 'latency_ms': 488.4, 'error_type': ''}, 'private': {'ok': True, 'latency_ms': 255.2, 'error_type': ''}, 'trade': {'ok': True, 'latency_ms': 422.8, 'error_type': ''}, 'market_data': {'ok': True, 'latency_ms': 248.7, 'error_type': ''}, 'ws_public': {'ok': True, 'latency_ms': 0.0, 'error_type': ''}, 'ws_private': {'ok': False, 'latency_ms': 0.0, 'error_type': 'WsDegraded'}}",['ws_private'],1.457,CONNECTIVITY_STATE_CHANGED,IDLE,,,,DEGRADED,2026-03-28 17:10:16
+,['ws_private'],,CONNECTIVITY_INCIDENT_STARTED,,,DEGRADED,2026-03-28 17:10:16,,2026-03-28 17:10:16

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: ENA-USDT-SWAP\nЦена входа: 0.097322\nQty: 2943.0\nATR: 0.000085\nСтоп: 0.097492\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "6d63fc37013f41e1b03ef330cc5ea8b4",
+  "created_ts": 1774199387.8529575,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

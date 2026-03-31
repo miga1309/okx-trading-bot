@@ -1,0 +1,11 @@
+2026-03-30 20:36:52,403 | INFO | system_events | session_control_engine:_transition:23 | session_state=STARTING payload={}
+2026-03-30 20:36:54,177 | INFO | system_events | session_control_engine:_transition:23 | session_state=RUNNING payload={}
+2026-03-30 21:35:19,975 | INFO | system_events | session_control_engine:_transition:23 | session_state=STOPPED payload={'exit_code': 0}
+2026-03-30 21:35:31,436 | INFO | system_events | session_control_engine:_transition:23 | session_state=STARTING payload={}
+2026-03-30 21:35:32,255 | INFO | system_events | session_control_engine:_transition:23 | session_state=RUNNING payload={}
+2026-03-31 13:51:14,901 | INFO | system_events | session_control_engine:_transition:23 | session_state=STOPPED payload={'exit_code': 0}
+2026-03-31 13:51:17,949 | INFO | system_events | session_control_engine:_transition:23 | session_state=STARTING payload={}
+2026-03-31 13:51:19,608 | INFO | system_events | session_control_engine:_transition:23 | session_state=RUNNING payload={}
+2026-03-31 14:34:57,498 | INFO | system_events | session_control_engine:_transition:23 | session_state=STOPPED payload={'exit_code': 0}
+2026-03-31 14:35:00,544 | INFO | system_events | session_control_engine:_transition:23 | session_state=STARTING payload={}
+2026-03-31 14:35:00,934 | INFO | system_events | session_control_engine:_transition:23 | session_state=RUNNING payload={}

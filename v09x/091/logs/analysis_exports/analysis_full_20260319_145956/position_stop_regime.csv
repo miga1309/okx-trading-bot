@@ -1,0 +1,2 @@
+avg_px,exchange_stop_status,hybrid_stop_mode,inst_id,last_px,qty,side,stop_price,sync_status,system_name,trade_id,turtle_exit_period
+455.5,active,ATR_INITIAL,BCH-USDT-SWAP,455.5,65.44,short,456.5,SYNC_OK,Turtle 20,20260319_144457_BCH-USDT-SWAP_short,10

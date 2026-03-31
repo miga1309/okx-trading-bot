@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "🚫 Инструмент исключён биржей\n\nИнструмент: KAITO-USDT-SWAP\nКонтекст: ордер\nКод: 51155\nПричина: You can't trade this pair or borrow this crypto due to local compliance restrictions.",
+  "id": "98fda719eaf3478dab5579a26bc3b4dc",
+  "created_ts": 1774707242.4394863,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

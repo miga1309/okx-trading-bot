@@ -1,0 +1,3 @@
+early_exit_flag,early_exit_gap_pct,inst_id,last_stop_move_reason,mae_pct,market_risk_score,mfe_pct,pnl_pct,side,stop_move_events,trade_id,unit_add_events
+False,0.0,XAG-USDT-SWAP,initial_turtle_stop,2.932107,6.5,0.0,-1.4186621819275527,short,0,20260319_141015_XAG-USDT-SWAP_short,2
+False,0.0,NEO-USDT-SWAP,pre_close:ATR стоп 2.0N,6.606188,2.0,0.0,-2.3613034196284985,short,0,20260319_141010_NEO-USDT-SWAP_short,1

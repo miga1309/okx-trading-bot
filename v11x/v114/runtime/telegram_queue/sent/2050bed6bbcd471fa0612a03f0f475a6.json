@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: MINA-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.053183\nЦена выхода: 0.053110\nPnL: 14.2465\nPnL %: 0.14%\nЮнитов: 4\nПричина: SYNC confirmed close after stop fault: PENDING_RECHECK",
+  "id": "2050bed6bbcd471fa0612a03f0f475a6",
+  "created_ts": 1774762142.9349265,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

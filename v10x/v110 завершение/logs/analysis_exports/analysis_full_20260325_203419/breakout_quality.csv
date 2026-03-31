@@ -1,0 +1,13 @@
+atr,body_atr,body_to_range_ratio,breakout_buffer_atr_actual,breakout_level,channel_width_atr,close_beyond_channel_atr,distance_from_breakout_level_atr,donchian_high,donchian_low,entry_mode,entry_price,event,fresh_breakout_true_false,inst_id,side,system_name,timeframe,ts
+1.105,1.719457,0.513514,0.723982,647.9,5.520362,0.995475,0.723982,647.9,641.8,minimal,648.7,breakout_quality,True,BNB-USDT-SWAP,long,Turtle 20,5m,2026-03-25 19:32:52
+0.025,3.2,0.727273,2.0,19.63,5.2,2.4,2.0,19.63,19.5,minimal,19.68,breakout_quality,True,COMP-USDT-SWAP,long,Turtle 20,5m,2026-03-25 19:32:56
+0.0021,2.857143,0.75,1.428571,0.933,3.809524,0.952381,1.428571,0.933,0.925,minimal,0.936,breakout_quality,True,FIL-USDT-SWAP,long,Turtle 20,5m,2026-03-25 19:33:00
+0.000305,3.278689,0.833333,2.295082,0.153,3.934426,2.295082,2.295082,0.153,0.1518,minimal,0.1537,breakout_quality,True,IMX-USDT-SWAP,long,Turtle 20,5m,2026-03-25 19:33:04
+0.00285,1.754386,1.0,0.0,0.914,3.157895,0.350877,0.0,0.914,0.905,minimal,0.914,breakout_quality,True,QTUM-USDT-SWAP,long,Turtle 20,5m,2026-03-25 19:33:08
+0.00011,2.454545,0.931034,1.727273,0.0622,4.545455,1.0,1.727273,0.0622,0.0617,minimal,0.06239,breakout_quality,True,CFX-USDT-SWAP,long,Turtle 20,5m,2026-03-25 19:33:12
+0.00027,2.592593,1.0,0.740741,0.2026,6.666667,1.481481,-0.740741,0.2026,0.2008,minimal,0.2024,breakout_quality,True,SUSHI-USDT-SWAP,long,Turtle 20,5m,2026-03-25 19:33:16
+0.38,2.342105,0.773913,1.026316,115.01,4.421053,0.894737,1.026316,115.01,113.33,minimal,115.4,breakout_quality,True,AAVE-USDT-SWAP,long,Turtle 20,5m,2026-03-25 19:33:21
+0.000715,1.258741,0.818182,1.118881,0.2359,6.433566,0.13986,1.118881,0.2359,0.2313,minimal,0.2367,breakout_quality,True,CRV-USDT-SWAP,long,Turtle 20,5m,2026-03-25 19:43:22
+0.00605,0.661157,1.0,1.322314,4.45,8.429752,-1.322314,-1.322314,4.45,4.399,minimal,4.442,breakout_quality,True,KSM-USDT-SWAP,long,Turtle 20,5m,2026-03-25 20:10:09
+7.5e-05,1.333333,1.0,6.666667,0.1374,25.333333,1.333333,6.666667,0.1374,0.1355,minimal,0.1379,breakout_quality,True,MET-USDT-SWAP,long,Turtle 55,5m,2026-03-25 20:14:14
+0.00475,1.684211,1.0,1.263158,2.408,6.526316,0.210526,-1.263158,2.408,2.377,minimal,2.402,breakout_quality,True,ICP-USDT-SWAP,long,Turtle 20,5m,2026-03-25 20:32:05

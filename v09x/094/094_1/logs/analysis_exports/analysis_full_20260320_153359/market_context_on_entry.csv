@@ -1,0 +1,2 @@
+entry_atr,entry_price,entry_time,initial_stop_price,inst_id,mae_pct,mfe_pct,planned_risk_pct,position_notional_usdt,risk_amount_usdt,side,trade_id
+0.00015000000000000153,0.2220849815930391,2026-03-20 14:36:02,0.2223849815930391,BAND-USDT-SWAP,0.772235,0.0,1.0,2654.359700000003,759.4752018102512,short,20260320_143550_BAND-USDT-SWAP_short

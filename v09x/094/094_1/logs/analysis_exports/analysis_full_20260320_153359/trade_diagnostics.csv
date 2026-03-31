@@ -1,0 +1,2 @@
+early_exit_flag,early_exit_gap_pct,inst_id,last_stop_move_reason,mae_pct,market_risk_score,mfe_pct,pnl_pct,side,stop_move_events,trade_id,unit_add_events
+False,0.0,BAND-USDT-SWAP,STOP_TRIGGERED,0.772235,4.5,0.0,-0.18687369311689953,short,0,20260320_143550_BAND-USDT-SWAP_short,0

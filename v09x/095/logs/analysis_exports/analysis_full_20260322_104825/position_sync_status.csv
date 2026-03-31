@@ -1,0 +1,4 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+0.1638847724230257,False,local_protective_exit_pending,THETA-USDT-SWAP,0.1637,STOP_UNVERIFIED,5976.0,long,0.16291,ERROR,SYNC_OK,20260322_053712_THETA-USDT-SWAP_long
+88.36130228136882,False,active,SOL-USDT-SWAP,87.87,HEALTHY,105.2,short,88.3,ACTIVE,SYNC_OK,20260322_083017_SOL-USDT-SWAP_short
+0.5819505383580087,False,active,ETHFI-USDT-SWAP,0.5728,HEALTHY,14860.0,short,0.5784,ACTIVE,SYNC_OK,20260322_085018_ETHFI-USDT-SWAP_short

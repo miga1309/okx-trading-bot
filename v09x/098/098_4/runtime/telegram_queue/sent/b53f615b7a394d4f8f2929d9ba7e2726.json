@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "🚫 Инструмент исключён биржей\n\nИнструмент: XAU-USDT-SWAP\nКонтекст: ордер\nКод: 51155\nПричина: You can't trade this pair or borrow this crypto due to local compliance restrictions.",
+  "id": "b53f615b7a394d4f8f2929d9ba7e2726",
+  "created_ts": 1774245943.296287,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

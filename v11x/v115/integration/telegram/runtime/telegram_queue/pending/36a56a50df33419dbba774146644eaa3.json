@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: ETH-USDT-SWAP\nСторона: SHORT\nЦена входа: 1998.140000\nЦена выхода: 1998.140000\nPnL: 0.0000\nPnL %: 0.00%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: PENDING_RECHECK",
+  "id": "36a56a50df33419dbba774146644eaa3",
+  "created_ts": 1774777268.5683832,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: YFI-USDT-SWAP\nСторона: SHORT\nЦена входа: 2424.039075\nЦена выхода: 2430.000000\nPnL: -5.7970\nPnL %: -1.23%\nЮнитов: 1\nПричина: Ротация под новый сигнал IMX-USDT-SWAP",
+  "id": "5767b8302ac14f079aa558359cb77746",
+  "created_ts": 1774899191.373866,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

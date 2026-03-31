@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: SHIB-USDT-SWAP\nЦена входа: 0.000006\nQty: 434.0\nATR: 0.000000\nBootstrap-stop: 0.000006\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "c5f1d2c4dc284a5b90bd5b02d4b1f110",
+  "created_ts": 1774830682.402575,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

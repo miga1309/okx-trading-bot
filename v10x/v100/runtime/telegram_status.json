@@ -1,0 +1,48 @@
+{
+  "app_version": "v100",
+  "bot_running": true,
+  "telegram_worker_running": false,
+  "timeframe": "5m",
+  "trade_mode": "auto",
+  "open_positions": 0,
+  "error_count": 0,
+  "balance": {
+    "total": 86249.446864586,
+    "available": 85264.16160282711,
+    "used": 1003.4014500000001
+  },
+  "positions": [],
+  "scanner": {
+    "total": 112,
+    "scanned": 112,
+    "allowed": 37,
+    "blocked": 74,
+    "dead": 17,
+    "saw": 0,
+    "ripping": 57,
+    "pending": 0,
+    "status": "READY",
+    "ready": 2,
+    "available_after_bans": 112,
+    "scan_universe_total": 112
+  },
+  "top_candidates": [],
+  "health": {
+    "connectivity_state": "CONNECTED",
+    "components": {
+      "public": "OK",
+      "private": "OK",
+      "trade": "OK",
+      "market_data": "OK",
+      "ws_public": "OK",
+      "ws_private": "OK"
+    },
+    "engine": "RUNNING",
+    "telegram_worker": "OFF",
+    "market_data_errors": 9,
+    "cycle_duration_sec": 0.0
+  },
+  "latest_errors": [],
+  "chart_image_path": "",
+  "updated_at": "2026-03-23 19:29:17"
+}

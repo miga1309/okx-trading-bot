@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: MET-USDT-SWAP\nЦена входа: 0.136900\nQty: 1832.0\nATR: 0.000145\nСтоп: 0.136610\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "313ce83896bf4ccd99fc08f96c8c9589",
+  "created_ts": 1774399893.4556718,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

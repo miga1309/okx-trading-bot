@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: SUI-USDT-SWAP\nСторона: LONG\nЦена входа: 0.956200\nЦена выхода: 0.953400\nPnL: -6.7312\nPnL %: -0.29%\nЮнитов: 1\nПричина: SYNC confirmed close after protective exit: market_already_crossed_stop",
+  "id": "f1a55820c75141b58d92d0ca3a3b5a54",
+  "created_ts": 1774415813.5325277,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

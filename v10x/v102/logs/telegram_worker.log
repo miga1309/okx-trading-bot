@@ -1,0 +1,30 @@
+2026-03-24 20:40:18,294 | INFO | Telegram worker started | queue=D:\GIT\okx-trading-bot\v10x\v102\runtime\telegram_queue
+2026-03-24 21:35:01,694 | ERROR | Telegram worker item processing failed: <urlopen error timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1492, in connect
+  File "http\client.py", line 1023, in connect
+  File "socket.py", line 870, in create_connection
+  File "socket.py", line 855, in create_connection
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error timed out>

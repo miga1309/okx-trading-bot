@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: THETA-USDT-SWAP\nСторона: LONG\nЦена входа: 0.151900\nЦена выхода: 0.151900\nPnL: 0.0000\nPnL %: 0.00%\nЮнитов: 2\nПричина: SYNC confirmed close after stop fault: PENDING_RECHECK",
+  "id": "e83b3948af68462eab9fa8d5ddb15fb9",
+  "created_ts": 1774750563.7226775,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

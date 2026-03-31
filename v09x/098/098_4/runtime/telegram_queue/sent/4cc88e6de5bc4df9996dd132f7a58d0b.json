@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ADA-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.247600\nЦена выхода: 0.250200\nPnL: -18.9000\nPnL %: -1.05%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "4cc88e6de5bc4df9996dd132f7a58d0b",
+  "created_ts": 1774251919.6074023,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

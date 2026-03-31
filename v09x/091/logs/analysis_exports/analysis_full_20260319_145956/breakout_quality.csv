@@ -1,0 +1,2 @@
+atr,body_atr,body_to_range_ratio,breakout_buffer_atr_actual,breakout_level,channel_width_atr,close_beyond_channel_atr,distance_from_breakout_level_atr,donchian_high,donchian_low,entry_mode,entry_price,event,fresh_breakout_true_false,inst_id,side,system_name,timeframe,ts
+0.575,1.391304,0.727273,1.391304,456.3,5.913043,0.347826,1.391304,459.7,456.3,minimal,455.5,breakout_quality,True,BCH-USDT-SWAP,short,Turtle 20,5m,2026-03-19 14:45:00

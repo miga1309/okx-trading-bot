@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: CFX-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.060497\nЦена выхода: 0.060670\nPnL: -20.1958\nPnL %: -0.29%\nЮнитов: 3\nПричина: Канальный выход 10 свечей",
+  "id": "321f1db7e21f4c378d11411a6e793dc2",
+  "created_ts": 1774247242.1668046,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

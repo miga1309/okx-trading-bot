@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: YFI-USDT-SWAP\nЦена входа: 2475.700000\nQty: 10145.0\nATR: 10.025000\nBootstrap-stop: 2427.500000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "048d39e4e221481593253116c0eae168",
+  "created_ts": 1774940433.9966886,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

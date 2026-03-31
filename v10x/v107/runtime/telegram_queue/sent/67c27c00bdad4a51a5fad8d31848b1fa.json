@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: AVAX-USDT-SWAP\nЦена входа: 9.626000\nQty: 264.3\nATR: 0.015800\nСтоп: 9.657600\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "67c27c00bdad4a51a5fad8d31848b1fa",
+  "created_ts": 1774426383.8993258,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

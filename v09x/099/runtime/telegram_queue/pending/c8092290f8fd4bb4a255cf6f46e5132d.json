@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: IMX-USDT-SWAP\nЦена входа: 0.156500\nQty: 18886.0\nATR: 0.000310\nСтоп: 0.157120\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "c8092290f8fd4bb4a255cf6f46e5132d",
+  "created_ts": 1774281670.9140794,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

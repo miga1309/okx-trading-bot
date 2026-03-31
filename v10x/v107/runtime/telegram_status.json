@@ -1,0 +1,107 @@
+{
+  "app_version": "v107",
+  "bot_running": false,
+  "telegram_worker_running": false,
+  "timeframe": "5m",
+  "trade_mode": "auto",
+  "open_positions": 3,
+  "error_count": 15,
+  "balance": {
+    "total": 83552.9642533252,
+    "available": 78558.86322660182,
+    "used": 5020.010477571665
+  },
+  "positions": [
+    {
+      "inst_id": "AVAX-USDT-SWAP",
+      "side": "long",
+      "units": 4,
+      "entry": 9.695908464965573,
+      "stop": 9.694,
+      "pnl": 24.780400000000284,
+      "pnl_pct": 0.7763543289963271
+    },
+    {
+      "inst_id": "XAG-USDT-SWAP",
+      "side": "long",
+      "units": 1,
+      "entry": 73.26,
+      "stop": 73.057,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    },
+    {
+      "inst_id": "NEAR-USDT-SWAP",
+      "side": "long",
+      "units": 1,
+      "entry": 1.3042,
+      "stop": 1.29999,
+      "pnl": 0.0,
+      "pnl_pct": 0.0
+    }
+  ],
+  "scanner": {
+    "total": 109,
+    "scanned": 109,
+    "allowed": 50,
+    "blocked": 55,
+    "dead": 20,
+    "saw": 0,
+    "ripping": 35,
+    "pending": 0,
+    "status": "READY",
+    "ready": 3,
+    "available_after_bans": 84,
+    "scan_universe_total": 109
+  },
+  "top_candidates": [],
+  "health": {
+    "connectivity_state": "CONNECTED",
+    "components": {
+      "public": "OK",
+      "private": "OK",
+      "trade": "OK",
+      "market_data": "OK",
+      "ws_public": "OK",
+      "ws_private": "OK"
+    },
+    "engine": "STOPPED",
+    "telegram_worker": "OFF",
+    "market_data_errors": 2,
+    "cycle_duration_sec": 0.0
+  },
+  "latest_errors": [
+    {
+      "time": "2026-03-25 14:57:59",
+      "source": "logging:root",
+      "title": "Market-data worker temporary fetch failure for A-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно",
+      "message": "Market-data worker temporary fetch failure for A-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно"
+    },
+    {
+      "time": "2026-03-25 14:57:59",
+      "source": "logging:root",
+      "title": "Scanner refresh temporary failure for LRC-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно",
+      "message": "Scanner refresh temporary failure for LRC-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно"
+    },
+    {
+      "time": "2026-03-25 15:00:00",
+      "source": "logging:root",
+      "title": "Market-data worker temporary fetch failure for HOME-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно",
+      "message": "Market-data worker temporary fetch failure for HOME-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно"
+    },
+    {
+      "time": "2026-03-25 15:01:12",
+      "source": "logging:root",
+      "title": "Market-data worker temporary fetch failure for BCH-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно",
+      "message": "Market-data worker temporary fetch failure for BCH-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно"
+    },
+    {
+      "time": "2026-03-25 15:01:20",
+      "source": "logging:root",
+      "title": "Market-data worker temporary fetch failure for COAI-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно",
+      "message": "Market-data worker temporary fetch failure for COAI-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно"
+    }
+  ],
+  "chart_image_path": "D:\\GIT\\okx-trading-bot\\v10x\\v107\\runtime\\telegram_chart_latest.jpg",
+  "updated_at": "2026-03-25 18:26:27"
+}

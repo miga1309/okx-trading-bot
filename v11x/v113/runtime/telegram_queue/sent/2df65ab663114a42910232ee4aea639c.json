@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: NEO-USDT-SWAP\nЦена входа: 2.781000\nQty: 907.0\nATR: 0.104050\nBootstrap-stop: 3.445000\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "2df65ab663114a42910232ee4aea639c",
+  "created_ts": 1774557770.3772213,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

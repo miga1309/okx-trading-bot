@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: MAGIC-USDT-SWAP\nСторона: LONG\nЦена входа: 0.057562\nЦена выхода: 0.057480\nPnL: -2.9493\nPnL %: -0.72%\nЮнитов: 1\nПричина: Ротация под новый сигнал YFI-USDT-SWAP",
+  "id": "245b5a7b9dce4ee7b63fe0ef7bc25f6e",
+  "created_ts": 1774859582.6663878,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

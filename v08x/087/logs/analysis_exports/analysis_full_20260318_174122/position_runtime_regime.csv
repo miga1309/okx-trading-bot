@@ -1,0 +1,2 @@
+avg_px,hybrid_stop_mode,inst_id,last_px,peak_pnl_pct,pnl_pct,qty,reconciler_interval_sec,side,sync_status,system_name,trade_id,trend_hold_state,turtle_exit_period
+0.0585717688022285,,MINA-USDT-SWAP,0.05854,0.3163749541373893,0.2139365247933966,20104.0,0,short,,Turtle 55,20260318_173018_MINA-USDT-SWAP_short,,0

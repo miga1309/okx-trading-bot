@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-03-29 19:54:30",
+  "current_state": "IDLE",
+  "incident_count": 1,
+  "recovery_count": 1,
+  "total_degraded_sec": 124.021,
+  "total_disconnected_sec": 0.0,
+  "max_incident_sec": 124.021,
+  "error_types": {
+    "ConnectTimeout": 6,
+    "WsDegraded": 6
+  },
+  "component_error_counts": {
+    "public": 3,
+    "private": 2,
+    "ws_public": 3,
+    "ws_private": 3,
+    "trade": 1
+  },
+  "components": {},
+  "components_down": []
+}

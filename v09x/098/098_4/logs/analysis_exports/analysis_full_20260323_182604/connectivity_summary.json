@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-03-23 18:26:07",
+  "current_state": "IDLE",
+  "incident_count": 39,
+  "recovery_count": 39,
+  "total_degraded_sec": 921.647,
+  "total_disconnected_sec": 0.0,
+  "max_incident_sec": 248.799,
+  "error_types": {
+    "ReadError": 39
+  },
+  "component_error_counts": {
+    "market_data": 39
+  },
+  "components": {},
+  "components_down": []
+}

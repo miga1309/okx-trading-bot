@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "🚫 Инструмент исключён биржей\n\nИнструмент: ACT-USDT-SWAP\nКонтекст: ордер\nКод: 51155\nПричина: You can't trade this pair or borrow this crypto due to local compliance restrictions.",
+  "id": "fc0de1e14aa64a25ac8f9474763c5fc1",
+  "created_ts": 1774287991.0100548,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

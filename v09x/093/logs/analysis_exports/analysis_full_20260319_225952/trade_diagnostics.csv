@@ -1,0 +1,4 @@
+early_exit_flag,early_exit_gap_pct,inst_id,last_stop_move_reason,mae_pct,market_risk_score,mfe_pct,pnl_pct,side,stop_move_events,trade_id,unit_add_events
+False,5.483029,DOGE-USDT-SWAP,pre_close:ATR стоп 2.0N,3.86423,2.0,5.483029,-4.962558700342686,long,0,20260319_223025_DOGE-USDT-SWAP_long,3
+False,0.578446,AAVE-USDT-SWAP,pre_close:ATR стоп 2.0N,1.39717,4.0,0.578446,-0.26070539501225026,long,1,20260319_221337_AAVE-USDT-SWAP_long,2
+False,0.639602,TSLA-USDT-SWAP,STOP_TRIGGERED,1.815779,5.0,0.639602,-0.794857157880993,long,0,20260319_220527_TSLA-USDT-SWAP_long,0

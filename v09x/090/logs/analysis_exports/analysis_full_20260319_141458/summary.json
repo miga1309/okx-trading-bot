@@ -1,0 +1,113 @@
+{
+  "exported_at": "2026-03-19 14:14:58",
+  "version": "v090",
+  "account": "Демо",
+  "timeframe": "5m",
+  "trade_mode": "auto",
+  "balance_total": 85471.15996380542,
+  "balance_available": 84469.92137553067,
+  "balance_used": 1003.8028000000002,
+  "open_positions_count": 1,
+  "closed_trades_count": 2,
+  "realized_pnl": -91.90883972940784,
+  "open_pnl": 0.4251000000002175,
+  "winrate": 0.0,
+  "wins": 0,
+  "losses": 2,
+  "signal_funnel": {
+    "cycles": 53,
+    "instruments_scanned": 2201,
+    "prefilter_skipped": 3795,
+    "warmup_rejected": 25,
+    "flat_filter_rejected": 0,
+    "structure_rejected": 0,
+    "trend_rejected": 0,
+    "liquidity_rejected": 0,
+    "breakout_rejected": 2034,
+    "other_rejected": 142,
+    "candidates": 3,
+    "ranked_candidates": 3,
+    "orders_sent": 0,
+    "entry_failed": 3,
+    "manual_skipped": 0,
+    "positions_opened": 3,
+    "entry_signals": 3
+  },
+  "signals_detected": 9,
+  "signals_rejected": 2201,
+  "units_added": 3,
+  "stop_moves": 0,
+  "execution_errors": 0,
+  "pyramid_diagnostics_summary": {
+    "attempts": 3,
+    "added": 3,
+    "blocked_by_reason": {}
+  },
+  "reentry_diagnostics_summary": {
+    "checks": 4347,
+    "blocked_cooldown": 10,
+    "blocked_recovery": 10
+  },
+  "breakout_quality_summary": {
+    "rows": 3,
+    "minimal_mode_rows": 3
+  },
+  "stop_engine_summary": {
+    "rows": 14,
+    "placed": 3,
+    "moved": 0,
+    "triggered": 2,
+    "errors": 2,
+    "missing": 1
+  },
+  "rejections_by_code": {
+    "no_fresh_breakout": 2034,
+    "закрытие_не_удержалось_ниже_канала": 68,
+    "закрытие_не_удержалось_выше_канала": 54,
+    "atr_warmup:_цена_или_atr_недоступны_после_прогрева": 25,
+    "cooldown": 20
+  },
+  "close_reasons_count": {
+    "stopout_cooldown": 2
+  },
+  "problem_symbols": [],
+  "early_exit_flags": 0,
+  "avg_early_exit_gap_pct": 0.0,
+  "avg_market_risk_score": 4.25,
+  "avg_trend_capture_ratio": 0.0,
+  "avg_exit_efficiency": -1.719324,
+  "markets_traded": 2,
+  "high_risk_markets": 1,
+  "sync_drift_events": 0,
+  "ghost_positions": 0,
+  "positions_with_confirmed_stop": 1,
+  "avg_realized_r": 0.0,
+  "avg_trend_move_r": 0.0,
+  "donchian_active_positions": 0,
+  "trend_hold_positions": 0,
+  "avg_retained_r_share": 0.0,
+  "sync_bootstrap_events": 0,
+  "market_quality_blocks": 0,
+  "trend_metrics": {
+    "top_5_pnl": -91.90884,
+    "top_10_share_pct": 0.0,
+    "trades_with_2_units": 2,
+    "trades_with_4_units": 0,
+    "avg_hold_time_profitable": 0.0
+  },
+  "qa_checks": {
+    "fast_trades_lt_60sec_pct": 50.0,
+    "blocked_entries_pct_of_closed_trades": 110050.0,
+    "stop_confirmed_pct": 50.0,
+    "stop_failures_count": 4,
+    "pass": false,
+    "fail_reasons": [
+      "fast_trades_gt_20pct",
+      "blocked_entries_gt_10pct_of_closed",
+      "stop_confirmed_lt_90pct"
+    ]
+  },
+  "blocked_entries_count": 2201,
+  "stop_failures_count": 4,
+  "reentry_blocks_count": 10
+}

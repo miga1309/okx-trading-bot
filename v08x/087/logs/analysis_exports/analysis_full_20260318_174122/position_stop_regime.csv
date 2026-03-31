@@ -1,0 +1,2 @@
+avg_px,exchange_stop_status,hybrid_stop_mode,inst_id,last_px,qty,side,stop_price,sync_status,system_name,trade_id,turtle_exit_period
+0.0585717688022285,active,ATR_INITIAL,MINA-USDT-SWAP,0.05854,20104.0,short,0.0588387688022285,SYNC_OK,Turtle 55,20260318_173018_MINA-USDT-SWAP_short,20

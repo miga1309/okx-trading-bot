@@ -1,0 +1,10 @@
+2026-03-19 14:35:50,599 | CRITICAL | Unhandled exception:
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v08x\090\main_v090.py", line 8034, in reset_test_run
+    self._clear_ui_runtime_data()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\GIT\okx-trading-bot\v08x\090\main_v090.py", line 7936, in _clear_ui_runtime_data
+    self.lbl_positions.setText("Открытых позиций: 0")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'setText'
+

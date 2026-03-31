@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: AUCTION-USDT-SWAP\nСторона: LONG\nЦена входа: 4.720230\nЦена выхода: 4.710000\nPnL: -10.2560\nPnL %: -0.22%\nЮнитов: 2\nПричина: SYNC confirmed close after protective exit: market_already_crossed_stop",
+  "id": "bc9caadebe9448d8bd4c42caa85dbedc",
+  "created_ts": 1774428616.8434258,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

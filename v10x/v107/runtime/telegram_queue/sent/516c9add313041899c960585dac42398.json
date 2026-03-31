@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: ETH-USDT-SWAP\nЦена входа: 2164.130000\nQty: 10.54\nATR: 2.572000\nСтоп: 2158.986000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "516c9add313041899c960585dac42398",
+  "created_ts": 1774415108.178499,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,183 @@
+block_reason,cooldown_blocked,inst_id,last_exit_reason,last_trade_pnl,price,recovery_blocked,side,ts
+same-price reentry blocked 5373s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:32:28
+same-price reentry blocked 5325s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:33:16
+same-price reentry blocked 5395s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:33:16
+same-price reentry blocked 5296s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:33:45
+same-price reentry blocked 5365s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:33:45
+same-price reentry blocked 5282s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:33:59
+same-price reentry blocked 5352s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:33:59
+same-price reentry blocked 5262s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:34:19
+same-price reentry blocked 5332s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:34:19
+same-price reentry blocked 5250s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:34:31
+same-price reentry blocked 5319s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:34:31
+same-price reentry blocked 5238s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:34:43
+same-price reentry blocked 5308s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:34:43
+same-price reentry blocked 5226s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:34:55
+same-price reentry blocked 5296s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:34:55
+same-price reentry blocked 5208s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:35:13
+same-price reentry blocked 5278s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:35:13
+same-price reentry blocked 5389s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:41:47
+same-price reentry blocked 5298s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:43:18
+same-price reentry blocked 5390s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:43:18
+same-price reentry blocked 5267s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:43:49
+same-price reentry blocked 5359s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:43:49
+same-price reentry blocked 5261s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:43:56
+same-price reentry blocked 5352s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:43:56
+same-price reentry blocked 5224s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:44:33
+same-price reentry blocked 5315s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:44:33
+same-price reentry blocked 5210s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:44:47
+same-price reentry blocked 5302s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:44:47
+same-price reentry blocked 5201s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:44:56
+same-price reentry blocked 5292s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:44:56
+same-price reentry blocked 5171s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:45:26
+same-price reentry blocked 5263s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:45:26
+same-price reentry blocked 5271s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:45:33
+same-price reentry blocked 5158s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:45:39
+same-price reentry blocked 5250s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:45:39
+same-price reentry blocked 5265s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:45:39
+same-price reentry blocked 5145s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:45:52
+same-price reentry blocked 5236s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:45:52
+same-price reentry blocked 5244s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:46:00
+same-price reentry blocked 5105s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:46:32
+same-price reentry blocked 5196s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:46:32
+same-price reentry blocked 5204s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:46:40
+same-price reentry blocked 5082s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:46:55
+same-price reentry blocked 5174s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:46:55
+same-price reentry blocked 5182s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:47:02
+same-price reentry blocked 5051s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:47:26
+same-price reentry blocked 5142s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:47:26
+same-price reentry blocked 5151s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:47:34
+same-price reentry blocked 5028s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:47:49
+same-price reentry blocked 5119s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:47:49
+same-price reentry blocked 5128s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:47:57
+same-price reentry blocked 4981s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:48:35
+same-price reentry blocked 5073s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:48:35
+same-price reentry blocked 5081s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:48:43
+same-price reentry blocked 4958s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:48:59
+same-price reentry blocked 5050s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:48:59
+same-price reentry blocked 5058s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:49:07
+same-price reentry blocked 4926s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:49:31
+same-price reentry blocked 5017s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:49:31
+same-price reentry blocked 5025s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:49:39
+same-price reentry blocked 4899s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:49:58
+same-price reentry blocked 4990s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:49:58
+same-price reentry blocked 4999s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:50:05
+same-price reentry blocked 4855s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:50:41
+same-price reentry blocked 4947s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:50:41
+same-price reentry blocked 4955s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:50:49
+same-price reentry blocked 4813s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:51:24
+same-price reentry blocked 4905s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:51:24
+same-price reentry blocked 4913s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:51:31
+same-price reentry blocked 4784s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:51:53
+same-price reentry blocked 4875s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:51:53
+same-price reentry blocked 4884s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:52:00
+same-price reentry blocked 4724s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:52:52
+same-price reentry blocked 4816s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:52:52
+same-price reentry blocked 4824s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:53:00
+same-price reentry blocked 4689s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:53:27
+same-price reentry blocked 4781s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:53:27
+same-price reentry blocked 4788s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:53:36
+same-price reentry blocked 4662s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:53:54
+same-price reentry blocked 4754s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:53:54
+same-price reentry blocked 4762s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:54:03
+same-price reentry blocked 4600s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:54:56
+same-price reentry blocked 4692s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:54:56
+same-price reentry blocked 4700s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:55:04
+same-price reentry blocked 4564s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:55:32
+same-price reentry blocked 4656s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:55:32
+same-price reentry blocked 4663s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:55:41
+same-price reentry blocked 4537s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:55:59
+same-price reentry blocked 4629s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:55:59
+same-price reentry blocked 4638s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:56:06
+same-price reentry blocked 4474s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:57:02
+same-price reentry blocked 4566s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:57:02
+same-price reentry blocked 4574s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:57:10
+same-price reentry blocked 4434s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:57:43
+same-price reentry blocked 4525s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:57:43
+same-price reentry blocked 4533s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:57:51
+same-price reentry blocked 4377s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:58:39
+same-price reentry blocked 4469s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:58:39
+same-price reentry blocked 4476s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:58:48
+same-price reentry blocked 4350s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:59:06
+same-price reentry blocked 4442s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:59:06
+same-price reentry blocked 4449s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:59:15
+same-price reentry blocked 4308s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:59:49
+same-price reentry blocked 4400s (0.00 ATR),True,ENA-USDT-SWAP,,0.0,0.0633,False,short,2026-03-30 21:59:49
+same-price reentry blocked 4408s (0.08 ATR),True,MAGIC-USDT-SWAP,,0.0,0.05674,False,short,2026-03-30 21:59:56
+reentry cooldown active 2601s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:30:03
+reentry cooldown active 2428s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:32:56
+reentry cooldown active 2359s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:34:05
+reentry cooldown active 2304s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:35:00
+reentry cooldown active 2258s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:35:46
+reentry cooldown active 2233s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:36:11
+reentry cooldown active 2195s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:36:49
+reentry cooldown active 2148s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:37:36
+reentry cooldown active 2123s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:38:01
+reentry cooldown active 2084s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:38:40
+reentry cooldown active 2059s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:39:05
+reentry cooldown active 2021s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:39:43
+reentry cooldown active 1996s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:40:09
+reentry cooldown active 1961s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:40:43
+reentry cooldown active 1936s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:41:08
+reentry cooldown active 1897s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:41:47
+reentry cooldown active 1873s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:42:11
+reentry cooldown active 1831s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:42:53
+reentry cooldown active 1783s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:43:41
+reentry cooldown active 1757s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:44:07
+reentry cooldown active 1718s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:44:46
+reentry cooldown active 1692s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:45:12
+reentry cooldown active 1651s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:45:53
+reentry cooldown active 1607s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:46:37
+reentry cooldown active 1581s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:47:03
+reentry cooldown active 1542s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:47:42
+reentry cooldown active 1517s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:48:07
+reentry cooldown active 1476s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:48:48
+reentry cooldown active 1429s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:49:35
+reentry cooldown active 1404s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:50:00
+reentry cooldown active 1358s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:50:46
+reentry cooldown active 1332s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:51:12
+reentry cooldown active 1281s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:52:03
+reentry cooldown active 1232s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:52:52
+reentry cooldown active 1191s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:53:33
+reentry cooldown active 1164s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:54:00
+reentry cooldown active 1122s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:54:42
+reentry cooldown active 1096s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:55:08
+reentry cooldown active 1039s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:56:05
+reentry cooldown active 987s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:56:57
+reentry cooldown active 943s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:57:41
+reentry cooldown active 916s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:58:08
+reentry cooldown active 861s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:59:03
+reentry cooldown active 812s,True,MAGIC-USDT-SWAP,,0.0,0.05646,False,short,2026-03-30 22:59:52
+same-price reentry blocked 5394s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:02:54
+same-price reentry blocked 5354s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:03:33
+same-price reentry blocked 5307s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:04:20
+same-price reentry blocked 5270s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:04:58
+same-price reentry blocked 5231s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:05:36
+same-price reentry blocked 5185s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:06:22
+same-price reentry blocked 5151s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:06:57
+same-price reentry blocked 5114s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:07:34
+same-price reentry blocked 5067s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:08:20
+same-price reentry blocked 5032s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:08:56
+same-price reentry blocked 4996s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:09:32
+same-price reentry blocked 4956s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:10:11
+same-price reentry blocked 4919s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:10:48
+same-price reentry blocked 4885s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:11:23
+same-price reentry blocked 4848s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:11:59
+same-price reentry blocked 4806s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:12:41
+same-price reentry blocked 4769s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:13:18
+same-price reentry blocked 4733s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:13:54
+same-price reentry blocked 4689s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:14:38
+same-price reentry blocked 4651s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:15:16
+same-price reentry blocked 4617s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:15:50
+same-price reentry blocked 4571s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:16:36
+same-price reentry blocked 4535s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:17:12
+same-price reentry blocked 4499s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:17:49
+same-price reentry blocked 4453s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:18:35
+same-price reentry blocked 4419s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:19:08
+same-price reentry blocked 4384s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:19:44
+same-price reentry blocked 4344s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:20:23
+same-price reentry blocked 4307s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:21:00
+same-price reentry blocked 4269s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:21:38
+same-price reentry blocked 4223s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:22:24
+same-price reentry blocked 4187s (0.00 ATR),True,AVAX-USDT-SWAP,,0.0,11.467,False,long,2026-03-31 02:23:00
+reentry cooldown active 358s,True,IMX-USDT-SWAP,,0.0,0.1411,False,short,2026-03-31 06:00:39

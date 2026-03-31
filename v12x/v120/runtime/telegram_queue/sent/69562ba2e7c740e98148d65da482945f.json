@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: YFI-USDT-SWAP\nСторона: LONG\nЦена входа: 2471.769764\nЦена выхода: 2472.000000\nPnL: 0.1876\nPnL %: 0.05%\nЮнитов: 1\nПричина: Ротация под новый сигнал NEAR-USDT-SWAP",
+  "id": "69562ba2e7c740e98148d65da482945f",
+  "created_ts": 1774859735.06738,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

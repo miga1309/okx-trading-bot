@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: 1INCH-USDT-SWAP\nЦена входа: 0.095300\nQty: 25956.0\nATR: 0.000110\nСтоп: 0.095080\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "429d783bedb840508887c8b572bd1d3f",
+  "created_ts": 1774399684.9020176,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

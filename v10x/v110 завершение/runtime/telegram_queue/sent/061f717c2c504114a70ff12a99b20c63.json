@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: FIL-USDT-SWAP\nЦена входа: 0.936000\nQty: 30503.0\nATR: 0.002100\nСтоп: 0.931800\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "061f717c2c504114a70ff12a99b20c63",
+  "created_ts": 1774456380.3057446,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

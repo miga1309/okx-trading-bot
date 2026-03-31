@@ -1,0 +1,138 @@
+{
+  "app_version": "v113",
+  "busy": false,
+  "current_operation": "",
+  "last_result": "analysis ready: analysis_full_20260327_073533.zip",
+  "bot_running": false,
+  "updated_at": "2026-03-27 08:04:20",
+  "telegram_status": {
+    "app_version": "v113",
+    "bot_running": false,
+    "telegram_worker_running": false,
+    "timeframe": "5m",
+    "trade_mode": "auto",
+    "open_positions": 9,
+    "error_count": 0,
+    "balance": {
+      "total": 83677.30589521411,
+      "available": 76632.59418253694,
+      "used": 7070.659721387392
+    },
+    "positions": [
+      {
+        "inst_id": "CRV-USDT-SWAP",
+        "side": "short",
+        "units": 1,
+        "entry": 0.2168,
+        "stop": 0.21714,
+        "pnl": -67.5108000000002,
+        "pnl_pct": -7.476731822251812
+      },
+      {
+        "inst_id": "SOL-USDT-SWAP",
+        "side": "short",
+        "units": 1,
+        "entry": 85.59,
+        "stop": 85.82300000000001,
+        "pnl": -17.62749999999991,
+        "pnl_pct": -1.9279077366521686
+      },
+      {
+        "inst_id": "LPT-USDT-SWAP",
+        "side": "short",
+        "units": 1,
+        "entry": 2.1180983774302002,
+        "stop": 2.1182983774302,
+        "pnl": -14.915600000000037,
+        "pnl_pct": -2.5720948032834046
+      },
+      {
+        "inst_id": "DOT-USDT-SWAP",
+        "side": "long",
+        "units": 1,
+        "entry": 1.33,
+        "stop": 1.3291,
+        "pnl": -17.883000000000017,
+        "pnl_pct": -2.2563103924979804
+      },
+      {
+        "inst_id": "QTUM-USDT-SWAP",
+        "side": "long",
+        "units": 1,
+        "entry": 0.853,
+        "stop": 0.8528,
+        "pnl": -20.83900000000002,
+        "pnl_pct": -4.098049046509667
+      },
+      {
+        "inst_id": "LRC-USDT-SWAP",
+        "side": "long",
+        "units": 4,
+        "entry": 0.02337499875,
+        "stop": 0.02318,
+        "pnl": 20.400100000000087,
+        "pnl_pct": 3.272743490521056
+      },
+      {
+        "inst_id": "MET-USDT-SWAP",
+        "side": "short",
+        "units": 1,
+        "entry": 0.1359,
+        "stop": 0.13593,
+        "pnl": -1.7400000000002913,
+        "pnl_pct": -0.2207174199016853
+      },
+      {
+        "inst_id": "SUI-USDT-SWAP",
+        "side": "short",
+        "units": 1,
+        "entry": 0.9201743372633086,
+        "stop": 0.9218500000000001,
+        "pnl": -15.494319999999458,
+        "pnl_pct": -3.007942360767799
+      },
+      {
+        "inst_id": "SYRUP-USDT-SWAP",
+        "side": "short",
+        "units": 2,
+        "entry": 0.2157874441465595,
+        "stop": 0.21614,
+        "pnl": -27.136999999998142,
+        "pnl_pct": -1.685764236519165
+      }
+    ],
+    "scanner": {
+      "total": 108,
+      "scanned": 108,
+      "allowed": 46,
+      "blocked": 60,
+      "dead": 21,
+      "saw": 0,
+      "ripping": 39,
+      "pending": 0,
+      "status": "READY",
+      "ready": 0,
+      "available_after_bans": 108,
+      "scan_universe_total": 108
+    },
+    "top_candidates": [],
+    "health": {
+      "connectivity_state": "CONNECTED",
+      "components": {
+        "public": "OK",
+        "private": "OK",
+        "trade": "OK",
+        "market_data": "OK",
+        "ws_public": "OK",
+        "ws_private": "OK"
+      },
+      "engine": "STOPPED",
+      "telegram_worker": "OFF",
+      "market_data_errors": 1,
+      "cycle_duration_sec": 0.0
+    },
+    "latest_errors": [],
+    "chart_image_path": "D:\\GIT\\okx-trading-bot\\v11x\\v113\\runtime\\telegram_chart_latest.jpg",
+    "updated_at": "2026-03-27 08:04:19"
+  }
+}

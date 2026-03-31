@@ -1,0 +1,7 @@
+block_reason,cooldown_blocked,inst_id,last_exit_reason,last_trade_pnl,price,recovery_blocked,side,ts
+same-price reentry blocked 817s (0.12 ATR),True,LINK-USDT-SWAP,,0.0,8.489,False,short,2026-03-29 13:08:34
+cooldown после ATR-стопа ещё активен 1706s; цена отошла только на 0.00 ATR,True,LQTY-USDT-SWAP,Канальный выход 20 свечей,0.0,0.2683,True,short,2026-03-29 13:42:59
+cooldown после ATR-стопа ещё активен 1529s; цена отошла только на 0.26 ATR,True,LQTY-USDT-SWAP,Канальный выход 20 свечей,0.0,0.2682,True,short,2026-03-29 13:45:56
+cooldown после ATR-стопа ещё активен 1346s; цена отошла только на 0.26 ATR,True,LQTY-USDT-SWAP,Канальный выход 20 свечей,0.0,0.2682,True,short,2026-03-29 13:49:00
+cooldown после ATR-стопа ещё активен 1164s; цена отошла только на 0.26 ATR,True,LQTY-USDT-SWAP,Канальный выход 20 свечей,0.0,0.2682,True,short,2026-03-29 13:52:02
+cooldown после ATR-стопа ещё активен 1003s; цена отошла только на 0.26 ATR,True,LQTY-USDT-SWAP,Канальный выход 20 свечей,0.0,0.2682,True,short,2026-03-29 13:54:43

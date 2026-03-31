@@ -1,0 +1,4 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+53.72797619047619,False,active_confirmed,LTC-USDT-SWAP,53.7,HEALTHY,201.6,short,53.753,ACTIVE,SYNC_OK,20260329_131520_LTC-USDT-SWAP_short
+0.1502,False,active,THETA-USDT-SWAP,0.1503,HEALTHY,5343.0,short,0.15019,ACTIVE,SYNC_OK,20260329_132118_THETA-USDT-SWAP_short
+66456.7,False,active_confirmed,BTC-USDT-SWAP,66520.9,HEALTHY,3.74,short,66601.51,ACTIVE,SYNC_OK,20260329_134111_BTC-USDT-SWAP_short

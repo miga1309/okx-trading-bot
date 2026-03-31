@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ETC-USDT-SWAP\nСторона: LONG\nЦена входа: 8.732500\nЦена выхода: 8.690000\nPnL: -48.2630\nPnL %: -0.49%\nЮнитов: 4\nПричина: SYNC confirmed close after protective exit: market_already_crossed_stop",
+  "id": "522aeacee0ca4d4dbfb61292f53ad16b",
+  "created_ts": 1774430349.877322,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

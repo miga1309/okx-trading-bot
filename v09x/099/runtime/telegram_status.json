@@ -1,0 +1,83 @@
+{
+  "app_version": "v099",
+  "bot_running": false,
+  "telegram_worker_running": false,
+  "timeframe": "5m",
+  "trade_mode": "auto",
+  "open_positions": 4,
+  "error_count": 0,
+  "balance": {
+    "total": 86295.91400066101,
+    "available": 80817.30960342204,
+    "used": 5501.047170000058
+  },
+  "positions": [
+    {
+      "inst_id": "CRV-USDT-SWAP",
+      "side": "short",
+      "units": 2,
+      "entry": 0.21795,
+      "stop": 0.21917999999999999,
+      "pnl": -4.149299999999543,
+      "pnl_pct": -0.20646937370954366
+    },
+    {
+      "inst_id": "CFX-USDT-SWAP",
+      "side": "short",
+      "units": 1,
+      "entry": 0.060391134690947,
+      "stop": 0.060813,
+      "pnl": -9.469139999990352,
+      "pnl_pct": -0.9382104344595854
+    },
+    {
+      "inst_id": "IMX-USDT-SWAP",
+      "side": "short",
+      "units": 2,
+      "entry": 0.1559942152917518,
+      "stop": 0.15712,
+      "pnl": -11.55009999995047,
+      "pnl_pct": -0.5880693223327942
+    },
+    {
+      "inst_id": "LIT-USDT-SWAP",
+      "side": "short",
+      "units": 1,
+      "entry": 0.931,
+      "stop": 0.9356,
+      "pnl": 3.0200000000000027,
+      "pnl_pct": 0.5370569280343722
+    }
+  ],
+  "scanner": {
+    "total": 112,
+    "scanned": 112,
+    "allowed": 35,
+    "blocked": 73,
+    "dead": 17,
+    "saw": 0,
+    "ripping": 56,
+    "pending": 0,
+    "status": "READY",
+    "ready": 9,
+    "available_after_bans": 109,
+    "scan_universe_total": 112
+  },
+  "top_candidates": [],
+  "health": {
+    "connectivity_state": "CONNECTED",
+    "components": {
+      "public": "OK",
+      "private": "OK",
+      "trade": "OK",
+      "market_data": "OK"
+    },
+    "engine": "STOPPED",
+    "telegram_worker": "OFF",
+    "market_data_errors": 16,
+    "cycle_duration_sec": 0.0
+  },
+  "latest_errors": [],
+  "chart_image_path": "D:\\GIT\\okx-trading-bot\\v09x\\099\\runtime\\telegram_chart_latest.jpg",
+  "updated_at": "2026-03-23 19:11:20"
+}

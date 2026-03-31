@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: DOGE-USDT-SWAP\nСторона: LONG\nЦена входа: 0.091200\nЦена выхода: 0.090750\nPnL: -12.6675\nPnL %: -0.49%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "dcac82095ab142b195635e19968a6363",
+  "created_ts": 1774235766.2247221,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

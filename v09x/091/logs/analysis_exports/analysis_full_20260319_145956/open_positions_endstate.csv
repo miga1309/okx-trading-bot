@@ -1,0 +1,2 @@
+atr,avg_px,close_pending,entry_time,inst_id,last_px,next_unit_level,peak_pnl_pct,peak_unrealized_pnl,pnl_pct,position_age_sec,qty,side,stop_price,trade_id,units,unrealized_pnl
+0.49999999999999717,455.5,False,2026-03-19 14:44:57,BCH-USDT-SWAP,455.5,455.2125,0.0,0.0,0.0,0,65.44,short,456.5,20260319_144457_BCH-USDT-SWAP_short,1,0.0

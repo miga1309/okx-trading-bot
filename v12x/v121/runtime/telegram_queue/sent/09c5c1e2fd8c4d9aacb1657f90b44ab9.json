@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: LDO-USDT-SWAP\nЦена входа: 0.321400\nQty: 8164.0\nATR: 0.000710\nBootstrap-stop: 0.317500\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "09c5c1e2fd8c4d9aacb1657f90b44ab9",
+  "created_ts": 1774955717.4960907,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

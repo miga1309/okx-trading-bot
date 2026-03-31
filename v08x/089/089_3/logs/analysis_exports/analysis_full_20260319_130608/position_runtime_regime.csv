@@ -1,0 +1,3 @@
+avg_px,hybrid_stop_mode,inst_id,last_px,peak_pnl_pct,pnl_pct,qty,reconciler_interval_sec,side,sync_status,system_name,trade_id,trend_hold_state,turtle_exit_period
+2762.708352625243,,YFI-USDT-SWAP,2763.5,0.13762569372639089,0.08596427205259562,21598.0,0,long,,Turtle 20,20260319_125009_YFI-USDT-SWAP_long,,0
+57.29916179337232,,LTC-USDT-SWAP,57.41,0.3185293015999195,0.5803132357888864,51.3,0,long,,Turtle 55,20260319_130507_LTC-USDT-SWAP_long,,0

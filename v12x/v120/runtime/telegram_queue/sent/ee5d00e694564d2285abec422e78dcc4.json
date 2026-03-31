@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: CELO-USDT-SWAP\nЦена входа: 0.074000\nQty: 36330.0\nATR: 0.000605\nBootstrap-stop: 0.069200\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "ee5d00e694564d2285abec422e78dcc4",
+  "created_ts": 1774819831.1301484,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

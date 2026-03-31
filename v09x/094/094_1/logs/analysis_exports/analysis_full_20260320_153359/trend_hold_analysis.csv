@@ -1,0 +1,2 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,stopout_cooldown,ATR_INITIAL,BAND-USDT-SWAP,0.0,0.0,short,Turtle 55,20260320_143550_BAND-USDT-SWAP_short,INITIAL_RISK,0.0,1

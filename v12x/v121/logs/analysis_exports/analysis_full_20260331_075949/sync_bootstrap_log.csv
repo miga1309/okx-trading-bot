@@ -1,0 +1,22 @@
+inst_id,pyramid_restored,restored_fields,side,stop_restored,system_name,timestamp,trade_id,units_restored
+CRV-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-30 20:58:05,20260330_205653_CRV-USDT-SWAP_short,2
+BNB-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-30 21:31:28,20260330_204926_BNB-USDT-SWAP_short,2
+ADA-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-30 21:31:28,20260330_204021_ADA-USDT-SWAP_short,2
+LINK-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:41,20260330_213541_LINK-USDT-SWAP_short,1
+FIL-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:41,20260330_213541_FIL-USDT-SWAP_short,1
+MAGIC-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:42,20260330_213542_MAGIC-USDT-SWAP_short,1
+1INCH-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:42,20260330_213542_1INCH-USDT-SWAP_short,1
+AXS-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:42,20260330_213542_AXS-USDT-SWAP_short,1
+DOT-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:42,20260330_213542_DOT-USDT-SWAP_short,1
+CRV-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:43,20260330_213543_CRV-USDT-SWAP_short,1
+COMP-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:43,20260330_213543_COMP-USDT-SWAP_short,1
+BNB-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:43,20260330_213543_BNB-USDT-SWAP_short,1
+ADA-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 21:35:44,20260330_213544_ADA-USDT-SWAP_short,1
+ETHW-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 55,2026-03-30 22:33:16,20260330_223306_ETHW-USDT-SWAP_short,1
+XLM-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-30 22:33:16,20260330_215057_XLM-USDT-SWAP_short,2
+ENA-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-30 23:07:19,20260330_230719_ENA-USDT-SWAP_short,1
+IMX-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-31 02:01:37,20260330_223313_IMX-USDT-SWAP_short,2
+AVAX-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",long,True,Turtle 20,2026-03-31 02:23:31,20260331_022331_AVAX-USDT-SWAP_long,1
+CELO-USDT-SWAP,False,exchange_stop_full_position,long,False,Turtle 20,2026-03-31 04:01:44,20260331_033058_CELO-USDT-SWAP_long,2
+XAG-USDT-SWAP,False,exchange_stop_full_position,long,False,Turtle 55,2026-03-31 05:01:08,20260331_043137_XAG-USDT-SWAP_long,2
+IMX-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 55,2026-03-31 07:01:36,20260331_060059_IMX-USDT-SWAP_short,2

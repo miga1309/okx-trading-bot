@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: DOGE-USDT-SWAP\nЦена входа: 0.091250\nQty: 30.09\nATR: 0.000387\nBootstrap-stop: 0.089850\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "44d6460e698c471a88717d763d109967",
+  "created_ts": 1774816247.4383404,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: MINA-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.056100\nЦена выхода: 0.056510\nPnL: -18.3647\nPnL %: -0.73%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "9ea8bc226ccd4914823687ead409d3a7",
+  "created_ts": 1774237936.8050573,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

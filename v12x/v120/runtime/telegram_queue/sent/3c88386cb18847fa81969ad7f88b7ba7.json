@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: MASK-USDT-SWAP\nСторона: LONG\nЦена входа: 0.409500\nЦена выхода: 0.410200\nPnL: 3.5126\nPnL %: 0.85%\nЮнитов: 1\nПричина: Ротация под новый сигнал XTZ-USDT-SWAP",
+  "id": "3c88386cb18847fa81969ad7f88b7ba7",
+  "created_ts": 1774857969.0404518,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

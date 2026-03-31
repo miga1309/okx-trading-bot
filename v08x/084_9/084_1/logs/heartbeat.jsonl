@@ -1,0 +1,30 @@
+{"time": "2026-03-16 16:11:29", "component": "app", "status": "startup", "version": "v084_9_1"}
+{"time": "2026-03-16 16:11:29", "component": "gui", "status": "window_initialized", "version": "v084_9_1"}
+{"time": "2026-03-16 16:11:29", "component": "crash", "status": "sys_excepthook", "error": "No module named 'ui_layout_v084_9_1_1'"}
+{"time": "2026-03-16 16:13:06", "component": "app", "status": "startup", "version": "v084_9_1"}
+{"time": "2026-03-16 16:13:06", "component": "gui", "status": "window_initialized", "version": "v084_9_1"}
+{"time": "2026-03-16 16:13:11", "component": "worker", "status": "thread_started", "timeframe": "5m"}
+{"time": "2026-03-16 16:13:12", "component": "worker", "status": "engine_constructed", "timeframe": "5m"}
+{"time": "2026-03-16 16:13:12", "component": "engine", "status": "cycle_started", "open_positions": 0, "timeframe": "5m"}
+{"time": "2026-03-16 16:14:06", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 16:14:08", "component": "engine", "status": "cycle_finished", "duration_sec": 56.551, "open_positions": 6}
+{"time": "2026-03-16 16:14:13", "component": "engine", "status": "cycle_started", "open_positions": 6, "timeframe": "5m"}
+{"time": "2026-03-16 16:15:04", "component": "engine", "status": "cycle_finished", "duration_sec": 51.043, "open_positions": 6}
+{"time": "2026-03-16 16:15:06", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 16:15:09", "component": "engine", "status": "cycle_started", "open_positions": 6, "timeframe": "5m"}
+{"time": "2026-03-16 16:16:06", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 16:16:07", "component": "engine", "status": "cycle_finished", "duration_sec": 57.891, "open_positions": 9}
+{"time": "2026-03-16 16:16:12", "component": "engine", "status": "cycle_started", "open_positions": 9, "timeframe": "5m"}
+{"time": "2026-03-16 16:17:06", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 16:17:10", "component": "engine", "status": "cycle_finished", "duration_sec": 57.888, "open_positions": 9}
+{"time": "2026-03-16 16:17:15", "component": "engine", "status": "cycle_started", "open_positions": 9, "timeframe": "5m"}
+{"time": "2026-03-16 16:18:06", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 16:18:20", "component": "engine", "status": "cycle_finished", "duration_sec": 64.722, "open_positions": 8}
+{"time": "2026-03-16 16:18:25", "component": "engine", "status": "cycle_started", "open_positions": 8, "timeframe": "5m"}
+{"time": "2026-03-16 16:18:30", "component": "engine", "status": "cycle_error", "error": "The read operation timed out"}
+{"time": "2026-03-16 16:18:35", "component": "engine", "status": "cycle_started", "open_positions": 8, "timeframe": "5m"}
+{"time": "2026-03-16 16:19:06", "component": "gui", "status": "alive", "bot_running": true, "transitioning": true, "worker_running": true}
+{"time": "2026-03-16 16:19:41", "component": "engine", "status": "cycle_finished", "duration_sec": 65.995, "open_positions": 6}
+{"time": "2026-03-16 16:19:41", "component": "worker", "status": "thread_finished"}
+{"time": "2026-03-16 16:19:48", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-16 16:19:48", "component": "app", "status": "shutdown", "exit_code": 0}

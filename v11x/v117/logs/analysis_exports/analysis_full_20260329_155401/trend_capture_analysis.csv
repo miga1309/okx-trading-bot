@@ -1,0 +1,8 @@
+early_exit_flag,early_exit_gap_pct,exit_efficiency,exit_reason,hybrid_stop_mode,inst_id,mfe_pct,realized_pnl_pct,realized_r,side,system_name,trade_id,trend_capture_ratio,trend_move_r,trend_strength_r,turtle_exit_period,units
+False,0.127422,-0.999773,синхронизация:_позиция_отсутствует_на_бирже,ATR_INITIAL,SUI-USDT-SWAP,0.127422,-0.5084166865664803,-0.552678,short,Turtle 20,20260329_153719_SUI-USDT-SWAP_short,-3.990023,0.138515,0.138515,10,1
+False,0.13636,-3.110814,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,ZIL-USDT-SWAP,0.13636,-1.908872926480904,-0.61946,short,Turtle 55,20260329_153713_ZIL-USDT-SWAP_short,-13.998775,0.044251,0.044251,20,2
+False,0.049485,-17.495301,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,OP-USDT-SWAP,0.049485,-1.7317907040313711,-1.129015,short,Turtle 20,20260329_153717_OP-USDT-SWAP_short,-34.996276,0.032261,0.032261,10,2
+False,0.071531,-1.5,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,INJ-USDT-SWAP,0.071531,-1.0733452593918118,-0.882673,short,Turtle 55,20260329_153715_INJ-USDT-SWAP_short,-15.005316,0.058824,0.058824,20,3
+False,0.0,3.857143,sync_confirmed_close_after_stop_fault:_pending_recheck,DONCHIAN_ACTIVE,MAGIC-USDT-SWAP,0.106838,2.4038461538461484,3.139526,short,Turtle 20,20260329_154223_MAGIC-USDT-SWAP_short,22.499917,0.139535,0.139535,10,1
+False,0.185529,-15.0,синхронизация:_позиция_отсутствует_на_бирже,ATR_INITIAL,LQTY-USDT-SWAP,0.185529,-2.7829313543599277,-1.923072,long,Turtle 20,20260329_142332_LQTY-USDT-SWAP_long,-14.99998,0.128205,0.128205,10,1
+False,0.198544,0.0,sync_confirmed_close_after_stop_fault:_pending_recheck,ATR_INITIAL,THETA-USDT-SWAP,0.198544,0.0,0.0,long,Turtle 20,20260329_142334_THETA-USDT-SWAP_long,0.0,0.25,0.25,10,1

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: XRP-USDT-SWAP\nЦена входа: 1.332400\nQty: 18.95\nATR: 0.001070\nBootstrap-stop: 1.339100\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "2ec26434f609462fae4f04b3171ae701",
+  "created_ts": 1774760929.7567618,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

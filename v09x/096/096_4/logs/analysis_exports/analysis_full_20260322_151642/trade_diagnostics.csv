@@ -1,0 +1,13 @@
+early_exit_flag,early_exit_gap_pct,inst_id,last_stop_move_reason,mae_pct,market_risk_score,mfe_pct,pnl_pct,side,stop_move_events,trade_id,unit_add_events
+False,0.745871,COMP-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,0.426212,0.0,0.745871,0.0,long,0,20260322_151528_COMP-USDT-SWAP_long,0
+False,0.16,COMP-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,0.853333,0.0,0.16,0.0,short,0,20260322_143934_COMP-USDT-SWAP_short,0
+False,0.106724,COMP-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,0.90715,0.0,0.106724,0.0,short,0,20260322_143813_COMP-USDT-SWAP_short,0
+False,0.106724,COMP-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,0.90715,0.0,0.106724,0.0,short,0,20260322_143651_COMP-USDT-SWAP_short,0
+False,0.106724,COMP-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,0.90715,0.0,0.106724,0.0,short,0,20260322_143529_COMP-USDT-SWAP_short,0
+False,0.04531,CRV-USDT-SWAP,closed_candle,1.721794,8.25,0.04531,0.0,short,0,20260322_143028_CRV-USDT-SWAP_short,0
+False,0.145313,ENA-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,1.384772,8.0,0.157592,0.012278873623326155,short,0,20260322_142445_ENA-USDT-SWAP_short,1
+False,0.075928,ENA-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,1.363308,8.0,0.075928,-0.43808495038583073,short,0,20260322_142248_ENA-USDT-SWAP_short,0
+False,0.0,ENA-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,1.440329,8.0,0.0,-0.4115226337448678,short,0,20260322_142135_ENA-USDT-SWAP_short,0
+False,0.0,DOT-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,1.671309,0.0,0.069638,0.06963788300834887,short,0,20260322_140526_DOT-USDT-SWAP_short,0
+False,0.0,INJ-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,1.557211,0.0,0.0,0.0,short,0,20260322_140524_INJ-USDT-SWAP_short,0
+False,0.0,FLOKI-USDT-SWAP,pre_close:Ошибка: первичный стоп не подтверждён на бирже,1.443662,0.0,0.0,-0.10563380281690635,short,0,20260322_140520_FLOKI-USDT-SWAP_short,0

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: INJ-USDT-SWAP\nСторона: LONG\nЦена входа: 3.073000\nЦена выхода: 3.062000\nPnL: -7.5526\nPnL %: -0.36%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "69a6dfa0d70141e7b283c903d3f56f63",
+  "created_ts": 1774424871.7677946,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,1 @@
+2026-03-26 21:30:39,744 | INFO | Telegram worker started | app_dir=D:\GIT\okx-trading-bot\v11x\v112_5 | project_root=D:\GIT\okx-trading-bot\v11x\v112_5 | queue=D:\GIT\okx-trading-bot\v11x\v112_5\runtime\telegram_queue | status=D:\GIT\okx-trading-bot\v11x\v112_5\runtime\telegram_status.json | bridge=D:\GIT\okx-trading-bot\v11x\v112_5\runtime\remote_bridge

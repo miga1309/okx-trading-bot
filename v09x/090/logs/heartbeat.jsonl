@@ -1,0 +1,3 @@
+{"time": "2026-03-19 14:35:50", "component": "crash", "status": "sys_excepthook", "error": "'NoneType' object has no attribute 'setText'"}
+{"time": "2026-03-19 14:35:55", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-19 14:35:55", "component": "app", "status": "shutdown", "exit_code": 0}

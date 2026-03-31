@@ -1,0 +1,15 @@
+{"time": "2026-03-22 16:57:30", "component": "app", "status": "startup", "version": "v096_7"}
+{"time": "2026-03-22 16:57:30", "component": "gui", "status": "window_initialized", "version": "v096_7"}
+{"time": "2026-03-22 16:58:06", "component": "worker", "status": "thread_started", "timeframe": "5m"}
+{"time": "2026-03-22 16:58:08", "component": "worker", "status": "thread_crash", "error": "[WinError 5] Отказано в доступе: 'logs\\\\telegram_queue'"}
+{"time": "2026-03-22 16:58:08", "component": "worker", "status": "thread_finished"}
+{"time": "2026-03-22 16:58:30", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-22 16:58:33", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-22 16:58:33", "component": "app", "status": "shutdown", "exit_code": 0}
+{"time": "2026-03-22 17:13:34", "component": "app", "status": "startup", "version": "v096_7"}
+{"time": "2026-03-22 17:13:34", "component": "gui", "status": "window_initialized", "version": "v096_7"}
+{"time": "2026-03-22 17:13:36", "component": "worker", "status": "thread_started", "timeframe": "5m"}
+{"time": "2026-03-22 17:13:38", "component": "worker", "status": "thread_crash", "error": "[WinError 5] Отказано в доступе: 'logs\\\\telegram_queue'"}
+{"time": "2026-03-22 17:13:38", "component": "worker", "status": "thread_finished"}
+{"time": "2026-03-22 17:13:42", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-22 17:13:42", "component": "app", "status": "shutdown", "exit_code": 0}

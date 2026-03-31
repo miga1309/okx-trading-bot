@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: CELO-USDT-SWAP\nЦена входа: 0.077116\nQty: 20759.0\nATR: 0.000150\nСтоп: 0.077416\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "620357e1ae734cf592153e4efdcfec17",
+  "created_ts": 1774227920.4136252,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

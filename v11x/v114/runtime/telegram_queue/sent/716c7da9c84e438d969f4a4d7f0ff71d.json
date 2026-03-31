@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: THETA-USDT-SWAP\nЦена входа: 0.151900\nQty: 1823.0\nATR: 0.000130\nBootstrap-stop: 0.150600\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "716c7da9c84e438d969f4a4d7f0ff71d",
+  "created_ts": 1774749548.0673966,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

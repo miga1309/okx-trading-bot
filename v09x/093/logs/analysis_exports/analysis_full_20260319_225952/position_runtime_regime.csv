@@ -1,0 +1,4 @@
+avg_px,hybrid_stop_mode,inst_id,last_px,peak_pnl_pct,pnl_pct,qty,reconciler_interval_sec,side,sync_status,system_name,trade_id,trend_hold_state,turtle_exit_period
+1.2007479674796748,,LIT-USDT-SWAP,1.202,4.180533858588622,0.9377623703382878,984.0,0,long,,Turtle 55,20260319_221531_LIT-USDT-SWAP_long,,0
+1.5435,,DOT-USDT-SWAP,1.546,0.38961038961038996,-1.652089407191482,3739.2,0,long,,Turtle 55,20260319_222529_DOT-USDT-SWAP_long,,0
+0.2588,,CRV-USDT-SWAP,0.2588,0.0,-0.23183925811434852,10434.0,0,long,,Turtle 55,20260319_225520_CRV-USDT-SWAP_long,,0

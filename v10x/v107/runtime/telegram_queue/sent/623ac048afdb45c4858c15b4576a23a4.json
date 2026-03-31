@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: XTZ-USDT-SWAP\nЦена входа: 0.399400\nQty: 6320.0\nATR: 0.000415\nСтоп: 0.398570\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "623ac048afdb45c4858c15b4576a23a4",
+  "created_ts": 1774393246.8909953,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

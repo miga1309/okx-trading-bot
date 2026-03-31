@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: NEO-USDT-SWAP\nСторона: LONG\nЦена входа: 2.769000\nЦена выхода: 2.762000\nPnL: -6.3490\nPnL %: -0.25%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "25d76a83c73d4dada1c65c5e5ea2a9f7",
+  "created_ts": 1774426671.5985878,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

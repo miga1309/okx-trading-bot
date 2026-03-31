@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: DOT-USDT-SWAP\nСторона: LONG\nЦена входа: 1.435339\nЦена выхода: 1.432000\nPnL: -13.5867\nPnL %: -0.23%\nЮнитов: 2\nПричина: ATR стоп 2.0N",
+  "id": "0be6a9b0e7014d4aa7c5202b7a9910b6",
+  "created_ts": 1774197147.4578803,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

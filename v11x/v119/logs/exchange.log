@@ -1,0 +1,54 @@
+2026-03-29 20:09:33,328 | INFO | root | okx_gateway:refresh_instruments:141 | Loaded 108 swap instruments
+2026-03-29 20:12:23,250 | INFO | root | okx_gateway:ensure_instrument_leverage:121 | Applied leverage 5 to NEAR-USDT-SWAP (isolated)
+2026-03-29 20:12:23,617 | INFO | root | okx_gateway:place_market_order:639 | Placing order NEAR-USDT-SWAP sell qty=245.1 attached_stop=True attached_stop_px=1.212
+2026-03-29 20:12:24,994 | INFO | root | okx_gateway:ensure_instrument_leverage:121 | Applied leverage 5 to XLM-USDT-SWAP (isolated)
+2026-03-29 20:12:25,367 | INFO | root | okx_gateway:place_market_order:639 | Placing order XLM-USDT-SWAP sell qty=170.24 attached_stop=True attached_stop_px=0.17208
+2026-03-29 20:12:30,095 | INFO | root | okx_gateway:place_market_order:639 | Placing order NEAR-USDT-SWAP sell qty=245.1 attached_stop=False attached_stop_px=
+2026-03-29 20:12:32,778 | INFO | root | okx_gateway:place_market_order:639 | Placing order XLM-USDT-SWAP sell qty=170.24 attached_stop=False attached_stop_px=
+2026-03-29 20:14:42,675 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for ARB-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:15:21,430 | INFO | root | okx_gateway:place_exchange_stop:410 | Placing exchange stop NEAR-USDT-SWAP short payload={'instId': 'NEAR-USDT-SWAP', 'tdMode': 'isolated', 'side': 'buy', 'posSide': 'net', 'ordType': 'conditional', 'reduceOnly': 'true', 'closeFraction': '1', 'algoClOrdId': 'SLUSDTSWAP804521430', 'slTriggerPx': '1.212', 'slTriggerPxType': 'mark', 'slOrdPx': '-1'}
+2026-03-29 20:15:32,183 | INFO | root | okx_gateway:place_exchange_stop:410 | Placing exchange stop XLM-USDT-SWAP short payload={'instId': 'XLM-USDT-SWAP', 'tdMode': 'isolated', 'side': 'buy', 'posSide': 'net', 'ordType': 'conditional', 'reduceOnly': 'true', 'closeFraction': '1', 'algoClOrdId': 'SLUSDTSWAP804532183', 'slTriggerPx': '0.17208', 'slTriggerPxType': 'mark', 'slOrdPx': '-1'}
+2026-03-29 20:15:47,191 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for PIGGY-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:18:44,395 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for LRC-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:22:45,643 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for BAND-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:24:11,358 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for AKITA-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:26:10,185 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for ENA-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:27:44,077 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for LPT-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:28:05,337 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for SOLV-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:31:09,833 | INFO | root | okx_gateway:ensure_instrument_leverage:121 | Applied leverage 5 to JUP-USDT-SWAP (isolated)
+2026-03-29 20:31:10,092 | INFO | root | okx_gateway:place_market_order:639 | Placing order JUP-USDT-SWAP sell qty=1937.0 attached_stop=True attached_stop_px=0.1481
+2026-03-29 20:31:10,932 | INFO | root | okx_gateway:ensure_instrument_leverage:121 | Applied leverage 5 to XRP-USDT-SWAP (isolated)
+2026-03-29 20:31:11,186 | INFO | root | okx_gateway:place_market_order:639 | Placing order XRP-USDT-SWAP sell qty=20.83 attached_stop=True attached_stop_px=1.3749
+2026-03-29 20:31:16,187 | INFO | root | okx_gateway:place_market_order:639 | Placing order XLM-USDT-SWAP sell qty=170.24 attached_stop=False attached_stop_px=
+2026-03-29 20:31:17,463 | INFO | root | okx_gateway:amend_exchange_stop:433 | Amending exchange stop XLM-USDT-SWAP algo=3432689935944343552 payload=[{'instId': 'XLM-USDT-SWAP', 'algoId': '3432689935944343552', 'newSlTriggerPx': '0.16846', 'newSlOrdPx': '-1', 'newSlTriggerPxType': 'mark'}]
+2026-03-29 20:31:19,803 | INFO | root | okx_gateway:place_exchange_stop:410 | Placing exchange stop XLM-USDT-SWAP short payload={'instId': 'XLM-USDT-SWAP', 'tdMode': 'isolated', 'side': 'buy', 'posSide': 'net', 'ordType': 'conditional', 'reduceOnly': 'true', 'closeFraction': '1', 'algoClOrdId': 'SLUSDTSWAP805479803', 'slTriggerPx': '0.16846', 'slTriggerPxType': 'mark', 'slOrdPx': '-1'}
+2026-03-29 20:33:21,233 | INFO | root | okx_gateway:ensure_instrument_leverage:121 | Applied leverage 5 to BTC-USDT-SWAP (isolated)
+2026-03-29 20:33:21,485 | INFO | root | okx_gateway:place_market_order:639 | Placing order BTC-USDT-SWAP sell qty=4.09 attached_stop=True attached_stop_px=67342.199999999997
+2026-03-29 20:33:23,182 | INFO | root | okx_gateway:ensure_instrument_leverage:121 | Applied leverage 5 to SOL-USDT-SWAP (isolated)
+2026-03-29 20:33:23,432 | INFO | root | okx_gateway:place_market_order:639 | Placing order SOL-USDT-SWAP sell qty=33.13 attached_stop=True attached_stop_px=84.41
+2026-03-29 20:35:01,083 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for LPT-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:35:38,322 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for 2Z-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:36:12,576 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for ETC-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:37:52,281 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for NEO-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:38:47,911 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for IMX-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:39:13,005 | INFO | root | okx_gateway:ensure_instrument_leverage:121 | Applied leverage 5 to AAVE-USDT-SWAP (isolated)
+2026-03-29 20:39:13,280 | INFO | root | okx_gateway:place_market_order:639 | Placing order AAVE-USDT-SWAP sell qty=282.1 attached_stop=True attached_stop_px=98.95
+2026-03-29 20:39:14,748 | INFO | root | okx_gateway:ensure_instrument_leverage:121 | Applied leverage 5 to ACT-USDT-SWAP (isolated)
+2026-03-29 20:39:15,006 | INFO | root | okx_gateway:place_market_order:639 | Placing order ACT-USDT-SWAP sell qty=10000.0 attached_stop=True attached_stop_px=0.01221
+2026-03-29 20:43:30,249 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for ICP-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:44:35,495 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for BAND-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:47:16,562 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for ETH-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 20:54:19,688 | INFO | root | okx_gateway:ensure_instrument_leverage:121 | Applied leverage 5 to LQTY-USDT-SWAP (isolated)
+2026-03-29 20:54:20,046 | INFO | root | okx_gateway:place_market_order:639 | Placing order LQTY-USDT-SWAP buy qty=9685.9 attached_stop=True attached_stop_px=0.2654
+2026-03-29 20:55:01,820 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for HMSTR-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 21:01:05,642 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for HBAR-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-29 21:01:52,376 | INFO | root | okx_gateway:amend_exchange_stop:433 | Amending exchange stop NEAR-USDT-SWAP algo=3432689575368417280 payload=[{'instId': 'NEAR-USDT-SWAP', 'algoId': '3432689575368417280', 'newSlTriggerPx': '1.161', 'newSlOrdPx': '-1', 'newSlTriggerPxType': 'mark'}]
+2026-03-29 21:01:57,708 | INFO | root | okx_gateway:place_exchange_stop:410 | Placing exchange stop NEAR-USDT-SWAP short payload={'instId': 'NEAR-USDT-SWAP', 'tdMode': 'isolated', 'side': 'buy', 'posSide': 'net', 'ordType': 'conditional', 'reduceOnly': 'true', 'closeFraction': '1', 'algoClOrdId': 'SLUSDTSWAP807317708', 'slTriggerPx': '1.161', 'slTriggerPxType': 'mark', 'slOrdPx': '-1'}
+2026-03-29 21:11:20,663 | INFO | root | okx_gateway:refresh_instruments:141 | Loaded 109 swap instruments
+2026-03-29 21:11:23,490 | INFO | root | okx_gateway:close_position:466 | Closing position LQTY-USDT-SWAP. reset_test
+2026-03-29 21:11:25,703 | INFO | root | okx_gateway:close_position:466 | Closing position AAVE-USDT-SWAP. reset_test
+2026-03-29 21:11:27,914 | INFO | root | okx_gateway:close_position:466 | Closing position SOL-USDT-SWAP. reset_test
+2026-03-29 21:11:30,160 | INFO | root | okx_gateway:close_position:466 | Closing position BTC-USDT-SWAP. reset_test
+2026-03-29 21:11:32,409 | INFO | root | okx_gateway:close_position:466 | Closing position XRP-USDT-SWAP. reset_test
+2026-03-29 21:11:34,614 | INFO | root | okx_gateway:close_position:466 | Closing position XLM-USDT-SWAP. reset_test
+2026-03-29 21:11:36,835 | INFO | root | okx_gateway:close_position:466 | Closing position NEAR-USDT-SWAP. reset_test

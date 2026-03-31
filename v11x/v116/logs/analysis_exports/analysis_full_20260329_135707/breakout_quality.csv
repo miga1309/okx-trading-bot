@@ -1,0 +1,8 @@
+atr,body_atr,body_to_range_ratio,breakout_buffer_atr_actual,breakout_level,channel_width_atr,close_beyond_channel_atr,distance_from_breakout_level_atr,donchian_high,donchian_low,entry_mode,entry_price,event,fresh_breakout_true_false,inst_id,side,system_name,timeframe,ts
+0.00195,1.025641,1.0,1.025641,2.817,8.717949,1.025641,1.025641,2.834,2.817,minimal,2.815,breakout_quality,True,INJ-USDT-SWAP,short,Turtle 55,5m,2026-03-29 13:07:03
+0.00815,1.349693,1.0,1.226994,8.5,4.04908,1.349693,1.226994,8.533,8.5,minimal,8.49,breakout_quality,True,LINK-USDT-SWAP,short,Turtle 20,5m,2026-03-29 13:07:07
+0.00021,0.0,0.0,0.47619,0.2664,29.047619,0.952381,-0.47619,0.2725,0.2664,minimal,0.2665,breakout_quality,True,LQTY-USDT-SWAP,short,Turtle 55,5m,2026-03-29 13:09:44
+0.031,1.612903,0.555556,1.290323,53.83,12.903226,1.612903,1.290323,54.23,53.83,minimal,53.79,breakout_quality,True,LTC-USDT-SWAP,short,Turtle 55,5m,2026-03-29 13:15:20
+9.5e-05,0.0,0.0,2.105263,0.1505,15.789474,2.105263,2.105263,0.152,0.1505,minimal,0.1503,breakout_quality,True,THETA-USDT-SWAP,short,Turtle 55,5m,2026-03-29 13:21:18
+0.000651,0.645161,1.0,0.967742,0.85703,17.373272,0.552995,0.967742,0.86834,0.85703,minimal,0.8564,breakout_quality,True,SUI-USDT-SWAP,short,Turtle 55,5m,2026-03-29 13:32:51
+66.61,0.857229,0.683014,0.795676,66403.8,6.515538,0.343792,-0.795676,66837.8,66403.8,minimal,66456.8,breakout_quality,True,BTC-USDT-SWAP,short,Turtle 55,5m,2026-03-29 13:38:19

@@ -1,0 +1,6 @@
+early_exit_flag,early_exit_gap_pct,inst_id,last_stop_move_reason,mae_pct,market_risk_score,mfe_pct,pnl_pct,side,stop_move_events,trade_id,unit_add_events
+False,0.071852,ETHFI-USDT-SWAP,closed_candle,0.592779,6.25,0.071852,-0.41314891323874253,short,1,20260322_210547_ETHFI-USDT-SWAP_short,0
+False,1.667047,LINK-USDT-SWAP,STOP_TRIGGERED,0.49098,8.25,1.667047,-0.21694450787851258,short,1,20260322_210541_LINK-USDT-SWAP_short,0
+False,0.000156,LTC-USDT-SWAP,closed_candle,0.370282,10.0,0.000156,-0.16654097290875255,short,0,20260322_210553_LTC-USDT-SWAP_short,0
+False,0.038149,AUCTION-USDT-SWAP,pre_close:ATR стоп 2.0N,0.71135,0.0,0.038149,-0.17599345160163,short,0,20260322_202535_AUCTION-USDT-SWAP_short,0
+False,0.0,ENA-USDT-SWAP,pyramid_closed_candle,1.061086,12.0,0.0,-0.23777779486771483,short,0,20260322_200646_ENA-USDT-SWAP_short,0

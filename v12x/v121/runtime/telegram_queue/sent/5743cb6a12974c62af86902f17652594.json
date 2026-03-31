@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "🚫 Инструмент исключён биржей\n\nИнструмент: LINEA-USDT-SWAP\nКонтекст: ордер\nКод: 51155\nПричина:",
+  "id": "5743cb6a12974c62af86902f17652594",
+  "created_ts": 1774949431.5030372,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LINK-USDT-SWAP\nСторона: SHORT\nЦена входа: 8.626736\nЦена выхода: 8.656000\nPnL: -29.6891\nPnL %: -0.34%\nЮнитов: 4\nПричина: Канальный выход 10 свечей",
+  "id": "4eb93c59143e4c2487dcd5da95f76454",
+  "created_ts": 1774251635.1971369,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

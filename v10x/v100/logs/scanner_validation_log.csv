@@ -1,0 +1,4 @@
+timestamp,pair,filter_type,user_verdict,review_tags,comment,hit_count,reason,side,timeframe,metrics_json
+2026-03-23 19:21:30,BTC-USDT-SWAP,RIPPING,хороший,"[""хороший""]",,4,ripping_votes candle=1 flow=1 book=0,,5m,"{""atr_ratio"": 0.0033749528667676837, ""range_cv"": 0.9774272346253555, ""jump_ratio"": 11.40058282896194, ""return_kurtosis"": 52.034816176926064, ""intertrade_gap_p95"": 1.137, ""trade_size_cv"": 5.609076337156694, ""burst_trade_ratio"": 1.0, ""spread_bps"": 0.07113200178968115, ""spread_cv"": 0.0, ""top_depth_usdt"": 15346057.922, ""depth_cv"": 0.0, ""book_data_ready"": 0.0}"
+2026-03-23 19:22:39,CFX-USDT-SWAP,GOOD,хороший,"[""хороший""]",,10,Открытая позиция программы,short,5m,"{""pnl_pct"": 0.0, ""unrealized_pnl"": 0.0, ""units"": 1.0, ""entry_price"": 0.0}"
+2026-03-23 19:22:45,HBAR-USDT-SWAP,GOOD,хороший,"[""хороший""]",,11,Открытая позиция программы,short,5m,"{""pnl_pct"": 0.0, ""unrealized_pnl"": 0.0, ""units"": 1.0, ""entry_price"": 0.0}"

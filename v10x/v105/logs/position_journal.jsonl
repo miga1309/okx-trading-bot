@@ -1,0 +1,1 @@
+{"ts": "2026-03-24 22:25:32", "event": "CLOSE", "trade_id": "20260324_222304_ICP-USDT-SWAP_long", "inst_id": "ICP-USDT-SWAP", "side": "long", "price": 2.363, "stop_price": 2.3577, "qty": 126029.8, "units": 1, "unrealized_pnl": 0.0, "peak_unrealized_pnl": 0.0, "reason": "Синхронизация: позиция отсутствует на бирже", "note": "Выход из позиции"}

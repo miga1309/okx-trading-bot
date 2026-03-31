@@ -1,0 +1,6 @@
+early_exit_flag,early_exit_gap_pct,exit_efficiency,exit_reason,hybrid_stop_mode,inst_id,mfe_pct,realized_pnl_pct,realized_r,side,system_name,trade_id,trend_capture_ratio,trend_move_r,trend_strength_r,turtle_exit_period,units
+False,0.071852,-4.6,stopout_cooldown,ATR_INITIAL,ETHFI-USDT-SWAP,0.071852,-0.41314891323874253,-1.337208,short,Turtle 20,20260322_210547_ETHFI-USDT-SWAP_short,-5.749999,0.232558,0.232558,10,1
+False,1.667047,-4.75,stopout_cooldown,DONCHIAN_ACTIVE,LINK-USDT-SWAP,1.667047,-0.21694450787851258,-0.855856,short,Turtle 20,20260322_210541_LINK-USDT-SWAP_short,-0.130137,6.576577,6.576577,10,1
+False,0.000156,0.0,stopout_cooldown,ATR_INITIAL,LTC-USDT-SWAP,0.000156,-0.16654097290875255,-1.09853,short,Turtle 20,20260322_210553_LTC-USDT-SWAP_short,-1067.570339,0.001029,0.001029,10,1
+False,0.038149,-2.173352,stopout_cooldown,ATR_INITIAL,AUCTION-USDT-SWAP,0.038149,-0.17599345160163,-1.067346,short,Turtle 20,20260322_202535_AUCTION-USDT-SWAP_short,-4.613318,0.231362,0.231362,10,1
+False,0.0,0.0,stopout_cooldown,ATR_INITIAL,ENA-USDT-SWAP,0.0,-0.23777779486771483,0.0,short,Turtle 55,20260322_200646_ENA-USDT-SWAP_short,0.0,0.0,0.0,20,1

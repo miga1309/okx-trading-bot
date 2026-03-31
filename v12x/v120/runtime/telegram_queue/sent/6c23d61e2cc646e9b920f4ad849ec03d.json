@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LTC-USDT-SWAP\nСторона: SHORT\nЦена входа: 53.060019\nЦена выхода: 53.190000\nPnL: -6.7070\nPnL %: -1.22%\nЮнитов: 1\nПричина: Ротация под новый сигнал AXS-USDT-SWAP",
+  "id": "6c23d61e2cc646e9b920f4ad849ec03d",
+  "created_ts": 1774825313.4634678,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

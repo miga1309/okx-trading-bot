@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: QTUM-USDT-SWAP\nСторона: LONG\nЦена входа: 0.917721\nЦена выхода: 0.927000\nPnL: 115.7630\nPnL %: 1.01%\nЮнитов: 4\nПричина: Канальный выход 10 свечей",
+  "id": "7e9c560ca0a44af39717eba0a8ff8683",
+  "created_ts": 1774392144.4454942,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

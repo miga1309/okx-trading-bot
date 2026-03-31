@@ -1,0 +1,63 @@
+{
+  "review_records": [
+    {
+      "key": "1INCH-USDT-SWAP::RIPPING",
+      "pair": "1INCH-USDT-SWAP",
+      "filter_type": "RIPPING",
+      "first_seen_ts": 1774188672.2316158,
+      "last_seen_ts": 1774188672.2316158,
+      "first_seen": "2026-03-22 17:11:12",
+      "last_seen": "2026-03-22 17:11:12",
+      "hit_count": 1,
+      "reason": "ripping_votes candle=1 flow=0 book=1",
+      "user_verdict": "Не проверено",
+      "review_tags": [],
+      "comment": "",
+      "verdict_time": 0.0,
+      "recheck_needed": false,
+      "active": true,
+      "metrics": {
+        "atr_ratio": 5.464480874317097e-05,
+        "range_cv": 2.3106457709142125,
+        "jump_ratio": 0.0,
+        "return_kurtosis": 4.043352286928046,
+        "intertrade_gap_p95": 99999.0,
+        "trade_size_cv": 0.0,
+        "burst_trade_ratio": 0.0,
+        "spread_bps": 0.0,
+        "spread_cv": 0.0,
+        "top_depth_usdt": 0.0,
+        "depth_cv": 0.0,
+        "book_data_ready": 0.0
+      }
+    },
+    {
+      "key": "A-USDT-SWAP::DEAD",
+      "pair": "A-USDT-SWAP",
+      "filter_type": "DEAD",
+      "first_seen_ts": 1774188687.0299573,
+      "last_seen_ts": 1774188687.0299573,
+      "first_seen": "2026-03-22 17:11:27",
+      "last_seen": "2026-03-22 17:11:27",
+      "hit_count": 1,
+      "reason": "dead_core=1 trade=1 book=1",
+      "user_verdict": "Не проверено",
+      "review_tags": [],
+      "comment": "",
+      "verdict_time": 0.0,
+      "recheck_needed": false,
+      "active": true,
+      "metrics": {
+        "atr_ratio": 0.0,
+        "active_ratio": 0.041666666666666664,
+        "spike_ratio": 0.0,
+        "follow_through": 0.0,
+        "trade_count_per_min": 0.0,
+        "zero_trade_ratio": 1.0,
+        "intertrade_gap_p95": 99999.0,
+        "spread_bps": 0.0,
+        "top_depth_usdt": 0.0
+      }
+    }
+  ]
+}

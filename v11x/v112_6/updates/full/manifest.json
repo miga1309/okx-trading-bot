@@ -1,0 +1,12 @@
+{
+  "version": "remote_upload_20260326_214608",
+  "description": "uploaded from telegram",
+  "payload_dir": "payload",
+  "restart_app": true,
+  "files": [
+    {
+      "source": "ui_layout_v085_2.py",
+      "target": "ui_layout_v085_2.py"
+    }
+  ]
+}

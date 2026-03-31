@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: ADA-USDT-SWAP\nЦена входа: 0.247600\nQty: 72.7\nATR: 0.000970\nСтоп: 0.249540\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "05d7bc2d9e204a26ae932c4db7d0f280",
+  "created_ts": 1774250906.0720692,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

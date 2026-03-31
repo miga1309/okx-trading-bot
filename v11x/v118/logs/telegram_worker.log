@@ -1,0 +1,576 @@
+2026-03-29 16:12:51,185 | INFO | Telegram worker started | app_dir=D:\GIT\okx-trading-bot\v11x\v118 | project_root=D:\GIT\okx-trading-bot\v11x\v118 | queue=D:\GIT\okx-trading-bot\v11x\v118\runtime\telegram_queue | status=D:\GIT\okx-trading-bot\v11x\v118\runtime\telegram_status.json | bridge=D:\GIT\okx-trading-bot\v11x\v118\runtime\remote_bridge
+2026-03-29 16:32:04,588 | ERROR | Telegram worker item processing failed: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+2026-03-29 16:32:45,901 | ERROR | Telegram worker item processing failed: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+2026-03-29 16:58:40,568 | ERROR | Telegram worker item processing failed: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 657, in run_worker_forever
+    processed = worker.process_once()
+  File "integration\telegram\notifier.py", line 148, in process_once
+    self._process_file(pending)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 554, in _process_file
+    self._send_photo(payload)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 633, in _send_photo
+    with urllib.request.urlopen(request, timeout=40) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+2026-03-29 17:18:50,368 | ERROR | Telegram worker item processing failed: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+2026-03-29 17:20:03,061 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-29 17:23:20,536 | ERROR | Telegram worker item processing failed: <urlopen error timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1492, in connect
+  File "http\client.py", line 1023, in connect
+  File "socket.py", line 870, in create_connection
+  File "socket.py", line 855, in create_connection
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error timed out>
+2026-03-29 17:23:54,883 | ERROR | Telegram worker item processing failed: The read operation timed out
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1325, in do_open
+  File "http\client.py", line 1450, in getresponse
+  File "http\client.py", line 336, in begin
+  File "http\client.py", line 297, in _read_status
+  File "socket.py", line 725, in readinto
+  File "ssl.py", line 1304, in recv_into
+  File "ssl.py", line 1138, in read
+TimeoutError: The read operation timed out
+2026-03-29 17:46:20,447 | ERROR | Telegram worker item processing failed: The read operation timed out
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1325, in do_open
+  File "http\client.py", line 1450, in getresponse
+  File "http\client.py", line 336, in begin
+  File "http\client.py", line 297, in _read_status
+  File "socket.py", line 725, in readinto
+  File "ssl.py", line 1304, in recv_into
+  File "ssl.py", line 1138, in read
+TimeoutError: The read operation timed out
+2026-03-29 17:46:38,454 | ERROR | Telegram worker item processing failed: <urlopen error timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1492, in connect
+  File "http\client.py", line 1023, in connect
+  File "socket.py", line 870, in create_connection
+  File "socket.py", line 855, in create_connection
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error timed out>
+2026-03-29 17:46:56,456 | ERROR | Telegram worker item processing failed: <urlopen error timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1492, in connect
+  File "http\client.py", line 1023, in connect
+  File "socket.py", line 870, in create_connection
+  File "socket.py", line 855, in create_connection
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error timed out>
+2026-03-29 17:47:14,460 | ERROR | Telegram worker item processing failed: <urlopen error timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1492, in connect
+  File "http\client.py", line 1023, in connect
+  File "socket.py", line 870, in create_connection
+  File "socket.py", line 855, in create_connection
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error timed out>
+2026-03-29 17:47:32,463 | ERROR | Telegram worker item processing failed: <urlopen error timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1492, in connect
+  File "http\client.py", line 1023, in connect
+  File "socket.py", line 870, in create_connection
+  File "socket.py", line 855, in create_connection
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error timed out>
+2026-03-29 17:47:50,480 | ERROR | Telegram worker item processing failed: <urlopen error timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1492, in connect
+  File "http\client.py", line 1023, in connect
+  File "socket.py", line 870, in create_connection
+  File "socket.py", line 855, in create_connection
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 658, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "integration\telegram\notifier.py", line 302, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error timed out>
+2026-03-29 17:48:14,503 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1492, in connect
+  File "http\client.py", line 1023, in connect
+  File "socket.py", line 870, in create_connection
+  File "socket.py", line 855, in create_connection
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 657, in run_worker_forever
+    processed = worker.process_once()
+  File "integration\telegram\notifier.py", line 148, in process_once
+    self._process_file(pending)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 556, in _process_file
+    self._send_message(payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 569, in _send_message
+    with urllib.request.urlopen(request, timeout=25) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+2026-03-29 17:48:38,511 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1492, in connect
+  File "http\client.py", line 1023, in connect
+  File "socket.py", line 870, in create_connection
+  File "socket.py", line 855, in create_connection
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 657, in run_worker_forever
+    processed = worker.process_once()
+  File "integration\telegram\notifier.py", line 148, in process_once
+    self._process_file(pending)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 556, in _process_file
+    self._send_message(payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 569, in _send_message
+    with urllib.request.urlopen(request, timeout=25) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+2026-03-29 17:49:03,167 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 657, in run_worker_forever
+    processed = worker.process_once()
+  File "integration\telegram\notifier.py", line 148, in process_once
+    self._process_file(pending)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 556, in _process_file
+    self._send_message(payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 569, in _send_message
+    with urllib.request.urlopen(request, timeout=25) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2026-03-29 17:49:40,423 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 657, in run_worker_forever
+    processed = worker.process_once()
+  File "integration\telegram\notifier.py", line 148, in process_once
+    self._process_file(pending)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 556, in _process_file
+    self._send_message(payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 569, in _send_message
+    with urllib.request.urlopen(request, timeout=25) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2026-03-29 17:50:02,676 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 657, in run_worker_forever
+    processed = worker.process_once()
+  File "integration\telegram\notifier.py", line 148, in process_once
+    self._process_file(pending)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 556, in _process_file
+    self._send_message(payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 569, in _send_message
+    with urllib.request.urlopen(request, timeout=25) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2026-03-29 17:50:30,749 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "integration\telegram\notifier.py", line 657, in run_worker_forever
+    processed = worker.process_once()
+  File "integration\telegram\notifier.py", line 148, in process_once
+    self._process_file(pending)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 556, in _process_file
+    self._send_message(payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "integration\telegram\notifier.py", line 569, in _send_message
+    with urllib.request.urlopen(request, timeout=25) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>

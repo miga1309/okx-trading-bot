@@ -1,0 +1,523 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,XLM-USDT-SWAP,0.0,0.16393,172.28,,,short,True,2026-03-29 22:44:11,20260329_224411_XLM-USDT-SWAP_short
+OPEN,XLM-USDT-SWAP,0.0,0.16393,172.28,,Первичный вход + bootstrap-stop,short,True,2026-03-29 22:44:11,20260329_224411_XLM-USDT-SWAP_short
+position_opened,XRP-USDT-SWAP,0.0,1.3167,21.29,,,short,True,2026-03-29 22:44:13,20260329_224413_XRP-USDT-SWAP_short
+OPEN,XRP-USDT-SWAP,0.0,1.3167,21.29,,Первичный вход + bootstrap-stop,short,True,2026-03-29 22:44:13,20260329_224413_XRP-USDT-SWAP_short
+close_pending_exchange,XRP-USDT-SWAP,0.0,1.3167,21.29,,SYNC recheck during entry recovery: PENDING_RECHECK,short,True,2026-03-29 22:44:16,20260329_224413_XRP-USDT-SWAP_short
+position_opened,PEPE-USDT-SWAP,0.0,3.304e-06,84.2,,,long,True,2026-03-29 23:30:12,20260329_233012_PEPE-USDT-SWAP_long
+OPEN,PEPE-USDT-SWAP,0.0,3.304e-06,84.2,,Первичный вход + bootstrap-stop,long,True,2026-03-29 23:30:12,20260329_233012_PEPE-USDT-SWAP_long
+position_opened,LDO-USDT-SWAP,0.0,0.3077,8986.0,,,long,True,2026-03-29 23:30:14,20260329_233013_LDO-USDT-SWAP_long
+OPEN,LDO-USDT-SWAP,0.0,0.3077,8986.0,,Первичный вход + bootstrap-stop,long,True,2026-03-29 23:30:14,20260329_233013_LDO-USDT-SWAP_long
+position_opened,DOGE-USDT-SWAP,0.0,0.09125,30.09,,,long,True,2026-03-29 23:30:47,20260329_233047_DOGE-USDT-SWAP_long
+OPEN,DOGE-USDT-SWAP,0.0,0.09125,30.09,,Первичный вход + bootstrap-stop,long,True,2026-03-29 23:30:47,20260329_233047_DOGE-USDT-SWAP_long
+position_opened,AUCTION-USDT-SWAP,0.0,4.427,6158.9,,,long,True,2026-03-29 23:30:49,20260329_233048_AUCTION-USDT-SWAP_long
+OPEN,AUCTION-USDT-SWAP,0.0,4.427,6158.9,,Первичный вход + bootstrap-stop,long,True,2026-03-29 23:30:49,20260329_233048_AUCTION-USDT-SWAP_long
+position_opened,ZBCN-USDT-SWAP,0.0,0.0022977,1178.0,,,long,True,2026-03-30 00:00:10,20260330_000009_ZBCN-USDT-SWAP_long
+OPEN,ZBCN-USDT-SWAP,0.0,0.0022977,1178.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 00:00:10,20260330_000009_ZBCN-USDT-SWAP_long
+close_pending_exchange,ZBCN-USDT-SWAP,0.0,0.0022977,1178.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 00:00:13,20260330_000009_ZBCN-USDT-SWAP_long
+position_opened,AVAX-USDT-SWAP,0.0,8.642,311.0,,,short,True,2026-03-30 00:00:45,20260330_000045_AVAX-USDT-SWAP_short
+OPEN,AVAX-USDT-SWAP,0.0,8.642,311.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 00:00:45,20260330_000045_AVAX-USDT-SWAP_short
+close_pending_exchange,XRP-USDT-SWAP,0.0,1.3254,21.29,,SYNC confirmed close after exchange absence,short,True,2026-03-30 00:23:01,20260329_224413_XRP-USDT-SWAP_short
+position_closed,XRP-USDT-SWAP,0.0,0.0,21.29,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 00:23:12,20260329_224413_XRP-USDT-SWAP_short
+CLOSE,XRP-USDT-SWAP,0.0,1.326,21.29,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 00:23:12,20260329_224413_XRP-USDT-SWAP_short
+position_opened,CELO-USDT-SWAP,0.0,0.074,36330.0,,,long,True,2026-03-30 00:30:31,20260330_003030_CELO-USDT-SWAP_long
+OPEN,CELO-USDT-SWAP,0.0,0.074,36330.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 00:30:31,20260330_003030_CELO-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.1723,227.7,,,long,True,2026-03-30 00:30:33,20260330_003032_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.1723,227.7,,Первичный вход + bootstrap-stop,long,True,2026-03-30 00:30:33,20260330_003032_NEAR-USDT-SWAP_long
+close_pending_exchange,XLM-USDT-SWAP,0.0,0.16528,172.28,,SYNC confirmed close after exchange absence,short,True,2026-03-30 00:39:03,20260329_224411_XLM-USDT-SWAP_short
+close_pending_exchange,XLM-USDT-SWAP,0.0,0.16528,172.28,,SYNC confirmed close after exchange absence,short,True,2026-03-30 00:40:15,20260329_224411_XLM-USDT-SWAP_short
+position_closed,XLM-USDT-SWAP,0.0,0.0,172.28,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 00:40:25,20260329_224411_XLM-USDT-SWAP_short
+CLOSE,XLM-USDT-SWAP,0.0,0.16528,172.28,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 00:40:25,20260329_224411_XLM-USDT-SWAP_short
+position_opened,INJ-USDT-SWAP,0.0,2.823,9320.0,,,long,True,2026-03-30 01:01:17,20260330_010117_INJ-USDT-SWAP_long
+OPEN,INJ-USDT-SWAP,0.0,2.823,9320.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 01:01:17,20260330_010117_INJ-USDT-SWAP_long
+position_opened,KSM-USDT-SWAP,0.0,4.148,6298.0,,,long,True,2026-03-30 01:01:19,20260330_010119_KSM-USDT-SWAP_long
+OPEN,KSM-USDT-SWAP,0.0,4.148,6298.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 01:01:19,20260330_010119_KSM-USDT-SWAP_long
+position_opened,CRV-USDT-SWAP,0.0,0.2106,12318.0,,,long,True,2026-03-30 01:01:22,20260330_010121_CRV-USDT-SWAP_long
+OPEN,CRV-USDT-SWAP,0.0,0.2106,12318.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 01:01:22,20260330_010121_CRV-USDT-SWAP_long
+close_pending_exchange,CRV-USDT-SWAP,0.0,0.2106,12318.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 01:01:25,20260330_010121_CRV-USDT-SWAP_long
+close_pending_exchange,DOGE-USDT-SWAP,0.0,0.09085,30.09,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:05:04,20260329_233047_DOGE-USDT-SWAP_long
+close_pending_exchange,DOGE-USDT-SWAP,0.0,0.09075,30.09,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:06:17,20260329_233047_DOGE-USDT-SWAP_long
+position_closed,DOGE-USDT-SWAP,0.0,0.0,30.09,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:06:29,20260329_233047_DOGE-USDT-SWAP_long
+CLOSE,DOGE-USDT-SWAP,0.0,0.09065,30.09,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:06:29,20260329_233047_DOGE-USDT-SWAP_long
+close_pending_exchange,PEPE-USDT-SWAP,0.0,3.292e-06,168.4,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:07:11,20260329_233012_PEPE-USDT-SWAP_long
+close_pending_exchange,PEPE-USDT-SWAP,0.0,3.285e-06,168.4,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:08:18,20260329_233012_PEPE-USDT-SWAP_long
+position_closed,PEPE-USDT-SWAP,0.0,0.0,168.4,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:08:28,20260329_233012_PEPE-USDT-SWAP_long
+CLOSE,PEPE-USDT-SWAP,0.0,3.285e-06,168.4,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:08:28,20260329_233012_PEPE-USDT-SWAP_long
+position_opened,LRC-USDT-SWAP,0.0,0.02136,4000.0,,,short,True,2026-03-30 01:30:19,20260330_013018_LRC-USDT-SWAP_short
+OPEN,LRC-USDT-SWAP,0.0,0.02136,4000.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 01:30:19,20260330_013018_LRC-USDT-SWAP_short
+position_opened,HBAR-USDT-SWAP,0.0,0.088,296.3,,,short,True,2026-03-30 01:30:21,20260330_013021_HBAR-USDT-SWAP_short
+OPEN,HBAR-USDT-SWAP,0.0,0.088,296.3,,Первичный вход + bootstrap-stop,short,True,2026-03-30 01:30:21,20260330_013021_HBAR-USDT-SWAP_short
+close_pending_exchange,NEAR-USDT-SWAP,0.0,1.1631,227.7,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:32:20,20260330_003032_NEAR-USDT-SWAP_long
+position_closed,NEAR-USDT-SWAP,0.0,0.0,227.7,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:32:39,20260330_003032_NEAR-USDT-SWAP_long
+CLOSE,NEAR-USDT-SWAP,0.0,1.1618,227.7,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:32:39,20260330_003032_NEAR-USDT-SWAP_long
+close_pending_exchange,AUCTION-USDT-SWAP,0.0,4.412,12317.8,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:39:21,20260329_233048_AUCTION-USDT-SWAP_long
+position_closed,AUCTION-USDT-SWAP,0.0,0.0,12317.8,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:39:32,20260329_233048_AUCTION-USDT-SWAP_long
+CLOSE,AUCTION-USDT-SWAP,0.0,4.408,12317.8,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:39:32,20260329_233048_AUCTION-USDT-SWAP_long
+position_closed,LDO-USDT-SWAP,0.0,0.0,17972.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:41:09,20260329_233013_LDO-USDT-SWAP_long
+CLOSE,LDO-USDT-SWAP,0.0,0.3065,17972.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:41:09,20260329_233013_LDO-USDT-SWAP_long
+close_pending_exchange,CELO-USDT-SWAP,0.0,0.0729,36330.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:42:25,20260330_003030_CELO-USDT-SWAP_long
+close_pending_exchange,INJ-USDT-SWAP,0.0,2.795,9320.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:42:25,20260330_010117_INJ-USDT-SWAP_long
+position_closed,CELO-USDT-SWAP,0.0,0.0,36330.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:42:38,20260330_003030_CELO-USDT-SWAP_long
+CLOSE,CELO-USDT-SWAP,0.0,0.0728,36330.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:42:38,20260330_003030_CELO-USDT-SWAP_long
+position_closed,INJ-USDT-SWAP,0.0,0.0,9320.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:42:50,20260330_010117_INJ-USDT-SWAP_long
+CLOSE,INJ-USDT-SWAP,0.0,2.778,9320.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:42:50,20260330_010117_INJ-USDT-SWAP_long
+close_pending_exchange,ZBCN-USDT-SWAP,0.0,0.0022738,1178.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:47:29,20260330_000009_ZBCN-USDT-SWAP_long
+close_pending_exchange,ZBCN-USDT-SWAP,0.0,0.002255,1178.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:48:06,20260330_000009_ZBCN-USDT-SWAP_long
+position_closed,ZBCN-USDT-SWAP,0.0,0.0,1178.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:48:16,20260330_000009_ZBCN-USDT-SWAP_long
+CLOSE,ZBCN-USDT-SWAP,0.0,0.002255,1178.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:48:16,20260330_000009_ZBCN-USDT-SWAP_long
+close_pending_exchange,CRV-USDT-SWAP,0.0,0.2091,24636.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 01:53:06,20260330_010121_CRV-USDT-SWAP_long
+position_closed,CRV-USDT-SWAP,0.0,0.0,24636.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:53:17,20260330_010121_CRV-USDT-SWAP_long
+CLOSE,CRV-USDT-SWAP,0.0,0.2053,24636.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 01:53:17,20260330_010121_CRV-USDT-SWAP_long
+position_opened,LTC-USDT-SWAP,0.0,53.09,51.6,,,short,True,2026-03-30 02:00:15,20260330_020015_LTC-USDT-SWAP_short
+OPEN,LTC-USDT-SWAP,0.0,53.09,51.6,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:00:15,20260330_020015_LTC-USDT-SWAP_short
+position_opened,SOL-USDT-SWAP,0.0,80.84,33.7,,,short,True,2026-03-30 02:00:18,20260330_020018_SOL-USDT-SWAP_short
+OPEN,SOL-USDT-SWAP,0.0,80.84,33.7,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:00:18,20260330_020018_SOL-USDT-SWAP_short
+position_opened,XLM-USDT-SWAP,0.0,0.16361,165.36,,,short,True,2026-03-30 02:00:20,20260330_020020_XLM-USDT-SWAP_short
+OPEN,XLM-USDT-SWAP,0.0,0.16361,165.36,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:00:20,20260330_020020_XLM-USDT-SWAP_short
+close_pending_exchange,XLM-USDT-SWAP,0.0,0.16361,165.36,,SYNC recheck during entry recovery: PENDING_RECHECK,short,True,2026-03-30 02:00:24,20260330_020020_XLM-USDT-SWAP_short
+position_opened,DOT-USDT-SWAP,0.0,1.252,2131.2,,,short,True,2026-03-30 02:01:24,20260330_020124_DOT-USDT-SWAP_short
+OPEN,DOT-USDT-SWAP,0.0,1.252,2131.2,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:24,20260330_020124_DOT-USDT-SWAP_short
+position_opened,DOGE-USDT-SWAP,0.0,0.09025,29.35,,,short,True,2026-03-30 02:01:27,20260330_020126_DOGE-USDT-SWAP_short
+OPEN,DOGE-USDT-SWAP,0.0,0.09025,29.35,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:27,20260330_020126_DOGE-USDT-SWAP_short
+position_opened,INJ-USDT-SWAP,0.0,2.794,9416.0,,,short,True,2026-03-30 02:01:30,20260330_020130_INJ-USDT-SWAP_short
+OPEN,INJ-USDT-SWAP,0.0,2.794,9416.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:30,20260330_020130_INJ-USDT-SWAP_short
+position_opened,ATOM-USDT-SWAP,0.0,1.636,1596.0,,,short,True,2026-03-30 02:01:32,20260330_020132_ATOM-USDT-SWAP_short
+OPEN,ATOM-USDT-SWAP,0.0,1.636,1596.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:32,20260330_020132_ATOM-USDT-SWAP_short
+position_opened,LINK-USDT-SWAP,0.0,8.404,308.7,,,short,True,2026-03-30 02:01:35,20260330_020134_LINK-USDT-SWAP_short
+OPEN,LINK-USDT-SWAP,0.0,8.404,308.7,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:35,20260330_020134_LINK-USDT-SWAP_short
+position_opened,FLOKI-USDT-SWAP,0.0,2.714e-05,949.0,,,short,True,2026-03-30 02:01:39,20260330_020138_FLOKI-USDT-SWAP_short
+OPEN,FLOKI-USDT-SWAP,0.0,2.714e-05,949.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:39,20260330_020138_FLOKI-USDT-SWAP_short
+position_opened,COMP-USDT-SWAP,0.0,17.9,1429.0,,,short,True,2026-03-30 02:01:41,20260330_020141_COMP-USDT-SWAP_short
+OPEN,COMP-USDT-SWAP,0.0,17.9,1429.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:41,20260330_020141_COMP-USDT-SWAP_short
+position_opened,ICP-USDT-SWAP,0.0,2.2,115460.6,,,short,True,2026-03-30 02:01:44,20260330_020144_ICP-USDT-SWAP_short
+OPEN,ICP-USDT-SWAP,0.0,2.2,115460.6,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:44,20260330_020144_ICP-USDT-SWAP_short
+position_closed,KSM-USDT-SWAP,0.0,0.0,6298.0,rotation_block,Ротация под новый сигнал GMT-USDT-SWAP,long,True,2026-03-30 02:01:47,20260330_010119_KSM-USDT-SWAP_long
+CLOSE,KSM-USDT-SWAP,0.0,4.109,6298.0,,Ротация под новый сигнал GMT-USDT-SWAP,long,True,2026-03-30 02:01:47,20260330_010119_KSM-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,0.825,305.0,,,short,True,2026-03-30 02:01:47,20260330_020146_LIT-USDT-SWAP_short
+OPEN,LIT-USDT-SWAP,0.0,0.825,305.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:47,20260330_020146_LIT-USDT-SWAP_short
+position_opened,GMT-USDT-SWAP,0.0,0.00656,384433.0,,,short,True,2026-03-30 02:01:51,20260330_020151_GMT-USDT-SWAP_short
+OPEN,GMT-USDT-SWAP,0.0,0.00656,384433.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:51,20260330_020151_GMT-USDT-SWAP_short
+position_closed,LTC-USDT-SWAP,0.0,0.0,51.6,rotation_block,Ротация под новый сигнал AXS-USDT-SWAP,short,True,2026-03-30 02:01:51,20260330_020015_LTC-USDT-SWAP_short
+CLOSE,LTC-USDT-SWAP,0.0,53.19,51.6,,Ротация под новый сигнал AXS-USDT-SWAP,short,True,2026-03-30 02:01:51,20260330_020015_LTC-USDT-SWAP_short
+position_opened,AXS-USDT-SWAP,0.0,1.1048,22850.0,,,short,True,2026-03-30 02:01:55,20260330_020155_AXS-USDT-SWAP_short
+OPEN,AXS-USDT-SWAP,0.0,1.1048,22850.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:01:55,20260330_020155_AXS-USDT-SWAP_short
+position_closed,XLM-USDT-SWAP,0.0,0.0,165.36,rotation_block,Ротация под новый сигнал ETHW-USDT-SWAP,short,True,2026-03-30 02:01:56,20260330_020020_XLM-USDT-SWAP_short
+CLOSE,XLM-USDT-SWAP,0.0,0.1641,165.36,,Ротация под новый сигнал ETHW-USDT-SWAP,short,True,2026-03-30 02:01:56,20260330_020020_XLM-USDT-SWAP_short
+position_opened,ETHW-USDT-SWAP,0.0,0.2463,102528.0,,,short,True,2026-03-30 02:02:00,20260330_020200_ETHW-USDT-SWAP_short
+OPEN,ETHW-USDT-SWAP,0.0,0.2463,102528.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:02:00,20260330_020200_ETHW-USDT-SWAP_short
+close_pending_exchange,ETHW-USDT-SWAP,0.0,0.2463,102528.0,,SYNC recheck during entry recovery: PENDING_RECHECK,short,True,2026-03-30 02:02:03,20260330_020200_ETHW-USDT-SWAP_short
+close_pending_exchange,GMT-USDT-SWAP,0.0,0.00656,384433.0,,SYNC recheck during entry recovery: PENDING_RECHECK,short,True,2026-03-30 02:02:03,20260330_020151_GMT-USDT-SWAP_short
+position_closed,GMT-USDT-SWAP,0.0,0.0,384433.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 02:04:05,20260330_020151_GMT-USDT-SWAP_short
+CLOSE,GMT-USDT-SWAP,0.0,0.00656,384433.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 02:04:05,20260330_020151_GMT-USDT-SWAP_short
+position_closed,AVAX-USDT-SWAP,0.0,0.0,275.2,rotation_block,Ротация под новый сигнал GMT-USDT-SWAP,short,True,2026-03-30 02:05:10,20260330_000045_AVAX-USDT-SWAP_short
+CLOSE,AVAX-USDT-SWAP,0.0,9.424,275.2,,Ротация под новый сигнал GMT-USDT-SWAP,short,True,2026-03-30 02:05:10,20260330_000045_AVAX-USDT-SWAP_short
+position_opened,IOTA-USDT-SWAP,0.0,0.05298,4482.0,,,short,True,2026-03-30 02:05:10,20260330_020509_IOTA-USDT-SWAP_short
+OPEN,IOTA-USDT-SWAP,0.0,0.05298,4482.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:05:10,20260330_020509_IOTA-USDT-SWAP_short
+position_opened,GMT-USDT-SWAP,0.0,0.00656,359485.0,,,short,True,2026-03-30 02:05:14,20260330_020514_GMT-USDT-SWAP_short
+OPEN,GMT-USDT-SWAP,0.0,0.00656,359485.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:05:14,20260330_020514_GMT-USDT-SWAP_short
+close_pending_exchange,ATOM-USDT-SWAP,0.0,1.6331829573934837,1596.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020132_ATOM-USDT-SWAP_short
+close_pending_exchange,AXS-USDT-SWAP,0.0,1.1111,22850.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020155_AXS-USDT-SWAP_short
+close_pending_exchange,COMP-USDT-SWAP,0.0,17.89,1429.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020141_COMP-USDT-SWAP_short
+close_pending_exchange,DOGE-USDT-SWAP,0.0,0.08985,58.7,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020126_DOGE-USDT-SWAP_short
+close_pending_exchange,DOT-USDT-SWAP,0.0,1.252,2131.2,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020124_DOT-USDT-SWAP_short
+close_pending_exchange,FLOKI-USDT-SWAP,0.0,2.713e-05,949.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020138_FLOKI-USDT-SWAP_short
+close_pending_exchange,GMT-USDT-SWAP,0.0,0.00656,359485.0,,SYNC recheck during entry recovery: PENDING_RECHECK,short,True,2026-03-30 02:05:17,20260330_020514_GMT-USDT-SWAP_short
+close_pending_exchange,HBAR-USDT-SWAP,0.0,0.0878,592.6,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_013021_HBAR-USDT-SWAP_short
+close_pending_exchange,ICP-USDT-SWAP,0.0,2.198013408903124,115460.6,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020144_ICP-USDT-SWAP_short
+close_pending_exchange,INJ-USDT-SWAP,0.0,2.781,18832.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020130_INJ-USDT-SWAP_short
+close_pending_exchange,IOTA-USDT-SWAP,0.0,0.05298,4482.0,,SYNC recheck during entry recovery: PENDING_RECHECK,short,True,2026-03-30 02:05:17,20260330_020509_IOTA-USDT-SWAP_short
+close_pending_exchange,LINK-USDT-SWAP,0.0,8.365,617.4,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020134_LINK-USDT-SWAP_short
+close_pending_exchange,LIT-USDT-SWAP,0.0,0.8230065573770492,305.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020146_LIT-USDT-SWAP_short
+close_pending_exchange,LRC-USDT-SWAP,0.0,0.02136,4000.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_013018_LRC-USDT-SWAP_short
+close_pending_exchange,SOL-USDT-SWAP,0.0,81.04,33.7,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:05:17,20260330_020018_SOL-USDT-SWAP_short
+position_closed,GMT-USDT-SWAP,0.0,0.0,359485.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 02:06:12,20260330_020514_GMT-USDT-SWAP_short
+CLOSE,GMT-USDT-SWAP,0.0,0.00656,359485.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 02:06:12,20260330_020514_GMT-USDT-SWAP_short
+position_opened,MET-USDT-SWAP,0.0,0.1314,1769.0,,,short,True,2026-03-30 02:30:17,20260330_023016_MET-USDT-SWAP_short
+OPEN,MET-USDT-SWAP,0.0,0.1314,1769.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 02:30:17,20260330_023016_MET-USDT-SWAP_short
+close_pending_exchange,MET-USDT-SWAP,0.0,0.1314,1769.0,,SYNC recheck during entry recovery: PENDING_RECHECK,short,True,2026-03-30 02:30:20,20260330_023016_MET-USDT-SWAP_short
+close_pending_exchange,LRC-USDT-SWAP,0.0,0.02141,4000.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 02:32:00,20260330_013018_LRC-USDT-SWAP_short
+position_closed,LRC-USDT-SWAP,0.0,0.0,4000.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 02:32:10,20260330_013018_LRC-USDT-SWAP_short
+CLOSE,LRC-USDT-SWAP,0.0,0.02138,4000.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 02:32:10,20260330_013018_LRC-USDT-SWAP_short
+position_opened,AVAX-USDT-SWAP,0.0,11.19,205.2,,,long,True,2026-03-30 03:06:10,20260330_030609_AVAX-USDT-SWAP_long
+OPEN,AVAX-USDT-SWAP,0.0,11.19,205.2,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:06:10,20260330_030609_AVAX-USDT-SWAP_long
+close_pending_exchange,AVAX-USDT-SWAP,0.0,11.19,205.2,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 03:06:13,20260330_030609_AVAX-USDT-SWAP_long
+close_pending_exchange,IOTA-USDT-SWAP,0.0,0.05349,8964.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 03:06:13,20260330_020509_IOTA-USDT-SWAP_short
+position_closed,IOTA-USDT-SWAP,0.0,0.0,8964.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:06:25,20260330_020509_IOTA-USDT-SWAP_short
+CLOSE,IOTA-USDT-SWAP,0.0,0.05359,8964.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:06:25,20260330_020509_IOTA-USDT-SWAP_short
+position_closed,AVAX-USDT-SWAP,0.0,0.0,205.2,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 03:06:54,20260330_030609_AVAX-USDT-SWAP_long
+CLOSE,AVAX-USDT-SWAP,0.0,11.19,205.2,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 03:06:54,20260330_030609_AVAX-USDT-SWAP_long
+close_pending_exchange,DOT-USDT-SWAP,0.0,1.261,4262.4,,SYNC confirmed close after exchange absence,short,True,2026-03-30 03:18:01,20260330_020124_DOT-USDT-SWAP_short
+close_pending_exchange,ATOM-USDT-SWAP,0.0,1.647,4788.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 03:19:08,20260330_020132_ATOM-USDT-SWAP_short
+close_pending_exchange,DOT-USDT-SWAP,0.0,1.264,4262.4,,SYNC confirmed close after exchange absence,short,True,2026-03-30 03:19:08,20260330_020124_DOT-USDT-SWAP_short
+close_pending_exchange,HBAR-USDT-SWAP,0.0,0.088,592.6,,SYNC confirmed close after exchange absence,short,True,2026-03-30 03:19:08,20260330_013021_HBAR-USDT-SWAP_short
+close_pending_exchange,INJ-USDT-SWAP,0.0,2.804,18832.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 03:19:08,20260330_020130_INJ-USDT-SWAP_short
+position_closed,HBAR-USDT-SWAP,0.0,0.0,592.6,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:19:18,20260330_013021_HBAR-USDT-SWAP_short
+CLOSE,HBAR-USDT-SWAP,0.0,0.0883,592.6,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:19:18,20260330_013021_HBAR-USDT-SWAP_short
+position_closed,SOL-USDT-SWAP,0.0,0.0,33.7,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:19:29,20260330_020018_SOL-USDT-SWAP_short
+CLOSE,SOL-USDT-SWAP,0.0,82.01,33.7,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:19:29,20260330_020018_SOL-USDT-SWAP_short
+position_closed,DOT-USDT-SWAP,0.0,0.0,4262.4,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:19:41,20260330_020124_DOT-USDT-SWAP_short
+CLOSE,DOT-USDT-SWAP,0.0,1.272,4262.4,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:19:41,20260330_020124_DOT-USDT-SWAP_short
+position_closed,DOGE-USDT-SWAP,0.0,0.0,58.7,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:19:53,20260330_020126_DOGE-USDT-SWAP_short
+CLOSE,DOGE-USDT-SWAP,0.0,0.09105,58.7,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:19:53,20260330_020126_DOGE-USDT-SWAP_short
+position_closed,INJ-USDT-SWAP,0.0,0.0,18832.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:04,20260330_020130_INJ-USDT-SWAP_short
+CLOSE,INJ-USDT-SWAP,0.0,2.827,18832.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:04,20260330_020130_INJ-USDT-SWAP_short
+position_closed,ATOM-USDT-SWAP,0.0,0.0,4788.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:16,20260330_020132_ATOM-USDT-SWAP_short
+CLOSE,ATOM-USDT-SWAP,0.0,1.656,4788.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:16,20260330_020132_ATOM-USDT-SWAP_short
+position_closed,LINK-USDT-SWAP,0.0,0.0,617.4,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:28,20260330_020134_LINK-USDT-SWAP_short
+CLOSE,LINK-USDT-SWAP,0.0,8.534,617.4,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:28,20260330_020134_LINK-USDT-SWAP_short
+position_closed,FLOKI-USDT-SWAP,0.0,0.0,1898.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:40,20260330_020138_FLOKI-USDT-SWAP_short
+CLOSE,FLOKI-USDT-SWAP,0.0,2.759e-05,1898.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:40,20260330_020138_FLOKI-USDT-SWAP_short
+position_closed,COMP-USDT-SWAP,0.0,0.0,2858.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:51,20260330_020141_COMP-USDT-SWAP_short
+CLOSE,COMP-USDT-SWAP,0.0,18.07,2858.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:20:51,20260330_020141_COMP-USDT-SWAP_short
+position_closed,ICP-USDT-SWAP,0.0,0.0,230921.2,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:21:03,20260330_020144_ICP-USDT-SWAP_short
+CLOSE,ICP-USDT-SWAP,0.0,2.235,230921.2,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:21:03,20260330_020144_ICP-USDT-SWAP_short
+position_closed,LIT-USDT-SWAP,0.0,0.0,610.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:21:14,20260330_020146_LIT-USDT-SWAP_short
+CLOSE,LIT-USDT-SWAP,0.0,0.837,610.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:21:14,20260330_020146_LIT-USDT-SWAP_short
+close_pending_exchange,AXS-USDT-SWAP,0.0,1.1239,22850.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 03:26:28,20260330_020155_AXS-USDT-SWAP_short
+close_pending_exchange,AXS-USDT-SWAP,0.0,1.1342,22850.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 03:27:04,20260330_020155_AXS-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,22850.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:27:14,20260330_020155_AXS-USDT-SWAP_short
+CLOSE,AXS-USDT-SWAP,0.0,1.1321,22850.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 03:27:14,20260330_020155_AXS-USDT-SWAP_short
+position_opened,ZIL-USDT-SWAP,0.0,0.003706,7221.0,,,long,True,2026-03-30 03:30:06,20260330_033006_ZIL-USDT-SWAP_long
+OPEN,ZIL-USDT-SWAP,0.0,0.003706,7221.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:30:06,20260330_033006_ZIL-USDT-SWAP_long
+position_opened,YGG-USDT-SWAP,0.0,0.0343,77480.0,,,long,True,2026-03-30 03:30:08,20260330_033008_YGG-USDT-SWAP_long
+OPEN,YGG-USDT-SWAP,0.0,0.0343,77480.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:30:08,20260330_033008_YGG-USDT-SWAP_long
+position_opened,ZBCN-USDT-SWAP,0.0,0.0023142,1140.0,,,long,True,2026-03-30 03:30:10,20260330_033009_ZBCN-USDT-SWAP_long
+OPEN,ZBCN-USDT-SWAP,0.0,0.0023142,1140.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:30:10,20260330_033009_ZBCN-USDT-SWAP_long
+position_opened,MINA-USDT-SWAP,0.0,0.05413,48410.0,,,long,True,2026-03-30 03:31:13,20260330_033113_MINA-USDT-SWAP_long
+OPEN,MINA-USDT-SWAP,0.0,0.05413,48410.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:31:13,20260330_033113_MINA-USDT-SWAP_long
+position_opened,KSM-USDT-SWAP,0.0,4.175,6232.0,,,long,True,2026-03-30 03:31:15,20260330_033115_KSM-USDT-SWAP_long
+OPEN,KSM-USDT-SWAP,0.0,4.175,6232.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:31:15,20260330_033115_KSM-USDT-SWAP_long
+position_opened,ETHFI-USDT-SWAP,0.0,0.466,5544.0,,,long,True,2026-03-30 03:31:17,20260330_033117_ETHFI-USDT-SWAP_long
+OPEN,ETHFI-USDT-SWAP,0.0,0.466,5544.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:31:17,20260330_033117_ETHFI-USDT-SWAP_long
+OPEN,1INCH-USDT-SWAP,0.0,0.0874,29355.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:31:19,20260330_033119_1INCH-USDT-SWAP_long
+position_opened,1INCH-USDT-SWAP,0.0,0.0874,29355.0,,,long,True,2026-03-30 03:31:20,20260330_033119_1INCH-USDT-SWAP_long
+position_opened,SHIB-USDT-SWAP,0.0,5.87e-06,434.0,,,long,True,2026-03-30 03:31:22,20260330_033122_SHIB-USDT-SWAP_long
+OPEN,SHIB-USDT-SWAP,0.0,5.87e-06,434.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:31:22,20260330_033122_SHIB-USDT-SWAP_long
+position_opened,MAGIC-USDT-SWAP,0.0,0.05697,44404.0,,,long,True,2026-03-30 03:31:25,20260330_033124_MAGIC-USDT-SWAP_long
+OPEN,MAGIC-USDT-SWAP,0.0,0.05697,44404.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:31:25,20260330_033124_MAGIC-USDT-SWAP_long
+position_opened,OP-USDT-SWAP,0.0,0.1038,24200.0,,,long,True,2026-03-30 03:31:27,20260330_033127_OP-USDT-SWAP_long
+OPEN,OP-USDT-SWAP,0.0,0.1038,24200.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:31:27,20260330_033127_OP-USDT-SWAP_long
+position_opened,ATOM-USDT-SWAP,0.0,1.666,1497.0,,,long,True,2026-03-30 03:31:30,20260330_033129_ATOM-USDT-SWAP_long
+OPEN,ATOM-USDT-SWAP,0.0,1.666,1497.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 03:31:30,20260330_033129_ATOM-USDT-SWAP_long
+position_opened,INJ-USDT-SWAP,0.0,2.84,8721.0,,,long,True,2026-03-30 04:30:23,20260330_043023_INJ-USDT-SWAP_long
+OPEN,INJ-USDT-SWAP,0.0,2.84,8721.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 04:30:23,20260330_043023_INJ-USDT-SWAP_long
+position_closed,MET-USDT-SWAP,0.0,0.0,1769.0,rotation_block,Ротация под новый сигнал CELO-USDT-SWAP,short,True,2026-03-30 04:30:24,20260330_023016_MET-USDT-SWAP_short
+CLOSE,MET-USDT-SWAP,0.0,0.1338,1769.0,,Ротация под новый сигнал CELO-USDT-SWAP,short,True,2026-03-30 04:30:24,20260330_023016_MET-USDT-SWAP_short
+position_opened,CELO-USDT-SWAP,0.0,0.0746,33164.0,,,long,True,2026-03-30 04:30:27,20260330_043027_CELO-USDT-SWAP_long
+OPEN,CELO-USDT-SWAP,0.0,0.0746,33164.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 04:30:27,20260330_043027_CELO-USDT-SWAP_long
+position_closed,ATOM-USDT-SWAP,0.0,0.0,1497.0,rotation_block,Ротация под новый сигнал AUCTION-USDT-SWAP,long,True,2026-03-30 04:33:15,20260330_033129_ATOM-USDT-SWAP_long
+CLOSE,ATOM-USDT-SWAP,0.0,1.655,1497.0,,Ротация под новый сигнал AUCTION-USDT-SWAP,long,True,2026-03-30 04:33:15,20260330_033129_ATOM-USDT-SWAP_long
+position_opened,AUCTION-USDT-SWAP,0.0,4.446,5520.1,,,long,True,2026-03-30 04:33:18,20260330_043318_AUCTION-USDT-SWAP_long
+OPEN,AUCTION-USDT-SWAP,0.0,4.446,5520.1,,Первичный вход + bootstrap-stop,long,True,2026-03-30 04:33:18,20260330_043318_AUCTION-USDT-SWAP_long
+close_pending_exchange,AUCTION-USDT-SWAP,0.0,4.446,5520.1,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 04:33:22,20260330_043318_AUCTION-USDT-SWAP_long
+close_pending_exchange,MAGIC-USDT-SWAP,0.0,0.05682,44404.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 04:48:17,20260330_033124_MAGIC-USDT-SWAP_long
+close_pending_exchange,MAGIC-USDT-SWAP,0.0,0.05691,44404.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 04:49:00,20260330_033124_MAGIC-USDT-SWAP_long
+close_pending_exchange,MAGIC-USDT-SWAP,0.0,0.05691,44404.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 04:50:13,20260330_033124_MAGIC-USDT-SWAP_long
+close_pending_exchange,MAGIC-USDT-SWAP,0.0,0.05695,44404.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 04:51:22,20260330_033124_MAGIC-USDT-SWAP_long
+position_closed,MAGIC-USDT-SWAP,0.0,0.0,44404.0,sync_confirmed_close_after_stop_fault:_pending_recheck,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 04:51:22,20260330_033124_MAGIC-USDT-SWAP_long
+CLOSE,MAGIC-USDT-SWAP,0.0,0.05695,44404.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 04:51:22,20260330_033124_MAGIC-USDT-SWAP_long
+position_opened,ARB-USDT-SWAP,0.0,0.0904,2556.4,,,long,True,2026-03-30 05:01:55,20260330_050155_ARB-USDT-SWAP_long
+OPEN,ARB-USDT-SWAP,0.0,0.0904,2556.4,,Первичный вход + bootstrap-stop,long,True,2026-03-30 05:01:55,20260330_050155_ARB-USDT-SWAP_long
+position_closed,KSM-USDT-SWAP,0.0,0.0,6232.0,rotation_block,Ротация под новый сигнал COMP-USDT-SWAP,long,True,2026-03-30 05:01:56,20260330_033115_KSM-USDT-SWAP_long
+CLOSE,KSM-USDT-SWAP,0.0,4.159,6232.0,,Ротация под новый сигнал COMP-USDT-SWAP,long,True,2026-03-30 05:01:56,20260330_033115_KSM-USDT-SWAP_long
+OPEN,COMP-USDT-SWAP,0.0,18.1,1277.6,,Первичный вход + bootstrap-stop,long,True,2026-03-30 05:01:59,20260330_050159_COMP-USDT-SWAP_long
+position_opened,COMP-USDT-SWAP,0.0,18.1,1277.6,,,long,True,2026-03-30 05:02:00,20260330_050159_COMP-USDT-SWAP_long
+position_closed,YGG-USDT-SWAP,0.0,0.0,77480.0,rotation_block,Ротация под новый сигнал IMX-USDT-SWAP,long,True,2026-03-30 05:02:00,20260330_033008_YGG-USDT-SWAP_long
+CLOSE,YGG-USDT-SWAP,0.0,0.0344,77480.0,,Ротация под новый сигнал IMX-USDT-SWAP,long,True,2026-03-30 05:02:00,20260330_033008_YGG-USDT-SWAP_long
+position_opened,IMX-USDT-SWAP,0.0,0.1458,15876.0,,,long,True,2026-03-30 05:02:04,20260330_050204_IMX-USDT-SWAP_long
+OPEN,IMX-USDT-SWAP,0.0,0.1458,15876.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 05:02:04,20260330_050204_IMX-USDT-SWAP_long
+position_closed,IMX-USDT-SWAP,0.0,0.0,15876.0,rotation_block,Ротация под новый сигнал ZETA-USDT-SWAP,long,True,2026-03-30 05:03:15,20260330_050204_IMX-USDT-SWAP_long
+CLOSE,IMX-USDT-SWAP,0.0,0.146,15876.0,,Ротация под новый сигнал ZETA-USDT-SWAP,long,True,2026-03-30 05:03:15,20260330_050204_IMX-USDT-SWAP_long
+close_pending_exchange,ZBCN-USDT-SWAP,0.0,0.0023556,2280.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 05:07:03,20260330_033009_ZBCN-USDT-SWAP_long
+close_pending_exchange,ZBCN-USDT-SWAP,0.0,0.0023117,2280.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 05:08:19,20260330_033009_ZBCN-USDT-SWAP_long
+position_closed,ZBCN-USDT-SWAP,0.0,0.0,2280.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 05:08:38,20260330_033009_ZBCN-USDT-SWAP_long
+CLOSE,ZBCN-USDT-SWAP,0.0,0.0023117,2280.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 05:08:38,20260330_033009_ZBCN-USDT-SWAP_long
+position_opened,SOL-USDT-SWAP,0.0,83.27,27.61,,,long,True,2026-03-30 06:00:24,20260330_060023_SOL-USDT-SWAP_long
+OPEN,SOL-USDT-SWAP,0.0,83.27,27.61,,Первичный вход + bootstrap-stop,long,True,2026-03-30 06:00:24,20260330_060023_SOL-USDT-SWAP_long
+position_opened,LDO-USDT-SWAP,0.0,0.3122,7313.0,,,long,True,2026-03-30 06:00:25,20260330_060025_LDO-USDT-SWAP_long
+OPEN,LDO-USDT-SWAP,0.0,0.3122,7313.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 06:00:25,20260330_060025_LDO-USDT-SWAP_long
+position_closed,LDO-USDT-SWAP,0.0,0.0,7313.0,rotation_block,Ротация под новый сигнал BNB-USDT-SWAP,long,True,2026-03-30 06:02:36,20260330_060025_LDO-USDT-SWAP_long
+CLOSE,LDO-USDT-SWAP,0.0,0.3121,7313.0,,Ротация под новый сигнал BNB-USDT-SWAP,long,True,2026-03-30 06:02:36,20260330_060025_LDO-USDT-SWAP_long
+position_opened,BNB-USDT-SWAP,0.0,615.9,350.0,,,long,True,2026-03-30 06:02:40,20260330_060240_BNB-USDT-SWAP_long
+OPEN,BNB-USDT-SWAP,0.0,615.9,350.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 06:02:40,20260330_060240_BNB-USDT-SWAP_long
+position_closed,SOL-USDT-SWAP,0.0,0.0,27.61,rotation_block,Ротация под новый сигнал KSM-USDT-SWAP,long,True,2026-03-30 06:02:41,20260330_060023_SOL-USDT-SWAP_long
+CLOSE,SOL-USDT-SWAP,0.0,83.28,27.61,,Ротация под новый сигнал KSM-USDT-SWAP,long,True,2026-03-30 06:02:41,20260330_060023_SOL-USDT-SWAP_long
+position_opened,KSM-USDT-SWAP,0.0,4.178,5172.0,,,long,True,2026-03-30 06:02:45,20260330_060244_KSM-USDT-SWAP_long
+OPEN,KSM-USDT-SWAP,0.0,4.178,5172.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 06:02:45,20260330_060244_KSM-USDT-SWAP_long
+close_pending_exchange,KSM-USDT-SWAP,0.0,4.178,5172.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 06:02:48,20260330_060244_KSM-USDT-SWAP_long
+close_pending_exchange,AVAX-USDT-SWAP,0.0,10.725,615.6,,SYNC confirmed close after exchange absence,long,True,2026-03-30 06:25:38,20260330_035410_AVAX-USDT-SWAP_long
+close_pending_exchange,AVAX-USDT-SWAP,0.0,10.433,615.6,,SYNC confirmed close after exchange absence,long,True,2026-03-30 06:26:35,20260330_035410_AVAX-USDT-SWAP_long
+position_closed,AVAX-USDT-SWAP,0.0,0.0,615.6,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 06:27:08,20260330_035410_AVAX-USDT-SWAP_long
+CLOSE,AVAX-USDT-SWAP,0.0,10.471,615.6,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 06:27:08,20260330_035410_AVAX-USDT-SWAP_long
+position_closed,ETHW-USDT-SWAP,0.0,0.0,55056.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 07:04:12,20260330_020200_ETHW-USDT-SWAP_short
+CLOSE,ETHW-USDT-SWAP,0.0,0.2416,55056.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 07:04:12,20260330_020200_ETHW-USDT-SWAP_short
+position_opened,THETA-USDT-SWAP,0.0,0.1537,1292.0,,,long,True,2026-03-30 07:30:08,20260330_073008_THETA-USDT-SWAP_long
+OPEN,THETA-USDT-SWAP,0.0,0.1537,1292.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 07:30:08,20260330_073008_THETA-USDT-SWAP_long
+position_opened,YGG-USDT-SWAP,0.0,0.0348,56700.0,,,long,True,2026-03-30 07:30:10,20260330_073009_YGG-USDT-SWAP_long
+OPEN,YGG-USDT-SWAP,0.0,0.0348,56700.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 07:30:10,20260330_073009_YGG-USDT-SWAP_long
+position_closed,YGG-USDT-SWAP,0.0,0.0,56700.0,rotation_block,Ротация под новый сигнал SAND-USDT-SWAP,long,True,2026-03-30 07:33:43,20260330_073009_YGG-USDT-SWAP_long
+CLOSE,YGG-USDT-SWAP,0.0,0.0348,56700.0,,Ротация под новый сигнал SAND-USDT-SWAP,long,True,2026-03-30 07:33:43,20260330_073009_YGG-USDT-SWAP_long
+position_opened,SAND-USDT-SWAP,0.0,0.0743,2542.0,,,long,True,2026-03-30 07:33:47,20260330_073347_SAND-USDT-SWAP_long
+OPEN,SAND-USDT-SWAP,0.0,0.0743,2542.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 07:33:47,20260330_073347_SAND-USDT-SWAP_long
+position_closed,THETA-USDT-SWAP,0.0,0.0,1292.0,rotation_block,Ротация под новый сигнал BTC-USDT-SWAP,long,True,2026-03-30 07:33:48,20260330_073008_THETA-USDT-SWAP_long
+CLOSE,THETA-USDT-SWAP,0.0,0.1537,1292.0,,Ротация под новый сигнал BTC-USDT-SWAP,long,True,2026-03-30 07:33:48,20260330_073008_THETA-USDT-SWAP_long
+position_opened,BTC-USDT-SWAP,0.0,67448.6,2.8,,,long,True,2026-03-30 07:33:52,20260330_073351_BTC-USDT-SWAP_long
+OPEN,BTC-USDT-SWAP,0.0,67448.6,2.8,,Первичный вход + bootstrap-stop,long,True,2026-03-30 07:33:52,20260330_073351_BTC-USDT-SWAP_long
+position_closed,CELO-USDT-SWAP,0.0,0.0,66328.0,rotation_block,Ротация под новый сигнал BAND-USDT-SWAP,long,True,2026-03-30 07:33:53,20260330_043027_CELO-USDT-SWAP_long
+CLOSE,CELO-USDT-SWAP,0.0,0.0757,66328.0,,Ротация под новый сигнал BAND-USDT-SWAP,long,True,2026-03-30 07:33:53,20260330_043027_CELO-USDT-SWAP_long
+position_opened,BAND-USDT-SWAP,0.0,0.2022,9384.0,,,long,True,2026-03-30 07:33:57,20260330_073357_BAND-USDT-SWAP_long
+OPEN,BAND-USDT-SWAP,0.0,0.2022,9384.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 07:33:57,20260330_073357_BAND-USDT-SWAP_long
+close_pending_exchange,1INCH-USDT-SWAP,0.0,0.0887,117420.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_033119_1INCH-USDT-SWAP_long
+close_pending_exchange,ARB-USDT-SWAP,0.0,0.0909333333333336,7669.2,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_050155_ARB-USDT-SWAP_long
+close_pending_exchange,AUCTION-USDT-SWAP,0.0,4.454,11040.2,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_043318_AUCTION-USDT-SWAP_long
+close_pending_exchange,BAND-USDT-SWAP,0.0,0.2022,9384.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 07:34:00,20260330_073357_BAND-USDT-SWAP_long
+close_pending_exchange,BNB-USDT-SWAP,0.0,617.3,350.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_060240_BNB-USDT-SWAP_long
+close_pending_exchange,BTC-USDT-SWAP,0.0,67448.6,2.8,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 07:34:00,20260330_073351_BTC-USDT-SWAP_long
+close_pending_exchange,COMP-USDT-SWAP,0.0,18.17,3832.8,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_050159_COMP-USDT-SWAP_long
+close_pending_exchange,ETHFI-USDT-SWAP,0.0,0.4695333333333334,16632.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_033117_ETHFI-USDT-SWAP_long
+close_pending_exchange,GMT-USDT-SWAP,0.0,0.00663,22627.0,,SYNC confirmed close after stop fault: MISSING,short,True,2026-03-30 07:34:00,20260330_041326_GMT-USDT-SWAP_short
+close_pending_exchange,INJ-USDT-SWAP,0.0,2.899,34884.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_043023_INJ-USDT-SWAP_long
+close_pending_exchange,KSM-USDT-SWAP,0.0,4.193853538283062,10344.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_060244_KSM-USDT-SWAP_long
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.05471,193640.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_033113_MINA-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.10725,96800.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_033127_OP-USDT-SWAP_long
+close_pending_exchange,SAND-USDT-SWAP,0.0,0.0743,2542.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 07:34:00,20260330_073347_SAND-USDT-SWAP_long
+close_pending_exchange,SHIB-USDT-SWAP,0.0,6.01e-06,1736.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_033122_SHIB-USDT-SWAP_long
+close_pending_exchange,ZIL-USDT-SWAP,0.0,0.003768,28884.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 07:34:00,20260330_033006_ZIL-USDT-SWAP_long
+position_closed,CELO-USDT-SWAP,0.0,0.0,16156.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 07:35:32,20260330_073400_CELO-USDT-SWAP_long
+CLOSE,CELO-USDT-SWAP,0.0,0.0756,16156.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 07:35:32,20260330_073400_CELO-USDT-SWAP_long
+position_closed,BTC-USDT-SWAP,0.0,0.0,2.8,rotation_block,Ротация под новый сигнал HBAR-USDT-SWAP,long,True,2026-03-30 07:35:56,20260330_073351_BTC-USDT-SWAP_long
+CLOSE,BTC-USDT-SWAP,0.0,67410.5,2.8,,Ротация под новый сигнал HBAR-USDT-SWAP,long,True,2026-03-30 07:35:56,20260330_073351_BTC-USDT-SWAP_long
+position_closed,BAND-USDT-SWAP,0.0,0.0,9384.0,rotation_block,Ротация под новый сигнал LRC-USDT-SWAP,long,True,2026-03-30 07:35:59,20260330_073357_BAND-USDT-SWAP_long
+CLOSE,BAND-USDT-SWAP,0.0,0.2021,9384.0,,Ротация под новый сигнал LRC-USDT-SWAP,long,True,2026-03-30 07:35:59,20260330_073357_BAND-USDT-SWAP_long
+position_opened,HBAR-USDT-SWAP,0.0,0.09,211.5,,,long,True,2026-03-30 07:35:59,20260330_073558_HBAR-USDT-SWAP_long
+OPEN,HBAR-USDT-SWAP,0.0,0.09,211.5,,Первичный вход + bootstrap-stop,long,True,2026-03-30 07:35:59,20260330_073558_HBAR-USDT-SWAP_long
+position_opened,LRC-USDT-SWAP,0.0,0.02183,4000.0,,,long,True,2026-03-30 07:36:02,20260330_073602_LRC-USDT-SWAP_long
+OPEN,LRC-USDT-SWAP,0.0,0.02183,4000.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 07:36:02,20260330_073602_LRC-USDT-SWAP_long
+position_closed,SAND-USDT-SWAP,0.0,0.0,2542.0,rotation_block,Ротация под новый сигнал IMX-USDT-SWAP,long,True,2026-03-30 07:37:46,20260330_073347_SAND-USDT-SWAP_long
+CLOSE,SAND-USDT-SWAP,0.0,0.0743,2542.0,,Ротация под новый сигнал IMX-USDT-SWAP,long,True,2026-03-30 07:37:46,20260330_073347_SAND-USDT-SWAP_long
+position_opened,IMX-USDT-SWAP,0.0,0.1464,13050.0,,,long,True,2026-03-30 07:37:50,20260330_073750_IMX-USDT-SWAP_long
+OPEN,IMX-USDT-SWAP,0.0,0.1464,13050.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 07:37:50,20260330_073750_IMX-USDT-SWAP_long
+close_pending_exchange,IMX-USDT-SWAP,0.0,0.1464,13050.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 07:37:53,20260330_073750_IMX-USDT-SWAP_long
+position_closed,LRC-USDT-SWAP,0.0,0.0,4000.0,rotation_block,Ротация под новый сигнал ICP-USDT-SWAP,long,True,2026-03-30 08:02:26,20260330_073602_LRC-USDT-SWAP_long
+CLOSE,LRC-USDT-SWAP,0.0,0.02173,4000.0,,Ротация под новый сигнал ICP-USDT-SWAP,long,True,2026-03-30 08:02:26,20260330_073602_LRC-USDT-SWAP_long
+position_opened,ICP-USDT-SWAP,0.0,2.252,83226.7,,,long,True,2026-03-30 08:02:29,20260330_080228_ICP-USDT-SWAP_long
+OPEN,ICP-USDT-SWAP,0.0,2.252,83226.7,,Первичный вход + bootstrap-stop,long,True,2026-03-30 08:02:29,20260330_080228_ICP-USDT-SWAP_long
+close_pending_exchange,1INCH-USDT-SWAP,0.0,0.0887,117420.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_033119_1INCH-USDT-SWAP_long
+close_pending_exchange,ARB-USDT-SWAP,0.0,0.092,10225.6,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_050155_ARB-USDT-SWAP_long
+close_pending_exchange,AUCTION-USDT-SWAP,0.0,4.466,16560.3,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_043318_AUCTION-USDT-SWAP_long
+close_pending_exchange,BNB-USDT-SWAP,0.0,617.7,350.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_060240_BNB-USDT-SWAP_long
+close_pending_exchange,COMP-USDT-SWAP,0.0,18.28,5110.4,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_050159_COMP-USDT-SWAP_long
+close_pending_exchange,ETHFI-USDT-SWAP,0.0,0.4747,22176.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_033117_ETHFI-USDT-SWAP_long
+close_pending_exchange,GMT-USDT-SWAP,0.0,0.00663,22627.0,,SYNC confirmed close after stop fault: MISSING,short,True,2026-03-30 08:02:32,20260330_041326_GMT-USDT-SWAP_short
+close_pending_exchange,HBAR-USDT-SWAP,0.0,0.09,211.5,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_073558_HBAR-USDT-SWAP_long
+close_pending_exchange,ICP-USDT-SWAP,0.0,2.252,83226.7,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 08:02:32,20260330_080228_ICP-USDT-SWAP_long
+close_pending_exchange,IMX-USDT-SWAP,0.0,0.1464,13050.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_073750_IMX-USDT-SWAP_long
+close_pending_exchange,INJ-USDT-SWAP,0.0,2.895,34884.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_043023_INJ-USDT-SWAP_long
+close_pending_exchange,KSM-USDT-SWAP,0.0,4.202569025522042,15516.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_060244_KSM-USDT-SWAP_long
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.05488,193640.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_033113_MINA-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.10751,96800.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_033127_OP-USDT-SWAP_long
+close_pending_exchange,SHIB-USDT-SWAP,0.0,5.99e-06,1736.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_033122_SHIB-USDT-SWAP_long
+close_pending_exchange,ZIL-USDT-SWAP,0.0,0.003773,28884.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 08:02:32,20260330_033006_ZIL-USDT-SWAP_long
+position_closed,HBAR-USDT-SWAP,0.0,0.0,211.5,rotation_block,Ротация под новый сигнал H-USDT-SWAP,long,True,2026-03-30 08:32:59,20260330_073558_HBAR-USDT-SWAP_long
+CLOSE,HBAR-USDT-SWAP,0.0,0.0897,211.5,,Ротация под новый сигнал H-USDT-SWAP,long,True,2026-03-30 08:32:59,20260330_073558_HBAR-USDT-SWAP_long
+OPEN,FIL-USDT-SWAP,0.0,0.839,21996.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 08:33:05,20260330_083305_FIL-USDT-SWAP_long
+position_opened,FIL-USDT-SWAP,0.0,0.839,21996.0,,,long,True,2026-03-30 08:33:06,20260330_083305_FIL-USDT-SWAP_long
+position_closed,ICP-USDT-SWAP,0.0,0.0,83226.7,rotation_block,Ротация под новый сигнал CATI-USDT-SWAP,long,True,2026-03-30 08:33:06,20260330_080228_ICP-USDT-SWAP_long
+CLOSE,ICP-USDT-SWAP,0.0,2.25,83226.7,,Ротация под новый сигнал CATI-USDT-SWAP,long,True,2026-03-30 08:33:06,20260330_080228_ICP-USDT-SWAP_long
+position_closed,ETHFI-USDT-SWAP,0.0,0.0,2176.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 08:58:54,20260330_033117_ETHFI-USDT-SWAP_long
+CLOSE,ETHFI-USDT-SWAP,0.0,0.4697,2176.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 08:58:54,20260330_033117_ETHFI-USDT-SWAP_long
+close_pending_exchange,ZIL-USDT-SWAP,0.0,0.003747,28884.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 09:28:48,20260330_033006_ZIL-USDT-SWAP_long
+close_pending_exchange,ZIL-USDT-SWAP,0.0,0.003742,28884.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 09:30:46,20260330_033006_ZIL-USDT-SWAP_long
+close_pending_exchange,ZIL-USDT-SWAP,0.0,0.003742,28884.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 09:33:01,20260330_033006_ZIL-USDT-SWAP_long
+close_pending_exchange,ZIL-USDT-SWAP,0.0,0.003742,28884.0,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-30 09:35:07,20260330_033006_ZIL-USDT-SWAP_long
+position_closed,ZIL-USDT-SWAP,0.0,0.0,28884.0,sync_confirmed_close_after_stop_fault:_missing,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-30 09:35:07,20260330_033006_ZIL-USDT-SWAP_long
+CLOSE,ZIL-USDT-SWAP,0.0,0.003742,28884.0,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-30 09:35:07,20260330_033006_ZIL-USDT-SWAP_long
+close_pending_exchange,FIL-USDT-SWAP,0.0,0.842,21996.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 10:03:28,20260330_083305_FIL-USDT-SWAP_long
+close_pending_exchange,FIL-USDT-SWAP,0.0,0.842,21996.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 10:05:24,20260330_083305_FIL-USDT-SWAP_long
+close_pending_exchange,FIL-USDT-SWAP,0.0,0.847,21996.0,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-30 10:07:33,20260330_083305_FIL-USDT-SWAP_long
+position_closed,FIL-USDT-SWAP,0.0,0.0,21996.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 10:09:30,20260330_083305_FIL-USDT-SWAP_long
+CLOSE,FIL-USDT-SWAP,0.0,0.848,21996.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 10:09:30,20260330_083305_FIL-USDT-SWAP_long
+position_opened,LDO-USDT-SWAP,0.0,0.3194,6222.0,,,long,True,2026-03-30 10:11:37,20260330_101136_LDO-USDT-SWAP_long
+OPEN,LDO-USDT-SWAP,0.0,0.3194,6222.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 10:11:37,20260330_101136_LDO-USDT-SWAP_long
+position_closed,COMP-USDT-SWAP,0.0,0.0,5110.4,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 10:17:25,20260330_050159_COMP-USDT-SWAP_long
+CLOSE,COMP-USDT-SWAP,0.0,18.16,5110.4,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 10:17:25,20260330_050159_COMP-USDT-SWAP_long
+position_opened,FLOKI-USDT-SWAP,0.0,2.833e-05,719.0,,,long,True,2026-03-30 10:30:59,20260330_103059_FLOKI-USDT-SWAP_long
+OPEN,FLOKI-USDT-SWAP,0.0,2.833e-05,719.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 10:30:59,20260330_103059_FLOKI-USDT-SWAP_long
+position_opened,LRC-USDT-SWAP,0.0,0.02186,4000.0,,,long,True,2026-03-30 10:31:01,20260330_103101_LRC-USDT-SWAP_long
+OPEN,LRC-USDT-SWAP,0.0,0.02186,4000.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 10:31:01,20260330_103101_LRC-USDT-SWAP_long
+position_opened,LPT-USDT-SWAP,0.0,2.102,9593.0,,,long,True,2026-03-30 10:31:04,20260330_103103_LPT-USDT-SWAP_long
+OPEN,LPT-USDT-SWAP,0.0,2.102,9593.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 10:31:04,20260330_103103_LPT-USDT-SWAP_long
+close_pending_exchange,LPT-USDT-SWAP,0.0,2.102,9593.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 10:31:08,20260330_103103_LPT-USDT-SWAP_long
+close_pending_exchange,MINA-USDT-SWAP,0.0,0.05427,193640.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 10:34:13,20260330_033113_MINA-USDT-SWAP_long
+position_closed,MINA-USDT-SWAP,0.0,0.0,193640.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 10:34:25,20260330_033113_MINA-USDT-SWAP_long
+CLOSE,MINA-USDT-SWAP,0.0,0.05408,193640.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 10:34:25,20260330_033113_MINA-USDT-SWAP_long
+position_opened,LINK-USDT-SWAP,0.0,8.749,233.59,,,long,True,2026-03-30 11:01:44,20260330_110144_LINK-USDT-SWAP_long
+OPEN,LINK-USDT-SWAP,0.0,8.749,233.59,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:01:44,20260330_110144_LINK-USDT-SWAP_long
+position_opened,SAND-USDT-SWAP,0.0,0.0752,2698.0,,,long,True,2026-03-30 11:01:47,20260330_110146_SAND-USDT-SWAP_long
+OPEN,SAND-USDT-SWAP,0.0,0.0752,2698.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:01:47,20260330_110146_SAND-USDT-SWAP_long
+position_closed,IMX-USDT-SWAP,0.0,0.0,39150.0,rotation_block,Ротация под новый сигнал ATOM-USDT-SWAP,long,True,2026-03-30 11:01:48,20260330_073750_IMX-USDT-SWAP_long
+CLOSE,IMX-USDT-SWAP,0.0,0.1472,39150.0,,Ротация под новый сигнал ATOM-USDT-SWAP,long,True,2026-03-30 11:01:48,20260330_073750_IMX-USDT-SWAP_long
+position_opened,ATOM-USDT-SWAP,0.0,1.684,1220.0,,,long,True,2026-03-30 11:01:52,20260330_110152_ATOM-USDT-SWAP_long
+OPEN,ATOM-USDT-SWAP,0.0,1.684,1220.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:01:52,20260330_110152_ATOM-USDT-SWAP_long
+position_closed,SAND-USDT-SWAP,0.0,0.0,2698.0,rotation_block,Ротация под новый сигнал MAGIC-USDT-SWAP,long,True,2026-03-30 11:04:19,20260330_110146_SAND-USDT-SWAP_long
+CLOSE,SAND-USDT-SWAP,0.0,0.0752,2698.0,,Ротация под новый сигнал MAGIC-USDT-SWAP,long,True,2026-03-30 11:04:19,20260330_110146_SAND-USDT-SWAP_long
+position_opened,MAGIC-USDT-SWAP,0.0,0.05742,35790.0,,,long,True,2026-03-30 11:04:24,20260330_110423_MAGIC-USDT-SWAP_long
+OPEN,MAGIC-USDT-SWAP,0.0,0.05742,35790.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:04:24,20260330_110423_MAGIC-USDT-SWAP_long
+position_closed,ATOM-USDT-SWAP,0.0,0.0,1220.0,rotation_block,Ротация под новый сигнал MASK-USDT-SWAP,long,True,2026-03-30 11:04:25,20260330_110152_ATOM-USDT-SWAP_long
+CLOSE,ATOM-USDT-SWAP,0.0,1.686,1220.0,,Ротация под новый сигнал MASK-USDT-SWAP,long,True,2026-03-30 11:04:25,20260330_110152_ATOM-USDT-SWAP_long
+position_closed,LINK-USDT-SWAP,0.0,0.0,233.59,rotation_block,Ротация под новый сигнал ADA-USDT-SWAP,long,True,2026-03-30 11:04:29,20260330_110144_LINK-USDT-SWAP_long
+CLOSE,LINK-USDT-SWAP,0.0,8.751,233.59,,Ротация под новый сигнал ADA-USDT-SWAP,long,True,2026-03-30 11:04:29,20260330_110144_LINK-USDT-SWAP_long
+position_opened,MASK-USDT-SWAP,0.0,0.4095,5018.0,,,long,True,2026-03-30 11:04:29,20260330_110429_MASK-USDT-SWAP_long
+OPEN,MASK-USDT-SWAP,0.0,0.4095,5018.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:04:29,20260330_110429_MASK-USDT-SWAP_long
+position_opened,ADA-USDT-SWAP,0.0,0.249,82.5,,,long,True,2026-03-30 11:04:34,20260330_110434_ADA-USDT-SWAP_long
+OPEN,ADA-USDT-SWAP,0.0,0.249,82.5,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:04:34,20260330_110434_ADA-USDT-SWAP_long
+position_closed,ADA-USDT-SWAP,0.0,0.0,82.5,rotation_block,Ротация под новый сигнал CRO-USDT-SWAP,long,True,2026-03-30 11:06:02,20260330_110434_ADA-USDT-SWAP_long
+CLOSE,ADA-USDT-SWAP,0.0,0.249,82.5,,Ротация под новый сигнал CRO-USDT-SWAP,long,True,2026-03-30 11:06:02,20260330_110434_ADA-USDT-SWAP_long
+position_opened,CRO-USDT-SWAP,0.0,0.07162,2868.0,,,long,True,2026-03-30 11:06:06,20260330_110606_CRO-USDT-SWAP_long
+OPEN,CRO-USDT-SWAP,0.0,0.07162,2868.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:06:06,20260330_110606_CRO-USDT-SWAP_long
+position_closed,MASK-USDT-SWAP,0.0,0.0,5018.0,rotation_block,Ротация под новый сигнал XTZ-USDT-SWAP,long,True,2026-03-30 11:06:07,20260330_110429_MASK-USDT-SWAP_long
+CLOSE,MASK-USDT-SWAP,0.0,0.4102,5018.0,,Ротация под новый сигнал XTZ-USDT-SWAP,long,True,2026-03-30 11:06:07,20260330_110429_MASK-USDT-SWAP_long
+position_opened,XTZ-USDT-SWAP,0.0,0.3503,5865.0,,,long,True,2026-03-30 11:06:11,20260330_110611_XTZ-USDT-SWAP_long
+OPEN,XTZ-USDT-SWAP,0.0,0.3503,5865.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:06:11,20260330_110611_XTZ-USDT-SWAP_long
+position_closed,MAGIC-USDT-SWAP,0.0,0.0,35790.0,rotation_block,Ротация под новый сигнал YFI-USDT-SWAP,long,True,2026-03-30 11:33:00,20260330_110423_MAGIC-USDT-SWAP_long
+CLOSE,MAGIC-USDT-SWAP,0.0,0.05748,35790.0,,Ротация под новый сигнал YFI-USDT-SWAP,long,True,2026-03-30 11:33:00,20260330_110423_MAGIC-USDT-SWAP_long
+position_closed,CRO-USDT-SWAP,0.0,0.0,2868.0,rotation_block,Ротация под новый сигнал COMP-USDT-SWAP,long,True,2026-03-30 11:33:05,20260330_110606_CRO-USDT-SWAP_long
+CLOSE,CRO-USDT-SWAP,0.0,0.0716,2868.0,,Ротация под новый сигнал COMP-USDT-SWAP,long,True,2026-03-30 11:33:05,20260330_110606_CRO-USDT-SWAP_long
+position_opened,YFI-USDT-SWAP,0.0,2468.0,8146.0,,,long,True,2026-03-30 11:33:05,20260330_113304_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2468.0,8146.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:33:05,20260330_113304_YFI-USDT-SWAP_long
+position_opened,COMP-USDT-SWAP,0.0,18.36,1095.0,,,long,True,2026-03-30 11:33:10,20260330_113309_COMP-USDT-SWAP_long
+OPEN,COMP-USDT-SWAP,0.0,18.36,1095.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:33:10,20260330_113309_COMP-USDT-SWAP_long
+close_pending_exchange,COMP-USDT-SWAP,0.0,18.36,1095.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 11:33:13,20260330_113309_COMP-USDT-SWAP_long
+position_closed,YFI-USDT-SWAP,0.0,0.0,8146.0,rotation_block,Ротация под новый сигнал NEAR-USDT-SWAP,long,True,2026-03-30 11:35:33,20260330_113304_YFI-USDT-SWAP_long
+CLOSE,YFI-USDT-SWAP,0.0,2472.0,8146.0,,Ротация под новый сигнал NEAR-USDT-SWAP,long,True,2026-03-30 11:35:33,20260330_113304_YFI-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.2141,165.5,,,long,True,2026-03-30 11:35:36,20260330_113536_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.2141,165.5,,Первичный вход + bootstrap-stop,long,True,2026-03-30 11:35:36,20260330_113536_NEAR-USDT-SWAP_long
+position_closed,XTZ-USDT-SWAP,0.0,0.0,5865.0,rotation_block,Ротация под новый сигнал XAG-USDT-SWAP,long,True,2026-03-30 12:02:54,20260330_110611_XTZ-USDT-SWAP_long
+CLOSE,XTZ-USDT-SWAP,0.0,0.3491,5865.0,,Ротация под новый сигнал XAG-USDT-SWAP,long,True,2026-03-30 12:02:54,20260330_110611_XTZ-USDT-SWAP_long
+position_opened,XAG-USDT-SWAP,0.0,71.05,2809.0,,,long,True,2026-03-30 12:02:58,20260330_120258_XAG-USDT-SWAP_long
+OPEN,XAG-USDT-SWAP,0.0,71.05,2809.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 12:02:58,20260330_120258_XAG-USDT-SWAP_long
+position_closed,FLOKI-USDT-SWAP,0.0,0.0,2157.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:13:03,20260330_103059_FLOKI-USDT-SWAP_long
+CLOSE,FLOKI-USDT-SWAP,0.0,2.823e-05,2157.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:13:03,20260330_103059_FLOKI-USDT-SWAP_long
+close_pending_exchange,NEAR-USDT-SWAP,0.0,1.2025,165.5,,SYNC confirmed close after exchange absence,long,True,2026-03-30 12:31:43,20260330_113536_NEAR-USDT-SWAP_long
+position_closed,NEAR-USDT-SWAP,0.0,0.0,165.5,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:33:03,20260330_113536_NEAR-USDT-SWAP_long
+CLOSE,NEAR-USDT-SWAP,0.0,1.2011,165.5,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:33:03,20260330_113536_NEAR-USDT-SWAP_long
+close_pending_exchange,INJ-USDT-SWAP,0.0,2.91,34884.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 12:33:09,20260330_043023_INJ-USDT-SWAP_long
+close_pending_exchange,INJ-USDT-SWAP,0.0,2.909,34884.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 12:34:26,20260330_043023_INJ-USDT-SWAP_long
+position_closed,INJ-USDT-SWAP,0.0,0.0,34884.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:35:16,20260330_043023_INJ-USDT-SWAP_long
+CLOSE,INJ-USDT-SWAP,0.0,2.909,34884.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:35:16,20260330_043023_INJ-USDT-SWAP_long
+close_pending_exchange,COMP-USDT-SWAP,0.0,18.25,1095.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 12:42:15,20260330_113309_COMP-USDT-SWAP_long
+position_closed,COMP-USDT-SWAP,0.0,0.0,1095.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:43:20,20260330_113309_COMP-USDT-SWAP_long
+CLOSE,COMP-USDT-SWAP,0.0,18.25,1095.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:43:20,20260330_113309_COMP-USDT-SWAP_long
+close_pending_exchange,LRC-USDT-SWAP,0.0,0.02182,4000.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 12:44:21,20260330_103101_LRC-USDT-SWAP_long
+close_pending_exchange,LRC-USDT-SWAP,0.0,0.02182,4000.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 12:45:28,20260330_103101_LRC-USDT-SWAP_long
+close_pending_exchange,LRC-USDT-SWAP,0.0,0.02184,4000.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 12:46:20,20260330_103101_LRC-USDT-SWAP_long
+close_pending_exchange,OP-USDT-SWAP,0.0,0.1072,96800.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 12:46:20,20260330_033127_OP-USDT-SWAP_long
+position_closed,OP-USDT-SWAP,0.0,0.0,96800.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:46:32,20260330_033127_OP-USDT-SWAP_long
+CLOSE,OP-USDT-SWAP,0.0,0.1068,96800.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:46:32,20260330_033127_OP-USDT-SWAP_long
+position_closed,LRC-USDT-SWAP,0.0,0.0,4000.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:47:23,20260330_103101_LRC-USDT-SWAP_long
+CLOSE,LRC-USDT-SWAP,0.0,0.02176,4000.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 12:47:23,20260330_103101_LRC-USDT-SWAP_long
+position_opened,YFI-USDT-SWAP,0.0,2480.0,8909.0,,,long,True,2026-03-30 13:31:16,20260330_133115_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2480.0,8909.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 13:31:16,20260330_133115_YFI-USDT-SWAP_long
+close_pending_exchange,YFI-USDT-SWAP,0.0,2480.0,8909.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 13:31:20,20260330_133115_YFI-USDT-SWAP_long
+position_closed,AUCTION-USDT-SWAP,0.0,0.0,22080.4,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 13:36:44,20260330_043318_AUCTION-USDT-SWAP_long
+CLOSE,AUCTION-USDT-SWAP,0.0,4.469,22080.4,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 13:36:44,20260330_043318_AUCTION-USDT-SWAP_long
+position_opened,YGG-USDT-SWAP,0.0,0.0354,63486.0,,,long,True,2026-03-30 14:01:52,20260330_140151_YGG-USDT-SWAP_long
+OPEN,YGG-USDT-SWAP,0.0,0.0354,63486.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 14:01:52,20260330_140151_YGG-USDT-SWAP_long
+close_pending_exchange,LPT-USDT-SWAP,0.0,2.107,19186.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 14:06:04,20260330_103103_LPT-USDT-SWAP_long
+close_pending_exchange,LPT-USDT-SWAP,0.0,2.113,19186.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 14:08:09,20260330_103103_LPT-USDT-SWAP_long
+close_pending_exchange,LPT-USDT-SWAP,0.0,2.113,19186.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 14:10:17,20260330_103103_LPT-USDT-SWAP_long
+position_closed,LPT-USDT-SWAP,0.0,0.0,19186.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 14:11:54,20260330_103103_LPT-USDT-SWAP_long
+CLOSE,LPT-USDT-SWAP,0.0,2.113,19186.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 14:11:54,20260330_103103_LPT-USDT-SWAP_long
+close_pending_exchange,SHIB-USDT-SWAP,0.0,6.07e-06,1736.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 14:27:05,20260330_033122_SHIB-USDT-SWAP_long
+close_pending_exchange,SHIB-USDT-SWAP,0.0,6.07e-06,1736.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 14:28:59,20260330_033122_SHIB-USDT-SWAP_long
+close_pending_exchange,SHIB-USDT-SWAP,0.0,6.07e-06,1736.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 14:31:38,20260330_033122_SHIB-USDT-SWAP_long
+close_pending_exchange,SHIB-USDT-SWAP,0.0,6.07e-06,1736.0,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-30 14:34:03,20260330_033122_SHIB-USDT-SWAP_long
+position_closed,SHIB-USDT-SWAP,0.0,0.0,1736.0,sync_confirmed_close_after_stop_fault:_missing,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-30 14:34:03,20260330_033122_SHIB-USDT-SWAP_long
+CLOSE,SHIB-USDT-SWAP,0.0,6.07e-06,1736.0,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-30 14:34:03,20260330_033122_SHIB-USDT-SWAP_long
+position_opened,TSLA-USDT-SWAP,0.0,365.79,630.0,,,long,True,2026-03-30 16:00:26,20260330_160026_TSLA-USDT-SWAP_long
+OPEN,TSLA-USDT-SWAP,0.0,365.79,630.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 16:00:26,20260330_160026_TSLA-USDT-SWAP_long
+position_opened,CRV-USDT-SWAP,0.0,0.2216,10336.0,,,long,True,2026-03-30 16:00:29,20260330_160028_CRV-USDT-SWAP_long
+OPEN,CRV-USDT-SWAP,0.0,0.2216,10336.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 16:00:29,20260330_160028_CRV-USDT-SWAP_long
+position_opened,MASK-USDT-SWAP,0.0,0.4124,5514.0,,,long,True,2026-03-30 16:00:31,20260330_160030_MASK-USDT-SWAP_long
+OPEN,MASK-USDT-SWAP,0.0,0.4124,5514.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 16:00:31,20260330_160030_MASK-USDT-SWAP_long
+close_pending_exchange,1INCH-USDT-SWAP,0.0,0.0901,117420.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:00:35,20260330_033119_1INCH-USDT-SWAP_long
+close_pending_exchange,ARB-USDT-SWAP,0.0,0.0933,10225.6,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:00:35,20260330_050155_ARB-USDT-SWAP_long
+close_pending_exchange,BNB-USDT-SWAP,0.0,619.2,1400.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:00:35,20260330_060240_BNB-USDT-SWAP_long
+close_pending_exchange,CRV-USDT-SWAP,0.0,0.2216,10336.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 16:00:35,20260330_160028_CRV-USDT-SWAP_long
+close_pending_exchange,GMT-USDT-SWAP,0.0,0.00663,119427.0,,SYNC confirmed close after stop fault: MISSING,short,True,2026-03-30 16:00:35,20260330_041326_GMT-USDT-SWAP_short
+close_pending_exchange,KSM-USDT-SWAP,0.0,4.225,20688.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:00:35,20260330_060244_KSM-USDT-SWAP_long
+close_pending_exchange,LDO-USDT-SWAP,0.0,0.3227,18666.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:00:35,20260330_101136_LDO-USDT-SWAP_long
+close_pending_exchange,MASK-USDT-SWAP,0.0,0.4124,5514.0,,SYNC recheck during entry recovery: PENDING_RECHECK,long,True,2026-03-30 16:00:35,20260330_160030_MASK-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,71.48,5618.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:00:35,20260330_120258_XAG-USDT-SWAP_long
+close_pending_exchange,YFI-USDT-SWAP,0.0,2487.0,17818.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:00:35,20260330_133115_YFI-USDT-SWAP_long
+close_pending_exchange,YGG-USDT-SWAP,0.0,0.0354,63486.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:00:35,20260330_140151_YGG-USDT-SWAP_long
+position_opened,CELO-USDT-SWAP,0.0,0.0774,28996.0,,,long,True,2026-03-30 16:04:00,20260330_160400_CELO-USDT-SWAP_long
+OPEN,CELO-USDT-SWAP,0.0,0.0774,28996.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 16:04:00,20260330_160400_CELO-USDT-SWAP_long
+position_opened,BAND-USDT-SWAP,0.0,0.2033,10656.0,,,long,True,2026-03-30 16:32:41,20260330_163240_BAND-USDT-SWAP_long
+OPEN,BAND-USDT-SWAP,0.0,0.2033,10656.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 16:32:41,20260330_163240_BAND-USDT-SWAP_long
+position_opened,COMP-USDT-SWAP,0.0,17.98,1196.5,,,short,True,2026-03-30 16:32:43,20260330_163242_COMP-USDT-SWAP_short
+OPEN,COMP-USDT-SWAP,0.0,17.98,1196.5,,Первичный вход + bootstrap-stop,short,True,2026-03-30 16:32:43,20260330_163242_COMP-USDT-SWAP_short
+close_pending_exchange,XAG-USDT-SWAP,0.0,70.87,8427.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 16:37:07,20260330_120258_XAG-USDT-SWAP_long
+close_pending_exchange,XAG-USDT-SWAP,0.0,70.91,8427.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 16:39:18,20260330_120258_XAG-USDT-SWAP_long
+position_closed,XAG-USDT-SWAP,0.0,0.0,8427.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 16:40:31,20260330_120258_XAG-USDT-SWAP_long
+CLOSE,XAG-USDT-SWAP,0.0,70.84,8427.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 16:40:31,20260330_120258_XAG-USDT-SWAP_long
+close_pending_exchange,YFI-USDT-SWAP,0.0,2479.8,26727.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:49:02,20260330_133115_YFI-USDT-SWAP_long
+position_closed,YFI-USDT-SWAP,0.0,0.0,26727.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 16:50:18,20260330_133115_YFI-USDT-SWAP_long
+CLOSE,YFI-USDT-SWAP,0.0,2471.9,26727.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 16:50:18,20260330_133115_YFI-USDT-SWAP_long
+position_closed,YGG-USDT-SWAP,0.0,0.0,63486.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 16:50:32,20260330_140151_YGG-USDT-SWAP_long
+CLOSE,YGG-USDT-SWAP,0.0,0.0351,63486.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 16:50:32,20260330_140151_YGG-USDT-SWAP_long
+position_opened,YFI-USDT-SWAP,0.0,2473.0,9045.0,,,long,True,2026-03-30 16:51:11,20260330_165111_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2473.0,9045.0,,Первичный вход + bootstrap-stop,long,True,2026-03-30 16:51:11,20260330_165111_YFI-USDT-SWAP_long
+close_pending_exchange,BNB-USDT-SWAP,0.0,617.1,1400.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 16:56:58,20260330_060240_BNB-USDT-SWAP_long
+close_pending_exchange,KSM-USDT-SWAP,0.0,4.208,20688.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 16:56:58,20260330_060244_KSM-USDT-SWAP_long
+position_closed,BNB-USDT-SWAP,0.0,0.0,1400.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 16:58:09,20260330_060240_BNB-USDT-SWAP_long
+CLOSE,BNB-USDT-SWAP,0.0,616.9,1400.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 16:58:09,20260330_060240_BNB-USDT-SWAP_long
+close_pending_exchange,KSM-USDT-SWAP,0.0,4.204,20688.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-30 16:59:01,20260330_060244_KSM-USDT-SWAP_long
+position_closed,KSM-USDT-SWAP,0.0,0.0,20688.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:00:13,20260330_060244_KSM-USDT-SWAP_long
+CLOSE,KSM-USDT-SWAP,0.0,4.204,20688.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:00:13,20260330_060244_KSM-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,0.821,281.0,,,short,True,2026-03-30 17:01:43,20260330_170142_LIT-USDT-SWAP_short
+OPEN,LIT-USDT-SWAP,0.0,0.821,281.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 17:01:43,20260330_170142_LIT-USDT-SWAP_short
+close_pending_exchange,CRV-USDT-SWAP,0.0,0.2171,10336.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 17:05:28,20260330_160028_CRV-USDT-SWAP_long
+position_closed,CRV-USDT-SWAP,0.0,0.0,10336.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:06:44,20260330_160028_CRV-USDT-SWAP_long
+CLOSE,CRV-USDT-SWAP,0.0,0.2169,10336.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:06:44,20260330_160028_CRV-USDT-SWAP_long
+close_pending_exchange,TSLA-USDT-SWAP,0.0,364.14,630.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 17:07:35,20260330_160026_TSLA-USDT-SWAP_long
+position_closed,TSLA-USDT-SWAP,0.0,0.0,630.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:08:48,20260330_160026_TSLA-USDT-SWAP_long
+CLOSE,TSLA-USDT-SWAP,0.0,358.2,630.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:08:48,20260330_160026_TSLA-USDT-SWAP_long
+position_closed,MASK-USDT-SWAP,0.0,0.0,11028.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:18:48,20260330_160030_MASK-USDT-SWAP_long
+CLOSE,MASK-USDT-SWAP,0.0,0.4088,11028.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:18:48,20260330_160030_MASK-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.1841,200.5,,,short,True,2026-03-30 17:31:19,20260330_173119_NEAR-USDT-SWAP_short
+OPEN,NEAR-USDT-SWAP,0.0,1.1841,200.5,,Первичный вход + bootstrap-stop,short,True,2026-03-30 17:31:19,20260330_173119_NEAR-USDT-SWAP_short
+close_pending_exchange,LDO-USDT-SWAP,0.0,0.3194,24888.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 17:31:23,20260330_101136_LDO-USDT-SWAP_long
+close_pending_exchange,NEAR-USDT-SWAP,0.0,1.1841,200.5,,SYNC recheck during entry recovery: PENDING_RECHECK,short,True,2026-03-30 17:31:23,20260330_173119_NEAR-USDT-SWAP_short
+position_closed,LDO-USDT-SWAP,0.0,0.0,24888.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:32:45,20260330_101136_LDO-USDT-SWAP_long
+CLOSE,LDO-USDT-SWAP,0.0,0.3194,24888.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:32:45,20260330_101136_LDO-USDT-SWAP_long
+position_closed,BAND-USDT-SWAP,0.0,0.0,10656.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:36:22,20260330_163240_BAND-USDT-SWAP_long
+CLOSE,BAND-USDT-SWAP,0.0,0.2007,10656.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:36:22,20260330_163240_BAND-USDT-SWAP_long
+close_pending_exchange,ARB-USDT-SWAP,0.0,0.0921,10225.6,,SYNC confirmed close after exchange absence,long,True,2026-03-30 17:36:51,20260330_050155_ARB-USDT-SWAP_long
+position_closed,1INCH-USDT-SWAP,0.0,0.0,7420.0,канальный_выход_10_свечей,Канальный выход 10 свечей,long,True,2026-03-30 17:36:53,20260330_033119_1INCH-USDT-SWAP_long
+CLOSE,1INCH-USDT-SWAP,0.0,0.0887,7420.0,,Канальный выход 10 свечей,long,True,2026-03-30 17:36:53,20260330_033119_1INCH-USDT-SWAP_long
+position_closed,ARB-USDT-SWAP,0.0,0.0,10225.6,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:38:00,20260330_050155_ARB-USDT-SWAP_long
+CLOSE,ARB-USDT-SWAP,0.0,0.0918,10225.6,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:38:00,20260330_050155_ARB-USDT-SWAP_long
+position_closed,YFI-USDT-SWAP,0.0,0.0,18090.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:38:18,20260330_165111_YFI-USDT-SWAP_long
+CLOSE,YFI-USDT-SWAP,0.0,2456.8,18090.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 17:38:18,20260330_165111_YFI-USDT-SWAP_long
+position_opened,ZBCN-USDT-SWAP,0.0,0.0023064,1097.0,,,short,True,2026-03-30 18:00:45,20260330_180045_ZBCN-USDT-SWAP_short
+OPEN,ZBCN-USDT-SWAP,0.0,0.0023064,1097.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 18:00:45,20260330_180045_ZBCN-USDT-SWAP_short
+OPEN,BCH-USDT-SWAP,0.0,460.4,54.57,,Первичный вход + bootstrap-stop,long,True,2026-03-30 18:00:47,20260330_180047_BCH-USDT-SWAP_long
+position_opened,BCH-USDT-SWAP,0.0,460.4,54.57,,,long,True,2026-03-30 18:00:48,20260330_180047_BCH-USDT-SWAP_long
+close_pending_exchange,CELO-USDT-SWAP,0.0,0.0768,57992.0,,SYNC confirmed close after exchange absence,long,True,2026-03-30 18:09:47,20260330_160400_CELO-USDT-SWAP_long
+position_closed,CELO-USDT-SWAP,0.0,0.0,57992.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 18:10:54,20260330_160400_CELO-USDT-SWAP_long
+CLOSE,CELO-USDT-SWAP,0.0,0.0768,57992.0,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 18:10:54,20260330_160400_CELO-USDT-SWAP_long
+position_opened,AXS-USDT-SWAP,0.0,1.1265,22210.0,,,short,True,2026-03-30 18:32:21,20260330_183221_AXS-USDT-SWAP_short
+OPEN,AXS-USDT-SWAP,0.0,1.1265,22210.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 18:32:21,20260330_183221_AXS-USDT-SWAP_short
+position_opened,KSM-USDT-SWAP,0.0,4.164,5923.0,,,short,True,2026-03-30 19:00:37,20260330_190037_KSM-USDT-SWAP_short
+OPEN,KSM-USDT-SWAP,0.0,4.164,5923.0,,Первичный вход + bootstrap-stop,short,True,2026-03-30 19:00:37,20260330_190037_KSM-USDT-SWAP_short
+close_pending_exchange,LIT-USDT-SWAP,0.0,0.822,562.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 19:07:55,20260330_170142_LIT-USDT-SWAP_short
+position_closed,LIT-USDT-SWAP,0.0,0.0,562.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 19:09:06,20260330_170142_LIT-USDT-SWAP_short
+CLOSE,LIT-USDT-SWAP,0.0,0.824,562.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 19:09:06,20260330_170142_LIT-USDT-SWAP_short
+position_closed,BCH-USDT-SWAP,0.0,0.0,163.71,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 19:10:52,20260330_180047_BCH-USDT-SWAP_long
+CLOSE,BCH-USDT-SWAP,0.0,463.6,163.71,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-30 19:10:52,20260330_180047_BCH-USDT-SWAP_long
+close_pending_exchange,ZBCN-USDT-SWAP,0.0,0.0023065,1097.0,,SYNC confirmed close after exchange absence,short,True,2026-03-30 19:12:22,20260330_180045_ZBCN-USDT-SWAP_short
+position_closed,ZBCN-USDT-SWAP,0.0,0.0,1097.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 19:13:13,20260330_180045_ZBCN-USDT-SWAP_short
+CLOSE,ZBCN-USDT-SWAP,0.0,0.0023141,1097.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-30 19:13:13,20260330_180045_ZBCN-USDT-SWAP_short
+position_opened,LQTY-USDT-SWAP,0.0,0.27,9304.4,,,short,True,2026-03-30 19:32:00,20260330_193200_LQTY-USDT-SWAP_short
+OPEN,LQTY-USDT-SWAP,0.0,0.27,9304.4,,Первичный вход + bootstrap-stop,short,True,2026-03-30 19:32:00,20260330_193200_LQTY-USDT-SWAP_short

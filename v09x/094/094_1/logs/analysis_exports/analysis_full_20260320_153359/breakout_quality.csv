@@ -1,0 +1,4 @@
+atr,body_atr,body_to_range_ratio,breakout_buffer_atr_actual,breakout_level,channel_width_atr,close_beyond_channel_atr,distance_from_breakout_level_atr,donchian_high,donchian_low,entry_mode,entry_price,event,fresh_breakout_true_false,inst_id,side,system_name,timeframe,ts
+0.00015,1.333333,1.0,2.766789,0.2225,10.666667,0.666667,2.766789,0.2241,0.2225,minimal,0.22208498,breakout_quality,True,BAND-USDT-SWAP,short,Turtle 55,5m,2026-03-20 14:35:55
+2.34,0.299145,0.25,0.299145,642.4,26.965812,0.17094,0.299145,705.5,642.4,minimal,641.7,breakout_quality,True,BNB-USDT-SWAP,short,Turtle 55,5m,2026-03-20 14:40:37
+0.00052,1.923077,1.0,0.738712,0.2676,4.230769,0.769231,0.738712,0.2698,0.2676,minimal,0.26721587,breakout_quality,True,ADA-USDT-SWAP,short,Turtle 20,5m,2026-03-20 14:40:43

@@ -1,0 +1,14 @@
+2026-03-20 13:03:51,284 | CRITICAL | Unhandled exception:
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v09x\094\main_v094.py", line 8314, in reset_test_run
+    self.lbl_available_markets.setText("AVAIL: 0/0")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'setText'
+
+2026-03-20 13:04:15,964 | CRITICAL | Unhandled exception:
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v09x\094\main_v094.py", line 8377, in clear_ban_lists
+    self.lbl_available_markets.setText("AVAIL: 0/0")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'setText'
+

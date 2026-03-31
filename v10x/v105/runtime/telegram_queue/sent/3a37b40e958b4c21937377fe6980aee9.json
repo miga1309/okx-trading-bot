@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: ICP-USDT-SWAP\nЦена входа: 2.363000\nQty: 126029.8\nATR: 0.002650\nСтоп: 2.357700\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "3a37b40e958b4c21937377fe6980aee9",
+  "created_ts": 1774380186.5075133,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

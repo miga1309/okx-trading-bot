@@ -1,0 +1,2 @@
+entry_atr,entry_price,entry_time,initial_stop_price,inst_id,mae_pct,mfe_pct,planned_risk_pct,position_notional_usdt,risk_amount_usdt,side,trade_id
+0.16699999999999982,18.52,2026-03-19 13:03:03,18.186,COMP-USDT-SWAP,4.75162,1.889849,1.0,9026.44945,860.8253469979212,long,20260319_124520_COMP-USDT-SWAP_long

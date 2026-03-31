@@ -1,0 +1,3 @@
+2026-03-26 21:42:43,376 | INFO | engine.gui | legacy_window_bindings:attach:32 | legacy_window_bindings_attached window=MainWindow
+2026-03-26 21:46:37,696 | INFO | engine.gui | legacy_window_bindings:attach:32 | legacy_window_bindings_attached window=MainWindow
+2026-03-26 23:06:43,545 | INFO | engine.gui | legacy_window_bindings:attach:32 | legacy_window_bindings_attached window=MainWindow

@@ -1,0 +1,10 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: XAG-USDT-SWAP\nСторона: LONG\nЦена входа: 72.626040\nЦена выхода: 72.480000\nPnL: -10.1235\nPnL %: -1.01%\nЮнитов: 2\nПричина: Синхронизация: позиция отсутствует на бирже",
+  "id": "216c2ba916394255845fd4d37f5ff0ed",
+  "created_ts": 1774924530.6315863,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758",
+  "attempts": 10,
+  "last_error": "<urlopen error [WinError 10049] Требуемый адрес для своего контекста неверен>"
+}

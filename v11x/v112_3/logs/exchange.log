@@ -1,0 +1,15 @@
+2026-03-26 20:47:55,474 | INFO | root | okx_gateway:refresh_instruments:103 | Loaded 108 swap instruments
+2026-03-26 20:50:04,618 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for FLOKI-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-26 20:50:07,106 | WARNING | root | market_data_cache:_run:142 | Market-data worker temporary fetch failure for HBAR-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-26 20:50:13,610 | INFO | root | okx_gateway:place_market_order:596 | Placing order TSLA-USDT-SWAP sell qty=784.0 attached_stop=True attached_stop_px=384.53
+2026-03-26 20:50:20,960 | INFO | root | okx_gateway:place_exchange_stop:372 | Placing exchange stop TSLA-USDT-SWAP short payload={'instId': 'TSLA-USDT-SWAP', 'tdMode': 'isolated', 'side': 'buy', 'posSide': 'net', 'ordType': 'conditional', 'reduceOnly': 'true', 'closeFraction': '1', 'algoClOrdId': 'SLUSDTSWAP547420960', 'slTriggerPx': '384.53', 'slTriggerPxType': 'mark', 'slOrdPx': '-1'}
+2026-03-26 20:52:59,773 | INFO | root | okx_gateway:place_market_order:596 | Placing order LINK-USDT-SWAP sell qty=328.37 attached_stop=True attached_stop_px=8.95
+2026-03-26 20:55:30,593 | INFO | root | okx_gateway:place_market_order:596 | Placing order TSLA-USDT-SWAP sell qty=784.0 attached_stop=False attached_stop_px=
+2026-03-26 20:56:42,880 | INFO | root | okx_gateway:refresh_instruments:103 | Loaded 108 swap instruments
+2026-03-26 20:57:18,675 | INFO | root | okx_gateway:refresh_instruments:103 | Loaded 109 swap instruments
+2026-03-26 20:57:21,379 | INFO | root | okx_gateway:close_position:428 | Closing position LINK-USDT-SWAP. reset_test
+2026-03-26 20:57:23,570 | INFO | root | okx_gateway:close_position:428 | Closing position TSLA-USDT-SWAP. reset_test
+2026-03-26 20:57:38,315 | INFO | root | okx_gateway:refresh_instruments:103 | Loaded 108 swap instruments
+2026-03-26 20:57:48,049 | INFO | root | okx_gateway:place_exchange_stop:372 | Placing exchange stop TSLA-USDT-SWAP short payload={'instId': 'TSLA-USDT-SWAP', 'tdMode': 'isolated', 'side': 'buy', 'posSide': 'net', 'ordType': 'conditional', 'reduceOnly': 'true', 'closeFraction': '1', 'algoClOrdId': 'SLUSDTSWAP547868049', 'slTriggerPx': '398.35', 'slTriggerPxType': 'mark', 'slOrdPx': '-1'}
+2026-03-26 20:59:15,686 | INFO | root | okx_gateway:refresh_instruments:103 | Loaded 109 swap instruments
+2026-03-26 20:59:18,274 | INFO | root | okx_gateway:close_position:428 | Closing position TSLA-USDT-SWAP. reset_test

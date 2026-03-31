@@ -1,0 +1,36 @@
+2026-03-25 18:48:11,313 | INFO | Telegram worker started | queue=D:\GIT\okx-trading-bot\v10x\v108 деление программы на движки и разгруз main\runtime\telegram_queue
+2026-03-25 18:48:30,734 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 390, in run_worker_forever
+    processed = worker.process_once()
+  File "telegram_notifier.py", line 119, in process_once
+    self._process_file(pending)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "telegram_notifier.py", line 321, in _process_file
+    self._send_message(payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "telegram_notifier.py", line 334, in _send_message
+    with urllib.request.urlopen(request, timeout=25) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>

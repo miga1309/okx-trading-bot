@@ -1,0 +1,24 @@
+inst_id,pyramid_restored,restored_fields,side,stop_restored,system_name,timestamp,trade_id,units_restored
+YGG-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:15:13,20260326_231513_YGG-USDT-SWAP_short,1
+SUI-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",long,True,Turtle 20,2026-03-26 23:15:14,20260326_231514_SUI-USDT-SWAP_long,1
+XLM-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:15:14,20260326_231514_XLM-USDT-SWAP_short,1
+CRV-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:15:15,20260326_231515_CRV-USDT-SWAP_short,1
+SOL-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:15:15,20260326_231515_SOL-USDT-SWAP_short,1
+OP-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:15:15,20260326_231515_OP-USDT-SWAP_short,1
+INJ-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:15:16,20260326_231516_INJ-USDT-SWAP_short,1
+LPT-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:15:16,20260326_231516_LPT-USDT-SWAP_short,1
+YGG-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:22:45,20260326_232245_YGG-USDT-SWAP_short,1
+SUI-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",long,True,Turtle 20,2026-03-26 23:22:46,20260326_232246_SUI-USDT-SWAP_long,1
+XLM-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:22:46,20260326_232246_XLM-USDT-SWAP_short,1
+CRV-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:22:47,20260326_232247_CRV-USDT-SWAP_short,1
+SOL-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:22:47,20260326_232247_SOL-USDT-SWAP_short,1
+INJ-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:22:48,20260326_232248_INJ-USDT-SWAP_short,1
+LPT-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:22:48,20260326_232248_LPT-USDT-SWAP_short,1
+XTZ-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",long,True,Turtle 20,2026-03-26 23:29:27,20260326_232927_XTZ-USDT-SWAP_long,1
+YGG-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:29:27,20260326_232927_YGG-USDT-SWAP_short,1
+XLM-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:29:28,20260326_232928_XLM-USDT-SWAP_short,1
+CRV-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:29:28,20260326_232928_CRV-USDT-SWAP_short,1
+SOL-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:29:29,20260326_232929_SOL-USDT-SWAP_short,1
+INJ-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:29:29,20260326_232929_INJ-USDT-SWAP_short,1
+LPT-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 23:29:29,20260326_232929_LPT-USDT-SWAP_short,1
+QTUM-USDT-SWAP,False,exchange_stop_full_position,long,False,Turtle 20,2026-03-26 23:36:04,20260326_233301_QTUM-USDT-SWAP_long,2

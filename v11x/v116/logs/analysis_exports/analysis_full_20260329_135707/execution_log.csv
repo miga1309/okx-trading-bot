@@ -1,0 +1,35 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,INJ-USDT-SWAP,0.0,2.815,10141.0,,,short,True,2026-03-29 13:07:03,20260329_130703_INJ-USDT-SWAP_short
+OPEN,INJ-USDT-SWAP,0.0,2.815,10141.0,,Первичный вход + bootstrap-stop,short,True,2026-03-29 13:07:03,20260329_130703_INJ-USDT-SWAP_short
+position_opened,LINK-USDT-SWAP,0.0,8.49,333.9,,,short,True,2026-03-29 13:07:07,20260329_130707_LINK-USDT-SWAP_short
+OPEN,LINK-USDT-SWAP,0.0,8.49,333.9,,Первичный вход + bootstrap-stop,short,True,2026-03-29 13:07:07,20260329_130707_LINK-USDT-SWAP_short
+close_pending_exchange,LINK-USDT-SWAP,0.0,8.49,333.9,,SYNC confirmed close after stop fault: PENDING_RECHECK,short,True,2026-03-29 13:07:10,20260329_130707_LINK-USDT-SWAP_short
+position_closed,LINK-USDT-SWAP,0.0,0.0,333.9,sync_confirmed_close_after_stop_fault:_pending_recheck,SYNC confirmed close after stop fault: PENDING_RECHECK,short,True,2026-03-29 13:07:10,20260329_130707_LINK-USDT-SWAP_short
+CLOSE,LINK-USDT-SWAP,0.0,8.49,333.9,,SYNC confirmed close after stop fault: PENDING_RECHECK,short,True,2026-03-29 13:07:10,20260329_130707_LINK-USDT-SWAP_short
+position_opened,LQTY-USDT-SWAP,0.0,0.2665,10562.6,,,short,True,2026-03-29 13:09:44,20260329_130944_LQTY-USDT-SWAP_short
+OPEN,LQTY-USDT-SWAP,0.0,0.2665,10562.6,,Первичный вход + bootstrap-stop,short,True,2026-03-29 13:09:44,20260329_130944_LQTY-USDT-SWAP_short
+position_opened,LTC-USDT-SWAP,0.0,53.79,50.4,,,short,True,2026-03-29 13:15:20,20260329_131520_LTC-USDT-SWAP_short
+OPEN,LTC-USDT-SWAP,0.0,53.79,50.4,,Первичный вход + bootstrap-stop,short,True,2026-03-29 13:15:20,20260329_131520_LTC-USDT-SWAP_short
+position_opened,THETA-USDT-SWAP,0.0,0.1503,1781.0,,,short,True,2026-03-29 13:21:18,20260329_132118_THETA-USDT-SWAP_short
+OPEN,THETA-USDT-SWAP,0.0,0.1503,1781.0,,Первичный вход + bootstrap-stop,short,True,2026-03-29 13:21:18,20260329_132118_THETA-USDT-SWAP_short
+position_opened,SUI-USDT-SWAP,0.0,0.8564,2989.0,,,short,True,2026-03-29 13:32:51,20260329_133251_SUI-USDT-SWAP_short
+OPEN,SUI-USDT-SWAP,0.0,0.8564,2989.0,,Первичный вход + bootstrap-stop,short,True,2026-03-29 13:32:51,20260329_133251_SUI-USDT-SWAP_short
+close_pending_exchange,SUI-USDT-SWAP,0.0,0.8564,2989.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,short,True,2026-03-29 13:32:55,20260329_133251_SUI-USDT-SWAP_short
+position_closed,SUI-USDT-SWAP,0.0,0.0,2989.0,sync_confirmed_close_after_stop_fault:_pending_recheck,SYNC confirmed close after stop fault: PENDING_RECHECK,short,True,2026-03-29 13:32:55,20260329_133251_SUI-USDT-SWAP_short
+CLOSE,SUI-USDT-SWAP,0.0,0.8564,2989.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,short,True,2026-03-29 13:32:55,20260329_133251_SUI-USDT-SWAP_short
+position_opened,BTC-USDT-SWAP,0.0,66456.8,3.74,,,short,True,2026-03-29 13:38:19,20260329_133818_BTC-USDT-SWAP_short
+OPEN,BTC-USDT-SWAP,0.0,66456.8,3.74,,Первичный вход + bootstrap-stop,short,True,2026-03-29 13:38:19,20260329_133818_BTC-USDT-SWAP_short
+close_pending_exchange,BTC-USDT-SWAP,0.0,66456.8,3.74,,SYNC confirmed close after stop fault: PENDING_RECHECK,short,True,2026-03-29 13:38:22,20260329_133818_BTC-USDT-SWAP_short
+position_closed,BTC-USDT-SWAP,0.0,0.0,3.74,sync_confirmed_close_after_stop_fault:_pending_recheck,SYNC confirmed close after stop fault: PENDING_RECHECK,short,True,2026-03-29 13:38:22,20260329_133818_BTC-USDT-SWAP_short
+CLOSE,BTC-USDT-SWAP,0.0,66456.8,3.74,,SYNC confirmed close after stop fault: PENDING_RECHECK,short,True,2026-03-29 13:38:22,20260329_133818_BTC-USDT-SWAP_short
+position_closed,LQTY-USDT-SWAP,0.0,0.0,31687.8,канальный_выход_20_свечей,Канальный выход 20 свечей,short,True,2026-03-29 13:41:26,20260329_130944_LQTY-USDT-SWAP_short
+CLOSE,LQTY-USDT-SWAP,0.0,0.2683,31687.8,,Канальный выход 20 свечей,short,True,2026-03-29 13:41:26,20260329_130944_LQTY-USDT-SWAP_short
+close_pending_exchange,INJ-USDT-SWAP,0.0,2.805,40564.0,,SYNC confirmed close after exchange absence,short,True,2026-03-29 13:46:56,20260329_130703_INJ-USDT-SWAP_short
+position_closed,INJ-USDT-SWAP,0.0,0.0,40564.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-29 13:47:05,20260329_130703_INJ-USDT-SWAP_short
+CLOSE,INJ-USDT-SWAP,0.0,2.81,40564.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-29 13:47:05,20260329_130703_INJ-USDT-SWAP_short
+close_pending_exchange,SUI-USDT-SWAP,0.0,0.8575,5978.0,,SYNC confirmed close after exchange absence,short,True,2026-03-29 13:53:01,20260329_133544_SUI-USDT-SWAP_short
+position_closed,SUI-USDT-SWAP,0.0,0.0,5978.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-29 13:53:20,20260329_133544_SUI-USDT-SWAP_short
+CLOSE,SUI-USDT-SWAP,0.0,0.8586,5978.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-29 13:53:20,20260329_133544_SUI-USDT-SWAP_short
+close_pending_exchange,LINK-USDT-SWAP,0.0,8.472,1335.6,,SYNC confirmed close after exchange absence,short,True,2026-03-29 13:55:45,20260329_130949_LINK-USDT-SWAP_short
+position_closed,LINK-USDT-SWAP,0.0,0.0,1335.6,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-29 13:55:54,20260329_130949_LINK-USDT-SWAP_short
+CLOSE,LINK-USDT-SWAP,0.0,8.475,1335.6,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-29 13:55:54,20260329_130949_LINK-USDT-SWAP_short

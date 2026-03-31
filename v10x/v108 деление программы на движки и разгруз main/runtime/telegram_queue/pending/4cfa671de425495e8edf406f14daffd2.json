@@ -1,0 +1,10 @@
+{
+  "type": "message",
+  "text": "OKX Turtle Bot v108 запущен | account=demo | tf=5m | mode=auto",
+  "id": "4cfa671de425495e8edf406f14daffd2",
+  "created_ts": 1774453650.3454347,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758",
+  "attempts": 1,
+  "last_error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+}

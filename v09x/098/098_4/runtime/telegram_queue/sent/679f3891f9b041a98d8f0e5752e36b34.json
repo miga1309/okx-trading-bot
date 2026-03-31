@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LINK-USDT-SWAP\nСторона: LONG\nЦена входа: 8.712999\nЦена выхода: 8.678000\nPnL: -10.3370\nPnL %: -0.40%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "679f3891f9b041a98d8f0e5752e36b34",
+  "created_ts": 1774231451.0952437,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

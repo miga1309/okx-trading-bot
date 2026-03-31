@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: COMP-USDT-SWAP\nЦена входа: 19.040000\nQty: 1368.6\nATR: 0.030000\nСтоп: 19.100000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "890bf42d896a40479bef41cdf1ed45a2",
+  "created_ts": 1774374422.012404,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

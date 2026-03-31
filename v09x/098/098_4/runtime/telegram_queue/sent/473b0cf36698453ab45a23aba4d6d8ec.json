@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: HBAR-USDT-SWAP\nЦена входа: 0.090499\nQty: 296.5\nATR: 0.000075\nСтоп: 0.090349\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "473b0cf36698453ab45a23aba4d6d8ec",
+  "created_ts": 1774241788.6724803,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

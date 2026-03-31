@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: CFX-USDT-SWAP\nЦена входа: 0.062370\nQty: 4295.5\nATR: 0.000106\nСтоп: 0.062582\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "82c96cd42c994a259f1c1464f57e79c0",
+  "created_ts": 1774437037.1442454,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

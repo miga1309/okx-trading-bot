@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: MASK-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.427700\nЦена выхода: 0.429200\nPnL: -9.1425\nPnL %: -0.35%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "cff0d3ac4ada48959684970a6d037a53",
+  "created_ts": 1774257889.7434783,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

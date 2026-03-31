@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: HBAR-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.088700\nЦена выхода: 0.089200\nPnL: -26.0900\nPnL %: -0.56%\nЮнитов: 2\nПричина: ATR стоп 2.0N",
+  "id": "b034a2866ea742bcb416444d5c47c3ef",
+  "created_ts": 1774259028.2745745,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

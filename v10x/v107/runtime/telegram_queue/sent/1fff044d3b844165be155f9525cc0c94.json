@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: SOL-USDT-SWAP\nЦена входа: 90.930000\nQty: 29.29\nATR: 0.186500\nСтоп: 90.557000\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "1fff044d3b844165be155f9525cc0c94",
+  "created_ts": 1774394850.6389534,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

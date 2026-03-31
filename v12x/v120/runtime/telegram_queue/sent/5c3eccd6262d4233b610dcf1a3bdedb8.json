@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: THETA-USDT-SWAP\nСторона: LONG\nЦена входа: 0.153800\nЦена выхода: 0.153700\nPnL: -1.2920\nPnL %: -0.33%\nЮнитов: 1\nПричина: Ротация под новый сигнал BTC-USDT-SWAP",
+  "id": "5c3eccd6262d4233b610dcf1a3bdedb8",
+  "created_ts": 1774845229.7681315,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,2 @@
+early_exit_flag,early_exit_gap_pct,exit_efficiency,exit_reason,hybrid_stop_mode,inst_id,mfe_pct,realized_pnl_pct,realized_r,side,system_name,trade_id,trend_capture_ratio,trend_move_r,trend_strength_r,turtle_exit_period,units
+False,0.0,0.0,stopout_cooldown,ATR_INITIAL,BAND-USDT-SWAP,0.0,-0.18687369311689953,0.0,short,Turtle 55,20260320_143550_BAND-USDT-SWAP_short,0.0,0.0,0.0,20,1

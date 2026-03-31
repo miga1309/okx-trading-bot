@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: ETHFI-USDT-SWAP\nЦена входа: 0.465600\nQty: 5675.0\nATR: 0.001070\nBootstrap-stop: 0.460500\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "dbc9c309fbc44772809ec6ec0c1fd345",
+  "created_ts": 1774955710.792667,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

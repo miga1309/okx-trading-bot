@@ -1,0 +1,43 @@
+{"time": "2026-03-16 15:25:25", "component": "app", "status": "startup", "version": "v084_5"}
+{"time": "2026-03-16 15:25:25", "component": "gui", "status": "window_initialized", "version": "v084_5"}
+{"time": "2026-03-16 15:25:28", "component": "worker", "status": "thread_started", "timeframe": "5m"}
+{"time": "2026-03-16 15:25:29", "component": "worker", "status": "engine_constructed", "timeframe": "5m"}
+{"time": "2026-03-16 15:25:29", "component": "engine", "status": "cycle_started", "open_positions": 0, "timeframe": "5m"}
+{"time": "2026-03-16 15:26:12", "component": "engine", "status": "cycle_finished", "duration_sec": 42.59, "open_positions": 2}
+{"time": "2026-03-16 15:26:17", "component": "engine", "status": "cycle_started", "open_positions": 2, "timeframe": "5m"}
+{"time": "2026-03-16 15:26:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:26:59", "component": "engine", "status": "cycle_finished", "duration_sec": 42.103, "open_positions": 2}
+{"time": "2026-03-16 15:27:04", "component": "engine", "status": "cycle_started", "open_positions": 2, "timeframe": "5m"}
+{"time": "2026-03-16 15:27:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:27:45", "component": "engine", "status": "cycle_finished", "duration_sec": 41.054, "open_positions": 2}
+{"time": "2026-03-16 15:27:50", "component": "engine", "status": "cycle_started", "open_positions": 2, "timeframe": "5m"}
+{"time": "2026-03-16 15:28:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:28:31", "component": "engine", "status": "cycle_finished", "duration_sec": 41.657, "open_positions": 1}
+{"time": "2026-03-16 15:28:36", "component": "engine", "status": "cycle_started", "open_positions": 1, "timeframe": "5m"}
+{"time": "2026-03-16 15:29:18", "component": "engine", "status": "cycle_finished", "duration_sec": 41.694, "open_positions": 2}
+{"time": "2026-03-16 15:29:23", "component": "engine", "status": "cycle_started", "open_positions": 2, "timeframe": "5m"}
+{"time": "2026-03-16 15:29:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:30:02", "component": "engine", "status": "cycle_finished", "duration_sec": 39.352, "open_positions": 2}
+{"time": "2026-03-16 15:30:07", "component": "engine", "status": "cycle_started", "open_positions": 2, "timeframe": "5m"}
+{"time": "2026-03-16 15:30:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:30:57", "component": "engine", "status": "cycle_finished", "duration_sec": 49.098, "open_positions": 6}
+{"time": "2026-03-16 15:31:02", "component": "engine", "status": "cycle_started", "open_positions": 6, "timeframe": "5m"}
+{"time": "2026-03-16 15:31:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:31:53", "component": "engine", "status": "cycle_finished", "duration_sec": 51.359, "open_positions": 6}
+{"time": "2026-03-16 15:31:58", "component": "engine", "status": "cycle_started", "open_positions": 6, "timeframe": "5m"}
+{"time": "2026-03-16 15:32:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:32:45", "component": "engine", "status": "cycle_finished", "duration_sec": 47.525, "open_positions": 5}
+{"time": "2026-03-16 15:32:50", "component": "engine", "status": "cycle_started", "open_positions": 5, "timeframe": "5m"}
+{"time": "2026-03-16 15:33:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:33:40", "component": "engine", "status": "cycle_finished", "duration_sec": 49.494, "open_positions": 6}
+{"time": "2026-03-16 15:33:45", "component": "engine", "status": "cycle_started", "open_positions": 6, "timeframe": "5m"}
+{"time": "2026-03-16 15:34:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:34:35", "component": "engine", "status": "cycle_finished", "duration_sec": 49.826, "open_positions": 5}
+{"time": "2026-03-16 15:34:40", "component": "engine", "status": "cycle_started", "open_positions": 5, "timeframe": "5m"}
+{"time": "2026-03-16 15:35:25", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:35:27", "component": "engine", "status": "cycle_finished", "duration_sec": 47.104, "open_positions": 4}
+{"time": "2026-03-16 15:35:32", "component": "engine", "status": "cycle_started", "open_positions": 4, "timeframe": "5m"}
+{"time": "2026-03-16 15:35:45", "component": "engine", "status": "cycle_finished", "duration_sec": 13.65, "open_positions": 3}
+{"time": "2026-03-16 15:35:46", "component": "worker", "status": "thread_finished"}
+{"time": "2026-03-16 15:35:47", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-16 15:35:47", "component": "app", "status": "shutdown", "exit_code": 0}

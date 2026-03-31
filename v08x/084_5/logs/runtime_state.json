@@ -1,0 +1,1113 @@
+{
+  "positions": {
+    "BAND-USDT-SWAP": {
+      "inst_id": "BAND-USDT-SWAP",
+      "side": "long",
+      "qty": 6090.0,
+      "avg_px": 0.2373,
+      "last_px": 0.2374,
+      "unrealized_pnl": -0.6090000000001019,
+      "margin": 481.719,
+      "atr": 0.00038000000000000116,
+      "stop_price": 0.23653000000000002,
+      "next_pyramid_price": 0.23749250000000002,
+      "entry_time": "2026-03-16 15:30:46",
+      "base_unit_qty": 6090.0,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "entry_period": 20,
+      "exit_period": 10,
+      "signal_time": "2026-03-16 15:30:46",
+      "entry_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\entry_context\\20260316_153046_BAND-USDT-SWAP_long.json",
+      "initial_stop_price": 0.23653000000000002,
+      "peak_price": 0.2374,
+      "trough_price": 0.2373,
+      "peak_unrealized_pnl": 0.6089999999999329,
+      "peak_pnl_pct": 0.1264222503160417,
+      "trade_id": "20260316_153046_BAND-USDT-SWAP_long",
+      "planned_risk_pct": 1.0,
+      "risk_amount_usdt": 471.86211277644315,
+      "risk_per_contract": 0.0007700000000000013,
+      "position_notional_usdt": 1445.1570000000002,
+      "close_pending": false,
+      "close_requested_at": "",
+      "close_attempts": 0,
+      "last_close_error": "",
+      "execution_risk_score": 0.0,
+      "trailing_activated_at": "",
+      "breakeven_activated_at": "",
+      "exchange_stop_algo_id": "3394428327195656192",
+      "exchange_stop_price": 0.23653000000000002,
+      "exchange_stop_last_update": "2026-03-16 15:30:47",
+      "exchange_stop_status": "active",
+      "exchange_stop_last_sync_ts": 1773664515.5404017,
+      "exchange_stop_last_error_code": "",
+      "exchange_stop_last_error_msg": "",
+      "local_protective_exit_pending": false,
+      "local_protective_exit_reason": "",
+      "planned_entry_px": 0.2373,
+      "actual_entry_px": 0.2373,
+      "entry_slippage_pct": 0.0,
+      "entry_execution_mode": "market",
+      "stop_state": "ACTIVE",
+      "stop_verified_at": "2026-03-16 15:30:47",
+      "position_health_state": "HEALTHY",
+      "pyramiding_block_reason": "",
+      "stop_attach_attempts": 2
+    },
+    "ICP-USDT-SWAP": {
+      "inst_id": "ICP-USDT-SWAP",
+      "side": "long",
+      "qty": 52986.0,
+      "avg_px": 2.6979282584078814,
+      "last_px": 2.698,
+      "unrealized_pnl": -1.0217069999999564,
+      "margin": 285.9048534,
+      "atr": 0.0012999999999999678,
+      "stop_price": 2.6955282584078812,
+      "next_pyramid_price": 2.6985282584078814,
+      "entry_time": "2026-03-16 15:30:48",
+      "base_unit_qty": 52986.0,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "entry_period": 20,
+      "exit_period": 10,
+      "signal_time": "2026-03-16 15:30:48",
+      "entry_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\entry_context\\20260316_153048_ICP-USDT-SWAP_long.json",
+      "initial_stop_price": 2.6955282584078812,
+      "peak_price": 2.698,
+      "trough_price": 2.6979282584078814,
+      "peak_unrealized_pnl": 0.0,
+      "peak_pnl_pct": 0.0026591363908568693,
+      "trade_id": "20260316_153048_ICP-USDT-SWAP_long",
+      "planned_risk_pct": 1.0,
+      "risk_amount_usdt": 471.8455541199651,
+      "risk_per_contract": 2.3999999999999577e-05,
+      "position_notional_usdt": 1429.5242670000002,
+      "close_pending": false,
+      "close_requested_at": "",
+      "close_attempts": 0,
+      "last_close_error": "",
+      "execution_risk_score": 0.0,
+      "trailing_activated_at": "",
+      "breakeven_activated_at": "",
+      "exchange_stop_algo_id": "3394428386117238784",
+      "exchange_stop_price": 2.6955282584078812,
+      "exchange_stop_last_update": "2026-03-16 15:30:48",
+      "exchange_stop_status": "active",
+      "exchange_stop_last_sync_ts": 1773664518.5420532,
+      "exchange_stop_last_error_code": "",
+      "exchange_stop_last_error_msg": "",
+      "local_protective_exit_pending": false,
+      "local_protective_exit_reason": "",
+      "planned_entry_px": 2.696,
+      "actual_entry_px": 2.6979282584078814,
+      "entry_slippage_pct": 0.07152293797779097,
+      "entry_execution_mode": "market",
+      "stop_state": "ACTIVE",
+      "stop_verified_at": "2026-03-16 15:30:48",
+      "position_health_state": "HEALTHY",
+      "pyramiding_block_reason": "",
+      "stop_attach_attempts": 2
+    },
+    "XAG-USDT-SWAP": {
+      "inst_id": "XAG-USDT-SWAP",
+      "side": "long",
+      "qty": 1810.0,
+      "avg_px": 79.9,
+      "last_px": 79.9,
+      "unrealized_pnl": 0.0,
+      "margin": 482.06333333333333,
+      "atr": 0.17449999999999974,
+      "stop_price": 79.545,
+      "next_pyramid_price": 79.98875000000001,
+      "entry_time": "2026-03-16 15:34:19",
+      "base_unit_qty": 1810.0,
+      "units": 1,
+      "system_name": "Turtle 55",
+      "entry_period": 55,
+      "exit_period": 20,
+      "signal_time": "2026-03-16 15:34:19",
+      "entry_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\entry_context\\20260316_153419_XAG-USDT-SWAP_long.json",
+      "initial_stop_price": 79.545,
+      "peak_price": 79.9,
+      "trough_price": 79.9,
+      "peak_unrealized_pnl": 0.0,
+      "peak_pnl_pct": 0.0,
+      "trade_id": "20260316_153419_XAG-USDT-SWAP_long",
+      "planned_risk_pct": 1.0,
+      "risk_amount_usdt": 471.7497670390327,
+      "risk_per_contract": 0.0035499999999999833,
+      "position_notional_usdt": 1446.19,
+      "close_pending": false,
+      "close_requested_at": "",
+      "close_attempts": 0,
+      "last_close_error": "",
+      "execution_risk_score": 0.0,
+      "trailing_activated_at": "",
+      "breakeven_activated_at": "",
+      "exchange_stop_algo_id": "3394435470162477056",
+      "exchange_stop_price": 79.545,
+      "exchange_stop_last_update": "2026-03-16 15:34:20",
+      "exchange_stop_status": "active",
+      "exchange_stop_last_sync_ts": 1773664521.1634612,
+      "exchange_stop_last_error_code": "",
+      "exchange_stop_last_error_msg": "",
+      "local_protective_exit_pending": false,
+      "local_protective_exit_reason": "",
+      "planned_entry_px": 79.74,
+      "actual_entry_px": 79.9,
+      "entry_slippage_pct": 0.20065211938802457,
+      "entry_execution_mode": "market",
+      "stop_state": "ACTIVE",
+      "stop_verified_at": "2026-03-16 15:34:20",
+      "position_health_state": "HEALTHY",
+      "pyramiding_block_reason": "",
+      "stop_attach_attempts": 2
+    }
+  },
+  "closed_trades": [
+    {
+      "time": "2026-03-16 15:26:11",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 21195003333.33R → 3695003333.33R",
+      "duration_sec": 41,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_152611_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_152530_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:26:59",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 22095003333.33R → 3695003333.33R",
+      "duration_sec": 41,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_152659_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_152617_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:27:44",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23295003333.33R → 3695003333.33R",
+      "duration_sec": 40,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_152744_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_152704_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:28:26",
+      "inst_id": "BCH-USDT-SWAP",
+      "side": "long",
+      "qty": 94.65,
+      "entry_px": 475.96666666666664,
+      "exit_px": 475.9,
+      "pnl": -0.6309999999999643,
+      "pnl_pct": -0.01400658309405341,
+      "units": 3,
+      "system_name": "Turtle 55",
+      "reason": "Локальный защитный выход 2.0N",
+      "duration_sec": 139,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_152826_BCH-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_152607_BCH-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:28:31",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23795003333.33R → 3695003333.33R",
+      "duration_sec": 41,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_152831_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_152750_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:29:18",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23795003333.33R → 3695003333.33R",
+      "duration_sec": 41,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_152918_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_152837_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:30:02",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23595003333.33R → 3695003333.33R",
+      "duration_sec": 38,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153002_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_152924_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:30:54",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23295003333.33R → 3695003333.33R",
+      "duration_sec": 46,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153054_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_153008_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:31:51",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 22895003333.33R → 3695003333.33R",
+      "duration_sec": 49,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153151_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_153102_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:32:44",
+      "inst_id": "CRO-USDT-SWAP",
+      "side": "long",
+      "qty": 17.0,
+      "entry_px": 0.1033788235294118,
+      "exit_px": 0.1034,
+      "pnl": 0.0035999999999948573,
+      "pnl_pct": 0.020484340859402633,
+      "units": 2,
+      "system_name": "Turtle 55",
+      "reason": "Локальный защитный выход 2.0N",
+      "duration_sec": 67,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153244_CRO-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_153136_CRO-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:32:45",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23195003333.33R → 3695003333.33R",
+      "duration_sec": 46,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153245_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_153159_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:33:38",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23195003333.33R → 3695003333.33R",
+      "duration_sec": 47,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153338_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_153251_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:34:26",
+      "inst_id": "BCH-USDT-SWAP",
+      "side": "long",
+      "qty": 62.64,
+      "entry_px": 476.15,
+      "exit_px": 475.7,
+      "pnl": -2.818799999999929,
+      "pnl_pct": -0.09450803318281814,
+      "units": 2,
+      "system_name": "Turtle 55",
+      "reason": "Локальный защитный выход 2.0N",
+      "duration_sec": 314,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153426_BCH-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_152912_BCH-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:34:32",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23195003333.33R → 3695003333.33R",
+      "duration_sec": 46,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153432_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_153346_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:35:25",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23395003333.33R → 3695003333.33R",
+      "duration_sec": 44,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153525_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_153440_BREV-USDT-SWAP_long"
+    },
+    {
+      "time": "2026-03-16 15:35:45",
+      "inst_id": "BREV-USDT-SWAP",
+      "side": "long",
+      "qty": 120000.0,
+      "entry_px": 1.0089049966666679,
+      "exit_px": 1.0126,
+      "pnl": 44.340039999984704,
+      "pnl_pct": 0.3662389764685495,
+      "units": 1,
+      "system_name": "sync",
+      "reason": "Защита тренда: откат от пика 23395003333.33R → 3695003333.33R",
+      "duration_sec": 13,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v08x\\084_5\\logs\\trade_context\\20260316_153545_BREV-USDT-SWAP_long_trade.json",
+      "trade_id": "20260316_153532_BREV-USDT-SWAP_long"
+    }
+  ],
+  "balance_history": [
+    {
+      "time": "2026-03-16 15:25:29",
+      "balance_total": 47174.24712940797,
+      "balance_available": 42881.448817730656,
+      "balance_used": 4289.968026666653
+    },
+    {
+      "time": "2026-03-16 15:25:35",
+      "balance_total": 47177.84734540797,
+      "balance_available": 42881.448817730656,
+      "balance_used": 4293.568026666652
+    },
+    {
+      "time": "2026-03-16 15:25:40",
+      "balance_total": 47176.90384507109,
+      "balance_available": 42881.448817730656,
+      "balance_used": 4293.568026666652
+    },
+    {
+      "time": "2026-03-16 15:25:46",
+      "balance_total": 47177.37559523954,
+      "balance_available": 42881.448817730656,
+      "balance_used": 4293.568026666652
+    },
+    {
+      "time": "2026-03-16 15:25:51",
+      "balance_total": 47182.68866656575,
+      "balance_available": 42881.448817730656,
+      "balance_used": 4300.768026666651
+    },
+    {
+      "time": "2026-03-16 15:25:56",
+      "balance_total": 47184.10413307109,
+      "balance_available": 42881.448817730656,
+      "balance_used": 4300.768026666651
+    },
+    {
+      "time": "2026-03-16 15:26:02",
+      "balance_total": 47183.16048873419,
+      "balance_available": 42881.448817730656,
+      "balance_used": 4300.768026666651
+    },
+    {
+      "time": "2026-03-16 15:26:07",
+      "balance_total": 47182.09549718478,
+      "balance_available": 42381.05251414732,
+      "balance_used": 4800.099359999985
+    },
+    {
+      "time": "2026-03-16 15:26:12",
+      "balance_total": 47183.18172851057,
+      "balance_available": 42083.61131552232,
+      "balance_used": 5098.154959999985
+    },
+    {
+      "time": "2026-03-16 15:26:18",
+      "balance_total": 47182.59405379533,
+      "balance_available": 42083.61131552232,
+      "balance_used": 5097.095509999985
+    },
+    {
+      "time": "2026-03-16 15:26:23",
+      "balance_total": 47182.12153489533,
+      "balance_available": 42083.61131552232,
+      "balance_used": 5096.623009999985
+    },
+    {
+      "time": "2026-03-16 15:26:28",
+      "balance_total": 47181.54046165333,
+      "balance_available": 42083.61131552232,
+      "balance_used": 5096.041959999985
+    },
+    {
+      "time": "2026-03-16 15:26:34",
+      "balance_total": 47182.88987906683,
+      "balance_available": 42083.61131552232,
+      "balance_used": 5096.447759999985
+    },
+    {
+      "time": "2026-03-16 15:26:39",
+      "balance_total": 47191.08492834481,
+      "balance_available": 42083.61131552232,
+      "balance_used": 5106.529809999987
+    },
+    {
+      "time": "2026-03-16 15:26:45",
+      "balance_total": 47190.19481054282,
+      "balance_available": 42083.61131552232,
+      "balance_used": 5105.639709999987
+    },
+    {
+      "time": "2026-03-16 15:26:50",
+      "balance_total": 47189.42134507382,
+      "balance_available": 42083.61131552232,
+      "balance_used": 5104.866259999987
+    },
+    {
+      "time": "2026-03-16 15:26:55",
+      "balance_total": 47194.89477352965,
+      "balance_available": 41581.74047010565,
+      "balance_used": 5610.794676666653
+    },
+    {
+      "time": "2026-03-16 15:27:01",
+      "balance_total": 47196.83628705111,
+      "balance_available": 41581.74047010565,
+      "balance_used": 5612.264176666653
+    },
+    {
+      "time": "2026-03-16 15:27:06",
+      "balance_total": 47196.086983137146,
+      "balance_available": 41581.74047010565,
+      "balance_used": 5611.986826666653
+    },
+    {
+      "time": "2026-03-16 15:27:12",
+      "balance_total": 47195.78057771471,
+      "balance_available": 41581.74047010565,
+      "balance_used": 5612.624276666653
+    },
+    {
+      "time": "2026-03-16 15:27:17",
+      "balance_total": 47196.70830554571,
+      "balance_available": 41581.74047010565,
+      "balance_used": 5613.551976666652
+    },
+    {
+      "time": "2026-03-16 15:27:23",
+      "balance_total": 47197.59417502618,
+      "balance_available": 41581.74047010565,
+      "balance_used": 5613.965876666653
+    },
+    {
+      "time": "2026-03-16 15:27:28",
+      "balance_total": 47197.81456951215,
+      "balance_available": 41581.74047010565,
+      "balance_used": 5613.714326666653
+    },
+    {
+      "time": "2026-03-16 15:27:33",
+      "balance_total": 47199.20247901411,
+      "balance_available": 41581.74047010565,
+      "balance_used": 5614.630226666653
+    },
+    {
+      "time": "2026-03-16 15:27:39",
+      "balance_total": 47198.61550955715,
+      "balance_available": 41581.74047010565,
+      "balance_used": 5614.515226666653
+    },
+    {
+      "time": "2026-03-16 15:27:44",
+      "balance_total": 47203.12317167898,
+      "balance_available": 41080.08027352232,
+      "balance_used": 6120.682859999985
+    },
+    {
+      "time": "2026-03-16 15:27:49",
+      "balance_total": 47200.01741639899,
+      "balance_available": 41080.08027352232,
+      "balance_used": 6117.5772599999855
+    },
+    {
+      "time": "2026-03-16 15:27:55",
+      "balance_total": 47199.00580396431,
+      "balance_available": 41080.08027352232,
+      "balance_used": 6116.093759999985
+    },
+    {
+      "time": "2026-03-16 15:28:00",
+      "balance_total": 47197.241698124315,
+      "balance_available": 41080.08027352232,
+      "balance_used": 6114.329759999985
+    },
+    {
+      "time": "2026-03-16 15:28:05",
+      "balance_total": 47197.93561231398,
+      "balance_available": 41080.08027352232,
+      "balance_used": 6115.495559999985
+    },
+    {
+      "time": "2026-03-16 15:28:11",
+      "balance_total": 47198.930049419316,
+      "balance_available": 41080.08027352232,
+      "balance_used": 6116.018009999985
+    },
+    {
+      "time": "2026-03-16 15:28:16",
+      "balance_total": 47199.662648661484,
+      "balance_available": 41080.08027352232,
+      "balance_used": 6117.222509999985
+    },
+    {
+      "time": "2026-03-16 15:28:22",
+      "balance_total": 47199.18697487898,
+      "balance_available": 41080.08027352232,
+      "balance_used": 6116.746859999985
+    },
+    {
+      "time": "2026-03-16 15:28:27",
+      "balance_total": 47195.39516179781,
+      "balance_available": 42577.92588335565,
+      "balance_used": 4615.109626666651
+    },
+    {
+      "time": "2026-03-16 15:28:32",
+      "balance_total": 47195.7445347999,
+      "balance_available": 42577.92588335565,
+      "balance_used": 4614.987076666652
+    },
+    {
+      "time": "2026-03-16 15:28:38",
+      "balance_total": 47193.6751420544,
+      "balance_available": 42577.92588335565,
+      "balance_used": 4615.277326666651
+    },
+    {
+      "time": "2026-03-16 15:28:44",
+      "balance_total": 47194.22015332071,
+      "balance_available": 42577.92588335565,
+      "balance_used": 4614.406576666652
+    },
+    {
+      "time": "2026-03-16 15:28:49",
+      "balance_total": 47194.29110615871,
+      "balance_available": 42577.92588335565,
+      "balance_used": 4614.477526666651
+    },
+    {
+      "time": "2026-03-16 15:28:54",
+      "balance_total": 47194.5491164787,
+      "balance_available": 42577.92588335565,
+      "balance_used": 4614.735526666651
+    },
+    {
+      "time": "2026-03-16 15:29:00",
+      "balance_total": 47194.8587288627,
+      "balance_available": 42577.92588335565,
+      "balance_used": 4615.045126666651
+    },
+    {
+      "time": "2026-03-16 15:29:05",
+      "balance_total": 47193.02084308781,
+      "balance_available": 42577.92588335565,
+      "balance_used": 4612.735426666652
+    },
+    {
+      "time": "2026-03-16 15:29:10",
+      "balance_total": 47194.463601456606,
+      "balance_available": 42577.92588335565,
+      "balance_used": 4615.121926666651
+    },
+    {
+      "time": "2026-03-16 15:29:16",
+      "balance_total": 47193.13271362486,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5110.6949266666525
+    },
+    {
+      "time": "2026-03-16 15:29:21",
+      "balance_total": 47192.86720736622,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5110.9013266666525
+    },
+    {
+      "time": "2026-03-16 15:29:26",
+      "balance_total": 47192.731753302716,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5110.765876666652
+    },
+    {
+      "time": "2026-03-16 15:29:32",
+      "balance_total": 47193.400024316856,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5110.962226666652
+    },
+    {
+      "time": "2026-03-16 15:29:37",
+      "balance_total": 47192.84035175258,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5111.346376666652
+    },
+    {
+      "time": "2026-03-16 15:29:43",
+      "balance_total": 47193.375264607996,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5110.465576666652
+    },
+    {
+      "time": "2026-03-16 15:29:48",
+      "balance_total": 47193.29682018886,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5110.859026666652
+    },
+    {
+      "time": "2026-03-16 15:29:54",
+      "balance_total": 47193.19901732022,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5111.233126666652
+    },
+    {
+      "time": "2026-03-16 15:29:59",
+      "balance_total": 47193.86444289286,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5111.426626666653
+    },
+    {
+      "time": "2026-03-16 15:30:05",
+      "balance_total": 47189.88213687713,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5106.500776666653
+    },
+    {
+      "time": "2026-03-16 15:30:10",
+      "balance_total": 47190.21110661413,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5106.829726666653
+    },
+    {
+      "time": "2026-03-16 15:30:15",
+      "balance_total": 47191.683796523415,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5107.3586266666525
+    },
+    {
+      "time": "2026-03-16 15:30:21",
+      "balance_total": 47192.932346399415,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5108.607076666653
+    },
+    {
+      "time": "2026-03-16 15:30:26",
+      "balance_total": 47187.54761095228,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5103.694576666653
+    },
+    {
+      "time": "2026-03-16 15:30:32",
+      "balance_total": 47187.40278443686,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5104.9652266666535
+    },
+    {
+      "time": "2026-03-16 15:30:37",
+      "balance_total": 47187.22118799072,
+      "balance_available": 42080.55013715565,
+      "balance_used": 5105.2554766666535
+    },
+    {
+      "time": "2026-03-16 15:30:43",
+      "balance_total": 47185.726263094315,
+      "balance_available": 41588.32620710565,
+      "balance_used": 5595.9845266666525
+    },
+    {
+      "time": "2026-03-16 15:30:48",
+      "balance_total": 47181.84708908909,
+      "balance_available": 40527.78613307215,
+      "balance_used": 6652.645543066653
+    },
+    {
+      "time": "2026-03-16 15:30:54",
+      "balance_total": 47183.395046450256,
+      "balance_available": 40527.70144187215,
+      "balance_used": 6653.806344266653
+    },
+    {
+      "time": "2026-03-16 15:30:59",
+      "balance_total": 47184.293272472394,
+      "balance_available": 40527.64498107215,
+      "balance_used": 6655.232805066653
+    },
+    {
+      "time": "2026-03-16 15:31:04",
+      "balance_total": 47186.820246342424,
+      "balance_available": 40527.53205947215,
+      "balance_used": 6654.569976666653
+    },
+    {
+      "time": "2026-03-16 15:31:10",
+      "balance_total": 47188.577736549574,
+      "balance_available": 40527.39128842216,
+      "balance_used": 6659.298980516653
+    },
+    {
+      "time": "2026-03-16 15:31:15",
+      "balance_total": 47189.96876553774,
+      "balance_available": 40527.335509322154,
+      "balance_used": 6659.330189616653
+    },
+    {
+      "time": "2026-03-16 15:31:21",
+      "balance_total": 47189.81257159876,
+      "balance_available": 40527.335509322154,
+      "balance_used": 6660.117689616652
+    },
+    {
+      "time": "2026-03-16 15:31:26",
+      "balance_total": 47190.46160675975,
+      "balance_available": 40527.335509322154,
+      "balance_used": 6660.294839616653
+    },
+    {
+      "time": "2026-03-16 15:31:31",
+      "balance_total": 47190.24664330126,
+      "balance_available": 40527.335509322154,
+      "balance_used": 6660.551739616652
+    },
+    {
+      "time": "2026-03-16 15:31:37",
+      "balance_total": 47190.04883341127,
+      "balance_available": 40242.869076722156,
+      "balance_used": 6944.820372216652
+    },
+    {
+      "time": "2026-03-16 15:31:42",
+      "balance_total": 47190.80592741774,
+      "balance_available": 40242.97987302215,
+      "balance_used": 6944.994775916652
+    },
+    {
+      "time": "2026-03-16 15:31:48",
+      "balance_total": 47189.43872670745,
+      "balance_available": 39749.76765978882,
+      "balance_used": 7437.311712949985
+    },
+    {
+      "time": "2026-03-16 15:31:53",
+      "balance_total": 47189.558779589715,
+      "balance_available": 39746.35577133882,
+      "balance_used": 7441.315501399986
+    },
+    {
+      "time": "2026-03-16 15:31:58",
+      "balance_total": 47188.14911684625,
+      "balance_available": 39746.35577133882,
+      "balance_used": 7440.849601399986
+    },
+    {
+      "time": "2026-03-16 15:32:04",
+      "balance_total": 47190.57898371745,
+      "balance_available": 39746.35508963882,
+      "balance_used": 7441.864483099985
+    },
+    {
+      "time": "2026-03-16 15:32:09",
+      "balance_total": 47196.972736136115,
+      "balance_available": 39746.244293338816,
+      "balance_used": 7448.840639399985
+    },
+    {
+      "time": "2026-03-16 15:32:14",
+      "balance_total": 47192.07053708977,
+      "balance_available": 39746.244293338816,
+      "balance_used": 7442.994889399985
+    },
+    {
+      "time": "2026-03-16 15:32:20",
+      "balance_total": 47189.76915322795,
+      "balance_available": 39746.244293338816,
+      "balance_used": 7441.165489399986
+    },
+    {
+      "time": "2026-03-16 15:32:25",
+      "balance_total": 47188.15489343651,
+      "balance_available": 39746.244293338816,
+      "balance_used": 7440.023149399985
+    },
+    {
+      "time": "2026-03-16 15:32:31",
+      "balance_total": 47186.355382547954,
+      "balance_available": 39746.244293338816,
+      "balance_used": 7437.751889399985
+    },
+    {
+      "time": "2026-03-16 15:32:36",
+      "balance_total": 47185.2826629519,
+      "balance_available": 39247.92753773881,
+      "balance_used": 7935.467789399986
+    },
+    {
+      "time": "2026-03-16 15:32:41",
+      "balance_total": 47187.180518202666,
+      "balance_available": 39247.871798738815,
+      "balance_used": 7936.949478399986
+    },
+    {
+      "time": "2026-03-16 15:32:47",
+      "balance_total": 47187.24115444419,
+      "balance_available": 39827.60787343882,
+      "balance_used": 7356.802216399986
+    },
+    {
+      "time": "2026-03-16 15:32:52",
+      "balance_total": 47188.808661630006,
+      "balance_available": 39827.60787343882,
+      "balance_used": 7359.785166399985
+    },
+    {
+      "time": "2026-03-16 15:32:57",
+      "balance_total": 47191.33329995819,
+      "balance_available": 39827.60787343882,
+      "balance_used": 7360.894116399985
+    },
+    {
+      "time": "2026-03-16 15:33:03",
+      "balance_total": 47188.7735152804,
+      "balance_available": 39827.60787343882,
+      "balance_used": 7359.278166399986
+    },
+    {
+      "time": "2026-03-16 15:33:08",
+      "balance_total": 47189.005722158305,
+      "balance_available": 39827.60787343882,
+      "balance_used": 7359.038516399985
+    },
+    {
+      "time": "2026-03-16 15:33:14",
+      "balance_total": 47188.773746394196,
+      "balance_available": 39827.60787343882,
+      "balance_used": 7358.334716399985
+    },
+    {
+      "time": "2026-03-16 15:33:19",
+      "balance_total": 47186.9031544665,
+      "balance_available": 39827.60787343882,
+      "balance_used": 7357.879716399985
+    },
+    {
+      "time": "2026-03-16 15:33:24",
+      "balance_total": 47186.842588046406,
+      "balance_available": 39548.22563963882,
+      "balance_used": 7636.729550199985
+    },
+    {
+      "time": "2026-03-16 15:33:30",
+      "balance_total": 47186.08187597331,
+      "balance_available": 39548.22563963882,
+      "balance_used": 7635.497050199985
+    },
+    {
+      "time": "2026-03-16 15:33:35",
+      "balance_total": 47181.35897394612,
+      "balance_available": 40528.637358772154,
+      "balance_used": 6651.778006866652
+    },
+    {
+      "time": "2026-03-16 15:33:40",
+      "balance_total": 47181.223521237116,
+      "balance_available": 40249.25512497216,
+      "balance_used": 6931.024790666652
+    },
+    {
+      "time": "2026-03-16 15:33:46",
+      "balance_total": 47179.51348703712,
+      "balance_available": 40249.14701537215,
+      "balance_used": 6929.422900266653
+    },
+    {
+      "time": "2026-03-16 15:33:51",
+      "balance_total": 47179.92199112074,
+      "balance_available": 40249.14701537215,
+      "balance_used": 6927.944350266652
+    },
+    {
+      "time": "2026-03-16 15:33:56",
+      "balance_total": 47181.73975974143,
+      "balance_available": 40249.20107017216,
+      "balance_used": 6930.651495466652
+    },
+    {
+      "time": "2026-03-16 15:34:02",
+      "balance_total": 47180.12575278373,
+      "balance_available": 41239.03952297215,
+      "balance_used": 5939.199100266652
+    },
+    {
+      "time": "2026-03-16 15:34:07",
+      "balance_total": 47179.9635796855,
+      "balance_available": 41239.03952297215,
+      "balance_used": 5939.508700266652
+    },
+    {
+      "time": "2026-03-16 15:34:13",
+      "balance_total": 47179.88617736349,
+      "balance_available": 41239.03952297215,
+      "balance_used": 5939.431300266652
+    },
+    {
+      "time": "2026-03-16 15:34:18",
+      "balance_total": 47175.20890854726,
+      "balance_available": 41239.03952297215,
+      "balance_used": 5935.225900266652
+    },
+    {
+      "time": "2026-03-16 15:34:23",
+      "balance_total": 47172.705163473365,
+      "balance_available": 40470.019856038816,
+      "balance_used": 6701.741872199985
+    },
+    {
+      "time": "2026-03-16 15:34:29",
+      "balance_total": 47166.5393869718,
+      "balance_available": 40754.539558638826,
+      "balance_used": 6410.584874599986
+    },
+    {
+      "time": "2026-03-16 15:34:34",
+      "balance_total": 47166.248739347466,
+      "balance_available": 40468.46976763882,
+      "balance_used": 6696.835665599985
+    },
+    {
+      "time": "2026-03-16 15:34:39",
+      "balance_total": 47165.37958196467,
+      "balance_available": 40468.46976763882,
+      "balance_used": 6695.966525599986
+    },
+    {
+      "time": "2026-03-16 15:34:45",
+      "balance_total": 47166.03223175761,
+      "balance_available": 40468.46976763882,
+      "balance_used": 6696.147525599985
+    },
+    {
+      "time": "2026-03-16 15:34:50",
+      "balance_total": 47165.74158920466,
+      "balance_available": 40468.46976763882,
+      "balance_used": 6696.328525599985
+    },
+    {
+      "time": "2026-03-16 15:34:56",
+      "balance_total": 47165.851226327606,
+      "balance_available": 40468.46976763882,
+      "balance_used": 6695.966525599986
+    },
+    {
+      "time": "2026-03-16 15:35:01",
+      "balance_total": 47166.03223175761,
+      "balance_available": 40468.46976763882,
+      "balance_used": 6696.147525599985
+    },
+    {
+      "time": "2026-03-16 15:35:07",
+      "balance_total": 47164.90793760175,
+      "balance_available": 40468.46976763882,
+      "balance_used": 6695.966525599986
+    },
+    {
+      "time": "2026-03-16 15:35:12",
+      "balance_total": 47165.26994122174,
+      "balance_available": 40468.46976763882,
+      "balance_used": 6696.328525599985
+    },
+    {
+      "time": "2026-03-16 15:35:17",
+      "balance_total": 47166.50387793054,
+      "balance_available": 40184.47294613882,
+      "balance_used": 6980.144347099985
+    },
+    {
+      "time": "2026-03-16 15:35:22",
+      "balance_total": 47165.560585584666,
+      "balance_available": 40184.47294613882,
+      "balance_used": 6980.144347099985
+    },
+    {
+      "time": "2026-03-16 15:35:28",
+      "balance_total": 47165.97399673614,
+      "balance_available": 39900.47612463882,
+      "balance_used": 7263.611308599986
+    },
+    {
+      "time": "2026-03-16 15:35:33",
+      "balance_total": 47166.08361951047,
+      "balance_available": 39900.64045443883,
+      "balance_used": 7263.084978799986
+    },
+    {
+      "time": "2026-03-16 15:35:39",
+      "balance_total": 47166.08361951047,
+      "balance_available": 39900.64045443883,
+      "balance_used": 7263.084978799986
+    }
+  ]
+}

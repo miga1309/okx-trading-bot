@@ -1,0 +1,8 @@
+atr,body_atr,body_to_range_ratio,breakout_buffer_atr_actual,breakout_level,channel_width_atr,close_beyond_channel_atr,distance_from_breakout_level_atr,donchian_high,donchian_low,entry_mode,entry_price,event,fresh_breakout_true_false,inst_id,side,system_name,timeframe,ts
+0.005435,0.147194,1.0,0.202392,0.7501,9.75161,0.202392,0.202392,0.7501,0.6971,minimal,0.7512,breakout_quality,True,ETHFI-USDT-SWAP,long,Turtle 55,5m,2026-03-16 16:13:54
+0.000275,11.272727,1.0,19.493193,0.375,4.363636,11.272727,19.493193,0.375,0.3738,minimal,0.38036063,breakout_quality,True,XTZ-USDT-SWAP,long,Turtle 55,5m,2026-03-16 16:13:55
+0.00041,1.463415,1.0,0.97561,0.2357,4.146341,0.487805,-0.97561,0.2374,0.2357,minimal,0.2361,breakout_quality,True,BAND-USDT-SWAP,short,Turtle 20,5m,2026-03-16 16:13:57
+0.0001145,0.611354,1.0,0.786026,0.05967,4.19214,0.611354,-0.786026,0.06015,0.05967,minimal,0.05976,breakout_quality,True,MINA-USDT-SWAP,short,Turtle 20,5m,2026-03-16 16:13:59
+0.002,1.5,1.0,0.5,0.934,2.5,0.5,-0.5,0.939,0.934,minimal,0.935,breakout_quality,True,FIL-USDT-SWAP,short,Turtle 20,5m,2026-03-16 16:14:01
+0.108,3.148148,1.0,3.480239,9.0,5.555556,1.851852,3.480239,9.0,8.4,minimal,9.37586585,breakout_quality,True,ETC-USDT-SWAP,long,Turtle 20,5m,2026-03-16 16:14:02
+0.005435,0.147194,1.0,0.202392,0.7501,9.75161,0.202392,0.202392,0.7501,0.6971,minimal,0.7512,breakout_quality,True,ETHFI-USDT-SWAP,long,Turtle 55,5m,2026-03-16 16:14:48

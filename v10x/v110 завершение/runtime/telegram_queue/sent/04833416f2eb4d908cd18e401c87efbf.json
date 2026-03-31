@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: SUSHI-USDT-SWAP\nЦена входа: 0.202400\nQty: 13521.0\nATR: 0.000270\nСтоп: 0.201860\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "04833416f2eb4d908cd18e401c87efbf",
+  "created_ts": 1774456396.534659,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

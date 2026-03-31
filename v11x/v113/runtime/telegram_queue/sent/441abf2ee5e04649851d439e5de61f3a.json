@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: SYRUP-USDT-SWAP\nЦена входа: 0.215900\nQty: 1119.0\nATR: 0.000170\nBootstrap-stop: 0.220600\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "441abf2ee5e04649851d439e5de61f3a",
+  "created_ts": 1774584828.1703112,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

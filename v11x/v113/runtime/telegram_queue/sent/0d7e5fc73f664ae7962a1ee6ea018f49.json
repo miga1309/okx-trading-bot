@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: OP-USDT-SWAP\nСторона: LONG\nЦена входа: 0.109422\nЦена выхода: 0.109000\nPnL: -35.5849\nPnL %: -0.39%\nЮнитов: 4\nПричина: Канальный выход 10 свечей",
+  "id": "0d7e5fc73f664ae7962a1ee6ea018f49",
+  "created_ts": 1774563934.1483881,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

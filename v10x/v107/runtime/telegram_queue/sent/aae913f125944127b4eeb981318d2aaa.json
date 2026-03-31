@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: AUCTION-USDT-SWAP\nЦена входа: 4.724000\nQty: 4941.7\nATR: 0.003250\nСтоп: 4.717500\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "aae913f125944127b4eeb981318d2aaa",
+  "created_ts": 1774413210.4010577,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

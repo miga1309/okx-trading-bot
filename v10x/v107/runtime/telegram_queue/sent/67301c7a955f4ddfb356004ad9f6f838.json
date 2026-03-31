@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LRC-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.024112\nЦена выхода: 0.024240\nPnL: -5.1230\nPnL %: -0.53%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "67301c7a955f4ddfb356004ad9f6f838",
+  "created_ts": 1774409395.0601504,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

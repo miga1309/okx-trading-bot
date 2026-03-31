@@ -1,0 +1,3 @@
+timestamp,pair,filter_type,user_verdict,review_tags,comment,hit_count,reason,side,timeframe,metrics_json
+2026-03-23 21:41:20,XAG-USDT-SWAP,GOOD,хороший,"[""хороший""]",,206,Открытая позиция программы,long,5m,"{""pnl_pct"": 0.149796704472487, ""unrealized_pnl"": 2.984799999999709, ""units"": 2.0, ""entry_price"": 0.0}"
+2026-03-23 21:44:13,SAND-USDT-SWAP,GOOD,"хороший, рваный","[""хороший"", ""рваный""]",,86,Открытая позиция программы,long,5m,"{""pnl_pct"": 0.0, ""unrealized_pnl"": 0.0, ""units"": 1.0, ""entry_price"": 0.0}"

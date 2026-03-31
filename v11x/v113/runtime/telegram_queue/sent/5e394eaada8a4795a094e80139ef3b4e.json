@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "⚠️ Биржа отклонила ордер\n\nИнструмент: LDO-USDT-SWAP\nКод: 51053\nПричина: Your SL price should be higher than the primary order price.",
+  "id": "5e394eaada8a4795a094e80139ef3b4e",
+  "created_ts": 1774584830.2973769,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,3 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+0.1248972291647093,False,active,OP-USDT-SWAP,0.12479,HEALTHY,21286.0,long,0.1226482291647093,ACTIVE,,20260320_125503_OP-USDT-SWAP_long
+2750.644094611529,False,active,YFI-USDT-SWAP,2743.0,HEALTHY,19152.0,long,2733.6758312447782,ACTIVE,,20260320_125859_YFI-USDT-SWAP_long

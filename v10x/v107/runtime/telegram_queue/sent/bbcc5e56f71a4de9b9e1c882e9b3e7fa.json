@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: YGG-USDT-SWAP\nСторона: LONG\nЦена входа: 0.038564\nЦена выхода: 0.038300\nPnL: -14.9062\nPnL %: -0.69%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "bbcc5e56f71a4de9b9e1c882e9b3e7fa",
+  "created_ts": 1774421249.5135288,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

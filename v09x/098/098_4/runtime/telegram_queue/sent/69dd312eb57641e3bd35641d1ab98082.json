@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: SUI-USDT-SWAP\nЦена входа: 0.916630\nQty: 2769.0\nATR: 0.001581\nСтоп: 0.913468\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "69dd312eb57641e3bd35641d1ab98082",
+  "created_ts": 1774235128.4217112,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

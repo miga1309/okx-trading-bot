@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: ALGO-USDT-SWAP\nСторона: LONG\nЦена входа: 0.084740\nЦена выхода: 0.086500\nPnL: 208.0860\nPnL %: 10.38%\nЮнитов: 4\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "c7b1ac6902534fe0b4ff7e76cc203b28",
+  "created_ts": 1774947306.9443364,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

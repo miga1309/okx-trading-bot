@@ -1,0 +1,47 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,BNB-USDT-SWAP,0.0,648.7,450.0,,,long,True,2026-03-25 19:32:52,20260325_193249_BNB-USDT-SWAP_long
+OPEN,BNB-USDT-SWAP,0.0,648.7,450.0,,Первичный вход,long,True,2026-03-25 19:32:52,20260325_193249_BNB-USDT-SWAP_long
+position_opened,COMP-USDT-SWAP,0.0,19.68,1468.6,,,long,True,2026-03-25 19:32:56,20260325_193252_COMP-USDT-SWAP_long
+OPEN,COMP-USDT-SWAP,0.0,19.68,1468.6,,Первичный вход,long,True,2026-03-25 19:32:56,20260325_193252_COMP-USDT-SWAP_long
+position_opened,FIL-USDT-SWAP,0.0,0.936,30503.0,,,long,True,2026-03-25 19:33:00,20260325_193256_FIL-USDT-SWAP_long
+OPEN,FIL-USDT-SWAP,0.0,0.936,30503.0,,Первичный вход,long,True,2026-03-25 19:33:00,20260325_193256_FIL-USDT-SWAP_long
+position_opened,IMX-USDT-SWAP,0.0,0.1537,18358.0,,,long,True,2026-03-25 19:33:04,20260325_193301_IMX-USDT-SWAP_long
+OPEN,IMX-USDT-SWAP,0.0,0.1537,18358.0,,Первичный вход,long,True,2026-03-25 19:33:04,20260325_193301_IMX-USDT-SWAP_long
+position_opened,QTUM-USDT-SWAP,0.0,0.914,3050.0,,,long,True,2026-03-25 19:33:08,20260325_193305_QTUM-USDT-SWAP_long
+OPEN,QTUM-USDT-SWAP,0.0,0.914,3050.0,,Первичный вход,long,True,2026-03-25 19:33:08,20260325_193305_QTUM-USDT-SWAP_long
+position_opened,CFX-USDT-SWAP,0.0,0.06239,4438.2,,,long,True,2026-03-25 19:33:12,20260325_193309_CFX-USDT-SWAP_long
+OPEN,CFX-USDT-SWAP,0.0,0.06239,4438.2,,Первичный вход,long,True,2026-03-25 19:33:12,20260325_193309_CFX-USDT-SWAP_long
+position_opened,SUSHI-USDT-SWAP,0.0,0.2024,13521.0,,,long,True,2026-03-25 19:33:16,20260325_193313_SUSHI-USDT-SWAP_long
+OPEN,SUSHI-USDT-SWAP,0.0,0.2024,13521.0,,Первичный вход,long,True,2026-03-25 19:33:16,20260325_193313_SUSHI-USDT-SWAP_long
+position_opened,AAVE-USDT-SWAP,0.0,115.4,234.3,,,long,True,2026-03-25 19:33:21,20260325_193317_AAVE-USDT-SWAP_long
+OPEN,AAVE-USDT-SWAP,0.0,115.4,234.3,,Первичный вход,long,True,2026-03-25 19:33:21,20260325_193317_AAVE-USDT-SWAP_long
+close_pending_exchange,COMP-USDT-SWAP,0.0,19.68,1468.6,,SYNC confirmed close after exchange absence,long,True,2026-03-25 19:37:07,20260325_193252_COMP-USDT-SWAP_long
+close_pending_exchange,SUSHI-USDT-SWAP,0.0,0.2025,13521.0,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-25 19:37:07,20260325_193313_SUSHI-USDT-SWAP_long
+position_closed,SUSHI-USDT-SWAP,0.0,0.0,13521.0,sync_confirmed_close_after_stop_fault:_missing,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-25 19:37:07,20260325_193313_SUSHI-USDT-SWAP_long
+CLOSE,SUSHI-USDT-SWAP,0.0,0.2025,13521.0,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-25 19:37:07,20260325_193313_SUSHI-USDT-SWAP_long
+position_closed,FIL-USDT-SWAP,0.0,0.0,30503.0,аварийное_закрытие:_биржевой_стоп_не_подтверждён,Аварийное закрытие: биржевой стоп не подтверждён,long,True,2026-03-25 19:40:20,20260325_193256_FIL-USDT-SWAP_long
+CLOSE,FIL-USDT-SWAP,0.0,0.932,30503.0,,Аварийное закрытие: биржевой стоп не подтверждён,long,True,2026-03-25 19:40:20,20260325_193256_FIL-USDT-SWAP_long
+close_pending_exchange,COMP-USDT-SWAP,0.0,19.62,1468.6,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-25 19:40:53,20260325_193252_COMP-USDT-SWAP_long
+position_closed,COMP-USDT-SWAP,0.0,0.0,1468.6,sync_confirmed_close_after_stop_fault:_missing,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-25 19:40:53,20260325_193252_COMP-USDT-SWAP_long
+CLOSE,COMP-USDT-SWAP,0.0,19.62,1468.6,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-25 19:40:53,20260325_193252_COMP-USDT-SWAP_long
+position_opened,CRV-USDT-SWAP,0.0,0.2367,11700.0,,,long,True,2026-03-25 19:43:22,20260325_194319_CRV-USDT-SWAP_long
+OPEN,CRV-USDT-SWAP,0.0,0.2367,11700.0,,Первичный вход,long,True,2026-03-25 19:43:22,20260325_194319_CRV-USDT-SWAP_long
+position_closed,AAVE-USDT-SWAP,0.0,0.0,234.3,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-25 19:43:50,20260325_193317_AAVE-USDT-SWAP_long
+CLOSE,AAVE-USDT-SWAP,0.0,115.51,234.3,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-25 19:43:50,20260325_193317_AAVE-USDT-SWAP_long
+position_closed,IMX-USDT-SWAP,0.0,0.0,36716.0,аварийное_закрытие:_market_already_crossed_stop,Аварийное закрытие: market_already_crossed_stop,long,True,2026-03-25 20:01:45,20260325_193301_IMX-USDT-SWAP_long
+CLOSE,IMX-USDT-SWAP,0.0,0.1529,36716.0,,Аварийное закрытие: market_already_crossed_stop,long,True,2026-03-25 20:01:45,20260325_193301_IMX-USDT-SWAP_long
+position_opened,KSM-USDT-SWAP,0.0,4.442,6230.0,,,long,True,2026-03-25 20:10:09,20260325_201007_KSM-USDT-SWAP_long
+OPEN,KSM-USDT-SWAP,0.0,4.442,6230.0,,Первичный вход,long,True,2026-03-25 20:10:09,20260325_201007_KSM-USDT-SWAP_long
+position_closed,CFX-USDT-SWAP,0.0,0.0,4438.2,аварийное_закрытие:_market_already_crossed_stop,Аварийное закрытие: market_already_crossed_stop,long,True,2026-03-25 20:10:45,20260325_193309_CFX-USDT-SWAP_long
+CLOSE,CFX-USDT-SWAP,0.0,0.06197,4438.2,,Аварийное закрытие: market_already_crossed_stop,long,True,2026-03-25 20:10:45,20260325_193309_CFX-USDT-SWAP_long
+close_pending_exchange,KSM-USDT-SWAP,0.0,4.434,6230.0,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-25 20:11:50,20260325_201007_KSM-USDT-SWAP_long
+position_closed,KSM-USDT-SWAP,0.0,0.0,6230.0,sync_confirmed_close_after_stop_fault:_missing,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-25 20:11:50,20260325_201007_KSM-USDT-SWAP_long
+CLOSE,KSM-USDT-SWAP,0.0,4.434,6230.0,,SYNC confirmed close after stop fault: MISSING,long,True,2026-03-25 20:11:50,20260325_201007_KSM-USDT-SWAP_long
+position_opened,MET-USDT-SWAP,0.0,0.1379,1988.0,,,long,True,2026-03-25 20:14:14,20260325_201410_MET-USDT-SWAP_long
+OPEN,MET-USDT-SWAP,0.0,0.1379,1988.0,,Первичный вход,long,True,2026-03-25 20:14:14,20260325_201410_MET-USDT-SWAP_long
+position_closed,BNB-USDT-SWAP,0.0,0.0,450.0,аварийное_закрытие:_market_already_crossed_stop,Аварийное закрытие: market_already_crossed_stop,long,True,2026-03-25 20:18:20,20260325_193249_BNB-USDT-SWAP_long
+CLOSE,BNB-USDT-SWAP,0.0,645.9,450.0,,Аварийное закрытие: market_already_crossed_stop,long,True,2026-03-25 20:18:20,20260325_193249_BNB-USDT-SWAP_long
+position_closed,MET-USDT-SWAP,0.0,0.0,1988.0,аварийное_закрытие:_биржевой_стоп_не_подтверждён,Аварийное закрытие: биржевой стоп не подтверждён,long,True,2026-03-25 20:19:02,20260325_201410_MET-USDT-SWAP_long
+CLOSE,MET-USDT-SWAP,0.0,0.1379,1988.0,,Аварийное закрытие: биржевой стоп не подтверждён,long,True,2026-03-25 20:19:02,20260325_201410_MET-USDT-SWAP_long
+position_opened,ICP-USDT-SWAP,0.0,2.402,114423.0,,,long,True,2026-03-25 20:32:05,20260325_203203_ICP-USDT-SWAP_long
+OPEN,ICP-USDT-SWAP,0.0,2.402,114423.0,,Первичный вход,long,True,2026-03-25 20:32:05,20260325_203203_ICP-USDT-SWAP_long

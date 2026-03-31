@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: MAGIC-USDT-SWAP\nЦена входа: 0.057420\nQty: 35790.0\nATR: 0.000347\nBootstrap-stop: 0.054750\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "80e832b30d314bb793c03e3247e59a0d",
+  "created_ts": 1774857864.2820687,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

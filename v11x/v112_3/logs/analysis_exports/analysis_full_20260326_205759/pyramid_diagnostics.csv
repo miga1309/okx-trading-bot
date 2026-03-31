@@ -1,0 +1,3 @@
+atr,avg_px,event,has_locked_break_even,inst_id,last_price,next_pyramid_price,note,qty,reason_blocked,side,stop_price,trade_id,ts,units
+0.6899999999999948,367.0702232142857,pyramid_strategy_check,False,TSLA-USDT-SWAP,375.67,366.72522321428573,candle_ts=1774547400000,1168.0,,short,368.4502232142857,20260326_205741_TSLA-USDT-SWAP_short,2026-03-26 20:57:56,1
+0.6899999999999948,367.0702232142857,pyramid_blocked,False,TSLA-USDT-SWAP,375.67,366.72522321428573,exchange_stop_health_recheck,1168.0,stop_not_active,short,368.4502232142857,20260326_205741_TSLA-USDT-SWAP_short,2026-03-26 20:57:56,1

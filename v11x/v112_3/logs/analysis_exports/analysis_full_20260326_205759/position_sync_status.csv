@@ -1,0 +1,2 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+367.0702232142857,False,active,TSLA-USDT-SWAP,398.06,STOP_UNVERIFIED,1168.0,short,368.4502232142857,PENDING_RECHECK,SYNC_OK,20260326_205741_TSLA-USDT-SWAP_short

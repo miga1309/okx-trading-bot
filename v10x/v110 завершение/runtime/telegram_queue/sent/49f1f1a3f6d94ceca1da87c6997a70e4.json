@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: IMX-USDT-SWAP\nСторона: LONG\nЦена входа: 0.154084\nЦена выхода: 0.152900\nPnL: -43.4774\nPnL %: -0.77%\nЮнитов: 2\nПричина: Аварийное закрытие: market_already_crossed_stop",
+  "id": "49f1f1a3f6d94ceca1da87c6997a70e4",
+  "created_ts": 1774458106.7986164,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

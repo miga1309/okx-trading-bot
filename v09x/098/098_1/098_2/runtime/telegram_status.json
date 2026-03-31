@@ -1,0 +1,10 @@
+{
+  "app_version": "v098",
+  "bot_running": false,
+  "telegram_worker_running": false,
+  "timeframe": "5m",
+  "trade_mode": "auto",
+  "open_positions": 0,
+  "error_count": 0,
+  "updated_at": "2026-03-22 19:44:44"
+}

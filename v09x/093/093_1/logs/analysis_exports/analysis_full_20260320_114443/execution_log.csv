@@ -1,0 +1,509 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,XAG-USDT-SWAP,0.0,72.84996545768567,4053.0,,,long,True,2026-03-19 23:30:17,20260319_233014_XAG-USDT-SWAP_long
+OPEN,XAG-USDT-SWAP,0.0,72.84996545768567,4053.0,,Первичный вход,long,True,2026-03-19 23:30:17,20260319_233014_XAG-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,1.223,238.0,,,long,True,2026-03-19 23:40:14,20260319_234011_LIT-USDT-SWAP_long
+OPEN,LIT-USDT-SWAP,0.0,1.223,238.0,,Первичный вход,long,True,2026-03-19 23:40:14,20260319_234011_LIT-USDT-SWAP_long
+position_closed,XAG-USDT-SWAP,0.0,0.0,4053.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-19 23:40:18,20260319_233014_XAG-USDT-SWAP_long
+CLOSE,XAG-USDT-SWAP,0.0,72.65,4053.0,,ATR стоп 2.0N,long,True,2026-03-19 23:40:18,20260319_233014_XAG-USDT-SWAP_long
+position_closed,LIT-USDT-SWAP,0.0,0.0,238.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-19 23:44:25,20260319_234011_LIT-USDT-SWAP_long
+CLOSE,LIT-USDT-SWAP,0.0,1.214,238.0,,ATR стоп 2.0N,long,True,2026-03-19 23:44:25,20260319_234011_LIT-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,1.216,241.0,,,long,True,2026-03-19 23:44:49,20260319_234446_LIT-USDT-SWAP_long
+OPEN,LIT-USDT-SWAP,0.0,1.216,241.0,,Первичный вход,long,True,2026-03-19 23:44:49,20260319_234446_LIT-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.722883870967742,1085.0,,,long,True,2026-03-20 00:15:19,20260320_001517_NEO-USDT-SWAP_long
+OPEN,NEO-USDT-SWAP,0.0,2.722883870967742,1085.0,,Первичный вход,long,True,2026-03-20 00:15:19,20260320_001517_NEO-USDT-SWAP_long
+position_opened,LDO-USDT-SWAP,0.0,0.2994593846153848,9750.0,,,long,True,2026-03-20 00:15:23,20260320_001520_LDO-USDT-SWAP_long
+OPEN,LDO-USDT-SWAP,0.0,0.2994593846153848,9750.0,,Первичный вход,long,True,2026-03-20 00:15:23,20260320_001520_LDO-USDT-SWAP_long
+position_closed,NEO-USDT-SWAP,0.0,0.0,1085.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:15:29,20260320_001517_NEO-USDT-SWAP_long
+CLOSE,NEO-USDT-SWAP,0.0,2.718,1085.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:15:29,20260320_001517_NEO-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.720528917910448,1072.0,,,long,True,2026-03-20 00:15:56,20260320_001554_NEO-USDT-SWAP_long
+OPEN,NEO-USDT-SWAP,0.0,2.720528917910448,1072.0,,Первичный вход,long,True,2026-03-20 00:15:56,20260320_001554_NEO-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.7197136194029854,1072.0,,,long,True,2026-03-20 00:16:28,20260320_001625_NEO-USDT-SWAP_long
+OPEN,NEO-USDT-SWAP,0.0,2.7197136194029854,1072.0,,Первичный вход,long,True,2026-03-20 00:16:28,20260320_001625_NEO-USDT-SWAP_long
+position_closed,NEO-USDT-SWAP,0.0,0.0,1072.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:17:10,20260320_001625_NEO-USDT-SWAP_long
+CLOSE,NEO-USDT-SWAP,0.0,2.718,1072.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:17:10,20260320_001625_NEO-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.7219766573295985,1071.0,,,long,True,2026-03-20 00:17:34,20260320_001732_NEO-USDT-SWAP_long
+OPEN,NEO-USDT-SWAP,0.0,2.7219766573295985,1071.0,,Первичный вход,long,True,2026-03-20 00:17:34,20260320_001732_NEO-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.720464052287582,1071.0,,,long,True,2026-03-20 00:18:01,20260320_001758_NEO-USDT-SWAP_long
+OPEN,NEO-USDT-SWAP,0.0,2.720464052287582,1071.0,,Первичный вход,long,True,2026-03-20 00:18:01,20260320_001758_NEO-USDT-SWAP_long
+position_closed,NEO-USDT-SWAP,0.0,0.0,1071.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:18:43,20260320_001758_NEO-USDT-SWAP_long
+CLOSE,NEO-USDT-SWAP,0.0,2.718,1071.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:18:43,20260320_001758_NEO-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.7219953314659198,1071.0,,,long,True,2026-03-20 00:19:07,20260320_001904_NEO-USDT-SWAP_long
+OPEN,NEO-USDT-SWAP,0.0,2.7219953314659198,1071.0,,Первичный вход,long,True,2026-03-20 00:19:07,20260320_001904_NEO-USDT-SWAP_long
+position_closed,NEO-USDT-SWAP,0.0,0.0,1071.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 00:23:02,20260320_001904_NEO-USDT-SWAP_long
+CLOSE,NEO-USDT-SWAP,0.0,2.713,1071.0,,ATR стоп 2.0N,long,True,2026-03-20 00:23:02,20260320_001904_NEO-USDT-SWAP_long
+position_opened,TRX-USDT-SWAP,0.0,0.3028,9.62,,,long,True,2026-03-20 00:30:22,20260320_003019_TRX-USDT-SWAP_long
+OPEN,TRX-USDT-SWAP,0.0,0.3028,9.62,,Первичный вход,long,True,2026-03-20 00:30:22,20260320_003019_TRX-USDT-SWAP_long
+position_opened,COMP-USDT-SWAP,0.0,19.04,1507.8,,,long,True,2026-03-20 00:30:25,20260320_003022_COMP-USDT-SWAP_long
+OPEN,COMP-USDT-SWAP,0.0,19.04,1507.8,,Первичный вход,long,True,2026-03-20 00:30:25,20260320_003022_COMP-USDT-SWAP_long
+position_opened,LPT-USDT-SWAP,0.0,2.2379797504120558,12741.0,,,long,True,2026-03-20 00:30:28,20260320_003025_LPT-USDT-SWAP_long
+OPEN,LPT-USDT-SWAP,0.0,2.2379797504120558,12741.0,,Первичный вход,long,True,2026-03-20 00:30:28,20260320_003025_LPT-USDT-SWAP_long
+position_closed,LPT-USDT-SWAP,0.0,0.0,12741.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:30:45,20260320_003025_LPT-USDT-SWAP_long
+CLOSE,LPT-USDT-SWAP,0.0,2.236,12741.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:30:45,20260320_003025_LPT-USDT-SWAP_long
+position_opened,LPT-USDT-SWAP,0.0,2.239732840800763,12588.0,,,long,True,2026-03-20 00:31:17,20260320_003113_LPT-USDT-SWAP_long
+OPEN,LPT-USDT-SWAP,0.0,2.239732840800763,12588.0,,Первичный вход,long,True,2026-03-20 00:31:17,20260320_003113_LPT-USDT-SWAP_long
+position_closed,LPT-USDT-SWAP,0.0,0.0,12588.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:31:28,20260320_003113_LPT-USDT-SWAP_long
+CLOSE,LPT-USDT-SWAP,0.0,2.235,12588.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 00:31:28,20260320_003113_LPT-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,1.191,235.0,,,short,True,2026-03-20 00:35:49,20260320_003547_LIT-USDT-SWAP_short
+OPEN,LIT-USDT-SWAP,0.0,1.191,235.0,,Первичный вход,short,True,2026-03-20 00:35:49,20260320_003547_LIT-USDT-SWAP_short
+position_closed,LIT-USDT-SWAP,0.0,0.0,235.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 00:43:07,20260320_003547_LIT-USDT-SWAP_short
+CLOSE,LIT-USDT-SWAP,0.0,1.199,235.0,,ATR стоп 2.0N,short,True,2026-03-20 00:43:07,20260320_003547_LIT-USDT-SWAP_short
+position_opened,AUCTION-USDT-SWAP,0.0,4.985594738523805,5633.4,,,short,True,2026-03-20 00:50:34,20260320_005031_AUCTION-USDT-SWAP_short
+OPEN,AUCTION-USDT-SWAP,0.0,4.985594738523805,5633.4,,Первичный вход,short,True,2026-03-20 00:50:34,20260320_005031_AUCTION-USDT-SWAP_short
+position_opened,OP-USDT-SWAP,0.0,0.121204046181642,22693.0,,,long,True,2026-03-20 01:00:27,20260320_010024_OP-USDT-SWAP_long
+OPEN,OP-USDT-SWAP,0.0,0.121204046181642,22693.0,,Первичный вход,long,True,2026-03-20 01:00:27,20260320_010024_OP-USDT-SWAP_long
+position_closed,OP-USDT-SWAP,0.0,0.0,22693.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 01:01:40,20260320_010024_OP-USDT-SWAP_long
+CLOSE,OP-USDT-SWAP,0.0,0.1206,22693.0,,ATR стоп 2.0N,long,True,2026-03-20 01:01:40,20260320_010024_OP-USDT-SWAP_long
+position_opened,OP-USDT-SWAP,0.0,0.1211941913602285,22408.0,,,long,True,2026-03-20 01:02:09,20260320_010205_OP-USDT-SWAP_long
+OPEN,OP-USDT-SWAP,0.0,0.1211941913602285,22408.0,,Первичный вход,long,True,2026-03-20 01:02:09,20260320_010205_OP-USDT-SWAP_long
+position_closed,OP-USDT-SWAP,0.0,0.0,22408.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:02:24,20260320_010205_OP-USDT-SWAP_long
+CLOSE,OP-USDT-SWAP,0.0,0.12105,22408.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:02:24,20260320_010205_OP-USDT-SWAP_long
+position_opened,OP-USDT-SWAP,0.0,0.1212714252555462,22403.0,,,long,True,2026-03-20 01:02:53,20260320_010248_OP-USDT-SWAP_long
+OPEN,OP-USDT-SWAP,0.0,0.1212714252555462,22403.0,,Первичный вход,long,True,2026-03-20 01:02:53,20260320_010248_OP-USDT-SWAP_long
+position_closed,OP-USDT-SWAP,0.0,0.0,22403.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:03:13,20260320_010248_OP-USDT-SWAP_long
+CLOSE,OP-USDT-SWAP,0.0,0.1211,22403.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:03:13,20260320_010248_OP-USDT-SWAP_long
+position_closed,COMP-USDT-SWAP,0.0,0.0,4523.4,канальный_выход_20_свечей,Канальный выход 20 свечей,long,True,2026-03-20 01:03:40,20260320_003022_COMP-USDT-SWAP_long
+CLOSE,COMP-USDT-SWAP,0.0,19.04,4523.4,,Канальный выход 20 свечей,long,True,2026-03-20 01:03:40,20260320_003022_COMP-USDT-SWAP_long
+position_opened,DOT-USDT-SWAP,0.0,1.517,1847.0,,,short,True,2026-03-20 01:05:36,20260320_010533_DOT-USDT-SWAP_short
+OPEN,DOT-USDT-SWAP,0.0,1.517,1847.0,,Первичный вход,short,True,2026-03-20 01:05:36,20260320_010533_DOT-USDT-SWAP_short
+position_opened,IMX-USDT-SWAP,0.0,0.160821020811534,17202.0,,,short,True,2026-03-20 01:05:41,20260320_010537_IMX-USDT-SWAP_short
+OPEN,IMX-USDT-SWAP,0.0,0.160821020811534,17202.0,,Первичный вход,short,True,2026-03-20 01:05:41,20260320_010537_IMX-USDT-SWAP_short
+position_opened,LQTY-USDT-SWAP,0.0,0.2787961041992248,9854.2,,,long,True,2026-03-20 01:05:45,20260320_010542_LQTY-USDT-SWAP_long
+OPEN,LQTY-USDT-SWAP,0.0,0.2787961041992248,9854.2,,Первичный вход,long,True,2026-03-20 01:05:45,20260320_010542_LQTY-USDT-SWAP_long
+position_closed,LQTY-USDT-SWAP,0.0,0.0,9854.2,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:06:20,20260320_010542_LQTY-USDT-SWAP_long
+CLOSE,LQTY-USDT-SWAP,0.0,0.278,9854.2,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:06:20,20260320_010542_LQTY-USDT-SWAP_long
+position_opened,LQTY-USDT-SWAP,0.0,0.2785679026937031,9730.1,,,long,True,2026-03-20 01:06:50,20260320_010646_LQTY-USDT-SWAP_long
+OPEN,LQTY-USDT-SWAP,0.0,0.2785679026937031,9730.1,,Первичный вход,long,True,2026-03-20 01:06:50,20260320_010646_LQTY-USDT-SWAP_long
+position_closed,LQTY-USDT-SWAP,0.0,0.0,9730.1,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:07:23,20260320_010646_LQTY-USDT-SWAP_long
+CLOSE,LQTY-USDT-SWAP,0.0,0.2778,9730.1,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:07:23,20260320_010646_LQTY-USDT-SWAP_long
+position_opened,LQTY-USDT-SWAP,0.0,0.2790065496258533,9728.8,,,long,True,2026-03-20 01:07:51,20260320_010748_LQTY-USDT-SWAP_long
+OPEN,LQTY-USDT-SWAP,0.0,0.2790065496258533,9728.8,,Первичный вход,long,True,2026-03-20 01:07:51,20260320_010748_LQTY-USDT-SWAP_long
+position_closed,IMX-USDT-SWAP,0.0,0.0,17202.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 01:08:19,20260320_010537_IMX-USDT-SWAP_short
+CLOSE,IMX-USDT-SWAP,0.0,0.1614,17202.0,,ATR стоп 2.0N,short,True,2026-03-20 01:08:19,20260320_010537_IMX-USDT-SWAP_short
+position_closed,LQTY-USDT-SWAP,0.0,0.0,9728.8,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:08:29,20260320_010748_LQTY-USDT-SWAP_long
+CLOSE,LQTY-USDT-SWAP,0.0,0.2792,9728.8,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:08:29,20260320_010748_LQTY-USDT-SWAP_long
+position_opened,LQTY-USDT-SWAP,0.0,0.2791462928152657,9841.7,,,long,True,2026-03-20 01:09:00,20260320_010856_LQTY-USDT-SWAP_long
+OPEN,LQTY-USDT-SWAP,0.0,0.2791462928152657,9841.7,,Первичный вход,long,True,2026-03-20 01:09:00,20260320_010856_LQTY-USDT-SWAP_long
+position_closed,LQTY-USDT-SWAP,0.0,0.0,9841.7,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:09:30,20260320_010856_LQTY-USDT-SWAP_long
+CLOSE,LQTY-USDT-SWAP,0.0,0.2792,9841.7,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:09:30,20260320_010856_LQTY-USDT-SWAP_long
+position_opened,LQTY-USDT-SWAP,0.0,0.2796859345148578,9840.4,,,long,True,2026-03-20 01:10:01,20260320_010958_LQTY-USDT-SWAP_long
+OPEN,LQTY-USDT-SWAP,0.0,0.2796859345148578,9840.4,,Первичный вход,long,True,2026-03-20 01:10:01,20260320_010958_LQTY-USDT-SWAP_long
+position_closed,LQTY-USDT-SWAP,0.0,0.0,9840.4,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:10:34,20260320_010958_LQTY-USDT-SWAP_long
+CLOSE,LQTY-USDT-SWAP,0.0,0.2774,9840.4,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:10:34,20260320_010958_LQTY-USDT-SWAP_long
+position_opened,SUSHI-USDT-SWAP,0.0,0.2241,12065.0,,,long,True,2026-03-20 01:11:03,20260320_011059_SUSHI-USDT-SWAP_long
+OPEN,SUSHI-USDT-SWAP,0.0,0.2241,12065.0,,Первичный вход,long,True,2026-03-20 01:11:03,20260320_011059_SUSHI-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.727995798319328,952.0,,,long,True,2026-03-20 01:20:36,20260320_012033_NEO-USDT-SWAP_long
+OPEN,NEO-USDT-SWAP,0.0,2.727995798319328,952.0,,Первичный вход,long,True,2026-03-20 01:20:36,20260320_012033_NEO-USDT-SWAP_long
+position_opened,USDC-USDT-SWAP,0.0,1.0246,250.0,,,long,True,2026-03-20 01:25:22,20260320_012519_USDC-USDT-SWAP_long
+OPEN,USDC-USDT-SWAP,0.0,1.0246,250.0,,Первичный вход,long,True,2026-03-20 01:25:22,20260320_012519_USDC-USDT-SWAP_long
+position_opened,USDC-USDT-SWAP,0.0,1.007999349593496,246.0,,,long,True,2026-03-20 01:27:38,20260320_012734_USDC-USDT-SWAP_long
+OPEN,USDC-USDT-SWAP,0.0,1.007999349593496,246.0,,Первичный вход,long,True,2026-03-20 01:27:38,20260320_012734_USDC-USDT-SWAP_long
+position_opened,YFI-USDT-SWAP,0.0,2750.6346244000447,8959.0,,,long,True,2026-03-20 01:30:56,20260320_013053_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2750.6346244000447,8959.0,,Первичный вход,long,True,2026-03-20 01:30:56,20260320_013053_YFI-USDT-SWAP_long
+position_opened,TSLA-USDT-SWAP,0.0,389.85806603773585,636.0,,,long,True,2026-03-20 01:31:02,20260320_013058_TSLA-USDT-SWAP_long
+OPEN,TSLA-USDT-SWAP,0.0,389.85806603773585,636.0,,Первичный вход,long,True,2026-03-20 01:31:02,20260320_013058_TSLA-USDT-SWAP_long
+position_closed,TSLA-USDT-SWAP,0.0,0.0,636.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:31:47,20260320_013058_TSLA-USDT-SWAP_long
+CLOSE,TSLA-USDT-SWAP,0.0,383.08,636.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:31:47,20260320_013058_TSLA-USDT-SWAP_long
+position_opened,TSLA-USDT-SWAP,0.0,385.55246153846156,65.0,,,long,True,2026-03-20 01:32:25,20260320_013221_TSLA-USDT-SWAP_long
+OPEN,TSLA-USDT-SWAP,0.0,385.55246153846156,65.0,,Первичный вход,long,True,2026-03-20 01:32:25,20260320_013221_TSLA-USDT-SWAP_long
+position_closed,SUSHI-USDT-SWAP,0.0,0.0,48260.0,канальный_выход_10_свечей,Канальный выход 10 свечей,long,True,2026-03-20 01:32:59,20260320_011059_SUSHI-USDT-SWAP_long
+CLOSE,SUSHI-USDT-SWAP,0.0,0.2062,48260.0,,Канальный выход 10 свечей,long,True,2026-03-20 01:32:59,20260320_011059_SUSHI-USDT-SWAP_long
+position_closed,YFI-USDT-SWAP,0.0,0.0,17918.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 01:33:13,20260320_013053_YFI-USDT-SWAP_long
+CLOSE,YFI-USDT-SWAP,0.0,2739.0,17918.0,,ATR стоп 2.0N,long,True,2026-03-20 01:33:13,20260320_013053_YFI-USDT-SWAP_long
+position_closed,TSLA-USDT-SWAP,0.0,0.0,65.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:33:23,20260320_013221_TSLA-USDT-SWAP_long
+CLOSE,TSLA-USDT-SWAP,0.0,383.08,65.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:33:23,20260320_013221_TSLA-USDT-SWAP_long
+position_opened,YFI-USDT-SWAP,0.0,2752.6,9109.0,,,long,True,2026-03-20 01:34:03,20260320_013359_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2752.6,9109.0,,Первичный вход,long,True,2026-03-20 01:34:03,20260320_013359_YFI-USDT-SWAP_long
+position_closed,YFI-USDT-SWAP,0.0,0.0,9109.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:34:39,20260320_013359_YFI-USDT-SWAP_long
+CLOSE,YFI-USDT-SWAP,0.0,2743.0,9109.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:34:39,20260320_013359_YFI-USDT-SWAP_long
+position_opened,XRP-USDT-SWAP,0.0,1.4473109763142697,17.31,,,short,True,2026-03-20 01:35:21,20260320_013517_XRP-USDT-SWAP_short
+OPEN,XRP-USDT-SWAP,0.0,1.4473109763142697,17.31,,Первичный вход,short,True,2026-03-20 01:35:21,20260320_013517_XRP-USDT-SWAP_short
+position_opened,XLM-USDT-SWAP,0.0,0.1715,144.49,,,long,True,2026-03-20 01:35:25,20260320_013522_XLM-USDT-SWAP_long
+OPEN,XLM-USDT-SWAP,0.0,0.1715,144.49,,Первичный вход,long,True,2026-03-20 01:35:25,20260320_013522_XLM-USDT-SWAP_long
+position_opened,AAVE-USDT-SWAP,0.0,110.98,215.2,,,short,True,2026-03-20 01:36:47,20260320_013644_AAVE-USDT-SWAP_short
+OPEN,AAVE-USDT-SWAP,0.0,110.98,215.2,,Первичный вход,short,True,2026-03-20 01:36:47,20260320_013644_AAVE-USDT-SWAP_short
+position_opened,BTC-USDT-SWAP,0.0,70026.3,3.36,,,short,True,2026-03-20 01:36:52,20260320_013648_BTC-USDT-SWAP_short
+OPEN,BTC-USDT-SWAP,0.0,70026.3,3.36,,Первичный вход,short,True,2026-03-20 01:36:52,20260320_013648_BTC-USDT-SWAP_short
+position_opened,XTZ-USDT-SWAP,0.0,0.3861167080642492,6039.0,,,short,True,2026-03-20 01:40:52,20260320_014049_XTZ-USDT-SWAP_short
+OPEN,XTZ-USDT-SWAP,0.0,0.3861167080642492,6039.0,,Первичный вход,short,True,2026-03-20 01:40:52,20260320_014049_XTZ-USDT-SWAP_short
+position_closed,XLM-USDT-SWAP,0.0,0.0,144.49,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 01:42:56,20260320_013522_XLM-USDT-SWAP_long
+CLOSE,XLM-USDT-SWAP,0.0,0.16492,144.49,,ATR стоп 2.0N,long,True,2026-03-20 01:42:56,20260320_013522_XLM-USDT-SWAP_long
+position_closed,XTZ-USDT-SWAP,0.0,0.0,6039.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 01:44:15,20260320_014049_XTZ-USDT-SWAP_short
+CLOSE,XTZ-USDT-SWAP,0.0,0.3875,6039.0,,ATR стоп 2.0N,short,True,2026-03-20 01:44:15,20260320_014049_XTZ-USDT-SWAP_short
+position_opened,XTZ-USDT-SWAP,0.0,0.3866364114360829,6086.0,,,short,True,2026-03-20 01:44:52,20260320_014448_XTZ-USDT-SWAP_short
+OPEN,XTZ-USDT-SWAP,0.0,0.3866364114360829,6086.0,,Первичный вход,short,True,2026-03-20 01:44:52,20260320_014448_XTZ-USDT-SWAP_short
+position_closed,XTZ-USDT-SWAP,0.0,0.0,6086.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 01:45:37,20260320_014448_XTZ-USDT-SWAP_short
+CLOSE,XTZ-USDT-SWAP,0.0,0.3865,6086.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 01:45:37,20260320_014448_XTZ-USDT-SWAP_short
+position_opened,XLM-USDT-SWAP,0.0,0.16502,142.6,,,short,True,2026-03-20 01:46:14,20260320_014611_XLM-USDT-SWAP_short
+OPEN,XLM-USDT-SWAP,0.0,0.16502,142.6,,Первичный вход,short,True,2026-03-20 01:46:14,20260320_014611_XLM-USDT-SWAP_short
+position_opened,MASK-USDT-SWAP,0.0,0.594,3870.0,,,long,True,2026-03-20 01:51:05,20260320_015101_MASK-USDT-SWAP_long
+OPEN,MASK-USDT-SWAP,0.0,0.594,3870.0,,Первичный вход,long,True,2026-03-20 01:51:05,20260320_015101_MASK-USDT-SWAP_long
+position_opened,ETC-USDT-SWAP,0.0,8.280010960906102,27.37,,,short,True,2026-03-20 01:51:09,20260320_015106_ETC-USDT-SWAP_short
+OPEN,ETC-USDT-SWAP,0.0,8.280010960906102,27.37,,Первичный вход,short,True,2026-03-20 01:51:09,20260320_015106_ETC-USDT-SWAP_short
+position_closed,MASK-USDT-SWAP,0.0,0.0,3870.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:51:52,20260320_015101_MASK-USDT-SWAP_long
+CLOSE,MASK-USDT-SWAP,0.0,0.5941,3870.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:51:52,20260320_015101_MASK-USDT-SWAP_long
+position_closed,ETC-USDT-SWAP,0.0,0.0,27.37,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 01:52:02,20260320_015106_ETC-USDT-SWAP_short
+CLOSE,ETC-USDT-SWAP,0.0,8.2,27.37,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 01:52:02,20260320_015106_ETC-USDT-SWAP_short
+position_opened,MASK-USDT-SWAP,0.0,0.594,3869.0,,,long,True,2026-03-20 01:52:40,20260320_015235_MASK-USDT-SWAP_long
+OPEN,MASK-USDT-SWAP,0.0,0.594,3869.0,,Первичный вход,long,True,2026-03-20 01:52:40,20260320_015235_MASK-USDT-SWAP_long
+position_opened,ETC-USDT-SWAP,0.0,8.300021929824561,27.36,,,short,True,2026-03-20 01:52:44,20260320_015241_ETC-USDT-SWAP_short
+OPEN,ETC-USDT-SWAP,0.0,8.300021929824561,27.36,,Первичный вход,short,True,2026-03-20 01:52:44,20260320_015241_ETC-USDT-SWAP_short
+position_closed,MASK-USDT-SWAP,0.0,0.0,3869.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:53:27,20260320_015235_MASK-USDT-SWAP_long
+CLOSE,MASK-USDT-SWAP,0.0,0.594,3869.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 01:53:27,20260320_015235_MASK-USDT-SWAP_long
+position_closed,ETC-USDT-SWAP,0.0,0.0,27.36,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 01:53:36,20260320_015241_ETC-USDT-SWAP_short
+CLOSE,ETC-USDT-SWAP,0.0,8.29,27.36,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 01:53:36,20260320_015241_ETC-USDT-SWAP_short
+position_opened,ETC-USDT-SWAP,0.0,8.30001096491228,27.36,,,short,True,2026-03-20 01:54:14,20260320_015410_ETC-USDT-SWAP_short
+OPEN,ETC-USDT-SWAP,0.0,8.30001096491228,27.36,,Первичный вход,short,True,2026-03-20 01:54:14,20260320_015410_ETC-USDT-SWAP_short
+position_closed,ETC-USDT-SWAP,0.0,0.0,27.36,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 01:55:04,20260320_015410_ETC-USDT-SWAP_short
+CLOSE,ETC-USDT-SWAP,0.0,8.3,27.36,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 01:55:04,20260320_015410_ETC-USDT-SWAP_short
+position_closed,MASK-USDT-SWAP,0.0,0.0,456.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 02:00:08,20260320_015343_MASK-USDT-SWAP_long
+CLOSE,MASK-USDT-SWAP,0.0,0.4596,456.0,,ATR стоп 2.0N,long,True,2026-03-20 02:00:08,20260320_015343_MASK-USDT-SWAP_long
+position_closed,AUCTION-USDT-SWAP,0.0,0.0,16900.2,канальный_выход_10_свечей,Канальный выход 10 свечей,short,True,2026-03-20 02:03:38,20260320_005031_AUCTION-USDT-SWAP_short
+CLOSE,AUCTION-USDT-SWAP,0.0,4.997,16900.2,,Канальный выход 10 свечей,short,True,2026-03-20 02:03:38,20260320_005031_AUCTION-USDT-SWAP_short
+position_closed,NEO-USDT-SWAP,0.0,0.0,1904.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 02:08:53,20260320_012033_NEO-USDT-SWAP_long
+CLOSE,NEO-USDT-SWAP,0.0,2.722,1904.0,,ATR стоп 2.0N,long,True,2026-03-20 02:08:53,20260320_012033_NEO-USDT-SWAP_long
+position_opened,YFI-USDT-SWAP,0.0,2726.1059698078684,8744.0,,,short,True,2026-03-20 02:20:19,20260320_022016_YFI-USDT-SWAP_short
+OPEN,YFI-USDT-SWAP,0.0,2726.1059698078684,8744.0,,Первичный вход,short,True,2026-03-20 02:20:19,20260320_022016_YFI-USDT-SWAP_short
+position_closed,XLM-USDT-SWAP,0.0,0.0,142.6,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 02:32:19,20260320_014611_XLM-USDT-SWAP_short
+CLOSE,XLM-USDT-SWAP,0.0,0.169,142.6,,ATR стоп 2.0N,short,True,2026-03-20 02:32:19,20260320_014611_XLM-USDT-SWAP_short
+position_opened,NEO-USDT-SWAP,0.0,2.703003333333333,900.0,,,short,True,2026-03-20 02:35:26,20260320_023522_NEO-USDT-SWAP_short
+OPEN,NEO-USDT-SWAP,0.0,2.703003333333333,900.0,,Первичный вход,short,True,2026-03-20 02:35:26,20260320_023522_NEO-USDT-SWAP_short
+position_opened,BAND-USDT-SWAP,0.0,0.2240209858903378,11198.0,,,short,True,2026-03-20 02:40:31,20260320_024027_BAND-USDT-SWAP_short
+OPEN,BAND-USDT-SWAP,0.0,0.2240209858903378,11198.0,,Первичный вход,short,True,2026-03-20 02:40:31,20260320_024027_BAND-USDT-SWAP_short
+position_closed,BAND-USDT-SWAP,0.0,0.0,11198.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 02:40:54,20260320_024027_BAND-USDT-SWAP_short
+CLOSE,BAND-USDT-SWAP,0.0,0.2241,11198.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 02:40:54,20260320_024027_BAND-USDT-SWAP_short
+position_opened,BAND-USDT-SWAP,0.0,0.2238046849315076,10950.0,,,short,True,2026-03-20 02:41:34,20260320_024130_BAND-USDT-SWAP_short
+OPEN,BAND-USDT-SWAP,0.0,0.2238046849315076,10950.0,,Первичный вход,short,True,2026-03-20 02:41:34,20260320_024130_BAND-USDT-SWAP_short
+position_closed,BAND-USDT-SWAP,0.0,0.0,10950.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 02:42:25,20260320_024130_BAND-USDT-SWAP_short
+CLOSE,BAND-USDT-SWAP,0.0,0.2248,10950.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 02:42:25,20260320_024130_BAND-USDT-SWAP_short
+position_opened,BAND-USDT-SWAP,0.0,0.2240027496117659,10947.0,,,short,True,2026-03-20 02:43:05,20260320_024301_BAND-USDT-SWAP_short
+OPEN,BAND-USDT-SWAP,0.0,0.2240027496117659,10947.0,,Первичный вход,short,True,2026-03-20 02:43:05,20260320_024301_BAND-USDT-SWAP_short
+position_closed,BAND-USDT-SWAP,0.0,0.0,10947.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 02:43:34,20260320_024301_BAND-USDT-SWAP_short
+CLOSE,BAND-USDT-SWAP,0.0,0.2238,10947.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 02:43:34,20260320_024301_BAND-USDT-SWAP_short
+position_opened,CFX-USDT-SWAP,0.0,0.06416,3824.1,,,long,True,2026-03-20 02:45:44,20260320_024541_CFX-USDT-SWAP_long
+OPEN,CFX-USDT-SWAP,0.0,0.06416,3824.1,,Первичный вход,long,True,2026-03-20 02:45:44,20260320_024541_CFX-USDT-SWAP_long
+position_closed,YFI-USDT-SWAP,0.0,0.0,26232.0,канальный_выход_10_свечей,Канальный выход 10 свечей,short,True,2026-03-20 02:53:13,20260320_022016_YFI-USDT-SWAP_short
+CLOSE,YFI-USDT-SWAP,0.0,2731.0,26232.0,,Канальный выход 10 свечей,short,True,2026-03-20 02:53:13,20260320_022016_YFI-USDT-SWAP_short
+position_closed,XRP-USDT-SWAP,0.0,0.0,17.31,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 03:02:24,20260320_013517_XRP-USDT-SWAP_short
+CLOSE,XRP-USDT-SWAP,0.0,1.4792,17.31,,ATR стоп 2.0N,short,True,2026-03-20 03:02:24,20260320_013517_XRP-USDT-SWAP_short
+position_closed,DOT-USDT-SWAP,0.0,0.0,3694.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 03:09:50,20260320_010533_DOT-USDT-SWAP_short
+CLOSE,DOT-USDT-SWAP,0.0,1.539,3694.0,,ATR стоп 2.0N,short,True,2026-03-20 03:09:50,20260320_010533_DOT-USDT-SWAP_short
+position_opened,MAGIC-USDT-SWAP,0.0,0.0793,32463.0,,,long,True,2026-03-20 03:10:22,20260320_031018_MAGIC-USDT-SWAP_long
+OPEN,MAGIC-USDT-SWAP,0.0,0.0793,32463.0,,Первичный вход,long,True,2026-03-20 03:10:22,20260320_031018_MAGIC-USDT-SWAP_long
+position_closed,MAGIC-USDT-SWAP,0.0,0.0,32463.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 03:10:33,20260320_031018_MAGIC-USDT-SWAP_long
+CLOSE,MAGIC-USDT-SWAP,0.0,0.0793,32463.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 03:10:33,20260320_031018_MAGIC-USDT-SWAP_long
+position_opened,MAGIC-USDT-SWAP,0.0,0.0793,32084.0,,,long,True,2026-03-20 03:11:00,20260320_031056_MAGIC-USDT-SWAP_long
+OPEN,MAGIC-USDT-SWAP,0.0,0.0793,32084.0,,Первичный вход,long,True,2026-03-20 03:11:00,20260320_031056_MAGIC-USDT-SWAP_long
+position_closed,MAGIC-USDT-SWAP,0.0,0.0,32084.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 03:11:18,20260320_031056_MAGIC-USDT-SWAP_long
+CLOSE,MAGIC-USDT-SWAP,0.0,0.0793,32084.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 03:11:18,20260320_031056_MAGIC-USDT-SWAP_long
+position_opened,AXS-USDT-SWAP,0.0,1.211985994027513,20427.0,,,long,True,2026-03-20 03:20:34,20260320_032031_AXS-USDT-SWAP_long
+OPEN,AXS-USDT-SWAP,0.0,1.211985994027513,20427.0,,Первичный вход,long,True,2026-03-20 03:20:34,20260320_032031_AXS-USDT-SWAP_long
+position_closed,MAGIC-USDT-SWAP,0.0,0.0,64547.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 03:21:21,20260320_032046_MAGIC-USDT-SWAP_long
+CLOSE,MAGIC-USDT-SWAP,0.0,0.06213,64547.0,,ATR стоп 2.0N,long,True,2026-03-20 03:21:21,20260320_032046_MAGIC-USDT-SWAP_long
+position_opened,NEO-USDT-SWAP,0.0,2.7419955207166855,893.0,,,long,True,2026-03-20 03:35:46,20260320_033543_NEO-USDT-SWAP_long
+OPEN,NEO-USDT-SWAP,0.0,2.7419955207166855,893.0,,Первичный вход,long,True,2026-03-20 03:35:46,20260320_033543_NEO-USDT-SWAP_long
+position_opened,AUCTION-USDT-SWAP,0.0,4.90922129415112,4920.6,,,short,True,2026-03-20 03:35:50,20260320_033547_AUCTION-USDT-SWAP_short
+OPEN,AUCTION-USDT-SWAP,0.0,4.90922129415112,4920.6,,Первичный вход,short,True,2026-03-20 03:35:50,20260320_033547_AUCTION-USDT-SWAP_short
+position_opened,NEAR-USDT-SWAP,0.0,1.3407272574312956,178.3,,,long,True,2026-03-20 03:35:55,20260320_033551_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.3407272574312956,178.3,,Первичный вход,long,True,2026-03-20 03:35:55,20260320_033551_NEAR-USDT-SWAP_long
+position_closed,BTC-USDT-SWAP,0.0,0.0,6.72,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 03:39:59,20260320_013648_BTC-USDT-SWAP_short
+CLOSE,BTC-USDT-SWAP,0.0,70222.9,6.72,,ATR стоп 2.0N,short,True,2026-03-20 03:39:59,20260320_013648_BTC-USDT-SWAP_short
+position_opened,KSM-USDT-SWAP,0.0,4.590902429764617,5268.0,,,long,True,2026-03-20 03:45:42,20260320_034538_KSM-USDT-SWAP_long
+OPEN,KSM-USDT-SWAP,0.0,4.590902429764617,5268.0,,Первичный вход,long,True,2026-03-20 03:45:42,20260320_034538_KSM-USDT-SWAP_long
+position_opened,TRX-USDT-SWAP,0.0,0.3045588761174972,7.83,,,long,True,2026-03-20 03:45:46,20260320_034543_TRX-USDT-SWAP_long
+OPEN,TRX-USDT-SWAP,0.0,0.3045588761174972,7.83,,Первичный вход,long,True,2026-03-20 03:45:46,20260320_034543_TRX-USDT-SWAP_long
+position_closed,TRX-USDT-SWAP,0.0,0.0,7.83,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 03:46:24,20260320_034543_TRX-USDT-SWAP_long
+CLOSE,TRX-USDT-SWAP,0.0,0.3042,7.83,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 03:46:24,20260320_034543_TRX-USDT-SWAP_long
+position_opened,TRX-USDT-SWAP,0.0,0.3042060025542786,7.83,,,long,True,2026-03-20 03:46:49,20260320_034646_TRX-USDT-SWAP_long
+OPEN,TRX-USDT-SWAP,0.0,0.3042060025542786,7.83,,Первичный вход,long,True,2026-03-20 03:46:49,20260320_034646_TRX-USDT-SWAP_long
+position_closed,TRX-USDT-SWAP,0.0,0.0,15.66,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 03:47:48,20260320_034646_TRX-USDT-SWAP_long
+CLOSE,TRX-USDT-SWAP,0.0,0.3027,15.66,,ATR стоп 2.0N,long,True,2026-03-20 03:47:48,20260320_034646_TRX-USDT-SWAP_long
+position_opened,TRX-USDT-SWAP,0.0,0.3037771392081746,7.83,,,long,True,2026-03-20 03:48:13,20260320_034810_TRX-USDT-SWAP_long
+OPEN,TRX-USDT-SWAP,0.0,0.3037771392081746,7.83,,Первичный вход,long,True,2026-03-20 03:48:13,20260320_034810_TRX-USDT-SWAP_long
+position_opened,PEPE-USDT-SWAP,0.0,3.4345761195e-06,67.0,,,long,True,2026-03-20 04:05:35,20260320_040531_PEPE-USDT-SWAP_long
+OPEN,PEPE-USDT-SWAP,0.0,3.4345761195e-06,67.0,,Первичный вход,long,True,2026-03-20 04:05:35,20260320_040531_PEPE-USDT-SWAP_long
+position_opened,BCH-USDT-SWAP,0.0,458.7,49.79,,,long,True,2026-03-20 04:05:39,20260320_040536_BCH-USDT-SWAP_long
+OPEN,BCH-USDT-SWAP,0.0,458.7,49.79,,Первичный вход,long,True,2026-03-20 04:05:39,20260320_040536_BCH-USDT-SWAP_long
+position_opened,AAVE-USDT-SWAP,0.0,112.31999004975124,201.0,,,long,True,2026-03-20 04:05:44,20260320_040541_AAVE-USDT-SWAP_long
+OPEN,AAVE-USDT-SWAP,0.0,112.31999004975124,201.0,,Первичный вход,long,True,2026-03-20 04:05:44,20260320_040541_AAVE-USDT-SWAP_long
+position_closed,AAVE-USDT-SWAP,0.0,0.0,201.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 04:19:34,20260320_040541_AAVE-USDT-SWAP_long
+CLOSE,AAVE-USDT-SWAP,0.0,111.89,201.0,,ATR стоп 2.0N,long,True,2026-03-20 04:19:34,20260320_040541_AAVE-USDT-SWAP_long
+position_opened,XTZ-USDT-SWAP,0.0,0.3926533959537574,5536.0,,,long,True,2026-03-20 04:20:23,20260320_042019_XTZ-USDT-SWAP_long
+OPEN,XTZ-USDT-SWAP,0.0,0.3926533959537574,5536.0,,Первичный вход,long,True,2026-03-20 04:20:23,20260320_042019_XTZ-USDT-SWAP_long
+position_opened,IMX-USDT-SWAP,0.0,0.1646039660056659,13061.0,,,long,True,2026-03-20 04:21:26,20260320_042123_IMX-USDT-SWAP_long
+OPEN,IMX-USDT-SWAP,0.0,0.1646039660056659,13061.0,,Первичный вход,long,True,2026-03-20 04:21:26,20260320_042123_IMX-USDT-SWAP_long
+position_closed,XTZ-USDT-SWAP,0.0,0.0,5536.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 04:22:21,20260320_042019_XTZ-USDT-SWAP_long
+CLOSE,XTZ-USDT-SWAP,0.0,0.3916,5536.0,,ATR стоп 2.0N,long,True,2026-03-20 04:22:21,20260320_042019_XTZ-USDT-SWAP_long
+position_opened,XTZ-USDT-SWAP,0.0,0.3929475781392801,5471.0,,,long,True,2026-03-20 04:23:02,20260320_042259_XTZ-USDT-SWAP_long
+OPEN,XTZ-USDT-SWAP,0.0,0.3929475781392801,5471.0,,Первичный вход,long,True,2026-03-20 04:23:02,20260320_042259_XTZ-USDT-SWAP_long
+position_opened,IMX-USDT-SWAP,0.0,0.1714,534.0,,,long,True,2026-03-20 04:24:22,20260320_042418_IMX-USDT-SWAP_long
+OPEN,IMX-USDT-SWAP,0.0,0.1714,534.0,,Первичный вход,long,True,2026-03-20 04:24:22,20260320_042418_IMX-USDT-SWAP_long
+position_closed,IMX-USDT-SWAP,0.0,0.0,4661.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 04:26:07,20260320_042418_IMX-USDT-SWAP_long
+CLOSE,IMX-USDT-SWAP,0.0,0.1646,4661.0,,ATR стоп 2.0N,long,True,2026-03-20 04:26:07,20260320_042418_IMX-USDT-SWAP_long
+position_closed,BCH-USDT-SWAP,0.0,0.0,49.79,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 04:28:27,20260320_040536_BCH-USDT-SWAP_long
+CLOSE,BCH-USDT-SWAP,0.0,457.8,49.79,,ATR стоп 2.0N,long,True,2026-03-20 04:28:27,20260320_040536_BCH-USDT-SWAP_long
+position_opened,XAG-USDT-SWAP,0.0,73.54,2935.0,,,long,True,2026-03-20 04:30:09,20260320_043006_XAG-USDT-SWAP_long
+OPEN,XAG-USDT-SWAP,0.0,73.54,2935.0,,Первичный вход,long,True,2026-03-20 04:30:09,20260320_043006_XAG-USDT-SWAP_long
+position_closed,XAG-USDT-SWAP,0.0,0.0,2935.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 04:44:32,20260320_043006_XAG-USDT-SWAP_long
+CLOSE,XAG-USDT-SWAP,0.0,73.19,2935.0,,ATR стоп 2.0N,long,True,2026-03-20 04:44:32,20260320_043006_XAG-USDT-SWAP_long
+position_closed,XAG-USDT-SWAP,0.0,0.0,2757.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 04:45:20,20260320_044439_XAG-USDT-SWAP_long
+CLOSE,XAG-USDT-SWAP,0.0,71.6,2757.0,,ATR стоп 2.0N,long,True,2026-03-20 04:45:20,20260320_044439_XAG-USDT-SWAP_long
+position_closed,XAG-USDT-SWAP,0.0,0.0,2696.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 04:46:33,20260320_044527_XAG-USDT-SWAP_long
+CLOSE,XAG-USDT-SWAP,0.0,71.24,2696.0,,ATR стоп 2.0N,long,True,2026-03-20 04:46:33,20260320_044527_XAG-USDT-SWAP_long
+position_closed,XAG-USDT-SWAP,0.0,0.0,2664.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 04:47:37,20260320_044639_XAG-USDT-SWAP_long
+CLOSE,XAG-USDT-SWAP,0.0,70.4,2664.0,,ATR стоп 2.0N,long,True,2026-03-20 04:47:37,20260320_044639_XAG-USDT-SWAP_long
+position_opened,BNB-USDT-SWAP,0.0,712.7,279.0,,,short,True,2026-03-20 04:50:45,20260320_045042_BNB-USDT-SWAP_short
+OPEN,BNB-USDT-SWAP,0.0,712.7,279.0,,Первичный вход,short,True,2026-03-20 04:50:45,20260320_045042_BNB-USDT-SWAP_short
+position_opened,LIT-USDT-SWAP,0.0,1.216,162.0,,,long,True,2026-03-20 04:55:30,20260320_045527_LIT-USDT-SWAP_long
+OPEN,LIT-USDT-SWAP,0.0,1.216,162.0,,Первичный вход,long,True,2026-03-20 04:55:30,20260320_045527_LIT-USDT-SWAP_long
+position_closed,LIT-USDT-SWAP,0.0,0.0,162.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:55:56,20260320_045527_LIT-USDT-SWAP_long
+CLOSE,LIT-USDT-SWAP,0.0,1.216,162.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:55:56,20260320_045527_LIT-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,1.216,159.0,,,long,True,2026-03-20 04:56:20,20260320_045616_LIT-USDT-SWAP_long
+OPEN,LIT-USDT-SWAP,0.0,1.216,159.0,,Первичный вход,long,True,2026-03-20 04:56:20,20260320_045616_LIT-USDT-SWAP_long
+position_closed,LIT-USDT-SWAP,0.0,0.0,159.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:56:49,20260320_045616_LIT-USDT-SWAP_long
+CLOSE,LIT-USDT-SWAP,0.0,1.216,159.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:56:49,20260320_045616_LIT-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,1.217,159.0,,,long,True,2026-03-20 04:57:13,20260320_045710_LIT-USDT-SWAP_long
+OPEN,LIT-USDT-SWAP,0.0,1.217,159.0,,Первичный вход,long,True,2026-03-20 04:57:13,20260320_045710_LIT-USDT-SWAP_long
+position_closed,LIT-USDT-SWAP,0.0,0.0,159.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:58:03,20260320_045710_LIT-USDT-SWAP_long
+CLOSE,LIT-USDT-SWAP,0.0,1.217,159.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:58:03,20260320_045710_LIT-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,1.217,159.0,,,long,True,2026-03-20 04:58:27,20260320_045824_LIT-USDT-SWAP_long
+OPEN,LIT-USDT-SWAP,0.0,1.217,159.0,,Первичный вход,long,True,2026-03-20 04:58:27,20260320_045824_LIT-USDT-SWAP_long
+position_closed,LIT-USDT-SWAP,0.0,0.0,159.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:58:49,20260320_045824_LIT-USDT-SWAP_long
+CLOSE,LIT-USDT-SWAP,0.0,1.217,159.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:58:49,20260320_045824_LIT-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,1.217,159.0,,,long,True,2026-03-20 04:59:13,20260320_045909_LIT-USDT-SWAP_long
+OPEN,LIT-USDT-SWAP,0.0,1.217,159.0,,Первичный вход,long,True,2026-03-20 04:59:13,20260320_045909_LIT-USDT-SWAP_long
+position_closed,LIT-USDT-SWAP,0.0,0.0,159.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:59:41,20260320_045909_LIT-USDT-SWAP_long
+CLOSE,LIT-USDT-SWAP,0.0,1.217,159.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 04:59:41,20260320_045909_LIT-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,1.216,159.0,,,long,True,2026-03-20 05:00:05,20260320_050002_LIT-USDT-SWAP_long
+OPEN,LIT-USDT-SWAP,0.0,1.216,159.0,,Первичный вход,long,True,2026-03-20 05:00:05,20260320_050002_LIT-USDT-SWAP_long
+position_closed,LIT-USDT-SWAP,0.0,0.0,159.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 05:00:44,20260320_050002_LIT-USDT-SWAP_long
+CLOSE,LIT-USDT-SWAP,0.0,1.216,159.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 05:00:44,20260320_050002_LIT-USDT-SWAP_long
+position_closed,NEAR-USDT-SWAP,0.0,0.0,713.2,канальный_выход_10_свечей,Канальный выход 10 свечей,long,True,2026-03-20 05:25:47,20260320_033551_NEAR-USDT-SWAP_long
+CLOSE,NEAR-USDT-SWAP,0.0,1.3507,713.2,,Канальный выход 10 свечей,long,True,2026-03-20 05:25:47,20260320_033551_NEAR-USDT-SWAP_long
+position_closed,TRX-USDT-SWAP,0.0,0.0,31.32,канальный_выход_20_свечей,Канальный выход 20 свечей,long,True,2026-03-20 05:28:43,20260320_034810_TRX-USDT-SWAP_long
+CLOSE,TRX-USDT-SWAP,0.0,0.2999,31.32,,Канальный выход 20 свечей,long,True,2026-03-20 05:28:43,20260320_034810_TRX-USDT-SWAP_long
+position_opened,COMP-USDT-SWAP,0.0,19.14,1124.9,,,short,True,2026-03-20 05:30:54,20260320_053051_COMP-USDT-SWAP_short
+OPEN,COMP-USDT-SWAP,0.0,19.14,1124.9,,Первичный вход,short,True,2026-03-20 05:30:54,20260320_053051_COMP-USDT-SWAP_short
+position_opened,BTC-USDT-SWAP,0.0,70063.46282894736,3.04,,,short,True,2026-03-20 05:35:38,20260320_053534_BTC-USDT-SWAP_short
+OPEN,BTC-USDT-SWAP,0.0,70063.46282894736,3.04,,Первичный вход,short,True,2026-03-20 05:35:38,20260320_053534_BTC-USDT-SWAP_short
+position_opened,INJ-USDT-SWAP,0.0,3.1663542435424357,6504.0,,,long,True,2026-03-20 05:45:40,20260320_054537_INJ-USDT-SWAP_long
+OPEN,INJ-USDT-SWAP,0.0,3.1663542435424357,6504.0,,Первичный вход,long,True,2026-03-20 05:45:40,20260320_054537_INJ-USDT-SWAP_long
+position_opened,GMT-USDT-SWAP,0.0,0.00938,16.0,,,short,True,2026-03-20 05:45:45,20260320_054542_GMT-USDT-SWAP_short
+OPEN,GMT-USDT-SWAP,0.0,0.00938,16.0,,Первичный вход,short,True,2026-03-20 05:45:45,20260320_054542_GMT-USDT-SWAP_short
+position_closed,CFX-USDT-SWAP,0.0,0.0,15296.4,канальный_выход_20_свечей,Канальный выход 20 свечей,long,True,2026-03-20 05:47:19,20260320_024541_CFX-USDT-SWAP_long
+CLOSE,CFX-USDT-SWAP,0.0,0.06517,15296.4,,Канальный выход 20 свечей,long,True,2026-03-20 05:47:19,20260320_024541_CFX-USDT-SWAP_long
+position_closed,USDC-USDT-SWAP,0.0,0.0,984.0,канальный_выход_20_свечей,Канальный выход 20 свечей,long,True,2026-03-20 06:00:08,20260320_012734_USDC-USDT-SWAP_long
+CLOSE,USDC-USDT-SWAP,0.0,0.99988,984.0,,Канальный выход 20 свечей,long,True,2026-03-20 06:00:08,20260320_012734_USDC-USDT-SWAP_long
+position_closed,BTC-USDT-SWAP,0.0,0.0,3.04,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 06:19:49,20260320_053534_BTC-USDT-SWAP_short
+CLOSE,BTC-USDT-SWAP,0.0,70633.3,3.04,,ATR стоп 2.0N,short,True,2026-03-20 06:19:49,20260320_053534_BTC-USDT-SWAP_short
+position_opened,YFI-USDT-SWAP,0.0,2754.890347443112,8174.0,,,long,True,2026-03-20 06:20:13,20260320_062009_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2754.890347443112,8174.0,,Первичный вход,long,True,2026-03-20 06:20:13,20260320_062009_YFI-USDT-SWAP_long
+position_opened,XAG-USDT-SWAP,0.0,74.33983832940385,2969.0,,,long,True,2026-03-20 06:25:55,20260320_062552_XAG-USDT-SWAP_long
+OPEN,XAG-USDT-SWAP,0.0,74.33983832940385,2969.0,,Первичный вход,long,True,2026-03-20 06:25:55,20260320_062552_XAG-USDT-SWAP_long
+position_closed,YFI-USDT-SWAP,0.0,0.0,8174.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 06:28:57,20260320_062009_YFI-USDT-SWAP_long
+CLOSE,YFI-USDT-SWAP,0.0,2748.0,8174.0,,ATR стоп 2.0N,long,True,2026-03-20 06:28:57,20260320_062009_YFI-USDT-SWAP_long
+position_opened,MINA-USDT-SWAP,0.0,0.06499,1.0,,,long,True,2026-03-20 06:35:59,20260320_063556_MINA-USDT-SWAP_long
+OPEN,MINA-USDT-SWAP,0.0,0.06499,1.0,,Первичный вход,long,True,2026-03-20 06:35:59,20260320_063556_MINA-USDT-SWAP_long
+position_closed,XAG-USDT-SWAP,0.0,0.0,2969.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 06:39:14,20260320_062552_XAG-USDT-SWAP_long
+CLOSE,XAG-USDT-SWAP,0.0,74.15,2969.0,,ATR стоп 2.0N,long,True,2026-03-20 06:39:14,20260320_062552_XAG-USDT-SWAP_long
+position_closed,MINA-USDT-SWAP,0.0,0.0,126.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 06:41:23,20260320_063556_MINA-USDT-SWAP_long
+CLOSE,MINA-USDT-SWAP,0.0,0.06171,126.0,,ATR стоп 2.0N,long,True,2026-03-20 06:41:23,20260320_063556_MINA-USDT-SWAP_long
+position_closed,MINA-USDT-SWAP,0.0,0.0,34074.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 06:42:08,20260320_064130_MINA-USDT-SWAP_long
+CLOSE,MINA-USDT-SWAP,0.0,0.0616,34074.0,,ATR стоп 2.0N,long,True,2026-03-20 06:42:08,20260320_064130_MINA-USDT-SWAP_long
+position_closed,MINA-USDT-SWAP,0.0,0.0,33790.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 06:43:04,20260320_064214_MINA-USDT-SWAP_long
+CLOSE,MINA-USDT-SWAP,0.0,0.0616,33790.0,,ATR стоп 2.0N,long,True,2026-03-20 06:43:04,20260320_064214_MINA-USDT-SWAP_long
+position_closed,MINA-USDT-SWAP,0.0,0.0,33790.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 06:43:47,20260320_064311_MINA-USDT-SWAP_long
+CLOSE,MINA-USDT-SWAP,0.0,0.0616,33790.0,,ATR стоп 2.0N,long,True,2026-03-20 06:43:47,20260320_064311_MINA-USDT-SWAP_long
+position_closed,MINA-USDT-SWAP,0.0,0.0,33790.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 06:44:41,20260320_064353_MINA-USDT-SWAP_long
+CLOSE,MINA-USDT-SWAP,0.0,0.06155,33790.0,,ATR стоп 2.0N,long,True,2026-03-20 06:44:41,20260320_064353_MINA-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.3461876832844577,170.5,,,short,True,2026-03-20 06:45:17,20260320_064514_NEAR-USDT-SWAP_short
+OPEN,NEAR-USDT-SWAP,0.0,1.3461876832844577,170.5,,Первичный вход,short,True,2026-03-20 06:45:17,20260320_064514_NEAR-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,81708.0,канальный_выход_10_свечей,Канальный выход 10 свечей,long,True,2026-03-20 06:55:18,20260320_032031_AXS-USDT-SWAP_long
+CLOSE,AXS-USDT-SWAP,0.0,1.255,81708.0,,Канальный выход 10 свечей,long,True,2026-03-20 06:55:18,20260320_032031_AXS-USDT-SWAP_long
+position_closed,BNB-USDT-SWAP,0.0,0.0,1116.0,канальный_выход_10_свечей,Канальный выход 10 свечей,short,True,2026-03-20 07:01:00,20260320_045042_BNB-USDT-SWAP_short
+CLOSE,BNB-USDT-SWAP,0.0,704.9,1116.0,,Канальный выход 10 свечей,short,True,2026-03-20 07:01:00,20260320_045042_BNB-USDT-SWAP_short
+position_closed,NEAR-USDT-SWAP,0.0,0.0,170.5,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 07:03:06,20260320_064514_NEAR-USDT-SWAP_short
+CLOSE,NEAR-USDT-SWAP,0.0,1.357,170.5,,ATR стоп 2.0N,short,True,2026-03-20 07:03:06,20260320_064514_NEAR-USDT-SWAP_short
+position_opened,KSM-USDT-SWAP,0.0,4.592878979771328,5685.0,,,short,True,2026-03-20 07:05:19,20260320_070516_KSM-USDT-SWAP_short
+OPEN,KSM-USDT-SWAP,0.0,4.592878979771328,5685.0,,Первичный вход,short,True,2026-03-20 07:05:19,20260320_070516_KSM-USDT-SWAP_short
+position_opened,NEAR-USDT-SWAP,0.0,1.357,190.5,,,long,True,2026-03-20 07:05:24,20260320_070520_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.357,190.5,,Первичный вход,long,True,2026-03-20 07:05:24,20260320_070520_NEAR-USDT-SWAP_long
+position_closed,NEAR-USDT-SWAP,0.0,0.0,190.5,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 07:07:20,20260320_070520_NEAR-USDT-SWAP_long
+CLOSE,NEAR-USDT-SWAP,0.0,1.3463,190.5,,ATR стоп 2.0N,long,True,2026-03-20 07:07:21,20260320_070520_NEAR-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.3464054082714743,188.6,,,long,True,2026-03-20 07:07:43,20260320_070740_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.3464054082714743,188.6,,Первичный вход,long,True,2026-03-20 07:07:43,20260320_070740_NEAR-USDT-SWAP_long
+position_opened,LTC-USDT-SWAP,0.0,55.98,44.5,,,long,True,2026-03-20 07:15:27,20260320_071524_LTC-USDT-SWAP_long
+OPEN,LTC-USDT-SWAP,0.0,55.98,44.5,,Первичный вход,long,True,2026-03-20 07:15:27,20260320_071524_LTC-USDT-SWAP_long
+position_closed,LTC-USDT-SWAP,0.0,0.0,89.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 07:21:42,20260320_071524_LTC-USDT-SWAP_long
+CLOSE,LTC-USDT-SWAP,0.0,55.89,89.0,,ATR стоп 2.0N,long,True,2026-03-20 07:21:42,20260320_071524_LTC-USDT-SWAP_long
+position_opened,LDO-USDT-SWAP,0.0,0.2990217652835749,8146.0,,,short,True,2026-03-20 07:35:14,20260320_073510_LDO-USDT-SWAP_short
+OPEN,LDO-USDT-SWAP,0.0,0.2990217652835749,8146.0,,Первичный вход,short,True,2026-03-20 07:35:14,20260320_073510_LDO-USDT-SWAP_short
+position_opened,SUSHI-USDT-SWAP,0.0,0.202400295059855,11862.0,,,short,True,2026-03-20 07:38:50,20260320_073847_SUSHI-USDT-SWAP_short
+OPEN,SUSHI-USDT-SWAP,0.0,0.202400295059855,11862.0,,Первичный вход,short,True,2026-03-20 07:38:50,20260320_073847_SUSHI-USDT-SWAP_short
+position_opened,SOL-USDT-SWAP,0.0,88.82,26.77,,,short,True,2026-03-20 07:40:24,20260320_074020_SOL-USDT-SWAP_short
+OPEN,SOL-USDT-SWAP,0.0,88.82,26.77,,Первичный вход,short,True,2026-03-20 07:40:24,20260320_074020_SOL-USDT-SWAP_short
+position_opened,XLM-USDT-SWAP,0.0,0.16628,141.46,,,short,True,2026-03-20 07:40:28,20260320_074025_XLM-USDT-SWAP_short
+OPEN,XLM-USDT-SWAP,0.0,0.16628,141.46,,Первичный вход,short,True,2026-03-20 07:40:28,20260320_074025_XLM-USDT-SWAP_short
+position_opened,CFX-USDT-SWAP,0.0,0.064395172247583,3526.9,,,short,True,2026-03-20 07:45:14,20260320_074510_CFX-USDT-SWAP_short
+OPEN,CFX-USDT-SWAP,0.0,0.064395172247583,3526.9,,Первичный вход,short,True,2026-03-20 07:45:14,20260320_074510_CFX-USDT-SWAP_short
+position_opened,2Z-USDT-SWAP,0.0,0.0772541293874742,2906.0,,,short,True,2026-03-20 07:45:56,20260320_074553_2Z-USDT-SWAP_short
+OPEN,2Z-USDT-SWAP,0.0,0.0772541293874742,2906.0,,Первичный вход,short,True,2026-03-20 07:45:56,20260320_074553_2Z-USDT-SWAP_short
+position_closed,2Z-USDT-SWAP,0.0,0.0,2906.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 07:46:52,20260320_074553_2Z-USDT-SWAP_short
+CLOSE,2Z-USDT-SWAP,0.0,0.0773,2906.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 07:46:52,20260320_074553_2Z-USDT-SWAP_short
+position_opened,2Z-USDT-SWAP,0.0,0.0773,3058.0,,,short,True,2026-03-20 07:47:16,20260320_074712_2Z-USDT-SWAP_short
+OPEN,2Z-USDT-SWAP,0.0,0.0773,3058.0,,Первичный вход,short,True,2026-03-20 07:47:16,20260320_074712_2Z-USDT-SWAP_short
+position_closed,COMP-USDT-SWAP,0.0,0.0,3374.7,канальный_выход_10_свечей,Канальный выход 10 свечей,short,True,2026-03-20 07:52:26,20260320_053051_COMP-USDT-SWAP_short
+CLOSE,COMP-USDT-SWAP,0.0,19.15,3374.7,,Канальный выход 10 свечей,short,True,2026-03-20 07:52:26,20260320_053051_COMP-USDT-SWAP_short
+position_closed,XLM-USDT-SWAP,0.0,0.0,141.46,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 07:56:34,20260320_074025_XLM-USDT-SWAP_short
+CLOSE,XLM-USDT-SWAP,0.0,0.16732,141.46,,ATR стоп 2.0N,short,True,2026-03-20 07:56:34,20260320_074025_XLM-USDT-SWAP_short
+position_closed,CFX-USDT-SWAP,0.0,0.0,3526.9,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 07:58:24,20260320_074510_CFX-USDT-SWAP_short
+CLOSE,CFX-USDT-SWAP,0.0,0.06522,3526.9,,ATR стоп 2.0N,short,True,2026-03-20 07:58:24,20260320_074510_CFX-USDT-SWAP_short
+position_closed,KSM-USDT-SWAP,0.0,0.0,5685.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 08:03:16,20260320_070516_KSM-USDT-SWAP_short
+CLOSE,KSM-USDT-SWAP,0.0,4.621,5685.0,,ATR стоп 2.0N,short,True,2026-03-20 08:03:16,20260320_070516_KSM-USDT-SWAP_short
+position_opened,LPT-USDT-SWAP,0.0,2.2479259131335807,11581.0,,,long,True,2026-03-20 08:05:12,20260320_080508_LPT-USDT-SWAP_long
+OPEN,LPT-USDT-SWAP,0.0,2.2479259131335807,11581.0,,Первичный вход,long,True,2026-03-20 08:05:12,20260320_080508_LPT-USDT-SWAP_long
+position_opened,AUCTION-USDT-SWAP,0.0,4.910171903000725,5245.4,,,short,True,2026-03-20 08:05:47,20260320_080544_AUCTION-USDT-SWAP_short
+OPEN,AUCTION-USDT-SWAP,0.0,4.910171903000725,5245.4,,Первичный вход,short,True,2026-03-20 08:05:47,20260320_080544_AUCTION-USDT-SWAP_short
+position_closed,LPT-USDT-SWAP,0.0,0.0,11581.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:06:06,20260320_080508_LPT-USDT-SWAP_long
+CLOSE,LPT-USDT-SWAP,0.0,2.244,11581.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:06:06,20260320_080508_LPT-USDT-SWAP_long
+position_opened,LPT-USDT-SWAP,0.0,2.246967671472259,11445.0,,,long,True,2026-03-20 08:06:34,20260320_080631_LPT-USDT-SWAP_long
+OPEN,LPT-USDT-SWAP,0.0,2.246967671472259,11445.0,,Первичный вход,long,True,2026-03-20 08:06:34,20260320_080631_LPT-USDT-SWAP_long
+position_closed,LPT-USDT-SWAP,0.0,0.0,11445.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:07:27,20260320_080631_LPT-USDT-SWAP_long
+CLOSE,LPT-USDT-SWAP,0.0,2.245,11445.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:07:27,20260320_080631_LPT-USDT-SWAP_long
+position_opened,LPT-USDT-SWAP,0.0,2.2459719479157565,11443.0,,,long,True,2026-03-20 08:07:48,20260320_080745_LPT-USDT-SWAP_long
+OPEN,LPT-USDT-SWAP,0.0,2.2459719479157565,11443.0,,Первичный вход,long,True,2026-03-20 08:07:48,20260320_080745_LPT-USDT-SWAP_long
+position_closed,LPT-USDT-SWAP,0.0,0.0,11443.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:08:41,20260320_080745_LPT-USDT-SWAP_long
+CLOSE,LPT-USDT-SWAP,0.0,2.246,11443.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:08:41,20260320_080745_LPT-USDT-SWAP_long
+position_opened,LPT-USDT-SWAP,0.0,2.2469931830099634,11442.0,,,long,True,2026-03-20 08:09:05,20260320_080901_LPT-USDT-SWAP_long
+OPEN,LPT-USDT-SWAP,0.0,2.2469931830099634,11442.0,,Первичный вход,long,True,2026-03-20 08:09:05,20260320_080901_LPT-USDT-SWAP_long
+position_closed,LPT-USDT-SWAP,0.0,0.0,11442.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:09:58,20260320_080901_LPT-USDT-SWAP_long
+CLOSE,LPT-USDT-SWAP,0.0,2.245,11442.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:09:58,20260320_080901_LPT-USDT-SWAP_long
+position_opened,NEAR-USDT-SWAP,0.0,1.3588987447698746,191.2,,,long,True,2026-03-20 08:25:26,20260320_082523_NEAR-USDT-SWAP_long
+OPEN,NEAR-USDT-SWAP,0.0,1.3588987447698746,191.2,,Первичный вход,long,True,2026-03-20 08:25:26,20260320_082523_NEAR-USDT-SWAP_long
+position_opened,ETC-USDT-SWAP,0.0,8.51,30.14,,,long,True,2026-03-20 08:25:31,20260320_082528_ETC-USDT-SWAP_long
+OPEN,ETC-USDT-SWAP,0.0,8.51,30.14,,Первичный вход,long,True,2026-03-20 08:25:31,20260320_082528_ETC-USDT-SWAP_long
+position_opened,AAVE-USDT-SWAP,0.0,112.51795053003534,226.4,,,long,True,2026-03-20 08:25:35,20260320_082532_AAVE-USDT-SWAP_long
+OPEN,AAVE-USDT-SWAP,0.0,112.51795053003534,226.4,,Первичный вход,long,True,2026-03-20 08:25:35,20260320_082532_AAVE-USDT-SWAP_long
+position_closed,AAVE-USDT-SWAP,0.0,0.0,226.4,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 08:30:32,20260320_082532_AAVE-USDT-SWAP_long
+CLOSE,AAVE-USDT-SWAP,0.0,112.15,226.4,,ATR стоп 2.0N,long,True,2026-03-20 08:30:32,20260320_082532_AAVE-USDT-SWAP_long
+position_opened,SUI-USDT-SWAP,0.0,0.9753263217054265,2580.0,,,long,True,2026-03-20 08:31:08,20260320_083105_SUI-USDT-SWAP_long
+OPEN,SUI-USDT-SWAP,0.0,0.9753263217054265,2580.0,,Первичный вход,long,True,2026-03-20 08:31:08,20260320_083105_SUI-USDT-SWAP_long
+position_closed,2Z-USDT-SWAP,0.0,0.0,3058.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 08:37:37,20260320_074712_2Z-USDT-SWAP_short
+CLOSE,2Z-USDT-SWAP,0.0,0.0776,3058.0,,ATR стоп 2.0N,short,True,2026-03-20 08:37:37,20260320_074712_2Z-USDT-SWAP_short
+position_opened,ETHW-USDT-SWAP,0.0,0.2800550860927176,90600.0,,,long,True,2026-03-20 08:45:39,20260320_084535_ETHW-USDT-SWAP_long
+OPEN,ETHW-USDT-SWAP,0.0,0.2800550860927176,90600.0,,Первичный вход,long,True,2026-03-20 08:45:39,20260320_084535_ETHW-USDT-SWAP_long
+position_closed,ETHW-USDT-SWAP,0.0,0.0,90600.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:46:12,20260320_084535_ETHW-USDT-SWAP_long
+CLOSE,ETHW-USDT-SWAP,0.0,0.2764,90600.0,,Ошибка: первичный стоп не подтверждён на бирже,long,True,2026-03-20 08:46:12,20260320_084535_ETHW-USDT-SWAP_long
+position_opened,ETHW-USDT-SWAP,0.0,0.2769196008261817,90537.0,,,long,True,2026-03-20 08:46:35,20260320_084632_ETHW-USDT-SWAP_long
+OPEN,ETHW-USDT-SWAP,0.0,0.2769196008261817,90537.0,,Первичный вход,long,True,2026-03-20 08:46:35,20260320_084632_ETHW-USDT-SWAP_long
+position_closed,AUCTION-USDT-SWAP,0.0,0.0,10490.8,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 08:50:07,20260320_080544_AUCTION-USDT-SWAP_short
+CLOSE,AUCTION-USDT-SWAP,0.0,4.915,10490.8,,ATR стоп 2.0N,short,True,2026-03-20 08:50:07,20260320_080544_AUCTION-USDT-SWAP_short
+position_closed,SUI-USDT-SWAP,0.0,0.0,5160.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 08:59:21,20260320_083105_SUI-USDT-SWAP_long
+CLOSE,SUI-USDT-SWAP,0.0,0.97522,5160.0,,ATR стоп 2.0N,long,True,2026-03-20 08:59:21,20260320_083105_SUI-USDT-SWAP_long
+position_opened,KSM-USDT-SWAP,0.0,4.646548127853881,5475.0,,,long,True,2026-03-20 09:00:14,20260320_090011_KSM-USDT-SWAP_long
+OPEN,KSM-USDT-SWAP,0.0,4.646548127853881,5475.0,,Первичный вход,long,True,2026-03-20 09:00:14,20260320_090011_KSM-USDT-SWAP_long
+position_closed,KSM-USDT-SWAP,0.0,0.0,5475.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 09:03:10,20260320_090011_KSM-USDT-SWAP_long
+CLOSE,KSM-USDT-SWAP,0.0,4.622,5475.0,,ATR стоп 2.0N,long,True,2026-03-20 09:03:10,20260320_090011_KSM-USDT-SWAP_long
+position_opened,KSM-USDT-SWAP,0.0,4.63366032134125,5726.0,,,long,True,2026-03-20 09:03:33,20260320_090330_KSM-USDT-SWAP_long
+OPEN,KSM-USDT-SWAP,0.0,4.63366032134125,5726.0,,Первичный вход,long,True,2026-03-20 09:03:33,20260320_090330_KSM-USDT-SWAP_long
+position_opened,INJ-USDT-SWAP,0.0,3.183587434040987,8149.0,,,short,True,2026-03-20 09:05:17,20260320_090513_INJ-USDT-SWAP_short
+OPEN,INJ-USDT-SWAP,0.0,3.183587434040987,8149.0,,Первичный вход,short,True,2026-03-20 09:05:17,20260320_090513_INJ-USDT-SWAP_short
+position_opened,AXS-USDT-SWAP,0.0,1.2354000095675468,20904.0,,,short,True,2026-03-20 09:05:21,20260320_090518_AXS-USDT-SWAP_short
+OPEN,AXS-USDT-SWAP,0.0,1.2354000095675468,20904.0,,Первичный вход,short,True,2026-03-20 09:05:21,20260320_090518_AXS-USDT-SWAP_short
+position_opened,BCH-USDT-SWAP,0.0,461.7,55.17,,,short,True,2026-03-20 09:05:26,20260320_090522_BCH-USDT-SWAP_short
+OPEN,BCH-USDT-SWAP,0.0,461.7,55.17,,Первичный вход,short,True,2026-03-20 09:05:26,20260320_090522_BCH-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,20904.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:05:44,20260320_090518_AXS-USDT-SWAP_short
+CLOSE,AXS-USDT-SWAP,0.0,1.2354,20904.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:05:44,20260320_090518_AXS-USDT-SWAP_short
+position_opened,AXS-USDT-SWAP,0.0,1.2340000096791366,20663.0,,,short,True,2026-03-20 09:06:12,20260320_090608_AXS-USDT-SWAP_short
+OPEN,AXS-USDT-SWAP,0.0,1.2340000096791366,20663.0,,Первичный вход,short,True,2026-03-20 09:06:12,20260320_090608_AXS-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,20663.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:06:32,20260320_090608_AXS-USDT-SWAP_short
+CLOSE,AXS-USDT-SWAP,0.0,1.234,20663.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:06:32,20260320_090608_AXS-USDT-SWAP_short
+position_opened,AXS-USDT-SWAP,0.0,1.2324000193582734,20663.0,,,short,True,2026-03-20 09:06:53,20260320_090649_AXS-USDT-SWAP_short
+OPEN,AXS-USDT-SWAP,0.0,1.2324000193582734,20663.0,,Первичный вход,short,True,2026-03-20 09:06:53,20260320_090649_AXS-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,20663.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:07:12,20260320_090649_AXS-USDT-SWAP_short
+CLOSE,AXS-USDT-SWAP,0.0,1.2324,20663.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:07:12,20260320_090649_AXS-USDT-SWAP_short
+position_opened,AXS-USDT-SWAP,0.0,1.2334000096791367,20663.0,,,short,True,2026-03-20 09:07:34,20260320_090730_AXS-USDT-SWAP_short
+OPEN,AXS-USDT-SWAP,0.0,1.2334000096791367,20663.0,,Первичный вход,short,True,2026-03-20 09:07:34,20260320_090730_AXS-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,20663.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:07:55,20260320_090730_AXS-USDT-SWAP_short
+CLOSE,AXS-USDT-SWAP,0.0,1.2334,20663.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:07:55,20260320_090730_AXS-USDT-SWAP_short
+position_opened,AXS-USDT-SWAP,0.0,1.231915120391454,20641.0,,,short,True,2026-03-20 09:08:17,20260320_090813_AXS-USDT-SWAP_short
+OPEN,AXS-USDT-SWAP,0.0,1.231915120391454,20641.0,,Первичный вход,short,True,2026-03-20 09:08:17,20260320_090813_AXS-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,20641.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:08:36,20260320_090813_AXS-USDT-SWAP_short
+CLOSE,AXS-USDT-SWAP,0.0,1.2318,20641.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:08:36,20260320_090813_AXS-USDT-SWAP_short
+position_opened,AXS-USDT-SWAP,0.0,1.2319795068068409,20641.0,,,short,True,2026-03-20 09:08:57,20260320_090854_AXS-USDT-SWAP_short
+OPEN,AXS-USDT-SWAP,0.0,1.2319795068068409,20641.0,,Первичный вход,short,True,2026-03-20 09:08:57,20260320_090854_AXS-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,20641.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:09:19,20260320_090854_AXS-USDT-SWAP_short
+CLOSE,AXS-USDT-SWAP,0.0,1.2318,20641.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:09:19,20260320_090854_AXS-USDT-SWAP_short
+position_opened,AXS-USDT-SWAP,0.0,1.232819577539848,20641.0,,,short,True,2026-03-20 09:09:42,20260320_090938_AXS-USDT-SWAP_short
+OPEN,AXS-USDT-SWAP,0.0,1.232819577539848,20641.0,,Первичный вход,short,True,2026-03-20 09:09:42,20260320_090938_AXS-USDT-SWAP_short
+position_closed,AXS-USDT-SWAP,0.0,0.0,20641.0,ошибка:_первичный_стоп_не_подтверждён_на_бирже,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:10:00,20260320_090938_AXS-USDT-SWAP_short
+CLOSE,AXS-USDT-SWAP,0.0,1.2325,20641.0,,Ошибка: первичный стоп не подтверждён на бирже,short,True,2026-03-20 09:10:00,20260320_090938_AXS-USDT-SWAP_short
+position_opened,YFI-USDT-SWAP,0.0,2720.1144354148846,9352.0,,,short,True,2026-03-20 09:10:22,20260320_091018_YFI-USDT-SWAP_short
+OPEN,YFI-USDT-SWAP,0.0,2720.1144354148846,9352.0,,Первичный вход,short,True,2026-03-20 09:10:22,20260320_091018_YFI-USDT-SWAP_short
+position_closed,ETHW-USDT-SWAP,0.0,0.0,90537.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 09:28:39,20260320_084632_ETHW-USDT-SWAP_long
+CLOSE,ETHW-USDT-SWAP,0.0,0.2741,90537.0,,ATR стоп 2.0N,long,True,2026-03-20 09:28:39,20260320_084632_ETHW-USDT-SWAP_long
+position_closed,ETC-USDT-SWAP,0.0,0.0,30.14,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 09:30:43,20260320_082528_ETC-USDT-SWAP_long
+CLOSE,ETC-USDT-SWAP,0.0,8.49,30.14,,ATR стоп 2.0N,long,True,2026-03-20 09:30:43,20260320_082528_ETC-USDT-SWAP_long
+position_closed,BCH-USDT-SWAP,0.0,0.0,55.17,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 09:44:47,20260320_090522_BCH-USDT-SWAP_short
+CLOSE,BCH-USDT-SWAP,0.0,462.3,55.17,,ATR стоп 2.0N,short,True,2026-03-20 09:44:47,20260320_090522_BCH-USDT-SWAP_short
+position_opened,LINK-USDT-SWAP,0.0,9.078,284.58,,,short,True,2026-03-20 09:45:36,20260320_094532_LINK-USDT-SWAP_short
+OPEN,LINK-USDT-SWAP,0.0,9.078,284.58,,Первичный вход,short,True,2026-03-20 09:45:36,20260320_094532_LINK-USDT-SWAP_short
+position_opened,2Z-USDT-SWAP,0.0,0.0772,3339.0,,,short,True,2026-03-20 09:45:40,20260320_094537_2Z-USDT-SWAP_short
+OPEN,2Z-USDT-SWAP,0.0,0.0772,3339.0,,Первичный вход,short,True,2026-03-20 09:45:40,20260320_094537_2Z-USDT-SWAP_short
+position_closed,KSM-USDT-SWAP,0.0,0.0,11452.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 09:52:25,20260320_090330_KSM-USDT-SWAP_long
+CLOSE,KSM-USDT-SWAP,0.0,4.624,11452.0,,ATR стоп 2.0N,long,True,2026-03-20 09:52:25,20260320_090330_KSM-USDT-SWAP_long
+position_opened,BTC-USDT-SWAP,0.0,70292.03516483516,3.64,,,short,True,2026-03-20 10:05:26,20260320_100523_BTC-USDT-SWAP_short
+OPEN,BTC-USDT-SWAP,0.0,70292.03516483516,3.64,,Первичный вход,short,True,2026-03-20 10:05:26,20260320_100523_BTC-USDT-SWAP_short
+position_opened,SOL-USDT-SWAP,0.0,88.64,28.59,,,short,True,2026-03-20 10:05:31,20260320_100528_SOL-USDT-SWAP_short
+OPEN,SOL-USDT-SWAP,0.0,88.64,28.59,,Первичный вход,short,True,2026-03-20 10:05:31,20260320_100528_SOL-USDT-SWAP_short
+position_opened,ETHW-USDT-SWAP,0.0,0.2720760415759689,91880.0,,,short,True,2026-03-20 10:05:36,20260320_100533_ETHW-USDT-SWAP_short
+OPEN,ETHW-USDT-SWAP,0.0,0.2720760415759689,91880.0,,Первичный вход,short,True,2026-03-20 10:05:36,20260320_100533_ETHW-USDT-SWAP_short
+position_opened,LINK-USDT-SWAP,0.0,9.059,283.72,,,short,True,2026-03-20 10:09:01,20260320_100858_LINK-USDT-SWAP_short
+OPEN,LINK-USDT-SWAP,0.0,9.059,283.72,,Первичный вход,short,True,2026-03-20 10:09:01,20260320_100858_LINK-USDT-SWAP_short
+position_opened,ETHW-USDT-SWAP,0.0,0.2726241082633219,94030.0,,,short,True,2026-03-20 10:09:06,20260320_100902_ETHW-USDT-SWAP_short
+OPEN,ETHW-USDT-SWAP,0.0,0.2726241082633219,94030.0,,Первичный вход,short,True,2026-03-20 10:09:06,20260320_100902_ETHW-USDT-SWAP_short
+position_opened,ADA-USDT-SWAP,0.0,0.2673637711864409,94.4,,,short,True,2026-03-20 10:15:23,20260320_101520_ADA-USDT-SWAP_short
+OPEN,ADA-USDT-SWAP,0.0,0.2673637711864409,94.4,,Первичный вход,short,True,2026-03-20 10:15:23,20260320_101520_ADA-USDT-SWAP_short
+position_opened,ETHFI-USDT-SWAP,0.0,0.5356247171824975,4685.0,,,short,True,2026-03-20 10:15:28,20260320_101524_ETHFI-USDT-SWAP_short
+OPEN,ETHFI-USDT-SWAP,0.0,0.5356247171824975,4685.0,,Первичный вход,short,True,2026-03-20 10:15:28,20260320_101524_ETHFI-USDT-SWAP_short
+position_opened,FLOKI-USDT-SWAP,0.0,2.992e-05,830.0,,,short,True,2026-03-20 10:15:32,20260320_101529_FLOKI-USDT-SWAP_short
+OPEN,FLOKI-USDT-SWAP,0.0,2.992e-05,830.0,,Первичный вход,short,True,2026-03-20 10:15:32,20260320_101529_FLOKI-USDT-SWAP_short
+position_closed,LINK-USDT-SWAP,0.0,0.0,851.16,канальный_выход_10_свечей,Канальный выход 10 свечей,short,True,2026-03-20 10:22:36,20260320_100858_LINK-USDT-SWAP_short
+CLOSE,LINK-USDT-SWAP,0.0,9.072,851.16,,Канальный выход 10 свечей,short,True,2026-03-20 10:22:36,20260320_100858_LINK-USDT-SWAP_short
+position_closed,BTC-USDT-SWAP,0.0,0.0,3.64,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 10:23:39,20260320_100523_BTC-USDT-SWAP_short
+CLOSE,BTC-USDT-SWAP,0.0,70481.3,3.64,,ATR стоп 2.0N,short,True,2026-03-20 10:23:39,20260320_100523_BTC-USDT-SWAP_short
+position_closed,ADA-USDT-SWAP,0.0,0.0,94.4,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 10:23:50,20260320_101520_ADA-USDT-SWAP_short
+CLOSE,ADA-USDT-SWAP,0.0,0.2688,94.4,,ATR стоп 2.0N,short,True,2026-03-20 10:23:50,20260320_101520_ADA-USDT-SWAP_short
+position_opened,IMX-USDT-SWAP,0.0,0.1605063770555492,15446.0,,,short,True,2026-03-20 10:26:03,20260320_102559_IMX-USDT-SWAP_short
+OPEN,IMX-USDT-SWAP,0.0,0.1605063770555492,15446.0,,Первичный вход,short,True,2026-03-20 10:26:03,20260320_102559_IMX-USDT-SWAP_short
+position_closed,FLOKI-USDT-SWAP,0.0,0.0,830.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 10:30:37,20260320_101529_FLOKI-USDT-SWAP_short
+CLOSE,FLOKI-USDT-SWAP,0.0,3e-05,830.0,,ATR стоп 2.0N,short,True,2026-03-20 10:30:37,20260320_101529_FLOKI-USDT-SWAP_short
+position_opened,YFI-USDT-SWAP,0.0,2737.322584608511,8953.0,,,long,True,2026-03-20 10:35:39,20260320_103536_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2737.322584608511,8953.0,,Первичный вход,long,True,2026-03-20 10:35:39,20260320_103536_YFI-USDT-SWAP_long
+position_opened,BCH-USDT-SWAP,0.0,464.59438444924405,50.93,,,long,True,2026-03-20 10:40:24,20260320_104021_BCH-USDT-SWAP_long
+OPEN,BCH-USDT-SWAP,0.0,464.59438444924405,50.93,,Первичный вход,long,True,2026-03-20 10:40:24,20260320_104021_BCH-USDT-SWAP_long
+position_closed,ETHFI-USDT-SWAP,0.0,0.0,9370.0,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 10:44:44,20260320_101524_ETHFI-USDT-SWAP_short
+CLOSE,ETHFI-USDT-SWAP,0.0,0.5344,9370.0,,ATR стоп 2.0N,short,True,2026-03-20 10:44:44,20260320_101524_ETHFI-USDT-SWAP_short
+position_closed,IMX-USDT-SWAP,0.0,0.0,50301.0,канальный_выход_20_свечей,Канальный выход 20 свечей,short,True,2026-03-20 10:44:46,20260320_102559_IMX-USDT-SWAP_short
+CLOSE,IMX-USDT-SWAP,0.0,0.1647,50301.0,,Канальный выход 20 свечей,short,True,2026-03-20 10:44:46,20260320_102559_IMX-USDT-SWAP_short
+position_opened,LINK-USDT-SWAP,0.0,9.12,274.57,,,long,True,2026-03-20 10:45:25,20260320_104521_LINK-USDT-SWAP_long
+OPEN,LINK-USDT-SWAP,0.0,9.12,274.57,,Первичный вход,long,True,2026-03-20 10:45:25,20260320_104521_LINK-USDT-SWAP_long
+position_opened,ARB-USDT-SWAP,0.0,0.1003,2436.9,,,short,True,2026-03-20 10:50:35,20260320_105031_ARB-USDT-SWAP_short
+OPEN,ARB-USDT-SWAP,0.0,0.1003,2436.9,,Первичный вход,short,True,2026-03-20 10:50:35,20260320_105031_ARB-USDT-SWAP_short
+position_closed,ARB-USDT-SWAP,0.0,0.0,2436.9,stopout_cooldown,ATR стоп 2.0N,short,True,2026-03-20 10:54:56,20260320_105031_ARB-USDT-SWAP_short
+CLOSE,ARB-USDT-SWAP,0.0,0.1005,2436.9,,ATR стоп 2.0N,short,True,2026-03-20 10:54:56,20260320_105031_ARB-USDT-SWAP_short
+position_closed,INJ-USDT-SWAP,0.0,0.0,32596.0,канальный_выход_10_свечей,Канальный выход 10 свечей,short,True,2026-03-20 10:59:49,20260320_090513_INJ-USDT-SWAP_short
+CLOSE,INJ-USDT-SWAP,0.0,3.139,32596.0,,Канальный выход 10 свечей,short,True,2026-03-20 10:59:49,20260320_090513_INJ-USDT-SWAP_short
+position_opened,USDC-USDT-SWAP,0.0,1.00009,252.0,,,long,True,2026-03-20 11:05:25,20260320_110521_USDC-USDT-SWAP_long
+OPEN,USDC-USDT-SWAP,0.0,1.00009,252.0,,Первичный вход,long,True,2026-03-20 11:05:25,20260320_110521_USDC-USDT-SWAP_long
+position_opened,BTC-USDT-SWAP,0.0,71151.35457142857,3.5,,,long,True,2026-03-20 11:10:21,20260320_111018_BTC-USDT-SWAP_long
+OPEN,BTC-USDT-SWAP,0.0,71151.35457142857,3.5,,Первичный вход,long,True,2026-03-20 11:10:21,20260320_111018_BTC-USDT-SWAP_long
+OPEN,AAVE-USDT-SWAP,0.0,112.79,218.5,,Первичный вход,long,True,2026-03-20 11:10:25,20260320_111022_AAVE-USDT-SWAP_long
+position_opened,AAVE-USDT-SWAP,0.0,112.79,218.5,,,long,True,2026-03-20 11:10:26,20260320_111022_AAVE-USDT-SWAP_long
+position_opened,YFI-USDT-SWAP,0.0,2743.787934491979,8976.0,,,long,True,2026-03-20 11:15:22,20260320_111518_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2743.787934491979,8976.0,,Первичный вход,long,True,2026-03-20 11:15:22,20260320_111518_YFI-USDT-SWAP_long
+position_opened,CFX-USDT-SWAP,0.0,0.0645896377502384,3671.5,,,short,True,2026-03-20 11:20:20,20260320_112016_CFX-USDT-SWAP_short
+OPEN,CFX-USDT-SWAP,0.0,0.0645896377502384,3671.5,,Первичный вход,short,True,2026-03-20 11:20:20,20260320_112016_CFX-USDT-SWAP_short
+position_opened,COMP-USDT-SWAP,0.0,19.28,1215.1,,,long,True,2026-03-20 11:20:24,20260320_112021_COMP-USDT-SWAP_long
+OPEN,COMP-USDT-SWAP,0.0,19.28,1215.1,,Первичный вход,long,True,2026-03-20 11:20:24,20260320_112021_COMP-USDT-SWAP_long
+position_closed,AAVE-USDT-SWAP,0.0,0.0,437.0,stopout_cooldown,ATR стоп 2.0N,long,True,2026-03-20 11:27:34,20260320_111022_AAVE-USDT-SWAP_long
+CLOSE,AAVE-USDT-SWAP,0.0,112.64,437.0,,ATR стоп 2.0N,long,True,2026-03-20 11:27:34,20260320_111022_AAVE-USDT-SWAP_long

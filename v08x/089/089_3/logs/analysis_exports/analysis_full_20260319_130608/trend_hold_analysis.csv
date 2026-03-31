@@ -1,0 +1,2 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,канальный_выход_10_свечей,DONCHIAN_ACTIVE,COMP-USDT-SWAP,-1.405941,-1.34167,long,Turtle 20,20260319_124520_COMP-USDT-SWAP_long,TREND_HOLD,1.047904,3

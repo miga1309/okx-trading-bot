@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LINK-USDT-SWAP\nСторона: LONG\nЦена входа: 8.951000\nЦена выхода: 8.914000\nPnL: -9.2877\nPnL %: -0.41%\nЮнитов: 1\nПричина: Ротация под новый сигнал BCH-USDT-SWAP",
+  "id": "7532b1b320694e0ba3d722e42bb1a814",
+  "created_ts": 1774582074.1283305,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,2 @@
+atr,avg_px,close_pending,entry_time,inst_id,last_px,next_unit_level,peak_pnl_pct,peak_unrealized_pnl,pnl_pct,position_age_sec,qty,side,stop_price,trade_id,units,unrealized_pnl
+0.0008250000000000063,0.2774426925397149,False,2026-03-23 14:13:13,LQTY-USDT-SWAP,0.2892,0.2778676925397149,16.173402143014513,595.0615199999831,12.496967234374793,0,39784.0,long,0.2864,20260323_141312_LQTY-USDT-SWAP_long,4,459.7959199999826

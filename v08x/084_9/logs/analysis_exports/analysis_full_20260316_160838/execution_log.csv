@@ -1,0 +1,13 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_closed,ETC-USDT-SWAP,0.0,0.0,16.53,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 16:07:02,20260316_160626_ETC-USDT-SWAP_short
+CLOSE,ETC-USDT-SWAP,0.0,9.05,16.53,,Локальный защитный выход 2.0N,short,True,2026-03-16 16:07:02,20260316_160626_ETC-USDT-SWAP_short
+position_closed,CRO-USDT-SWAP,0.0,0.0,9584.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 16:07:03,20260316_160626_CRO-USDT-SWAP_short
+CLOSE,CRO-USDT-SWAP,0.0,0.10346,9584.0,,Локальный защитный выход 2.0N,short,True,2026-03-16 16:07:03,20260316_160626_CRO-USDT-SWAP_short
+position_closed,BREV-USDT-SWAP,0.0,0.0,120000.0,защита_тренда:_откат_от_пика_21695003333.33r_→_3695003333.33r,Защита тренда: откат от пика 21695003333.33R → 3695003333.33R,long,True,2026-03-16 16:07:05,20260316_160626_BREV-USDT-SWAP_long
+CLOSE,BREV-USDT-SWAP,0.0,1.0126,120000.0,,Защита тренда: откат от пика 21695003333.33R → 3695003333.33R,long,True,2026-03-16 16:07:05,20260316_160626_BREV-USDT-SWAP_long
+position_closed,ETC-USDT-SWAP,0.0,0.0,0.08,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 16:07:53,20260316_160711_ETC-USDT-SWAP_short
+CLOSE,ETC-USDT-SWAP,0.0,9.09,0.08,,Локальный защитный выход 2.0N,short,True,2026-03-16 16:07:53,20260316_160711_ETC-USDT-SWAP_short
+position_closed,CRO-USDT-SWAP,0.0,0.0,9584.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 16:07:54,20260316_160711_CRO-USDT-SWAP_short
+CLOSE,CRO-USDT-SWAP,0.0,0.10357,9584.0,,Локальный защитный выход 2.0N,short,True,2026-03-16 16:07:54,20260316_160711_CRO-USDT-SWAP_short
+position_closed,BREV-USDT-SWAP,0.0,0.0,120000.0,защита_тренда:_откат_от_пика_22295003333.33r_→_3695003333.33r,Защита тренда: откат от пика 22295003333.33R → 3695003333.33R,long,True,2026-03-16 16:07:56,20260316_160711_BREV-USDT-SWAP_long
+CLOSE,BREV-USDT-SWAP,0.0,1.0126,120000.0,,Защита тренда: откат от пика 22295003333.33R → 3695003333.33R,long,True,2026-03-16 16:07:56,20260316_160711_BREV-USDT-SWAP_long

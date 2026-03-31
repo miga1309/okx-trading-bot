@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: LTC-USDT-SWAP\nЦена входа: 55.930000\nQty: 46.1\nATR: 0.064500\nСтоп: 56.059000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "c325501d8e8d445cb23861e8d8c889b3",
+  "created_ts": 1774391937.4443955,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

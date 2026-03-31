@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: TRX-USDT-SWAP\nЦена входа: 0.317500\nQty: 7.75\nATR: 0.000285\nСтоп: 0.318070\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "306e3934856e4a5a9fcdbc05fe5a0c6b",
+  "created_ts": 1774213269.957661,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

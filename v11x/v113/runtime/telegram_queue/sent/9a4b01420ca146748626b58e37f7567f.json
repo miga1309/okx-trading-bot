@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "⚠️ Биржа отклонила ордер\n\nИнструмент: KSM-USDT-SWAP\nКод: 50001\nПричина: Service temporarily unavailable. Please try again later.",
+  "id": "9a4b01420ca146748626b58e37f7567f",
+  "created_ts": 1774582668.730836,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

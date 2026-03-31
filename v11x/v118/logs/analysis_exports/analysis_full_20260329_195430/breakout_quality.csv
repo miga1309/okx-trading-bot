@@ -1,0 +1,24 @@
+atr,body_atr,body_to_range_ratio,breakout_buffer_atr_actual,breakout_level,channel_width_atr,close_beyond_channel_atr,distance_from_breakout_level_atr,donchian_high,donchian_low,entry_mode,entry_price,event,fresh_breakout_true_false,inst_id,side,system_name,timeframe,ts
+0.00135,0.740741,1.0,0.740741,0.845,11.111111,-0.740741,-0.740741,0.86,0.845,minimal,0.846,breakout_quality,True,LIT-USDT-SWAP,short,Turtle 55,5m,2026-03-29 16:15:33
+0.0026,0.769231,1.0,0.769231,2.789,14.615385,-0.769231,-0.769231,2.827,2.789,minimal,2.791,breakout_quality,True,INJ-USDT-SWAP,short,Turtle 55,5m,2026-03-29 16:15:34
+4.5e-05,0.444444,1.0,1.333333,0.05585,34.888889,0.444444,1.333333,0.05742,0.05585,minimal,0.05579,breakout_quality,True,MAGIC-USDT-SWAP,short,Turtle 55,5m,2026-03-29 16:15:36
+0.00012,0.0,0.0,0.833333,0.1496,15.0,0.833333,0.833333,0.1514,0.1496,minimal,0.1495,breakout_quality,True,THETA-USDT-SWAP,short,Turtle 55,5m,2026-03-29 17:06:41
+0.063,0.952381,1.0,0.47619,53.57,6.984127,0.634921,0.47619,54.01,53.57,minimal,53.54,breakout_quality,True,LTC-USDT-SWAP,short,Turtle 55,5m,2026-03-29 17:08:36
+0.00115,0.0,0.0,1.73913,1.638,16.521739,1.73913,1.73913,1.657,1.638,minimal,1.636,breakout_quality,True,ATOM-USDT-SWAP,short,Turtle 55,5m,2026-03-29 17:10:27
+0.00011,0.909091,1.0,3.636364,0.1354,34.545455,3.636364,3.636364,0.1392,0.1354,minimal,0.135,breakout_quality,True,MET-USDT-SWAP,short,Turtle 55,5m,2026-03-29 17:12:44
+8.1e-05,2.962963,1.0,3.45679,0.05577,14.444444,-3.45679,-3.45679,0.05694,0.05577,minimal,0.05605,breakout_quality,True,MAGIC-USDT-SWAP,short,Turtle 55,5m,2026-03-29 17:15:35
+0.024,0.833333,1.0,0.833333,17.98,8.333333,0.833333,0.833333,18.18,17.98,minimal,17.96,breakout_quality,True,COMP-USDT-SWAP,short,Turtle 55,5m,2026-03-29 17:33:08
+0.000325,1.846154,1.0,1.846154,0.2682,5.230769,0.923077,1.846154,0.2682,0.2665,minimal,0.2688,breakout_quality,True,LQTY-USDT-SWAP,long,Turtle 20,5m,2026-03-29 17:35:57
+0.00645,0.930233,1.0,0.620155,4.401,5.736434,-0.620155,-0.620155,4.401,4.364,minimal,4.397,breakout_quality,True,AUCTION-USDT-SWAP,long,Turtle 20,5m,2026-03-29 17:41:28
+0.000105,2.857143,1.0,0.952381,0.1502,8.571429,0.952381,0.952381,0.1502,0.1493,minimal,0.1503,breakout_quality,True,THETA-USDT-SWAP,long,Turtle 20,5m,2026-03-29 18:06:54
+0.177,2.033898,0.765957,1.129944,81.7,5.988701,0.847458,1.129944,82.76,81.7,minimal,81.5,breakout_quality,True,SOL-USDT-SWAP,short,Turtle 55,5m,2026-03-29 18:30:55
+0.00016,3.125,1.0,5.0,0.3418,11.25,5.0,5.0,0.3436,0.3418,minimal,0.341,breakout_quality,True,XTZ-USDT-SWAP,short,Turtle 20,5m,2026-03-29 18:30:56
+0.01305,1.685824,0.785714,0.383142,8.415,8.199234,0.766284,0.383142,8.522,8.415,minimal,8.41,breakout_quality,True,LINK-USDT-SWAP,short,Turtle 55,5m,2026-03-29 18:33:48
+0.062,2.096774,1.0,1.129032,53.53,6.612903,1.612903,1.129032,53.94,53.53,minimal,53.46,breakout_quality,True,LTC-USDT-SWAP,short,Turtle 55,5m,2026-03-29 18:33:50
+0.001515,0.990099,1.0,0.594059,1.1557,4.884488,0.19802,-0.594059,1.1631,1.1557,minimal,1.1566,breakout_quality,True,NEAR-USDT-SWAP,short,Turtle 20,5m,2026-03-29 18:33:52
+0.000325,0.0,0.0,0.307692,0.269,7.692308,0.307692,0.307692,0.269,0.2665,minimal,0.2691,breakout_quality,True,LQTY-USDT-SWAP,long,Turtle 20,5m,2026-03-29 18:33:53
+0.00104,1.538462,0.842105,0.673077,0.4573,2.788462,0.961538,0.673077,0.4573,0.4544,minimal,0.458,breakout_quality,True,ETHFI-USDT-SWAP,long,Turtle 20,5m,2026-03-29 19:07:20
+8.2e-05,0.0,0.0,0.609756,0.054,3.292683,-0.609756,-0.609756,0.054,0.05373,minimal,0.05395,breakout_quality,True,IOTA-USDT-SWAP,long,Turtle 20,5m,2026-03-29 19:10:16
+0.01095,2.83105,1.0,0.365297,8.446,4.292237,0.639269,0.365297,8.446,8.399,minimal,8.45,breakout_quality,True,LINK-USDT-SWAP,long,Turtle 20,5m,2026-03-29 19:23:03
+2.5e-05,0.0,0.0,0.4,0.05555,36.4,0.4,0.4,0.05646,0.05555,minimal,0.05554,breakout_quality,True,MAGIC-USDT-SWAP,short,Turtle 55,5m,2026-03-29 19:46:08
+0.00125,0.8,0.333333,0.8,0.843,9.6,0.8,0.8,0.855,0.843,minimal,0.842,breakout_quality,True,LIT-USDT-SWAP,short,Turtle 55,5m,2026-03-29 19:51:20

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ETHFI-USDT-SWAP\nСторона: LONG\nЦена входа: 0.462654\nЦена выхода: 0.462200\nPnL: -5.1338\nPnL %: -0.10%\nЮнитов: 2\nПричина: Синхронизация: позиция отсутствует на бирже",
+  "id": "a56f5e0cc470480e9de4bbff8e027fdc",
+  "created_ts": 1774754894.5506802,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

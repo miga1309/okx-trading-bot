@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: ENA-USDT-SWAP\nЦена входа: 0.092200\nQty: 2727.0\nATR: 0.002535\nBootstrap-stop: 0.060800\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "01351b27cd074bbc9a990aeaf0cb08a2",
+  "created_ts": 1774936856.2700725,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

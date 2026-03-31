@@ -1,0 +1,3 @@
+atr,body_atr,body_to_range_ratio,breakout_buffer_atr_actual,breakout_level,channel_width_atr,close_beyond_channel_atr,distance_from_breakout_level_atr,donchian_high,donchian_low,entry_mode,entry_price,event,fresh_breakout_true_false,inst_id,side,system_name,timeframe,ts
+0.000815,3.803681,0.62,1.532194,0.0836,9.693252,0.613497,1.532194,0.0836,0.0757,minimal,0.08484874,breakout_quality,True,CELO-USDT-SWAP,long,Turtle 55,5m,2026-03-16 17:13:14
+9.2e-05,0.652174,0.666667,0.217391,0.02968,5.0,0.434783,-0.217391,0.02968,0.02922,minimal,0.02966,breakout_quality,True,LRC-USDT-SWAP,long,Turtle 20,5m,2026-03-16 17:13:17

@@ -1,0 +1,9 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,COMP-USDT-SWAP,0.0,18.52,1615.4,,,long,True,2026-03-19 12:45:23,20260319_124520_COMP-USDT-SWAP_long
+OPEN,COMP-USDT-SWAP,0.0,18.52,1615.4,,Первичный вход,long,True,2026-03-19 12:45:23,20260319_124520_COMP-USDT-SWAP_long
+position_opened,YFI-USDT-SWAP,0.0,2759.8339198073895,10799.0,,,long,True,2026-03-19 12:50:11,20260319_125009_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2759.8339198073895,10799.0,,Первичный вход,long,True,2026-03-19 12:50:11,20260319_125009_YFI-USDT-SWAP_long
+position_closed,COMP-USDT-SWAP,0.0,0.0,4846.2,канальный_выход_10_свечей,Канальный выход 10 свечей,long,True,2026-03-19 13:03:03,20260319_124520_COMP-USDT-SWAP_long
+CLOSE,COMP-USDT-SWAP,0.0,18.23,4846.2,,Канальный выход 10 свечей,long,True,2026-03-19 13:03:03,20260319_124520_COMP-USDT-SWAP_long
+position_opened,LTC-USDT-SWAP,0.0,57.28735294117647,3.4,,,long,True,2026-03-19 13:05:10,20260319_130507_LTC-USDT-SWAP_long
+OPEN,LTC-USDT-SWAP,0.0,57.28735294117647,3.4,,Первичный вход,long,True,2026-03-19 13:05:10,20260319_130507_LTC-USDT-SWAP_long

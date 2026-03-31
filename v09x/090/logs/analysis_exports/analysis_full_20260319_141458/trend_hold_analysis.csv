@@ -1,0 +1,3 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,stopout_cooldown,DONCHIAN_ACTIVE,XAG-USDT-SWAP,0.0,0.0,short,Turtle 20,20260319_141015_XAG-USDT-SWAP_short,TREND_ACTIVE,0.0,3
+False,stopout_cooldown,DONCHIAN_ACTIVE,NEO-USDT-SWAP,0.0,0.0,short,Turtle 20,20260319_141010_NEO-USDT-SWAP_short,TREND_ACTIVE,0.0,2

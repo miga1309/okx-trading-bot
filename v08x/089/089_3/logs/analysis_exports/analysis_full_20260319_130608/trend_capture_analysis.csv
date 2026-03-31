@@ -1,0 +1,2 @@
+early_exit_flag,early_exit_gap_pct,exit_efficiency,exit_reason,hybrid_stop_mode,inst_id,mfe_pct,realized_pnl_pct,realized_r,side,system_name,trade_id,trend_capture_ratio,trend_move_r,trend_strength_r,turtle_exit_period,units
+False,1.889849,-12.531376,канальный_выход_10_свечей,DONCHIAN_ACTIVE,COMP-USDT-SWAP,1.889849,-2.535554033419861,-1.405941,long,Turtle 20,20260319_124520_COMP-USDT-SWAP_long,-1.34167,1.047904,1.047904,10,3

@@ -1,0 +1,5 @@
+inst_id,pyramid_restored,restored_fields,side,stop_restored,system_name,timestamp,trade_id,units_restored
+SAND-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-29 15:40:17,20260329_152647_SAND-USDT-SWAP_short,2
+OP-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-29 15:42:27,20260329_153717_OP-USDT-SWAP_short,2
+INJ-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 55,2026-03-29 15:42:27,20260329_153715_INJ-USDT-SWAP_short,2
+ZIL-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 55,2026-03-29 15:49:30,20260329_153713_ZIL-USDT-SWAP_short,2

@@ -1,0 +1,24 @@
+{
+  "positions": {},
+  "closed_trades": [],
+  "balance_history": [
+    {
+      "time": "2026-03-22 17:11:10",
+      "balance_total": 83669.00327283984,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:11:25",
+      "balance_total": 83669.00327283984,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:11:41",
+      "balance_total": 83669.00327283984,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    }
+  ]
+}

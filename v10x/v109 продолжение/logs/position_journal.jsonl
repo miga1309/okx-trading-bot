@@ -1,0 +1,2 @@
+{"ts": "2026-03-25 19:12:15", "event": "session_start", "version": "v109", "timeframe": "5m", "account": "demo"}
+{"ts": "2026-03-25 19:12:55", "event": "session_stop", "open_positions": 0, "closed_trades": 0}

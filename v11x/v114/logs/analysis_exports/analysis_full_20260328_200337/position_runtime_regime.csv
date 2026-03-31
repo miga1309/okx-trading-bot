@@ -1,0 +1,4 @@
+avg_px,hybrid_stop_mode,inst_id,last_px,peak_pnl_pct,pnl_pct,position_age_sec,qty,reconciler_interval_sec,side,sync_status,system_name,trade_id,trend_hold_state,turtle_exit_period
+0.3125,DONCHIAN_ACTIVE,LDO-USDT-SWAP,0.3139,0.19199999999997885,1.3440000000000119,0,9282.0,10,long,SYNC_OK,Turtle 55,20260328_193747_LDO-USDT-SWAP_long,,20
+0.0576286054093215,ATR_INITIAL,CFX-USDT-SWAP,0.05759,0.0,-0.2009700341382181,0,4969.2,10,long,SYNC_OK,Turtle 55,20260328_200039_CFX-USDT-SWAP_long,,20
+0.1052,ATR_INITIAL,OP-USDT-SWAP,0.10514,0.0,-0.2851711026616183,0,26851.0,10,long,SYNC_OK,Turtle 20,20260328_200242_OP-USDT-SWAP_long,,10

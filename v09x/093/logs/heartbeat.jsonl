@@ -1,0 +1,12 @@
+{"time": "2026-03-19 23:02:41", "component": "crash", "status": "sys_excepthook", "error": "'NoneType' object has no attribute 'setText'"}
+{"time": "2026-03-19 23:03:33", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-19 23:04:33", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-19 23:05:33", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-19 23:06:33", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-19 23:07:33", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-19 23:08:33", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-19 23:09:33", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-19 23:10:33", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-19 23:11:33", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-19 23:12:17", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-19 23:12:17", "component": "app", "status": "shutdown", "exit_code": 0}

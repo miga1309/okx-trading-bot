@@ -1,0 +1,5 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,OP-USDT-SWAP,0.0,0.1248972291647093,21286.0,,,long,True,2026-03-20 12:55:05,20260320_125503_OP-USDT-SWAP_long
+OPEN,OP-USDT-SWAP,0.0,0.1248972291647093,21286.0,,Первичный вход,long,True,2026-03-20 12:55:05,20260320_125503_OP-USDT-SWAP_long
+position_opened,YFI-USDT-SWAP,0.0,2749.9158312447785,9576.0,,,long,True,2026-03-20 12:59:01,20260320_125859_YFI-USDT-SWAP_long
+OPEN,YFI-USDT-SWAP,0.0,2749.9158312447785,9576.0,,Первичный вход,long,True,2026-03-20 12:59:01,20260320_125859_YFI-USDT-SWAP_long

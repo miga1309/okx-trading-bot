@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: ARB-USDT-SWAP\nЦена входа: 0.097200\nQty: 2321.2\nATR: 0.000140\nСтоп: 0.097480\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "206c8a9088e1464cb8b30986a51d0faf",
+  "created_ts": 1774408768.9287121,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

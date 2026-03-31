@@ -1,0 +1,2 @@
+atr,avg_entry_price,event_type,inst_id,mae_pct,mfe_pct,next_unit_level,pnl_pct,pnl_usd,position_age_sec,price,qty_total,reason,reason_code,side,stop_price,timestamp,trade_id,units
+0.0,0.0,session_start,,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,,unknown,,0.0,2026-03-23 20:44:09,,0

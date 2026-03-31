@@ -1,0 +1,12 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,защита_тренда:_откат_от_пика_997.38r_→_102.38r,DONCHIAN_ACTIVE,BREV-USDT-SWAP,102.375083,1.0,long,Turtle 20,20260316_171419_BREV-USDT-SWAP_long,TREND_HOLD,102.375083,1
+False,локальный_защитный_выход_2.0n,DONCHIAN_ACTIVE,CRO-USDT-SWAP,-8.591105,-7.863971,short,Turtle 20,20260316_171418_CRO-USDT-SWAP_short,TREND_HOLD,1.092464,1
+False,локальный_защитный_выход_2.0n,ATR_INITIAL,TSLA-USDT-SWAP,-7.845118,-20.042404,short,Turtle 20,20260316_171418_TSLA-USDT-SWAP_short,INITIAL_RISK,0.391426,1
+False,локальный_защитный_выход_2.0n,ATR_INITIAL,CELO-USDT-SWAP,0.0,0.0,long,Turtle 20,20260316_171418_CELO-USDT-SWAP_long,INITIAL_RISK,0.0,1
+False,защита_тренда:_откат_от_пика_984.88r_→_102.38r,DONCHIAN_ACTIVE,BREV-USDT-SWAP,102.375083,1.0,long,Turtle 20,20260316_171330_BREV-USDT-SWAP_long,TREND_HOLD,102.375083,1
+False,локальный_защитный_выход_2.0n,DONCHIAN_ACTIVE,CRO-USDT-SWAP,-8.591105,-7.863971,short,Turtle 20,20260316_171330_CRO-USDT-SWAP_short,TREND_HOLD,1.092464,1
+False,локальный_защитный_выход_2.0n,ATR_INITIAL,TSLA-USDT-SWAP,-7.509874,-19.185936,short,Turtle 20,20260316_171329_TSLA-USDT-SWAP_short,INITIAL_RISK,0.391426,1
+False,локальный_защитный_выход_2.0n,DONCHIAN_ACTIVE,CELO-USDT-SWAP,0.0,0.0,long,Turtle 55,20260316_171314_CELO-USDT-SWAP_long,TREND_ACTIVE,0.0,2
+False,защита_тренда:_откат_от_пика_1027.38r_→_102.38r,DONCHIAN_ACTIVE,BREV-USDT-SWAP,102.375083,1.0,long,Turtle 20,20260316_171239_BREV-USDT-SWAP_long,TREND_HOLD,102.375083,1
+False,локальный_защитный_выход_2.0n,DONCHIAN_ACTIVE,CRO-USDT-SWAP,-8.591105,-7.863971,short,Turtle 20,20260316_171239_CRO-USDT-SWAP_short,TREND_HOLD,1.092464,1
+False,локальный_защитный_выход_2.0n,ATR_INITIAL,TSLA-USDT-SWAP,-7.175875,-18.332648,short,Turtle 20,20260316_171238_TSLA-USDT-SWAP_short,INITIAL_RISK,0.391426,1

@@ -1,0 +1,2 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+0.0585717688022285,False,active,MINA-USDT-SWAP,0.05854,HEALTHY,20104.0,short,0.0588387688022285,ACTIVE,SYNC_OK,20260318_173018_MINA-USDT-SWAP_short

@@ -1,0 +1,5 @@
+current_price,error_code,error_msg,event,inst_id,requested_stop,response,side,trade_id,ts
+0.0,,pre_close:ATR стоп 2.0N,STOP_ERROR,NEO-USDT-SWAP,0.0,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": ""3402963451696730112"", ""clOrdId"": """", ""sCode"": ""51400"", ""sMsg"": ""Order cancellation failed as the order has been filled, canceled or does not exist."", ""tag"": """"}], ""msg"": """"}",short,20260319_141010_NEO-USDT-SWAP_short,2026-03-19 14:10:42
+0.0,,switch_to_turtle,STOP_ERROR,XAG-USDT-SWAP,0.0,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": ""3402963604839157760"", ""clOrdId"": """", ""sCode"": ""51400"", ""sMsg"": ""Order cancellation failed as the order has been filled, canceled or does not exist."", ""tag"": """"}], ""msg"": """"}",short,20260319_141015_XAG-USDT-SWAP_short,2026-03-19 14:11:07
+71.01,,manage_open_positions,STOP_MISSING,XAG-USDT-SWAP,0.0,{},short,20260319_141015_XAG-USDT-SWAP_short,2026-03-19 14:11:13
+71.01,,market_already_crossed_stop,STOP_REJECTED,XAG-USDT-SWAP,70.79917153809296,{},short,20260319_141015_XAG-USDT-SWAP_short,2026-03-19 14:11:15

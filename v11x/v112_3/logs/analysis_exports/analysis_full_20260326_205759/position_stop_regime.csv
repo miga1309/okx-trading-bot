@@ -1,0 +1,2 @@
+avg_px,exchange_stop_status,hybrid_stop_mode,inst_id,last_px,qty,side,stop_price,sync_status,system_name,trade_id,turtle_exit_period
+367.0702232142857,active,ATR_INITIAL,TSLA-USDT-SWAP,398.06,1168.0,short,368.4502232142857,SYNC_OK,Turtle 20,20260326_205741_TSLA-USDT-SWAP_short,10

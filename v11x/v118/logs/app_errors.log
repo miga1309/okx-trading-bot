@@ -1,0 +1,872 @@
+2026-03-29 16:14:11,718 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 16:18:08,720 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 16:21:16,224 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 16:27:13,223 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 16:33:08,718 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 16:36:11,724 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 16:39:13,224 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 16:45:14,739 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 16:51:26,735 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 16:57:35,736 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:00:22,235 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:03:28,239 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:09:17,735 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:12:16,235 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:15:17,740 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:18:14,734 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:26:35,734 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:29:43,235 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:32:38,741 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:35:29,743 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:38:22,234 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:41:19,235 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:44:14,736 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:46:35,961 | ERROR | websocket | _logging:error:77 | ping/pong timed out - goodbye
+2026-03-29 17:46:37,572 | ERROR | websocket | _logging:error:77 | Connection timed out - goodbye
+2026-03-29 17:46:51,673 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:46:51,673 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:47:05,774 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:47:05,774 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:47:19,872 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:47:19,872 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:47:26,738 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:47:33,972 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:47:33,974 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:47:47,165 | ERROR | root | turtle_engine_impl:run_loop:902 | Ошибка в цикле стратегии: timed out
+Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\domain\trading\turtle_engine_impl.py", line 890, in run_loop
+    self._run_position_management_cycle(minute_key)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\domain\trading\turtle_engine_impl.py", line 866, in _run_position_management_cycle
+    self.sync_positions_from_exchange()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\domain\trading\turtle_engine_impl.py", line 913, in sync_positions_from_exchange
+    exchange_positions = self.gateway.get_positions()
+  File "D:\GIT\okx-trading-bot\v11x\v118\infrastructure\exchange\okx_gateway.py", line 168, in get_positions
+    resp = self.account_api.get_positions(instType="SWAP")
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\okx\Account.py", line 28, in get_positions
+    return self._request_with_params(GET, POSITION_INFO, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\okx\okxclient.py", line 64, in _request_with_params
+    return self._request(method, request_path, params)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\okx\okxclient.py", line 55, in _request
+    response = self.get(request_path, headers=header)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1053, in get
+    return self.request(
+           ~~~~~~~~~~~~^
+        "GET",
+        ^^^^^^
+    ...<7 lines>...
+        extensions=extensions,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout: timed out
+2026-03-29 17:47:48,981 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:47:48,981 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:48:03,986 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:48:03,987 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:48:18,992 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:48:18,992 | ERROR | websocket | _logging:error:77 | [Errno 11001] getaddrinfo failed - goodbye
+2026-03-29 17:50:41,736 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:51:28,519 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:54:04,518 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:56:34,519 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 17:59:12,026 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:09:16,517 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:16:46,519 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:19:19,517 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:20:11,252 | ERROR | websocket | _logging:error:77 | ping/pong timed out - goodbye
+2026-03-29 18:21:51,019 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:24:21,018 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:26:55,519 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:32:07,519 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:34:48,023 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:39:12,017 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:42:07,520 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:44:37,532 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:47:15,024 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:49:30,021 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:51:48,018 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:54:12,021 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:56:43,520 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 18:59:10,518 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:01:42,020 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:04:09,023 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:06:37,518 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:12:42,019 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:21:04,518 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:24:01,522 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:26:52,518 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:29:42,020 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:32:27,023 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:35:07,519 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:37:57,017 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:40:43,520 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:43:40,517 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:46:30,019 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:49:19,517 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:49:22,526 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:59:43,516 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'
+2026-03-29 19:59:46,523 | ERROR | remote_control | controller:write_state:62 | remote_state_write_failed
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\controller.py", line 60, in write_state
+    self.bridge.write_state(payload)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v11x\v118\remote_control\bridge.py", line 23, in write_state
+    tmp.replace(target)
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json.tmp' -> 'D:\\GIT\\okx-trading-bot\\v11x\\v118\\runtime\\remote_bridge\\state\\remote_state.json'

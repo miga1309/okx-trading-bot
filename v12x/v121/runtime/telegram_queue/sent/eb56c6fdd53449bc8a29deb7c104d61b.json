@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: TRX-USDT-SWAP\nЦена входа: 0.321000\nQty: 7.84\nATR: 0.000875\nBootstrap-stop: 0.317800\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "eb56c6fdd53449bc8a29deb7c104d61b",
+  "created_ts": 1774935027.455022,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

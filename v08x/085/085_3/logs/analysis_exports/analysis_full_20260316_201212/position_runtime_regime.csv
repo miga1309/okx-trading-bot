@@ -1,0 +1,5 @@
+avg_px,hybrid_stop_mode,inst_id,last_px,peak_pnl_pct,pnl_pct,qty,reconciler_interval_sec,side,sync_status,system_name,trade_id,trend_hold_state,turtle_exit_period
+0.0877,,SAND-USDT-SWAP,0.088,0.5701254275940871,0.0,1366.0,0,long,,Turtle 20,20260316_193012_SAND-USDT-SWAP_long,,0
+0.0858,,MAGIC-USDT-SWAP,0.08368,0.6805914104670232,0.0,13899.0,0,long,,Turtle 55,20260316_200021_MAGIC-USDT-SWAP_long,,0
+0.1026926093294466,,CRO-USDT-SWAP,0.10363,0.0,-4.109573738823806,7476.0,0,short,,Turtle 20,20260316_201139_CRO-USDT-SWAP_short,,0
+1.0089049966666679,,BREV-USDT-SWAP,1.0591,0.0,14.262503590882353,120000.0,0,long,,Turtle 20,20260316_201139_BREV-USDT-SWAP_long,,0

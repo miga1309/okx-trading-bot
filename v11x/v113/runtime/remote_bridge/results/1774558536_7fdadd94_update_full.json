@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "message": "update applied: uploaded from telegram (remote_upload_20260326_235526) | files=1 | update archives cleaned=2 | app restart scheduled",
+  "version": "remote_upload_20260326_235526",
+  "files_changed": [
+    "v113_1_full_update_stop_fix.zip"
+  ],
+  "pre_update_backup": "D:\\GIT\\okx-trading-bot\\v11x\\v113\\runtime\\remote_backups\\pre_update_20260326_235537.zip",
+  "post_update_backup": "D:\\GIT\\okx-trading-bot\\v11x\\v113\\runtime\\remote_backups\\post_update_20260326_235537.zip",
+  "cleaned_update_artifacts": [
+    "updates\\full\\payload\\v113_1_full_update_stop_fix.zip",
+    "updates\\full\\manifest.json"
+  ],
+  "restart_scheduled": true,
+  "restart_script": "D:\\GIT\\okx-trading-bot\\v11x\\v113\\runtime\\remote_restart\\restart_app.bat",
+  "command_id": "1774558536_7fdadd94_update_full",
+  "finished_at": "2026-03-26T23:55:37"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: DOGE-USDT-SWAP\nСторона: LONG\nЦена входа: 0.090717\nЦена выхода: 0.090500\nPnL: -19.0125\nPnL %: -0.24%\nЮнитов: 3\nПричина: Канальный выход 10 свечей",
+  "id": "3fa99b62797a4edf98857ea98d5fafe5",
+  "created_ts": 1774230650.2231715,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

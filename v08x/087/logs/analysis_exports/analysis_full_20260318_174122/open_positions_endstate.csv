@@ -1,0 +1,2 @@
+atr,avg_px,close_pending,entry_time,inst_id,last_px,next_unit_level,peak_pnl_pct,peak_unrealized_pnl,pnl_pct,position_age_sec,qty,side,stop_price,trade_id,units,unrealized_pnl
+0.00013549999999999917,0.0585717688022285,False,2026-03-18 17:30:18,MINA-USDT-SWAP,0.05854,0.058505018802228505,0.3163749541373893,1.2418000000018166,0.2139365247933966,0,20104.0,short,0.0588387688022285,20260318_173018_MINA-USDT-SWAP_short,1,0.839720000001833

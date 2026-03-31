@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LDO-USDT-SWAP\nСторона: LONG\nЦена входа: 0.312500\nЦена выхода: 0.312100\nPnL: -2.9252\nPnL %: -0.64%\nЮнитов: 1\nПричина: Ротация под новый сигнал BNB-USDT-SWAP",
+  "id": "f80339060c6f46fcbac24fd960795c5d",
+  "created_ts": 1774839758.9823458,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

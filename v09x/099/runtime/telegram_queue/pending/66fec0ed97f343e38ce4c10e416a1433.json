@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: QTUM-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.864000\nЦена выхода: 0.867000\nPnL: -9.6870\nPnL %: -0.35%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "66fec0ed97f343e38ce4c10e416a1433",
+  "created_ts": 1774281920.131827,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

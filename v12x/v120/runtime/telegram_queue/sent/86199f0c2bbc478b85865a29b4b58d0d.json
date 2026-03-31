@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: XLM-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.163610\nЦена выхода: 0.164100\nPnL: -8.1026\nPnL %: -1.50%\nЮнитов: 1\nПричина: Ротация под новый сигнал ETHW-USDT-SWAP",
+  "id": "86199f0c2bbc478b85865a29b4b58d0d",
+  "created_ts": 1774825317.8446274,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

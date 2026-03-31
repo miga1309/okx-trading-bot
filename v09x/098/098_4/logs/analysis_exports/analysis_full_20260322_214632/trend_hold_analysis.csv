@@ -1,0 +1,6 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,stopout_cooldown,ATR_INITIAL,ETHFI-USDT-SWAP,-1.337208,-5.749998,short,Turtle 20,20260322_210547_ETHFI-USDT-SWAP_short,INITIAL_RISK,0.232558,1
+False,stopout_cooldown,DONCHIAN_ACTIVE,LINK-USDT-SWAP,-0.855856,-0.130137,short,Turtle 20,20260322_210541_LINK-USDT-SWAP_short,TREND_HOLD,6.576577,1
+False,stopout_cooldown,ATR_INITIAL,LTC-USDT-SWAP,-1.09853,-1067.570457,short,Turtle 20,20260322_210553_LTC-USDT-SWAP_short,INITIAL_RISK,0.001029,1
+False,stopout_cooldown,ATR_INITIAL,AUCTION-USDT-SWAP,-1.067346,-4.613316,short,Turtle 20,20260322_202535_AUCTION-USDT-SWAP_short,INITIAL_RISK,0.231362,1
+False,stopout_cooldown,ATR_INITIAL,ENA-USDT-SWAP,0.0,0.0,short,Turtle 55,20260322_200646_ENA-USDT-SWAP_short,INITIAL_RISK,0.0,1

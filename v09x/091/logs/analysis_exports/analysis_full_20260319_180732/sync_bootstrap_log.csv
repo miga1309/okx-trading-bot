@@ -1,0 +1,3 @@
+inst_id,pyramid_restored,restored_fields,side,stop_restored,system_name,timestamp,trade_id,units_restored
+CFX-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",long,True,Turtle 20,2026-03-19 16:50:22,20260319_165022_CFX-USDT-SWAP_long,1
+INJ-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",long,True,Turtle 20,2026-03-19 18:07:31,20260319_180731_INJ-USDT-SWAP_long,1

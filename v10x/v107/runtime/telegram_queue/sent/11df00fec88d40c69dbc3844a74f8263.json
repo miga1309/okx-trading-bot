@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ARB-USDT-SWAP\nСторона: LONG\nЦена входа: 0.097725\nЦена выхода: 0.097700\nPnL: -2.5209\nPnL %: -0.03%\nЮнитов: 4\nПричина: Канальный выход 10 свечей",
+  "id": "11df00fec88d40c69dbc3844a74f8263",
+  "created_ts": 1774407135.0803065,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

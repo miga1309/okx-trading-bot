@@ -1,0 +1,7 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+0.00663,False,cancelled,GMT-USDT-SWAP,0.00663,HEALTHY,119427.0,short,0.006908,ACTIVE,,20260330_041326_GMT-USDT-SWAP_short
+17.8325,False,active_confirmed,COMP-USDT-SWAP,17.39,HEALTHY,4786.0,short,17.528,ACTIVE,,20260330_163242_COMP-USDT-SWAP_short
+1.1787666666666667,False,recovered,NEAR-USDT-SWAP,1.1723,HEALTHY,601.5,short,1.1879,ACTIVE,,20260330_173119_NEAR-USDT-SWAP_short
+1.1342,False,active_confirmed,AXS-USDT-SWAP,1.1328,HEALTHY,22210.0,short,1.14036,ACTIVE,,20260330_183221_AXS-USDT-SWAP_short
+4.166,False,active_confirmed,KSM-USDT-SWAP,4.16,HEALTHY,5923.0,short,4.252,ACTIVE,,20260330_190037_KSM-USDT-SWAP_short
+0.2701,False,active_confirmed,LQTY-USDT-SWAP,0.2701,HEALTHY,9304.4,short,0.2739,ACTIVE,,20260330_193200_LQTY-USDT-SWAP_short

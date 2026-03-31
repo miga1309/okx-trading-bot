@@ -1,0 +1,48 @@
+{
+  "app_version": "v108",
+  "bot_running": false,
+  "telegram_worker_running": false,
+  "timeframe": "5m",
+  "trade_mode": "auto",
+  "open_positions": 0,
+  "error_count": 0,
+  "balance": {
+    "total": 83487.8528492196,
+    "available": 83513.74210927349,
+    "used": 0.0
+  },
+  "positions": [],
+  "scanner": {
+    "total": 109,
+    "scanned": 82,
+    "allowed": 47,
+    "blocked": 35,
+    "dead": 14,
+    "saw": 0,
+    "ripping": 21,
+    "pending": 27,
+    "status": "SCANNING",
+    "ready": 21,
+    "available_after_bans": 109,
+    "scan_universe_total": 109
+  },
+  "top_candidates": [],
+  "health": {
+    "connectivity_state": "CONNECTED",
+    "components": {
+      "public": "OK",
+      "private": "OK",
+      "trade": "OK",
+      "market_data": "OK",
+      "ws_public": "OK",
+      "ws_private": "OK"
+    },
+    "engine": "STOPPED",
+    "telegram_worker": "OFF",
+    "market_data_errors": 0,
+    "cycle_duration_sec": 120.461
+  },
+  "latest_errors": [],
+  "chart_image_path": "D:\\GIT\\okx-trading-bot\\v10x\\v108 деление программы на движки и разгруз main\\runtime\\telegram_chart_latest.jpg",
+  "updated_at": "2026-03-25 18:49:40"
+}

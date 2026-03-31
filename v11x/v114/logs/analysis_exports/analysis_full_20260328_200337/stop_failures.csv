@@ -1,0 +1,3 @@
+current_price,error_code,error_msg,event,inst_id,requested_stop,response,side,trade_id,ts
+0.16978,,health_restore,STOP_MISSING,XLM-USDT-SWAP,0.16968,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": """", ""clOrdId"": """", ""sCode"": ""51023"", ""sMsg"": ""Position doesn't exist. "", ""tag"": """"}], ""msg"": """", ""newCode"": """", ""traceId"": """"}",long,20260328_174953_XLM-USDT-SWAP_long,2026-03-28 18:28:46
+0.882,,health_restore,STOP_MISSING,LIT-USDT-SWAP,0.884,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": """", ""clOrdId"": """", ""sCode"": ""51023"", ""sMsg"": ""Position doesn't exist. "", ""tag"": """"}], ""msg"": """", ""newCode"": """", ""traceId"": """"}",short,20260328_184801_LIT-USDT-SWAP_short,2026-03-28 18:59:23

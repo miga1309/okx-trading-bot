@@ -1,0 +1,2 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+455.5,False,active,BCH-USDT-SWAP,455.5,HEALTHY,65.44,short,456.5,ACTIVE,SYNC_OK,20260319_144457_BCH-USDT-SWAP_short

@@ -1,0 +1,3 @@
+atr,avg_px,event,has_locked_break_even,inst_id,last_price,next_pyramid_price,note,proposed_qty,qty,reason_blocked,side,stop_price,trade_id,ts,units
+1.0499999999999603,722.6,pyramid_blocked,False,BNB-USDT-SWAP,722.0,722.075,qty_below_min,0.0,388.0,position_not_eligible,short,724.6999999999999,20260316_160625_BNB-USDT-SWAP_short,2026-03-16 16:07:01,1
+1.0499999999999603,722.6,pyramid_blocked,False,BNB-USDT-SWAP,722.0,722.075,qty_below_min,0.0,388.0,position_not_eligible,short,724.6999999999999,20260316_160625_BNB-USDT-SWAP_short,2026-03-16 16:07:52,1

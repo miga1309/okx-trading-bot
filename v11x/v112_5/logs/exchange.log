@@ -1,0 +1,6 @@
+2026-03-26 21:31:18,697 | INFO | root | okx_gateway:refresh_instruments:103 | Loaded 108 swap instruments
+2026-03-26 21:35:20,904 | INFO | root | okx_gateway:refresh_instruments:103 | Loaded 108 swap instruments
+2026-03-26 21:38:01,855 | INFO | root | okx_gateway:place_market_order:596 | Placing order OP-USDT-SWAP sell qty=27199.0 attached_stop=True attached_stop_px=0.11213
+2026-03-26 21:40:43,286 | INFO | root | okx_gateway:place_market_order:596 | Placing order OP-USDT-SWAP sell qty=27199.0 attached_stop=False attached_stop_px=
+2026-03-26 21:41:19,969 | INFO | root | okx_gateway:refresh_instruments:103 | Loaded 109 swap instruments
+2026-03-26 21:41:22,639 | INFO | root | okx_gateway:close_position:428 | Closing position OP-USDT-SWAP. reset_test

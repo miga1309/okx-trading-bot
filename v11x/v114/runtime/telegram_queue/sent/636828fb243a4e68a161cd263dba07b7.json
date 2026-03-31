@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: LPT-USDT-SWAP\nСторона: SHORT\nЦена входа: 2.080007\nЦена выхода: 2.079000\nPnL: 5.0289\nPnL %: 0.05%\nЮнитов: 4\nПричина: Канальный выход 10 свечей",
+  "id": "636828fb243a4e68a161cd263dba07b7",
+  "created_ts": 1774737642.367199,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

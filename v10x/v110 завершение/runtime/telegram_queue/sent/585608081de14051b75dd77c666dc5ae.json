@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: BNB-USDT-SWAP\nСторона: LONG\nЦена входа: 648.999778\nЦена выхода: 645.900000\nPnL: -13.9490\nPnL %: -0.48%\nЮнитов: 1\nПричина: Аварийное закрытие: market_already_crossed_stop",
+  "id": "585608081de14051b75dd77c666dc5ae",
+  "created_ts": 1774459101.7221072,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

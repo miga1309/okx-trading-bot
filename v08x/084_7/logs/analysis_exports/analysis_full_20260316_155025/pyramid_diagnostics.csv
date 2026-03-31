@@ -1,0 +1,3 @@
+atr,avg_px,event,has_locked_break_even,inst_id,last_price,next_pyramid_price,note,proposed_qty,qty,reason_blocked,side,stop_price,trade_id,ts,units
+17.948500000000013,2335.865,pyramid_blocked,False,ETH-USDT-SWAP,2376.8,2343.1077499999997,qty_below_min,0.0,24.24,position_not_eligible,long,2306.894,20260316_154929_ETH-USDT-SWAP_long,2026-03-16 15:50:02,1
+0.1760000000000012,79.9,pyramid_blocked,False,XAG-USDT-SWAP,80.04,79.986,qty_below_min,0.0,1810.0,position_not_eligible,long,79.55600000000001,20260316_154929_XAG-USDT-SWAP_long,2026-03-16 15:50:03,1

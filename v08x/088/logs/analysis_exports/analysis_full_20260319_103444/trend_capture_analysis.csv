@@ -1,0 +1,5 @@
+early_exit_flag,early_exit_gap_pct,exit_efficiency,exit_reason,hybrid_stop_mode,inst_id,mfe_pct,realized_pnl_pct,realized_r,side,system_name,trade_id,trend_capture_ratio,trend_move_r,trend_strength_r,turtle_exit_period,units
+False,3.492012,-1.904915,канальный_выход_10_свечей,DONCHIAN_ACTIVE,OP-USDT-SWAP,3.492012,-0.5335312842644758,-1.027488,short,Turtle 20,20260319_080014_OP-USDT-SWAP_short,-0.152786,6.725015,6.725015,10,4
+False,1.051314,-8.944954,stopout_cooldown,ATR_INITIAL,AXS-USDT-SWAP,1.051314,-8.135168961201513,-0.707703,short,Turtle 20,20260319_020507_AXS-USDT-SWAP_short,-7.738096,0.091457,0.091457,10,1
+False,0.956162,-0.744047,канальный_выход_10_свечей,DONCHIAN_ACTIVE,OP-USDT-SWAP,0.956162,-0.4288694813288447,-1.244155,short,Turtle 20,20260319_014514_OP-USDT-SWAP_short,-0.448532,2.773837,2.773837,10,4
+False,3.848154,-4.736842,stopout_cooldown,DONCHIAN_ACTIVE,DOGE-USDT-SWAP,3.848154,-1.8643190056968368,-0.575455,long,Turtle 55,20260318_215626_DOGE-USDT-SWAP_long,-0.484471,1.187801,1.187801,20,2

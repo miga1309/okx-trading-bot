@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: AXS-USDT-SWAP\nСторона: LONG\nЦена входа: 1.147919\nЦена выхода: 1.117200\nPnL: -148.7897\nPnL %: -2.68%\nЮнитов: 2\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "73232d926f804463a2ba3aa8b0a5cdd7",
+  "created_ts": 1774398490.191178,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

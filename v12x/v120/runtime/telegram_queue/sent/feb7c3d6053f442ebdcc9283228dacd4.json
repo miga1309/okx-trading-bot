@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: BTC-USDT-SWAP\nСторона: LONG\nЦена входа: 67448.600000\nЦена выхода: 67410.500000\nPnL: -1.0668\nPnL %: -0.28%\nЮнитов: 1\nПричина: Ротация под новый сигнал HBAR-USDT-SWAP",
+  "id": "feb7c3d6053f442ebdcc9283228dacd4",
+  "created_ts": 1774845357.5110767,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

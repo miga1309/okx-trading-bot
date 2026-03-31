@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: YGG-USDT-SWAP\nСторона: LONG\nЦена входа: 0.034800\nЦена выхода: 0.034800\nPnL: 0.0000\nPnL %: 0.00%\nЮнитов: 1\nПричина: Ротация под новый сигнал SAND-USDT-SWAP",
+  "id": "78b92b7af53d4a49942477a0f55b526d",
+  "created_ts": 1774845225.3894649,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: SHIB-USDT-SWAP\nСторона: LONG\nЦена входа: 0.000006\nЦена выхода: 0.000006\nPnL: 273.4200\nPnL %: 13.32%\nЮнитов: 4\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "6af0ff14105b4a1885e996604684e2f9",
+  "created_ts": 1774870445.265896,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

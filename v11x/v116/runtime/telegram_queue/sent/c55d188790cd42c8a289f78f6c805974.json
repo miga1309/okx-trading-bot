@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: CFX-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.056060\nЦена выхода: 0.056060\nPnL: 0.0000\nPnL %: 0.00%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: PENDING_RECHECK",
+  "id": "c55d188790cd42c8a289f78f6c805974",
+  "created_ts": 1774782540.060813,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

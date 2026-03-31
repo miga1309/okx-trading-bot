@@ -1,0 +1,2 @@
+early_exit_flag,early_exit_gap_pct,inst_id,last_stop_move_reason,mae_pct,market_risk_score,mfe_pct,pnl_pct,side,stop_move_events,trade_id,unit_add_events
+False,1.889849,COMP-USDT-SWAP,STOP_TRIGGERED,4.75162,4.5,1.889849,-2.535554033419861,long,0,20260319_124520_COMP-USDT-SWAP_long,2

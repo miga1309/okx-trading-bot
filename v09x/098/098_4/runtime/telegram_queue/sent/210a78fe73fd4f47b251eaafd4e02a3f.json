@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: AAVE-USDT-SWAP\nСторона: SHORT\nЦена входа: 104.630357\nЦена выхода: 105.130000\nPnL: -12.4411\nPnL %: -0.48%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "210a78fe73fd4f47b251eaafd4e02a3f",
+  "created_ts": 1774258967.1467237,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

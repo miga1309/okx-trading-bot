@@ -1,0 +1,5 @@
+available_after_bans,cache_errors,cache_fetch_count,closed_trades,event,loop_duration_sec,open_positions,signals_blocked,signals_found,symbols_scanned,ts
+115,0,0,0,SYSTEM_HEALTH,0.0,4,0,0,115,2026-03-16 17:12:39
+115,0,0,0,SYSTEM_HEALTH,0.0,5,0,3,115,2026-03-16 17:13:14
+114,0,108,3,SYSTEM_HEALTH,45.975078105926514,6,0,0,115,2026-03-16 17:14:04
+114,0,345,11,SYSTEM_HEALTH,41.37126898765564,5,0,0,115,2026-03-16 17:15:05

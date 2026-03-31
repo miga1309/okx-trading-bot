@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: TRX-USDT-SWAP\nСторона: LONG\nЦена входа: 0.321196\nЦена выхода: 0.320400\nPnL: -6.2440\nPnL %: -1.24%\nЮнитов: 1\nПричина: SYNC confirmed close after protective exit: market_already_crossed_stop",
+  "id": "deb33015b95c4814a4b86193f45eb1b2",
+  "created_ts": 1774945486.907965,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

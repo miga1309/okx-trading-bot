@@ -1,0 +1,74 @@
+{
+  "exported_at": "2026-03-16 15:25:57",
+  "version": "v084_5",
+  "account": "Демо",
+  "timeframe": "5m",
+  "trade_mode": "auto",
+  "balance_total": 47182.68866656575,
+  "balance_available": 42881.448817730656,
+  "balance_used": 4300.768026666651,
+  "open_positions_count": 1,
+  "closed_trades_count": 0,
+  "realized_pnl": 0.0,
+  "open_pnl": 254.34003999998555,
+  "winrate": 0.0,
+  "wins": 0,
+  "losses": 0,
+  "signal_funnel": {
+    "cycles": 1,
+    "instruments_scanned": 83,
+    "prefilter_skipped": 1,
+    "warmup_rejected": 15,
+    "flat_filter_rejected": 0,
+    "structure_rejected": 0,
+    "trend_rejected": 0,
+    "liquidity_rejected": 0,
+    "breakout_rejected": 64,
+    "other_rejected": 4,
+    "candidates": 5,
+    "ranked_candidates": 0,
+    "orders_sent": 0,
+    "entry_failed": 0,
+    "manual_skipped": 0,
+    "positions_opened": 0,
+    "entry_signals": 0
+  },
+  "signals_detected": 5,
+  "signals_rejected": 83,
+  "units_added": 0,
+  "stop_moves": 0,
+  "execution_errors": 0,
+  "pyramid_diagnostics_summary": {
+    "attempts": 0,
+    "added": 0,
+    "blocked_by_reason": {}
+  },
+  "reentry_diagnostics_summary": {
+    "checks": 149,
+    "blocked_cooldown": 0,
+    "blocked_recovery": 0
+  },
+  "breakout_quality_summary": {
+    "rows": 0,
+    "minimal_mode_rows": 0
+  },
+  "stop_engine_summary": {
+    "rows": 0,
+    "placed": 0,
+    "moved": 0,
+    "triggered": 0,
+    "errors": 0,
+    "missing": 0
+  },
+  "rejections_by_code": {
+    "no_fresh_breakout": 64,
+    "закрытие_не_удержалось_ниже_канала": 1,
+    "atr_warmup:_цена_или_atr_недоступны_после_прогрева": 15,
+    "закрытие_не_удержалось_выше_канала": 3
+  },
+  "close_reasons_count": {},
+  "problem_symbols": [],
+  "early_exit_flags": 0,
+  "avg_early_exit_gap_pct": 0.0,
+  "avg_market_risk_score": 0.0
+}

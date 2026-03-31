@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: FLOKI-USDT-SWAP\nЦена входа: 0.000028\nQty: 882.0\nATR: 0.000000\nСтоп: 0.000028\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "14f213a610454a61bb6e6f7866382e20",
+  "created_ts": 1774204585.6804526,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,2 @@
+avg_px,hybrid_stop_mode,inst_id,last_px,peak_pnl_pct,pnl_pct,position_age_sec,qty,reconciler_interval_sec,side,sync_status,system_name,trade_id,trend_hold_state,turtle_exit_period
+0.2774426925397149,DONCHIAN_ACTIVE,LQTY-USDT-SWAP,0.2892,16.173402143014513,12.496967234374793,0,39784.0,10,long,SYNC_OK,Turtle 55,20260323_141312_LQTY-USDT-SWAP_long,,20

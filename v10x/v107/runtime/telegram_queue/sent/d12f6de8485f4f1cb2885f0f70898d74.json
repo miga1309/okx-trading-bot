@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: ARB-USDT-SWAP\nЦена входа: 0.097600\nQty: 2520.9\nATR: 0.000160\nСтоп: 0.097280\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "d12f6de8485f4f1cb2885f0f70898d74",
+  "created_ts": 1774401459.5885162,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

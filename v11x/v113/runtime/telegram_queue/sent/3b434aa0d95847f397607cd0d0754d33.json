@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: XLM-USDT-SWAP\nЦена входа: 0.173600\nQty: 141.16\nATR: 0.000210\nBootstrap-stop: 0.175430\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "3b434aa0d95847f397607cd0d0754d33",
+  "created_ts": 1774581213.2931774,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

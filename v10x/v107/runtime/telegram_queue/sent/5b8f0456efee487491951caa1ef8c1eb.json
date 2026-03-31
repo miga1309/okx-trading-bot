@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: IMX-USDT-SWAP\nЦена входа: 0.154200\nQty: 17373.0\nATR: 0.000150\nСтоп: 0.153900\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "5b8f0456efee487491951caa1ef8c1eb",
+  "created_ts": 1774437775.7917416,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

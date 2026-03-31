@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: SAND-USDT-SWAP\nСторона: LONG\nЦена входа: 0.080400\nЦена выхода: 0.080000\nPnL: -14.2280\nPnL %: -0.50%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "df603c7d7ce9419ea432593aae73b86f",
+  "created_ts": 1774291373.5421786,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

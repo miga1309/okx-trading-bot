@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LRC-USDT-SWAP\nСторона: LONG\nЦена входа: 0.021820\nЦена выхода: 0.021730\nPnL: -3.6000\nPnL %: -2.06%\nЮнитов: 1\nПричина: Ротация под новый сигнал ICP-USDT-SWAP",
+  "id": "b6faba277a6a403799eb3fd57ede1b6d",
+  "created_ts": 1774846947.5746946,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

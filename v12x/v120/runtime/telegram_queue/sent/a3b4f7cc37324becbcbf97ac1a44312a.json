@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: IOTA-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.052993\nЦена выхода: 0.053590\nPnL: -53.4913\nPnL %: -5.63%\nЮнитов: 2\nПричина: Синхронизация: позиция отсутствует на бирже",
+  "id": "a3b4f7cc37324becbcbf97ac1a44312a",
+  "created_ts": 1774829186.7660878,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

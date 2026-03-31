@@ -1,0 +1,4 @@
+avg_px,hybrid_stop_mode,inst_id,last_px,peak_pnl_pct,pnl_pct,qty,reconciler_interval_sec,side,sync_status,system_name,trade_id,trend_hold_state,turtle_exit_period
+55.94040026246719,,LTC-USDT-SWAP,55.67,1.985807920772261,1.4496830520842492,152.4,0,short,,Turtle 55,20260321_153835_LTC-USDT-SWAP_short,,0
+70394.125,,BTC-USDT-SWAP,70230.7,0.6163623559531999,0.6964437841405663,13.0,0,short,,Turtle 20,20260321_182041_BTC-USDT-SWAP_short,,0
+0.2831945431566428,,LQTY-USDT-SWAP,0.2827,0.0019268885962304173,-0.5238905571381963,8070.6,0,long,,Turtle 55,20260321_194535_LQTY-USDT-SWAP_long,,0

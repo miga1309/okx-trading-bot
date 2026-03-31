@@ -1,0 +1,3 @@
+inst_id,pyramid_restored,restored_fields,side,stop_restored,system_name,timestamp,trade_id,units_restored
+XLM-USDT-SWAP,False,exchange_stop_full_position,long,False,Turtle 55,2026-03-28 18:20:51,20260328_174953_XLM-USDT-SWAP_long,2
+LIT-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-28 18:48:10,20260328_184801_LIT-USDT-SWAP_short,2

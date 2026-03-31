@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LQTY-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.266074\nЦена выхода: 0.268300\nPnL: -70.5296\nPnL %: -4.18%\nЮнитов: 3\nПричина: Канальный выход 20 свечей",
+  "id": "c0b33dfdb8a04bb399ab168cd23bb23a",
+  "created_ts": 1774780887.3591976,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

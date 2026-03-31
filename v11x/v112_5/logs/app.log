@@ -1,0 +1,2 @@
+2026-03-26 21:41:23,211 | INFO | httpx | _client:_send_single_request:1025 | HTTP Request: GET https://www.okx.com/api/v5/trade/orders-algo-pending?ordType=move_order_stop&instType=SWAP&instId=OP-USDT-SWAP "HTTP/2 200 OK"
+2026-03-26 21:41:23,890 | INFO | httpx | _client:_send_single_request:1025 | HTTP Request: GET https://www.okx.com/api/v5/market/ticker?instId=1INCH-USDT-SWAP "HTTP/2 200 OK"

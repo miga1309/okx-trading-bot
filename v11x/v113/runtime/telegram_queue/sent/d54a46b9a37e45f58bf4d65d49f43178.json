@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: XAG-USDT-SWAP\nЦена входа: 68.300000\nQty: 3624.0\nATR: 0.091000\nBootstrap-stop: 69.040000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "d54a46b9a37e45f58bf4d65d49f43178",
+  "created_ts": 1774571315.2309022,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,11 @@
+2026-03-29 14:55:44,087 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for ASTER-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:56:06,282 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for ATOM-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:56:28,474 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for AUCTION-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:56:50,667 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for AVAX-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:57:12,858 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for AXS-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:57:35,050 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for BAND-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:57:57,245 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for BCH-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:58:19,440 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for BIO-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:58:41,632 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for BLUAI-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:58:52,732 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for BNB-USDT-SWAP: [Errno 11001] getaddrinfo failed
+2026-03-29 14:59:03,831 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for BOME-USDT-SWAP: [Errno 11001] getaddrinfo failed

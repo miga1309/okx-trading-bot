@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: SOL-USDT-SWAP\nСторона: LONG\nЦена входа: 83.280000\nЦена выхода: 83.280000\nPnL: 0.0000\nPnL %: 0.00%\nЮнитов: 1\nПричина: Ротация под новый сигнал KSM-USDT-SWAP",
+  "id": "fbd61f92a5a040ea82c272f66f519473",
+  "created_ts": 1774839763.22213,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

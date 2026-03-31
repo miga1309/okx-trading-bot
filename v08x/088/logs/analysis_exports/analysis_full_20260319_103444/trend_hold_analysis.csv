@@ -1,0 +1,5 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,канальный_выход_10_свечей,DONCHIAN_ACTIVE,OP-USDT-SWAP,-1.027488,-0.152786,short,Turtle 20,20260319_080014_OP-USDT-SWAP_short,TREND_HOLD,6.725015,4
+False,stopout_cooldown,ATR_INITIAL,AXS-USDT-SWAP,-0.707703,-7.738095,short,Turtle 20,20260319_020507_AXS-USDT-SWAP_short,INITIAL_RISK,0.091457,1
+False,канальный_выход_10_свечей,DONCHIAN_ACTIVE,OP-USDT-SWAP,-1.244155,-0.448532,short,Turtle 20,20260319_014514_OP-USDT-SWAP_short,TREND_HOLD,2.773837,4
+False,stopout_cooldown,DONCHIAN_ACTIVE,DOGE-USDT-SWAP,-0.575455,-0.484471,long,Turtle 55,20260318_215626_DOGE-USDT-SWAP_long,TREND_HOLD,1.187801,2

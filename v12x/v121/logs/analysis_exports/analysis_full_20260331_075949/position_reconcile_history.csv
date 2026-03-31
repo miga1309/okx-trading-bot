@@ -1,0 +1,4 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+0.0762361625821886,False,active_confirmed,2Z-USDT-SWAP,0.0759,HEALTHY,3346.0,long,0.07443,ACTIVE,,20260331_033053_2Z-USDT-SWAP_long
+0.0800498354801628,False,active_confirmed,CELO-USDT-SWAP,0.0801,HEALTHY,128252.0,long,0.07962000000000001,ACTIVE,,20260331_033058_CELO-USDT-SWAP_long
+0.1400818940182179,False,recovered,IMX-USDT-SWAP,0.1401,HEALTHY,54783.0,short,0.14110999999999999,ACTIVE,,20260331_060059_IMX-USDT-SWAP_short

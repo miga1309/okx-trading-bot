@@ -1,0 +1,133 @@
+2026-03-30 21:44:27,957 | ERROR | root | market_scanner_runtime:refresh_symbol:284 | Market scanner refresh failed for LDO-USDT-SWAP
+Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 187, in handle_request
+    raise exc
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 150, in handle_request
+    status, headers = self._receive_response(
+                      ~~~~~~~~~~~~~~~~~~~~~~^
+        request=request, stream_id=stream_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 294, in _receive_response
+    event = self._receive_stream_event(request, stream_id)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 336, in _receive_stream_event
+    self._receive_events(request, stream_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 364, in _receive_events
+    events = self._read_incoming_data(request)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 438, in _read_incoming_data
+    raise self._read_exception  # pragma: nocover
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+        pool_request.request
+    )
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 187, in handle_request
+    raise exc
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 150, in handle_request
+    status, headers = self._receive_response(
+                      ~~~~~~~~~~~~~~~~~~~~~~^
+        request=request, stream_id=stream_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 294, in _receive_response
+    event = self._receive_stream_event(request, stream_id)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 336, in _receive_stream_event
+    self._receive_events(request, stream_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 364, in _receive_events
+    events = self._read_incoming_data(request)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 455, in _read_incoming_data
+    raise exc
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_sync\http2.py", line 441, in _read_incoming_data
+    data = self._network_stream.read(self.READ_NUM_BYTES, timeout)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v12x\v121\domain\scanner\market_scanner_runtime.py", line 241, in refresh_symbol
+    candles = list(self.gateway.get_candles(inst_id, timeframe, candle_limit) or [])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GIT\okx-trading-bot\v12x\v121\infrastructure\exchange\okx_gateway.py", line 220, in get_candles
+    candles = self.fetch_candles(inst_id, bar, limit)
+  File "D:\GIT\okx-trading-bot\v12x\v121\infrastructure\exchange\okx_gateway.py", line 186, in fetch_candles
+    resp = self.market_api.get_candlesticks(instId=inst_id, bar=bar, limit=str(limit + 1))
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\okx\MarketData.py", line 37, in get_candlesticks
+    return self._request_with_params(GET, MARKET_CANDLES, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\okx\okxclient.py", line 64, in _request_with_params
+    return self._request(method, request_path, params)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\okx\okxclient.py", line 55, in _request
+    response = self.get(request_path, headers=header)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1053, in get
+    return self.request(
+           ~~~~~~~~~~~~^
+        "GET",
+        ^^^^^^
+    ...<7 lines>...
+        extensions=extensions,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно

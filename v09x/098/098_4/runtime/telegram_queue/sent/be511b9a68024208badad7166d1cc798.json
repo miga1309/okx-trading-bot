@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: LDO-USDT-SWAP\nЦена входа: 0.280834\nQty: 6720.0\nATR: 0.000445\nСтоп: 0.281724\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "be511b9a68024208badad7166d1cc798",
+  "created_ts": 1774249738.0647206,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

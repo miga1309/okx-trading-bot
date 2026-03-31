@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: CRV-USDT-SWAP\nЦена входа: 0.216500\nQty: 11715.0\nATR: 0.000395\nСтоп: 0.217290\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "3c6c48d9b4814c8b9a5d29085303ec2d",
+  "created_ts": 1774206063.9813786,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

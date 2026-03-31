@@ -1,0 +1,59 @@
+current_price,error_code,error_msg,event,inst_id,requested_stop,response,side,trade_id,ts
+0.09885,,manage_open_positions,STOP_MISSING,DOGE-USDT-SWAP,0.0,{},short,20260318_140603_DOGE-USDT-SWAP_short,2026-03-18 14:08:45
+0.09885,,market_already_crossed_stop,STOP_REJECTED,DOGE-USDT-SWAP,0.09878925000000015,{},short,20260318_140603_DOGE-USDT-SWAP_short,2026-03-18 14:08:48
+0.0,,pre_close:Early invalidation: движение против позиции 1.98 ATR,STOP_ERROR,DOGE-USDT-SWAP,0.0,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": ""3400062170753753088"", ""clOrdId"": """", ""sCode"": ""51400"", ""sMsg"": ""Order cancellation failed as the order has been filled, canceled or does not exist."", ""tag"": """"}], ""msg"": """"}",short,20260318_140905_DOGE-USDT-SWAP_short,2026-03-18 14:13:45
+467.6,,market_already_crossed_stop,STOP_REJECTED,BCH-USDT-SWAP,467.0,{},short,20260318_140511_BCH-USDT-SWAP_short,2026-03-18 14:20:09
+0.17365,,market_already_crossed_stop,STOP_REJECTED,XLM-USDT-SWAP,0.1735886838624339,{},short,20260318_141146_XLM-USDT-SWAP_short,2026-03-18 14:25:10
+0.0,,unit_added,STOP_ERROR,XLM-USDT-SWAP,0.1724985873937438,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": """", ""clOrdId"": """", ""sCode"": ""51278"", ""sMsg"": ""SL trigger price cannot be lower than the last price "", ""tag"": """"}], ""msg"": """"}",short,20260318_143034_XLM-USDT-SWAP_short,2026-03-18 14:31:10
+57.28337037037037,,market_already_crossed_stop,STOP_REJECTED,LTC-USDT-SWAP,57.17875,{},short,20260318_143025_LTC-USDT-SWAP_short,2026-03-18 14:31:26
+0.1715,,manage_open_positions,STOP_MISSING,XLM-USDT-SWAP,0.0,{},short,20260318_143034_XLM-USDT-SWAP_short,2026-03-18 14:31:51
+57.2,,manage_open_positions,STOP_MISSING,LTC-USDT-SWAP,0.0,{},short,20260318_143025_LTC-USDT-SWAP_short,2026-03-18 14:32:13
+57.2,,market_already_crossed_stop,STOP_REJECTED,LTC-USDT-SWAP,57.17875,{},short,20260318_143025_LTC-USDT-SWAP_short,2026-03-18 14:32:16
+0.0,,unit_added,STOP_ERROR,AAVE-USDT-SWAP,117.74727999590502,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": """", ""clOrdId"": """", ""sCode"": ""51278"", ""sMsg"": ""SL trigger price cannot be lower than the last price "", ""tag"": """"}], ""msg"": """"}",short,20260318_143055_AAVE-USDT-SWAP_short,2026-03-18 14:32:23
+0.1719128123937439,,market_already_crossed_stop,STOP_REJECTED,XLM-USDT-SWAP,0.1716593654921798,{},short,20260318_143034_XLM-USDT-SWAP_short,2026-03-18 14:32:56
+117.98,,manage_open_positions,STOP_MISSING,AAVE-USDT-SWAP,0.0,{},short,20260318_143055_AAVE-USDT-SWAP_short,2026-03-18 14:32:59
+117.98,,market_already_crossed_stop,STOP_REJECTED,AAVE-USDT-SWAP,117.74727999590502,{},short,20260318_143055_AAVE-USDT-SWAP_short,2026-03-18 14:33:02
+0.0,,pre_close:Early invalidation: движение против позиции 3.31 ATR,STOP_ERROR,LTC-USDT-SWAP,0.0,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": ""3400109395664003072"", ""clOrdId"": """", ""sCode"": ""51400"", ""sMsg"": ""Order cancellation failed as the order has been filled, canceled or does not exist."", ""tag"": """"}], ""msg"": """"}",short,20260318_143232_LTC-USDT-SWAP_short,2026-03-18 14:33:04
+0.17189,,manage_open_positions,STOP_MISSING,XLM-USDT-SWAP,0.0,{},short,20260318_143034_XLM-USDT-SWAP_short,2026-03-18 14:33:39
+0.17189,,market_already_crossed_stop,STOP_REJECTED,XLM-USDT-SWAP,0.1716593654921798,{},short,20260318_143034_XLM-USDT-SWAP_short,2026-03-18 14:33:42
+0.1339988202395056,,market_already_crossed_stop,STOP_REJECTED,OP-USDT-SWAP,0.13390875000000002,{},short,20260318_143030_OP-USDT-SWAP_short,2026-03-18 14:34:30
+464.97086083003376,,market_already_crossed_stop,STOP_REJECTED,BCH-USDT-SWAP,464.944064440045,{},short,20260318_143016_BCH-USDT-SWAP_short,2026-03-18 14:34:49
+462.9,,manage_open_positions,STOP_MISSING,BCH-USDT-SWAP,0.0,{},short,20260318_143016_BCH-USDT-SWAP_short,2026-03-18 14:35:30
+464.5281456225253,,market_already_crossed_stop,STOP_REJECTED,BCH-USDT-SWAP,463.69374999999997,{},short,20260318_143016_BCH-USDT-SWAP_short,2026-03-18 14:35:38
+0.1328,,manage_open_positions,STOP_MISSING,OP-USDT-SWAP,0.0,{},short,20260318_143030_OP-USDT-SWAP_short,2026-03-18 14:35:44
+0.1335659468351103,,market_already_crossed_stop,STOP_REJECTED,OP-USDT-SWAP,0.133164375,{},short,20260318_143030_OP-USDT-SWAP_short,2026-03-18 14:35:52
+117.75333333333333,,market_already_crossed_stop,STOP_REJECTED,AAVE-USDT-SWAP,117.65460277777781,{},short,20260318_143315_AAVE-USDT-SWAP_short,2026-03-18 14:35:59
+0.1714984581847009,,market_already_crossed_stop,STOP_REJECTED,XLM-USDT-SWAP,0.17138962757960113,{},short,20260318_143400_XLM-USDT-SWAP_short,2026-03-18 14:36:07
+0.0607356005244263,,market_already_crossed_stop,STOP_REJECTED,MINA-USDT-SWAP,0.06073375,{},short,20260318_143011_MINA-USDT-SWAP_short,2026-03-18 14:36:27
+463.1,,manage_open_positions,STOP_MISSING,BCH-USDT-SWAP,0.0,{},short,20260318_143016_BCH-USDT-SWAP_short,2026-03-18 14:36:29
+0.1324,,manage_open_positions,STOP_MISSING,OP-USDT-SWAP,0.0,{},short,20260318_143030_OP-USDT-SWAP_short,2026-03-18 14:36:40
+0.1332494798657722,,market_already_crossed_stop,STOP_REJECTED,OP-USDT-SWAP,0.132764375,{},short,20260318_143030_OP-USDT-SWAP_short,2026-03-18 14:36:45
+117.65,,manage_open_positions,STOP_MISSING,AAVE-USDT-SWAP,0.0,{},short,20260318_143315_AAVE-USDT-SWAP_short,2026-03-18 14:36:48
+0.17112,,manage_open_positions,STOP_MISSING,XLM-USDT-SWAP,0.0,{},short,20260318_143400_XLM-USDT-SWAP_short,2026-03-18 14:36:53
+0.1713938436385257,,market_already_crossed_stop,STOP_REJECTED,XLM-USDT-SWAP,0.1711090045481571,{},short,20260318_143400_XLM-USDT-SWAP_short,2026-03-18 14:36:58
+0.06048,,manage_open_positions,STOP_MISSING,MINA-USDT-SWAP,0.0,{},short,20260318_143011_MINA-USDT-SWAP_short,2026-03-18 14:37:14
+1.614,,market_already_crossed_stop,STOP_REJECTED,DOT-USDT-SWAP,1.5830625,{},short,20260318_143020_DOT-USDT-SWAP_short,2026-03-18 14:37:24
+0.13208,,manage_open_positions,STOP_MISSING,OP-USDT-SWAP,0.0,{},short,20260318_143030_OP-USDT-SWAP_short,2026-03-18 14:37:27
+0.17083,,manage_open_positions,STOP_MISSING,XLM-USDT-SWAP,0.0,{},short,20260318_143400_XLM-USDT-SWAP_short,2026-03-18 14:37:32
+0.0605828005472272,,market_already_crossed_stop,STOP_REJECTED,MINA-USDT-SWAP,0.06052930068403393,{},short,20260318_143011_MINA-USDT-SWAP_short,2026-03-18 14:37:54
+1.59,,manage_open_positions,STOP_MISSING,DOT-USDT-SWAP,0.0,{},short,20260318_143020_DOT-USDT-SWAP_short,2026-03-18 14:37:57
+1.59,,market_already_crossed_stop,STOP_REJECTED,DOT-USDT-SWAP,1.5830625,{},short,20260318_143020_DOT-USDT-SWAP_short,2026-03-18 14:37:59
+117.6125,,market_already_crossed_stop,STOP_REJECTED,AAVE-USDT-SWAP,117.45177499999998,{},short,20260318_143315_AAVE-USDT-SWAP_short,2026-03-18 14:38:08
+0.06043,,manage_open_positions,STOP_MISSING,MINA-USDT-SWAP,0.0,{},short,20260318_143011_MINA-USDT-SWAP_short,2026-03-18 14:38:27
+56.97017543859649,,market_already_crossed_stop,STOP_REJECTED,LTC-USDT-SWAP,56.82125,{},short,20260318_143405_LTC-USDT-SWAP_short,2026-03-18 14:38:35
+117.14,,manage_open_positions,STOP_MISSING,AAVE-USDT-SWAP,0.0,{},short,20260318_143315_AAVE-USDT-SWAP_short,2026-03-18 14:38:51
+56.58,,manage_open_positions,STOP_MISSING,LTC-USDT-SWAP,0.0,{},short,20260318_143405_LTC-USDT-SWAP_short,2026-03-18 14:39:15
+56.86680311890838,,market_already_crossed_stop,STOP_REJECTED,LTC-USDT-SWAP,56.61125,{},short,20260318_143405_LTC-USDT-SWAP_short,2026-03-18 14:39:20
+56.8,,manage_open_positions,STOP_MISSING,LTC-USDT-SWAP,0.0,{},short,20260318_143405_LTC-USDT-SWAP_short,2026-03-18 14:40:02
+56.8,,market_already_crossed_stop,STOP_REJECTED,LTC-USDT-SWAP,56.61125,{},short,20260318_143405_LTC-USDT-SWAP_short,2026-03-18 14:40:05
+0.0,,pre_close:ATR стоп 2.0N,STOP_ERROR,AAVE-USDT-SWAP,0.0,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": ""3400122046725054464"", ""clOrdId"": """", ""sCode"": ""51400"", ""sMsg"": ""Order cancellation failed as the order has been filled, canceled or does not exist."", ""tag"": """"}], ""msg"": """"}",short,20260318_143315_AAVE-USDT-SWAP_short,2026-03-18 14:41:17
+0.0,,pre_close:ATR стоп 2.0N,STOP_ERROR,XLM-USDT-SWAP,0.0,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": ""3400119428103626752"", ""clOrdId"": """", ""sCode"": ""51400"", ""sMsg"": ""Order cancellation failed as the order has been filled, canceled or does not exist."", ""tag"": """"}], ""msg"": """"}",short,20260318_143400_XLM-USDT-SWAP_short,2026-03-18 14:41:19
+0.13208,,market_already_crossed_stop,STOP_REJECTED,OP-USDT-SWAP,0.1316038117449672,{},short,20260318_143030_OP-USDT-SWAP_short,2026-03-18 14:45:04
+0.083,,market_already_crossed_stop,STOP_REJECTED,2Z-USDT-SWAP,0.0817,{},short,20260318_143520_2Z-USDT-SWAP_short,2026-03-18 14:50:19
+0.0596809146523427,,market_already_crossed_stop,STOP_REJECTED,MINA-USDT-SWAP,0.059652594536456896,{},short,20260318_150920_MINA-USDT-SWAP_short,2026-03-18 15:19:29
+0.05959,,manage_open_positions,STOP_MISSING,MINA-USDT-SWAP,0.0,{},short,20260318_150920_MINA-USDT-SWAP_short,2026-03-18 15:19:59
+0.0596581862690244,,market_already_crossed_stop,STOP_REJECTED,MINA-USDT-SWAP,0.05955798255651313,{},short,20260318_150920_MINA-USDT-SWAP_short,2026-03-18 15:20:06
+0.0597,,market_already_crossed_stop,STOP_REJECTED,MINA-USDT-SWAP,0.0595901434289527,{},short,20260318_152026_MINA-USDT-SWAP_short,2026-03-18 15:35:04
+0.0855,,market_already_crossed_stop,STOP_REJECTED,2Z-USDT-SWAP,0.17116875,{},long,20260318_153020_2Z-USDT-SWAP_long,2026-03-18 15:38:28
+0.0881,,market_already_crossed_stop,STOP_REJECTED,2Z-USDT-SWAP,0.0881,{},long,20260318_154013_2Z-USDT-SWAP_long,2026-03-18 15:55:13
+455.4,,market_already_crossed_stop,STOP_REJECTED,BCH-USDT-SWAP,454.3253091190108,{},short,20260318_160516_BCH-USDT-SWAP_short,2026-03-18 16:20:06

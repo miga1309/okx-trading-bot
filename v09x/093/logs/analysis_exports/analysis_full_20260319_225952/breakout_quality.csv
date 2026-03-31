@@ -1,0 +1,8 @@
+atr,body_atr,body_to_range_ratio,breakout_buffer_atr_actual,breakout_level,channel_width_atr,close_beyond_channel_atr,distance_from_breakout_level_atr,donchian_high,donchian_low,entry_mode,entry_price,event,fresh_breakout_true_false,inst_id,side,system_name,timeframe,ts
+0.555,3.135135,1.0,6.892513,383.08,5.765766,0.36036,6.892513,383.08,379.88,minimal,386.90534483,breakout_quality,True,TSLA-USDT-SWAP,long,Turtle 20,5m,2026-03-19 22:05:30
+0.231,2.857143,0.776471,2.455545,112.38,6.839827,0.17316,2.455545,112.38,110.8,minimal,112.947231,breakout_quality,True,AAVE-USDT-SWAP,long,Turtle 55,5m,2026-03-19 22:10:53
+0.231,2.857143,0.776471,0.04329,112.38,6.839827,0.17316,-0.04329,112.38,110.8,minimal,112.37,breakout_quality,True,AAVE-USDT-SWAP,long,Turtle 55,5m,2026-03-19 22:13:40
+0.00235,0.425532,0.5,7.656115,1.179,25.531915,8.085106,7.656115,1.179,1.119,minimal,1.19699187,breakout_quality,True,LIT-USDT-SWAP,long,Turtle 55,5m,2026-03-19 22:15:34
+0.0197,0.253807,0.217391,0.406091,1.548,2.588832,0.101523,-0.406091,1.548,1.497,minimal,1.54,breakout_quality,True,DOT-USDT-SWAP,long,Turtle 55,5m,2026-03-19 22:25:31
+0.0005475,3.196347,0.972222,2.922374,0.09415,3.378995,2.739726,2.922374,0.09415,0.0923,minimal,0.09575,breakout_quality,True,DOGE-USDT-SWAP,long,Turtle 20,5m,2026-03-19 22:30:27
+0.006455,2.292796,0.980132,0.170411,0.2577,4.275755,0.123935,0.170411,0.2577,0.2301,minimal,0.2588,breakout_quality,True,CRV-USDT-SWAP,long,Turtle 55,5m,2026-03-19 22:55:22

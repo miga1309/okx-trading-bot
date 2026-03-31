@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: SAND-USDT-SWAP\nСторона: LONG\nЦена входа: 0.074300\nЦена выхода: 0.074300\nPnL: 0.0000\nPnL %: 0.00%\nЮнитов: 1\nПричина: Ротация под новый сигнал IMX-USDT-SWAP",
+  "id": "71eb88d7d94d4548ae75d6c8e872f915",
+  "created_ts": 1774845468.3879585,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

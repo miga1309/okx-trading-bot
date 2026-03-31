@@ -1,0 +1,4 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+1.2353319736335233,False,active,AXS-USDT-SWAP,1.1928,HEALTHY,46726.0,long,1.16641,ACTIVE,,20260319_094507_AXS-USDT-SWAP_long
+55.11000920810313,False,active,LTC-USDT-SWAP,55.08,HEALTHY,217.2,short,56.79803683241252,ACTIVE,,20260319_101009_LTC-USDT-SWAP_short
+89.12942313616759,False,active,SOL-USDT-SWAP,89.18,HEALTHY,129.84,short,90.4,ACTIVE,,20260319_101506_SOL-USDT-SWAP_short

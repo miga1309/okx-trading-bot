@@ -1,0 +1,10 @@
+early_exit_flag,exit_reason,hybrid_stop_mode,inst_id,realized_r,retained_r_share,side,system_name,trade_id,trend_hold_state,trend_move_r,units
+False,аварийное_закрытие:_биржевой_стоп_не_подтверждён,ATR_INITIAL,MET-USDT-SWAP,0.0,0.0,long,Turtle 55,20260325_201410_MET-USDT-SWAP_long,INITIAL_RISK,0.0,1
+False,аварийное_закрытие:_market_already_crossed_stop,DONCHIAN_ACTIVE,BNB-USDT-SWAP,-1.401966,-0.774586,long,Turtle 20,20260325_193249_BNB-USDT-SWAP_long,TREND_HOLD,1.809955,1
+False,sync_confirmed_close_after_stop_fault:_missing,DONCHIAN_ACTIVE,KSM-USDT-SWAP,-0.661157,-1.0,long,Turtle 20,20260325_201007_KSM-USDT-SWAP_long,TREND_ACTIVE,0.661157,1
+False,аварийное_закрытие:_market_already_crossed_stop,ATR_INITIAL,CFX-USDT-SWAP,-1.962328,-5.396407,long,Turtle 20,20260325_193309_CFX-USDT-SWAP_long,INITIAL_RISK,0.363636,1
+False,аварийное_закрытие:_market_already_crossed_stop,DONCHIAN_ACTIVE,IMX-USDT-SWAP,-1.936396,-2.362403,long,Turtle 20,20260325_193301_IMX-USDT-SWAP_long,TREND_ACTIVE,0.819672,2
+False,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,AAVE-USDT-SWAP,0.086844,0.09296,long,Turtle 20,20260325_193317_AAVE-USDT-SWAP_long,TREND_ACTIVE,0.934211,1
+False,sync_confirmed_close_after_stop_fault:_missing,DONCHIAN_ACTIVE,COMP-USDT-SWAP,-1.2,-1.5,long,Turtle 20,20260325_193252_COMP-USDT-SWAP_long,TREND_ACTIVE,0.8,1
+False,аварийное_закрытие:_биржевой_стоп_не_подтверждён,DONCHIAN_ACTIVE,FIL-USDT-SWAP,-1.411238,-1.975732,long,Turtle 20,20260325_193256_FIL-USDT-SWAP_long,TREND_ACTIVE,0.714286,1
+False,sync_confirmed_close_after_stop_fault:_missing,DONCHIAN_ACTIVE,SUSHI-USDT-SWAP,0.185185,0.076923,long,Turtle 20,20260325_193313_SUSHI-USDT-SWAP_long,TREND_HOLD,2.407407,1

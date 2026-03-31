@@ -1,0 +1,8 @@
+early_exit_flag,early_exit_gap_pct,exit_efficiency,exit_reason,hybrid_stop_mode,inst_id,mfe_pct,realized_pnl_pct,realized_r,side,system_name,trade_id,trend_capture_ratio,trend_move_r,trend_strength_r,turtle_exit_period,units
+False,0.129747,0.15,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,LINK-USDT-SWAP,0.306676,0.1769285208775722,0.570342,short,Turtle 20,20260329_130949_LINK-USDT-SWAP_short,0.576923,0.988593,0.988593,10,4
+False,0.05725,-8.059701,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,SUI-USDT-SWAP,0.05725,-1.5772870662460776,-7.812461,short,Turtle 20,20260329_133544_SUI-USDT-SWAP_short,-27.550866,0.283565,0.283565,10,2
+False,0.213447,0.083333,синхронизация:_позиция_отсутствует_на_бирже,DONCHIAN_ACTIVE,INJ-USDT-SWAP,0.39132,0.17787264318745816,0.2,short,Turtle 55,20260329_130703_INJ-USDT-SWAP_short,0.454545,0.44,0.44,20,4
+False,0.065484,0.0,канальный_выход_20_свечей,DONCHIAN_ACTIVE,LQTY-USDT-SWAP,0.065484,-4.182599956204865,-1.606894,short,Turtle 55,20260329_130944_LQTY-USDT-SWAP_short,-63.87209,0.025158,0.025158,20,3
+False,0.124592,0.0,sync_confirmed_close_after_stop_fault:_pending_recheck,ATR_INITIAL,BTC-USDT-SWAP,0.124592,0.0,0.0,short,Turtle 55,20260329_133818_BTC-USDT-SWAP_short,0.0,0.200242,0.200242,20,1
+False,0.0,0.0,sync_confirmed_close_after_stop_fault:_pending_recheck,ATR_INITIAL,SUI-USDT-SWAP,0.0,0.0,0.0,short,Turtle 55,20260329_133251_SUI-USDT-SWAP_short,0.0,0.0,0.0,20,1
+False,0.011779,0.0,sync_confirmed_close_after_stop_fault:_pending_recheck,ATR_INITIAL,LINK-USDT-SWAP,0.011779,0.0,0.0,short,Turtle 20,20260329_130707_LINK-USDT-SWAP_short,0.0,0.021277,0.021277,10,1

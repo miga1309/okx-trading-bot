@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: ADA-USDT-SWAP\nЦена входа: 0.249000\nQty: 82.5\nATR: 0.002500\nBootstrap-stop: 0.231800\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "83c08d456d5b4ff5ae0844a6737921ec",
+  "created_ts": 1774857874.9714487,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

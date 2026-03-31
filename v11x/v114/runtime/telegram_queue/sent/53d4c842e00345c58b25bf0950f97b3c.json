@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: MINA-USDT-SWAP\nЦена входа: 0.053570\nQty: 52175.0\nATR: 0.000052\nBootstrap-stop: 0.052740\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "53d4c842e00345c58b25bf0950f97b3c",
+  "created_ts": 1774721813.8171816,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

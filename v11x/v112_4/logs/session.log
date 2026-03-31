@@ -1,0 +1,3 @@
+2026-03-26 21:08:12,423 | INFO | system_events | session_control_engine:_transition:23 | session_state=STARTING payload={}
+2026-03-26 21:08:12,672 | INFO | system_events | session_control_engine:_transition:23 | session_state=RUNNING payload={}
+2026-03-26 21:09:45,459 | INFO | system_events | session_control_engine:_transition:23 | session_state=STOPPED payload={'exit_code': 0}

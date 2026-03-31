@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: KSM-USDT-SWAP\nСторона: LONG\nЦена входа: 4.148000\nЦена выхода: 4.109000\nPnL: -24.5622\nPnL %: -4.70%\nЮнитов: 1\nПричина: Ротация под новый сигнал GMT-USDT-SWAP",
+  "id": "19f9cf8fb55b41dd9722b321af96c935",
+  "created_ts": 1774825308.9778502,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

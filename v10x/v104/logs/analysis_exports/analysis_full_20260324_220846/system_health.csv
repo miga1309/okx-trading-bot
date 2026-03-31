@@ -1,0 +1,5 @@
+available_after_bans,cache_errors,cache_fetch_count,closed_trades,connectivity_components_down,connectivity_state,event,loop_duration_sec,open_positions,signals_blocked,signals_found,symbols_scanned,ts
+109,0,0,0,"['ws_public', 'ws_private']",DEGRADED,SYSTEM_HEALTH,0.0,0,0,0,109,2026-03-24 22:02:56
+109,0,0,0,[],RECOVERING,SYSTEM_HEALTH,1.723665475845337,0,0,0,109,2026-03-24 22:03:03
+109,10,203,0,[],CONNECTED,SYSTEM_HEALTH,1.723665475845337,1,0,2,109,2026-03-24 22:05:13
+109,10,528,0,[],CONNECTED,SYSTEM_HEALTH,131.5591790676117,2,0,3,109,2026-03-24 22:07:13

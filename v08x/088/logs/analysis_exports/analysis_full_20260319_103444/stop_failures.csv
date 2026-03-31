@@ -1,0 +1,6 @@
+current_price,error_code,error_msg,event,inst_id,requested_stop,response,side,trade_id,ts
+0.0,,pre_close:ATR стоп 2.0N,STOP_ERROR,DOGE-USDT-SWAP,0.0,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": ""3401524471155478528"", ""clOrdId"": """", ""sCode"": ""51400"", ""sMsg"": ""Order cancellation failed as the order has been filled, canceled or does not exist."", ""tag"": """"}], ""msg"": """"}",long,20260318_215626_DOGE-USDT-SWAP_long,2026-03-19 02:18:13
+0.126,,manage_open_positions,STOP_MISSING,OP-USDT-SWAP,0.0,{},short,20260319_014514_OP-USDT-SWAP_short,2026-03-19 02:31:15
+0.0,,missing_algo_replace,STOP_ERROR,OP-USDT-SWAP,0.126107,"{""code"": ""1"", ""data"": [{""algoClOrdId"": """", ""algoId"": """", ""clOrdId"": """", ""sCode"": ""51278"", ""sMsg"": ""SL trigger price cannot be lower than the last price "", ""tag"": """"}], ""msg"": """"}",short,20260319_014514_OP-USDT-SWAP_short,2026-03-19 02:31:19
+0.1248,,manage_open_positions,STOP_MISSING,OP-USDT-SWAP,0.0,{},short,20260319_080014_OP-USDT-SWAP_short,2026-03-19 08:59:38
+0.1248,,market_already_crossed_stop,STOP_REJECTED,OP-USDT-SWAP,0.124468,{},short,20260319_080014_OP-USDT-SWAP_short,2026-03-19 08:59:41

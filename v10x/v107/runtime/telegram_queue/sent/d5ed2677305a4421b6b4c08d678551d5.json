@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ICP-USDT-SWAP\nСторона: LONG\nЦена входа: 2.395876\nЦена выхода: 2.382000\nPnL: -29.4591\nPnL %: -0.58%\nЮнитов: 2\nПричина: Аварийное закрытие: market_already_crossed_stop",
+  "id": "d5ed2677305a4421b6b4c08d678551d5",
+  "created_ts": 1774429291.7231128,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

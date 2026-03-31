@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: FIL-USDT-SWAP\nСторона: LONG\nЦена входа: 0.860000\nЦена выхода: 0.859000\nPnL: -12.8432\nPnL %: -0.12%\nЮнитов: 4\nПричина: Канальный выход 10 свечей",
+  "id": "e4b4fa1e14334beebe446d31093617dd",
+  "created_ts": 1774261580.904121,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

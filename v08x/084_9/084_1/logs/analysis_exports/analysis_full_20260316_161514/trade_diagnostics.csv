@@ -1,0 +1,5 @@
+early_exit_flag,early_exit_gap_pct,inst_id,last_stop_move_reason,mae_pct,market_risk_score,mfe_pct,pnl_pct,side,stop_move_events,trade_id,unit_add_events
+False,0.0,BREV-USDT-SWAP,pre_close:Защита тренда: откат от пика 25395003333.33R → 3695003333.33R,0.0,4.0,0.366239,0.3662389764685495,long,0,20260316_161414_BREV-USDT-SWAP_long,0
+False,0.168083,CRO-USDT-SWAP,LOCAL_PROTECTIVE_EXIT_TRIGGERED,0.854385,9.0,0.168083,-0.854385409312809,short,0,20260316_161414_CRO-USDT-SWAP_short,0
+False,0.0,BREV-USDT-SWAP,pre_close:Защита тренда: откат от пика 25395003333.33R → 3695003333.33R,0.0,4.0,0.366239,0.3662389764685495,long,0,20260316_161313_BREV-USDT-SWAP_long,0
+False,0.168083,CRO-USDT-SWAP,LOCAL_PROTECTIVE_EXIT_TRIGGERED,0.854385,9.0,0.168083,-0.854385409312809,short,0,20260316_161313_CRO-USDT-SWAP_short,0

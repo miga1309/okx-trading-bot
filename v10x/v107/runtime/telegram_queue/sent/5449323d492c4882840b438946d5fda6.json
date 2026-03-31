@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: TSLA-USDT-SWAP\nЦена входа: 386.770000\nQty: 703.0\nATR: 0.063500\nСтоп: 386.643000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "5449323d492c4882840b438946d5fda6",
+  "created_ts": 1774396978.70134,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

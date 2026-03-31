@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: INJ-USDT-SWAP\nСторона: SHORT\nЦена входа: 2.924747\nЦена выхода: 2.966000\nPnL: -39.7514\nPnL %: -1.41%\nЮнитов: 1\nПричина: Ротация под новый сигнал AAVE-USDT-SWAP",
+  "id": "8e5ae22e3bdd4adf8b19e0270423ebe4",
+  "created_ts": 1774574518.2583778,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

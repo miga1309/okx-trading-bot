@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ADA-USDT-SWAP\nСторона: LONG\nЦена входа: 0.249200\nЦена выхода: 0.249000\nPnL: -1.6500\nPnL %: -0.40%\nЮнитов: 1\nПричина: Ротация под новый сигнал CRO-USDT-SWAP",
+  "id": "36160a2a2dd5463ab6ccd56a9b90f230",
+  "created_ts": 1774857964.4879718,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

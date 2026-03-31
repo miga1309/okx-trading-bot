@@ -1,0 +1,126 @@
+{
+  "positions": {},
+  "closed_trades": [],
+  "balance_history": [
+    {
+      "time": "2026-03-22 17:13:50",
+      "balance_total": 83668.16654097052,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:14:06",
+      "balance_total": 83666.49307723188,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:14:21",
+      "balance_total": 83667.3298091012,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:14:37",
+      "balance_total": 83668.16654097052,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:14:52",
+      "balance_total": 83669.00327283984,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:15:08",
+      "balance_total": 83669.00327283984,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:15:23",
+      "balance_total": 83669.84000470916,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:15:39",
+      "balance_total": 83669.84000470916,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:15:54",
+      "balance_total": 83669.84000470916,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:16:10",
+      "balance_total": 83669.00327283984,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:16:26",
+      "balance_total": 83667.3298091012,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:16:41",
+      "balance_total": 83669.00327283984,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:16:57",
+      "balance_total": 83669.00327283984,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:17:12",
+      "balance_total": 83668.16654097052,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:17:28",
+      "balance_total": 83667.3298091012,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:17:43",
+      "balance_total": 83666.49307723188,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:17:59",
+      "balance_total": 83667.3298091012,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:18:14",
+      "balance_total": 83668.16654097052,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:18:30",
+      "balance_total": 83667.3298091012,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    },
+    {
+      "time": "2026-03-22 17:18:46",
+      "balance_total": 83669.84000470916,
+      "balance_available": 83673.18693218645,
+      "balance_used": 0.0
+    }
+  ]
+}

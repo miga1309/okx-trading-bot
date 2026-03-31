@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: ETC-USDT-SWAP\nЦена входа: 8.190000\nQty: 28.97\nATR: 0.019500\nBootstrap-stop: 8.240000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "7a6fc3b0c5764749b7cd44239eee298c",
+  "created_ts": 1774573682.5470634,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

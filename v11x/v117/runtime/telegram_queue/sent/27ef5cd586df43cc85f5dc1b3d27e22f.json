@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: SUSHI-USDT-SWAP\nЦена входа: 0.186900\nQty: 14089.0\nATR: 0.000125\nBootstrap-stop: 0.189600\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "27ef5cd586df43cc85f5dc1b3d27e22f",
+  "created_ts": 1774788398.3948157,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

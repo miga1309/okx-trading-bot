@@ -1,0 +1,255 @@
+atr,breakout_distance_atr,breakout_level,cycle_id,freshness_score,inst_id,liquidity_score,passed_filters,price,reason,recent_trade_penalty,reject_code,side,signal_detected,stage,system_name,timestamp
+0.00335,0.0,0.0,1,0.0,1INCH-USDT-SWAP,0.0,False,0.101,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:13
+0.0025700000000000002,0.0,0.0,1,0.0,2Z-USDT-SWAP,0.0,False,0.0842,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:13
+0.00030999999999999984,0.0,0.0,1,0.0,A-USDT-SWAP,0.0,False,0.0824,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:14
+1.1980000000000004,0.0,0.0,1,0.0,AAVE-USDT-SWAP,0.0,False,120.34,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:14
+1.4999999999999995e-05,0.0,0.0,1,0.0,ACT-USDT-SWAP,0.0,False,0.01443,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:14
+7.999999999999952e-05,0.0,0.0,1,0.0,ADA-USDT-SWAP,0.0,False,0.1996,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:15
+0.0003110000000000002,0.0,0.0,1,0.0,AI16Z-USDT-SWAP,0.0,False,0.05902,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:15
+0.0,0.0,0.0,1,0.0,AKITA-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:15
+0.0001349999999999997,0.0,0.0,1,0.0,ALGO-USDT-SWAP,0.0,False,0.0942,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:16
+0.004499999999999995,0.0,0.0,1,0.0,ARB-USDT-SWAP,0.0,False,0.1078,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:16
+0.0,0.0,0.0,1,0.0,ASP-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:16
+0.0,0.0,0.7104,1,0.0,ASTER-USDT-SWAP,0.0,False,0.0,закрытие не удержалось ниже канала,0.0,закрытие_не_удержалось_ниже_канала,short,False,rejected,Turtle 20,2026-03-16 16:13:17
+0.004599999999999982,0.0,0.0,1,0.0,ATOM-USDT-SWAP,0.0,False,1.9,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:17
+0.16280000000000006,0.0,0.0,1,0.0,AUCTION-USDT-SWAP,0.0,False,4.906,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:18
+0.04624999999999999,0.0,0.0,1,0.0,AVAX-USDT-SWAP,0.0,False,7.328,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:18
+0.04990999999999999,0.0,0.0,1,0.0,AXS-USDT-SWAP,0.0,False,1.2272,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:19
+0.0,0.4878,0.2357,1,0.4978,BAND-USDT-SWAP,10.1724,True,0.0,classic_turtle_breakout_short,0.0,classic_turtle_breakout_short,short,True,candidate,Turtle 20,2026-03-16 16:13:19
+0.875,0.0,0.0,1,0.0,BCH-USDT-SWAP,0.0,False,475.1,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:19
+3.0000000000000513e-06,0.0,0.0,1,0.0,BIO-USDT-SWAP,0.0,False,0.02594,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:20
+0.0,0.0,0.0,1,0.0,BLUAI-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:20
+1.0599999999999625,0.0,0.0,1,0.0,BNB-USDT-SWAP,0.0,False,723.1,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:20
+1.6000000000000013e-05,0.0,0.0,1,0.0,BOME-USDT-SWAP,0.0,False,0.000485,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:21
+0.0001550000000000002,0.0,0.0,1,0.0,BRETT-USDT-SWAP,0.0,False,0.0082,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:21
+636.464999999998,0.0,0.0,1,0.0,BTC-USDT-SWAP,0.0,False,73957.5,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:21
+4.314999999999998e-08,0.0,0.0,1,0.0,CAT-USDT-SWAP,0.0,False,2.057e-06,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:22
+4.99999999999997e-06,0.0,0.0,1,0.0,CATI-USDT-SWAP,0.0,False,0.0308,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:22
+0.0011899999999999966,0.0,0.0,1,0.0,CELO-USDT-SWAP,0.0,False,0.079,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:22
+0.003372499999999999,0.0,0.0,1,0.0,CFX-USDT-SWAP,0.0,False,0.06497,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:23
+0.0010414999999999997,0.0,0.0,1,0.0,CHZ-USDT-SWAP,0.0,False,0.03945,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:23
+0.0,0.0,0.0,1,0.0,COAI-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:23
+0.10950000000000007,0.0,0.0,1,0.0,COMP-USDT-SWAP,0.0,False,19.36,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:24
+0.014899999999999993,0.0,0.0,1,0.0,CRV-USDT-SWAP,0.0,False,0.2476,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:24
+0.0002975000000000012,0.0,0.0,1,0.0,DOGE-USDT-SWAP,0.0,False,0.0998,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:24
+0.05904999999999995,0.0,0.0,1,0.0,DOT-USDT-SWAP,0.0,False,1.593,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:25
+0.0006100000000000001,0.0,0.0,1,0.0,ENA-USDT-SWAP,0.0,False,0.1127,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:25
+0.0,0.0,0.0,1,0.0,EOS-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:25
+0.0,1.8519,9.0,1,1.8619,ETC-USDT-SWAP,18.2901,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,candidate,Turtle 20,2026-03-16 16:13:26
+22.179999999999996,0.0,0.0,1,0.0,ETH-USDT-SWAP,0.0,False,2273.5,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:26
+0.0,0.2024,0.7501,1,0.2124,ETHFI-USDT-SWAP,834.0131,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,candidate,Turtle 55,2026-03-16 16:13:27
+0.0,0.2024,0.7501,1,0.2124,ETHFI-USDT-SWAP,834.0131,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,candidate,Turtle 20,2026-03-16 16:13:27
+0.012535000000000001,0.0,0.0,1,0.0,ETHW-USDT-SWAP,0.0,False,0.3784,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:27
+0.0,0.5,0.934,1,0.51,FIL-USDT-SWAP,31.1243,True,0.0,classic_turtle_breakout_short,0.0,classic_turtle_breakout_short,short,True,candidate,Turtle 20,2026-03-16 16:13:28
+1.5164999999999998e-06,0.0,0.0,1,0.0,FLOKI-USDT-SWAP,0.0,False,3.21e-05,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:28
+0.0001254999999999999,0.0,0.0,1,0.0,GMT-USDT-SWAP,0.0,False,0.00873,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:28
+0.004574999999999999,0.0,0.0,1,0.0,H-USDT-SWAP,0.0,False,0.0786,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:29
+0.00041000000000000064,0.0,0.0,1,0.0,HBAR-USDT-SWAP,0.0,False,0.0984,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:29
+0.0,0.0,0.0,1,0.0,HMSTR-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:29
+9.500000000000133e-06,0.0,0.0,1,0.0,HOME-USDT-SWAP,0.0,False,0.02265,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:29
+0.0025499999999999633,0.0,0.0,1,0.0,ICP-USDT-SWAP,0.0,False,2.701,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:30
+0.0,0.0,0.0,1,0.0,IMX-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:30
+0.17440000000000005,0.0,0.0,1,0.0,INJ-USDT-SWAP,0.0,False,3.179,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:30
+0.0002530000000000018,0.0,0.0,1,0.0,IOTA-USDT-SWAP,0.0,False,0.0657,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:31
+0.0004450000000000037,0.0,0.0,1,0.0,JUP-USDT-SWAP,0.0,False,0.1691,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:31
+0.0,0.0,0.0,1,0.0,KAITO-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:31
+0.03740000000000006,0.0,0.0,1,0.0,KSM-USDT-SWAP,0.0,False,4.762,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:31
+0.0,0.0,0.3173,1,0.0,LDO-USDT-SWAP,0.0,False,0.0,закрытие не удержалось ниже канала,0.0,закрытие_не_удержалось_ниже_канала,short,False,rejected,Turtle 20,2026-03-16 16:13:32
+4.205000000000003e-05,0.0,0.0,1,0.0,LINEA-USDT-SWAP,0.0,False,0.003487,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:33
+0.01595000000000013,0.0,0.0,1,0.0,LINK-USDT-SWAP,0.0,False,10.225,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:33
+0.020649999999999967,0.0,0.0,1,0.0,LIT-USDT-SWAP,0.0,False,1.088,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:33
+0.0015500000000000069,0.0,0.0,1,0.0,LPT-USDT-SWAP,0.0,False,2.276,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:33
+0.0,0.0,0.0,1,0.0,LQTY-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:34
+5.450000000000038e-05,0.0,0.0,1,0.0,LRC-USDT-SWAP,0.0,False,0.02943,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:34
+1.3615000000000002,0.0,0.0,1,0.0,LTC-USDT-SWAP,0.0,False,57.59,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:34
+0.0,0.0,0.0845,1,0.0,MAGIC-USDT-SWAP,0.0,False,0.0,закрытие не удержалось выше канала,0.0,закрытие_не_удержалось_выше_канала,long,False,rejected,Turtle 55,2026-03-16 16:13:35
+0.0,0.0,0.0845,1,0.0,MAGIC-USDT-SWAP,0.0,False,0.0,закрытие не удержалось выше канала,0.0,закрытие_не_удержалось_выше_канала,long,False,rejected,Turtle 20,2026-03-16 16:13:35
+0.0026499999999999996,0.0,0.0,1,0.0,MAJOR-USDT-SWAP,0.0,False,0.0635,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:35
+0.00029000000000000136,0.0,0.0,1,0.0,MASK-USDT-SWAP,0.0,False,0.6124,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:36
+6.0000000000000334e-05,0.0,0.0,1,0.0,MET-USDT-SWAP,0.0,False,0.1677,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:36
+0.0,0.6114,0.05967,1,0.6214,MINA-USDT-SWAP,27.1009,True,0.0,classic_turtle_breakout_short,0.0,classic_turtle_breakout_short,short,True,candidate,Turtle 20,2026-03-16 16:13:37
+0.0,0.0,0.0,1,0.0,MKR-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:37
+3.300000000000004e-05,0.0,0.0,1,0.0,MUBARAK-USDT-SWAP,0.0,False,0.01584,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:37
+0.0,0.0,0.0,1,0.0,NEAR-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:38
+0.020550000000000002,0.0,0.0,1,0.0,NEO-USDT-SWAP,0.0,False,3.652,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:38
+9.449999999999986e-07,0.0,0.0,1,0.0,NOT-USDT-SWAP,0.0,False,0.0004221,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:38
+0.0002884999999999957,0.0,0.0,1,0.0,OP-USDT-SWAP,0.0,False,0.1312,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:38
+5.399999999999898e-09,0.0,0.0,1,0.0,PEPE-USDT-SWAP,0.0,False,3.595e-06,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:39
+0.0,0.0,0.0,1,0.0,PIGGY-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:39
+0.004499999999999976,0.0,0.0,1,0.0,QTUM-USDT-SWAP,0.0,False,0.937,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:39
+1.749999999999998e-05,0.0,0.0,1,0.0,RAVE-USDT-SWAP,0.0,False,0.00744,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:40
+0.00010899999999999937,0.0,0.0,1,0.0,RESOLV-USDT-SWAP,0.0,False,0.06476,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:40
+0.0,0.0,0.0,1,0.0,ROBO-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:40
+0.004529999999999999,0.0,0.0,1,0.0,SAND-USDT-SWAP,0.0,False,0.0862,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:41
+0.0,0.0,0.0,1,0.0,SCR-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:41
+0.0,0.0,0.0,1,0.0,SHIB-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:41
+0.0020260000000000005,0.0,0.0,1,0.0,SKY-USDT-SWAP,0.0,False,0.03435,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:42
+0.16649999999999848,0.0,0.0,1,0.0,SOL-USDT-SWAP,0.0,False,93.7,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:42
+0.0,0.0,0.0,1,0.0,SOLV-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:42
+0.0,0.0,0.0,1,0.0,SPK-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:43
+0.0,0.0,0.0,1,0.0,STRK-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:43
+0.016080500000000008,0.0,0.0,1,0.0,SUI-USDT-SWAP,0.0,False,1.05615,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:43
+0.0,0.0,0.22,1,0.0,SUSHI-USDT-SWAP,0.0,False,0.0,закрытие не удержалось выше канала,0.0,закрытие_не_удержалось_выше_канала,long,False,rejected,Turtle 55,2026-03-16 16:13:44
+0.0,0.0,0.22,1,0.0,SUSHI-USDT-SWAP,0.0,False,0.0,закрытие не удержалось выше канала,0.0,закрытие_не_удержалось_выше_канала,long,False,rejected,Turtle 20,2026-03-16 16:13:44
+0.0008750000000000063,0.0,0.0,1,0.0,SYRUP-USDT-SWAP,0.0,False,0.2647,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:44
+0.0,0.0,0.0,1,0.0,TEST1234-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:45
+0.0,0.0,0.0,1,0.0,TEST3103-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:45
+0.0,0.0,0.0,1,0.0,TEST3110-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:45
+0.0002549999999999997,0.0,0.0,1,0.0,THETA-USDT-SWAP,0.0,False,0.1782,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:46
+0.0,0.0,1.325,1,0.0,TON-USDT-SWAP,0.0,False,0.0,закрытие не удержалось ниже канала,0.0,закрытие_не_удержалось_ниже_канала,short,False,rejected,Turtle 20,2026-03-16 16:13:46
+0.0,0.0,0.0,1,0.0,TRIA-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:46
+0.00016500000000000404,0.0,0.0,1,0.0,TRX-USDT-SWAP,0.0,False,0.2982,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:47
+0.15349999999999966,0.0,0.0,1,0.0,TSLA-USDT-SWAP,0.0,False,397.23,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:47
+0.1765000000000015,0.0,0.0,1,0.0,XAG-USDT-SWAP,0.0,False,79.96,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:48
+176.09000000000006,0.0,0.0,1,0.0,XAU-USDT-SWAP,0.0,False,5287.2,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:48
+0.0006080000000000016,0.0,0.0,1,0.0,XLM-USDT-SWAP,0.0,False,0.17212,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:48
+0.00026499999999999994,0.0,0.0,1,0.0,XPL-USDT-SWAP,0.0,False,0.1475,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:48
+0.0014599999999999724,0.0,0.0,1,0.0,XRP-USDT-SWAP,0.0,False,1.4368,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:49
+130.54786000000004,0.0,0.0,1,0.0,XSR-USDT-SWAP,0.0,False,24804.0925,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:49
+0.0,11.2727,0.375,1,11.2827,XTZ-USDT-SWAP,234.871,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,candidate,Turtle 55,2026-03-16 16:13:50
+0.0,11.2727,0.375,1,11.2827,XTZ-USDT-SWAP,234.871,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,candidate,Turtle 20,2026-03-16 16:13:50
+0.0011050000000000005,0.0,0.0,1,0.0,YB-USDT-SWAP,0.0,False,0.1554,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:50
+0.1599999999999909,0.0,0.0,1,0.0,YFI-USDT-SWAP,0.0,False,3439.8,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:50
+0.0036300000000000013,0.0,0.0,1,0.0,YGG-USDT-SWAP,0.0,False,0.048,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:51
+9.949999999999959e-05,0.0,0.0,1,0.0,ZAMA-USDT-SWAP,0.0,False,0.02188,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:51
+0.0,0.0,0.0,1,0.0,ZBCN-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:51
+0.0,0.0,0.0,1,0.0,ZETA-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:13:52
+1.7699999999999963e-05,0.0,0.0,1,0.0,ZIL-USDT-SWAP,0.0,False,0.004314,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:13:52
+0.0,0.2024,0.0,1,0.2124,ETHFI-USDT-SWAP,834.0131,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,ranked_candidate,Turtle 55,2026-03-16 16:13:52
+0.0,11.2727,0.0,1,11.2827,XTZ-USDT-SWAP,234.871,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,ranked_candidate,Turtle 55,2026-03-16 16:13:52
+0.0,0.4878,0.0,1,0.4978,BAND-USDT-SWAP,10.1724,True,0.0,classic_turtle_breakout_short,0.0,classic_turtle_breakout_short,short,True,ranked_candidate,Turtle 20,2026-03-16 16:13:52
+0.0,0.2024,0.0,1,0.2124,ETHFI-USDT-SWAP,834.0131,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,ranked_candidate,Turtle 20,2026-03-16 16:13:52
+0.0,0.6114,0.0,1,0.6214,MINA-USDT-SWAP,27.1009,True,0.0,classic_turtle_breakout_short,0.0,classic_turtle_breakout_short,short,True,ranked_candidate,Turtle 20,2026-03-16 16:13:52
+0.0,0.5,0.0,1,0.51,FIL-USDT-SWAP,31.1243,True,0.0,classic_turtle_breakout_short,0.0,classic_turtle_breakout_short,short,True,ranked_candidate,Turtle 20,2026-03-16 16:13:52
+0.0,11.2727,0.0,1,11.2827,XTZ-USDT-SWAP,234.871,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,ranked_candidate,Turtle 20,2026-03-16 16:13:52
+0.0,1.8519,0.0,1,1.8619,ETC-USDT-SWAP,18.2901,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,ranked_candidate,Turtle 20,2026-03-16 16:13:52
+0.0,0.0,0.0,1,0.0,ETHFI-USDT-SWAP,0.0,True,0.0,,0.0,unknown,long,True,entry_failed,Turtle 55,2026-03-16 16:13:54
+0.0,0.0,0.0,1,0.0,XTZ-USDT-SWAP,0.0,True,0.0,,0.0,unknown,long,True,entry_failed,Turtle 55,2026-03-16 16:13:55
+0.0,0.0,0.0,1,0.0,BAND-USDT-SWAP,0.0,True,0.0,,0.0,unknown,short,True,entry_failed,Turtle 20,2026-03-16 16:13:57
+0.0,0.0,0.0,1,0.0,MINA-USDT-SWAP,0.0,True,0.0,,0.0,unknown,short,True,entry_failed,Turtle 20,2026-03-16 16:13:59
+0.0,0.0,0.0,1,0.0,FIL-USDT-SWAP,0.0,True,0.0,,0.0,unknown,short,True,entry_failed,Turtle 20,2026-03-16 16:14:01
+0.0,0.0,0.0,1,0.0,ETC-USDT-SWAP,0.0,True,0.0,,0.0,unknown,long,True,entry_failed,Turtle 20,2026-03-16 16:14:02
+0.00335,0.0,0.0,2,0.0,1INCH-USDT-SWAP,0.0,False,0.101,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:15
+0.0025700000000000002,0.0,0.0,2,0.0,2Z-USDT-SWAP,0.0,False,0.0842,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:15
+0.00030999999999999984,0.0,0.0,2,0.0,A-USDT-SWAP,0.0,False,0.0824,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:15
+1.1980000000000004,0.0,0.0,2,0.0,AAVE-USDT-SWAP,0.0,False,120.34,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:16
+1.4999999999999995e-05,0.0,0.0,2,0.0,ACT-USDT-SWAP,0.0,False,0.01443,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:16
+7.999999999999952e-05,0.0,0.0,2,0.0,ADA-USDT-SWAP,0.0,False,0.1996,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:16
+0.0003110000000000002,0.0,0.0,2,0.0,AI16Z-USDT-SWAP,0.0,False,0.05902,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:17
+0.0,0.0,0.0,2,0.0,AKITA-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:17
+0.0001349999999999997,0.0,0.0,2,0.0,ALGO-USDT-SWAP,0.0,False,0.0942,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:17
+0.004499999999999995,0.0,0.0,2,0.0,ARB-USDT-SWAP,0.0,False,0.1078,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:17
+0.0,0.0,0.0,2,0.0,ASP-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:18
+0.0,0.0,0.7104,2,0.0,ASTER-USDT-SWAP,0.0,False,0.0,закрытие не удержалось ниже канала,0.0,закрытие_не_удержалось_ниже_канала,short,False,rejected,Turtle 20,2026-03-16 16:14:18
+0.004599999999999982,0.0,0.0,2,0.0,ATOM-USDT-SWAP,0.0,False,1.9,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:19
+0.16280000000000006,0.0,0.0,2,0.0,AUCTION-USDT-SWAP,0.0,False,4.906,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:19
+0.04624999999999999,0.0,0.0,2,0.0,AVAX-USDT-SWAP,0.0,False,7.328,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:19
+0.04990999999999999,0.0,0.0,2,0.0,AXS-USDT-SWAP,0.0,False,1.2272,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:19
+0.875,0.0,0.0,2,0.0,BCH-USDT-SWAP,0.0,False,475.1,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:19
+3.0000000000000513e-06,0.0,0.0,2,0.0,BIO-USDT-SWAP,0.0,False,0.02594,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:19
+0.0,0.0,0.0,2,0.0,BLUAI-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:19
+1.0599999999999625,0.0,0.0,2,0.0,BNB-USDT-SWAP,0.0,False,723.1,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:19
+1.6000000000000013e-05,0.0,0.0,2,0.0,BOME-USDT-SWAP,0.0,False,0.000485,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:19
+0.0001550000000000002,0.0,0.0,2,0.0,BRETT-USDT-SWAP,0.0,False,0.0082,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:19
+636.464999999998,0.0,0.0,2,0.0,BTC-USDT-SWAP,0.0,False,73957.5,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:20
+4.314999999999998e-08,0.0,0.0,2,0.0,CAT-USDT-SWAP,0.0,False,2.057e-06,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:20
+4.99999999999997e-06,0.0,0.0,2,0.0,CATI-USDT-SWAP,0.0,False,0.0308,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:20
+0.0011899999999999966,0.0,0.0,2,0.0,CELO-USDT-SWAP,0.0,False,0.079,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:21
+0.003372499999999999,0.0,0.0,2,0.0,CFX-USDT-SWAP,0.0,False,0.06497,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:21
+0.0010414999999999997,0.0,0.0,2,0.0,CHZ-USDT-SWAP,0.0,False,0.03945,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:21
+0.0,0.0,0.0,2,0.0,COAI-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:21
+0.10950000000000007,0.0,0.0,2,0.0,COMP-USDT-SWAP,0.0,False,19.36,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:22
+0.014899999999999993,0.0,0.0,2,0.0,CRV-USDT-SWAP,0.0,False,0.2476,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:22
+0.0002975000000000012,0.0,0.0,2,0.0,DOGE-USDT-SWAP,0.0,False,0.0998,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:22
+0.05904999999999995,0.0,0.0,2,0.0,DOT-USDT-SWAP,0.0,False,1.593,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:23
+0.0006100000000000001,0.0,0.0,2,0.0,ENA-USDT-SWAP,0.0,False,0.1127,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:23
+0.0,0.0,0.0,2,0.0,EOS-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:23
+22.179999999999996,0.0,0.0,2,0.0,ETH-USDT-SWAP,0.0,False,2273.5,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:24
+0.0,0.2024,0.7501,2,0.2124,ETHFI-USDT-SWAP,843.0323,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,candidate,Turtle 55,2026-03-16 16:14:24
+0.0,0.2024,0.7501,2,0.2124,ETHFI-USDT-SWAP,843.0323,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,candidate,Turtle 20,2026-03-16 16:14:24
+0.012535000000000001,0.0,0.0,2,0.0,ETHW-USDT-SWAP,0.0,False,0.3784,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:25
+1.5164999999999998e-06,0.0,0.0,2,0.0,FLOKI-USDT-SWAP,0.0,False,3.21e-05,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:25
+0.0001254999999999999,0.0,0.0,2,0.0,GMT-USDT-SWAP,0.0,False,0.00873,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:25
+0.004574999999999999,0.0,0.0,2,0.0,H-USDT-SWAP,0.0,False,0.0786,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:25
+0.00041000000000000064,0.0,0.0,2,0.0,HBAR-USDT-SWAP,0.0,False,0.0984,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:26
+0.0,0.0,0.0,2,0.0,HMSTR-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:26
+9.500000000000133e-06,0.0,0.0,2,0.0,HOME-USDT-SWAP,0.0,False,0.02265,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:26
+0.0025499999999999633,0.0,0.0,2,0.0,ICP-USDT-SWAP,0.0,False,2.701,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:27
+0.0,0.0,0.0,2,0.0,IMX-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:27
+0.17440000000000005,0.0,0.0,2,0.0,INJ-USDT-SWAP,0.0,False,3.179,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:27
+0.0002530000000000018,0.0,0.0,2,0.0,IOTA-USDT-SWAP,0.0,False,0.0657,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:28
+0.0004450000000000037,0.0,0.0,2,0.0,JUP-USDT-SWAP,0.0,False,0.1691,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:28
+0.0,0.0,0.0,2,0.0,KAITO-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:28
+0.03740000000000006,0.0,0.0,2,0.0,KSM-USDT-SWAP,0.0,False,4.762,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:29
+0.0,0.0,0.3173,2,0.0,LDO-USDT-SWAP,0.0,False,0.0,закрытие не удержалось ниже канала,0.0,закрытие_не_удержалось_ниже_канала,short,False,rejected,Turtle 20,2026-03-16 16:14:29
+4.205000000000003e-05,0.0,0.0,2,0.0,LINEA-USDT-SWAP,0.0,False,0.003487,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:29
+0.01595000000000013,0.0,0.0,2,0.0,LINK-USDT-SWAP,0.0,False,10.225,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:30
+0.020649999999999967,0.0,0.0,2,0.0,LIT-USDT-SWAP,0.0,False,1.088,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:30
+0.0015500000000000069,0.0,0.0,2,0.0,LPT-USDT-SWAP,0.0,False,2.276,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:30
+0.0,0.0,0.0,2,0.0,LQTY-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:31
+5.450000000000038e-05,0.0,0.0,2,0.0,LRC-USDT-SWAP,0.0,False,0.02943,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:31
+1.3615000000000002,0.0,0.0,2,0.0,LTC-USDT-SWAP,0.0,False,57.59,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:31
+0.0,0.0,0.0845,2,0.0,MAGIC-USDT-SWAP,0.0,False,0.0,закрытие не удержалось выше канала,0.0,закрытие_не_удержалось_выше_канала,long,False,rejected,Turtle 55,2026-03-16 16:14:32
+0.0,0.0,0.0845,2,0.0,MAGIC-USDT-SWAP,0.0,False,0.0,закрытие не удержалось выше канала,0.0,закрытие_не_удержалось_выше_канала,long,False,rejected,Turtle 20,2026-03-16 16:14:32
+0.0026499999999999996,0.0,0.0,2,0.0,MAJOR-USDT-SWAP,0.0,False,0.0635,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:32
+0.00029000000000000136,0.0,0.0,2,0.0,MASK-USDT-SWAP,0.0,False,0.6124,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:32
+6.0000000000000334e-05,0.0,0.0,2,0.0,MET-USDT-SWAP,0.0,False,0.1677,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:33
+0.0,0.0,0.0,2,0.0,MKR-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:33
+3.300000000000004e-05,0.0,0.0,2,0.0,MUBARAK-USDT-SWAP,0.0,False,0.01584,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:33
+0.0,0.0,0.0,2,0.0,NEAR-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:34
+0.020550000000000002,0.0,0.0,2,0.0,NEO-USDT-SWAP,0.0,False,3.652,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:34
+9.449999999999986e-07,0.0,0.0,2,0.0,NOT-USDT-SWAP,0.0,False,0.0004221,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:34
+0.0002884999999999957,0.0,0.0,2,0.0,OP-USDT-SWAP,0.0,False,0.1312,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:35
+5.399999999999898e-09,0.0,0.0,2,0.0,PEPE-USDT-SWAP,0.0,False,3.595e-06,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:35
+0.0,0.0,0.0,2,0.0,PIGGY-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:35
+0.004499999999999976,0.0,0.0,2,0.0,QTUM-USDT-SWAP,0.0,False,0.937,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:36
+1.749999999999998e-05,0.0,0.0,2,0.0,RAVE-USDT-SWAP,0.0,False,0.00744,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:36
+0.00010899999999999937,0.0,0.0,2,0.0,RESOLV-USDT-SWAP,0.0,False,0.06476,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:36
+0.0,0.0,0.0,2,0.0,ROBO-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:36
+0.004529999999999999,0.0,0.0,2,0.0,SAND-USDT-SWAP,0.0,False,0.0862,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:37
+0.0,0.0,0.0,2,0.0,SCR-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:37
+0.0,0.0,0.0,2,0.0,SHIB-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:37
+0.0020260000000000005,0.0,0.0,2,0.0,SKY-USDT-SWAP,0.0,False,0.03435,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:38
+0.16649999999999848,0.0,0.0,2,0.0,SOL-USDT-SWAP,0.0,False,93.7,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:38
+0.0,0.0,0.0,2,0.0,SOLV-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:38
+0.0,0.0,0.0,2,0.0,SPK-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:38
+0.0,0.0,0.0,2,0.0,STRK-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:39
+0.016080500000000008,0.0,0.0,2,0.0,SUI-USDT-SWAP,0.0,False,1.05615,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:39
+0.0,0.0,0.22,2,0.0,SUSHI-USDT-SWAP,0.0,False,0.0,закрытие не удержалось выше канала,0.0,закрытие_не_удержалось_выше_канала,long,False,rejected,Turtle 55,2026-03-16 16:14:40
+0.0,0.0,0.22,2,0.0,SUSHI-USDT-SWAP,0.0,False,0.0,закрытие не удержалось выше канала,0.0,закрытие_не_удержалось_выше_канала,long,False,rejected,Turtle 20,2026-03-16 16:14:40
+0.0008750000000000063,0.0,0.0,2,0.0,SYRUP-USDT-SWAP,0.0,False,0.2647,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:40
+0.0,0.0,0.0,2,0.0,TEST1234-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:40
+0.0,0.0,0.0,2,0.0,TEST3103-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:41
+0.0,0.0,0.0,2,0.0,TEST3110-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:41
+0.0002549999999999997,0.0,0.0,2,0.0,THETA-USDT-SWAP,0.0,False,0.1782,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:41
+0.0,0.0,1.325,2,0.0,TON-USDT-SWAP,0.0,False,0.0,закрытие не удержалось ниже канала,0.0,закрытие_не_удержалось_ниже_канала,short,False,rejected,Turtle 20,2026-03-16 16:14:42
+0.0,0.0,0.0,2,0.0,TRIA-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:42
+0.00016500000000000404,0.0,0.0,2,0.0,TRX-USDT-SWAP,0.0,False,0.2982,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:42
+0.15349999999999966,0.0,0.0,2,0.0,TSLA-USDT-SWAP,0.0,False,397.23,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:43
+0.1765000000000015,0.0,0.0,2,0.0,XAG-USDT-SWAP,0.0,False,79.96,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:43
+176.09000000000006,0.0,0.0,2,0.0,XAU-USDT-SWAP,0.0,False,5287.2,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:43
+0.0006080000000000016,0.0,0.0,2,0.0,XLM-USDT-SWAP,0.0,False,0.17212,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:44
+0.00026499999999999994,0.0,0.0,2,0.0,XPL-USDT-SWAP,0.0,False,0.1475,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:44
+0.0014599999999999724,0.0,0.0,2,0.0,XRP-USDT-SWAP,0.0,False,1.4368,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:44
+130.54786000000004,0.0,0.0,2,0.0,XSR-USDT-SWAP,0.0,False,24804.0925,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:44
+0.0011050000000000005,0.0,0.0,2,0.0,YB-USDT-SWAP,0.0,False,0.1554,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:45
+0.1599999999999909,0.0,0.0,2,0.0,YFI-USDT-SWAP,0.0,False,3439.8,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:45
+0.0036300000000000013,0.0,0.0,2,0.0,YGG-USDT-SWAP,0.0,False,0.048,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:45
+9.949999999999959e-05,0.0,0.0,2,0.0,ZAMA-USDT-SWAP,0.0,False,0.02188,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:46
+0.0,0.0,0.0,2,0.0,ZBCN-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:46
+0.0,0.0,0.0,2,0.0,ZETA-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:14:46
+1.7699999999999963e-05,0.0,0.0,2,0.0,ZIL-USDT-SWAP,0.0,False,0.004314,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:14:47
+0.0,0.2024,0.0,2,0.2124,ETHFI-USDT-SWAP,843.0323,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,ranked_candidate,Turtle 55,2026-03-16 16:14:47
+0.0,0.2024,0.0,2,0.2124,ETHFI-USDT-SWAP,843.0323,True,0.0,classic_turtle_breakout_long,0.0,classic_turtle_breakout_long,long,True,ranked_candidate,Turtle 20,2026-03-16 16:14:47
+0.0,0.0,0.0,2,0.0,ETHFI-USDT-SWAP,0.0,True,0.0,,0.0,unknown,long,True,entry_failed,Turtle 55,2026-03-16 16:14:48
+0.003345,0.0,0.0,3,0.0,1INCH-USDT-SWAP,0.0,False,0.1017,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:15:11
+0.00253,0.0,0.0,3,0.0,2Z-USDT-SWAP,0.0,False,0.0853,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:15:11
+0.00030999999999999984,0.0,0.0,3,0.0,A-USDT-SWAP,0.0,False,0.0824,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:15:11
+1.2064999999999997,0.0,0.0,3,0.0,AAVE-USDT-SWAP,0.0,False,120.71,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:15:11
+1.4999999999999995e-05,0.0,0.0,3,0.0,ACT-USDT-SWAP,0.0,False,0.01443,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:15:12
+6.999999999999923e-05,0.0,0.0,3,0.0,ADA-USDT-SWAP,0.0,False,0.1996,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:15:12
+2.5499999999999827e-05,0.0,0.0,3,0.0,AI16Z-USDT-SWAP,0.0,False,0.05902,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:15:12
+0.0,0.0,0.0,3,0.0,AKITA-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:15:13
+0.00012499999999999873,0.0,0.0,3,0.0,ALGO-USDT-SWAP,0.0,False,0.0943,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:15:13
+0.004504999999999996,0.0,0.0,3,0.0,ARB-USDT-SWAP,0.0,False,0.1079,нет свежего пробоя Donchian на последней закрытой свече,0.0,no_fresh_breakout,,False,rejected,,2026-03-16 16:15:13
+0.0,0.0,0.0,3,0.0,ASP-USDT-SWAP,0.0,False,0.0,ATR warmup: цена или ATR недоступны после прогрева,0.0,atr_warmup:_цена_или_atr_недоступны_после_прогрева,,False,rejected,,2026-03-16 16:15:14

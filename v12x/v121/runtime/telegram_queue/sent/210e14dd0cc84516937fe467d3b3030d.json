@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: SOL-USDT-SWAP\nЦена входа: 81.740000\nQty: 29.44\nATR: 0.581500\nBootstrap-stop: 85.150000\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "210e14dd0cc84516937fe467d3b3030d",
+  "created_ts": 1774949423.0950813,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

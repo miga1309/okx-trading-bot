@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: DOT-USDT-SWAP\nСторона: SHORT\nЦена входа: 1.393555\nЦена выхода: 1.385000\nPnL: 57.8989\nPnL %: 0.61%\nЮнитов: 4\nПричина: Канальный выход 10 свечей",
+  "id": "3892cfeb58e0403bae647cf45ba68069",
+  "created_ts": 1774423207.0346394,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

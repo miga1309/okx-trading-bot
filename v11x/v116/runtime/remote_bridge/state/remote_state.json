@@ -1,0 +1,75 @@
+{
+  "app_version": "v116",
+  "busy": false,
+  "current_operation": "",
+  "last_result": "chart ready: telegram_chart_latest.jpg",
+  "bot_running": false,
+  "updated_at": "2026-03-29 14:09:31",
+  "telegram_status": {
+    "app_version": "v116",
+    "bot_running": false,
+    "telegram_worker_running": false,
+    "timeframe": "5m",
+    "trade_mode": "auto",
+    "open_positions": 2,
+    "error_count": 0,
+    "balance": {
+      "total": 81327.43103902153,
+      "available": 80275.01559012136,
+      "used": 1116.714915999999
+    },
+    "positions": [
+      {
+        "inst_id": "LQTY-USDT-SWAP",
+        "side": "long",
+        "units": 1,
+        "entry": 0.2694978618868218,
+        "stop": 0.2688778618868218,
+        "pnl": -2.0377400000003956,
+        "pnl_pct": -0.3670936114975526
+      },
+      {
+        "inst_id": "XRP-USDT-SWAP",
+        "side": "long",
+        "units": 1,
+        "entry": 1.3384974940898346,
+        "stop": 1.3360074940898345,
+        "pnl": -2.532700000000425,
+        "pnl_pct": -0.44732772945869465
+      }
+    ],
+    "scanner": {
+      "total": 108,
+      "scanned": 108,
+      "allowed": 53,
+      "blocked": 55,
+      "dead": 21,
+      "saw": 0,
+      "ripping": 34,
+      "pending": 0,
+      "status": "READY",
+      "ready": 10,
+      "available_after_bans": 102,
+      "scan_universe_total": 108
+    },
+    "top_candidates": [],
+    "health": {
+      "connectivity_state": "CONNECTED",
+      "components": {
+        "public": "OK",
+        "private": "OK",
+        "trade": "OK",
+        "market_data": "OK",
+        "ws_public": "OK",
+        "ws_private": "OK"
+      },
+      "engine": "STOPPED",
+      "telegram_worker": "OFF",
+      "market_data_errors": 0,
+      "cycle_duration_sec": 17.683
+    },
+    "latest_errors": [],
+    "chart_image_path": "D:\\GIT\\okx-trading-bot\\v11x\\v116\\runtime\\telegram_chart_latest.jpg",
+    "updated_at": "2026-03-29 14:09:30"
+  }
+}

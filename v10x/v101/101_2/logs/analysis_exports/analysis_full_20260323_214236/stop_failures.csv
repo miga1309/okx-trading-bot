@@ -1,0 +1,4 @@
+current_price,error_code,error_msg,event,inst_id,requested_stop,response,side,trade_id,ts
+0.08,,market_already_crossed_stop,STOP_REJECTED,SAND-USDT-SWAP,0.08016000000000001,{},long,20260323_213824_SAND-USDT-SWAP_long,2026-03-23 21:42:19
+0.08,,market_already_crossed_stop,STOP_REJECTED,SAND-USDT-SWAP,0.08016000000000001,{},long,20260323_213824_SAND-USDT-SWAP_long,2026-03-23 21:42:21
+0.08,,market_already_crossed_stop,STOP_REJECTED,SAND-USDT-SWAP,0.08016000000000001,{},long,20260323_213824_SAND-USDT-SWAP_long,2026-03-23 21:42:27

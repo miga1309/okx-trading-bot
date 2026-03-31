@@ -1,0 +1,4 @@
+avg_px,exchange_stop_status,hybrid_stop_mode,inst_id,last_px,qty,side,stop_price,sync_status,system_name,trade_id,turtle_exit_period
+0.1638847724230257,local_protective_exit_pending,DONCHIAN_ACTIVE,THETA-USDT-SWAP,0.1637,5976.0,long,0.16291,SYNC_OK,Turtle 20,20260322_053712_THETA-USDT-SWAP_long,10
+88.36130228136882,active,DONCHIAN_ACTIVE,SOL-USDT-SWAP,87.87,105.2,short,88.3,SYNC_OK,Turtle 20,20260322_083017_SOL-USDT-SWAP_short,10
+0.5819505383580087,active,DONCHIAN_ACTIVE,ETHFI-USDT-SWAP,0.5728,14860.0,short,0.5784,SYNC_OK,Turtle 20,20260322_085018_ETHFI-USDT-SWAP_short,10

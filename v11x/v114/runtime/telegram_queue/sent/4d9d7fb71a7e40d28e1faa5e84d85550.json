@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: LINK-USDT-SWAP\nЦена входа: 8.494000\nQty: 326.99\nATR: 0.011350\nBootstrap-stop: 8.446000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "4d9d7fb71a7e40d28e1faa5e84d85550",
+  "created_ts": 1774752489.8691106,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

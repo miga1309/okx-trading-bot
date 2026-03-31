@@ -1,0 +1,5 @@
+atr,attempt,cancelled_algo_id,current_price,event,exchange_stop_algo_id,exchange_stop_price,exchange_stop_status,inst_id,new_stop,old_exchange_stop,old_strategy_stop,qty,reason,requested_stop,response_code,side,strategy_stop_price,trade_id,ts
+0.5749999999999943,1,,,STOP_PLACED,3403033442383122432,456.65,active,BCH-USDT-SWAP,,,,65.44,initial_turtle_stop,456.65,0,short,456.65,20260319_144457_BCH-USDT-SWAP_short,2026-03-19 14:45:00
+0.49999999999999717,,3403033442383122432,,STOP_CANCELLED,3403033442383122432,456.6,active,BCH-USDT-SWAP,,,,65.44,replace:atr_update,,,short,456.5,20260319_144457_BCH-USDT-SWAP_short,2026-03-19 14:55:11
+0.49999999999999717,1,,,STOP_PLACED,3403054021182050304,456.5,active,BCH-USDT-SWAP,,,,65.44,atr_update,456.5,0,short,456.5,20260319_144457_BCH-USDT-SWAP_short,2026-03-19 14:55:13
+0.49999999999999717,,,455.8,STOP_MOVED,3403054021182050304,456.5,active,BCH-USDT-SWAP,456.5,456.6,456.65,65.44,atr_update,,,short,456.5,20260319_144457_BCH-USDT-SWAP_short,2026-03-19 14:55:13

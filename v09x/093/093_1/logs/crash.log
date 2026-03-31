@@ -1,0 +1,11 @@
+
+[2026-03-20 11:46:26] sys.excepthook
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v09x\093\093_1\main_v093_1.py", line 8261, in reset_test_run
+    self._clear_ui_runtime_data()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\GIT\okx-trading-bot\v09x\093\093_1\main_v093_1.py", line 8163, in _clear_ui_runtime_data
+    self.lbl_positions.setText("Открытых позиций: 0")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'setText'
+

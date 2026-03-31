@@ -1,0 +1,21 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,XLM-USDT-SWAP,0.0,0.16961,170.98,,,long,True,2026-03-28 17:49:53,20260328_174953_XLM-USDT-SWAP_long
+OPEN,XLM-USDT-SWAP,0.0,0.16961,170.98,,Первичный вход + bootstrap-stop,long,True,2026-03-28 17:49:53,20260328_174953_XLM-USDT-SWAP_long
+position_opened,THETA-USDT-SWAP,0.0,0.1564,1723.0,,,long,True,2026-03-28 18:25:39,20260328_182539_THETA-USDT-SWAP_long
+OPEN,THETA-USDT-SWAP,0.0,0.1564,1723.0,,Первичный вход + bootstrap-stop,long,True,2026-03-28 18:25:39,20260328_182539_THETA-USDT-SWAP_long
+position_closed,XLM-USDT-SWAP,0.0,0.0,512.94,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-28 18:28:47,20260328_174953_XLM-USDT-SWAP_long
+CLOSE,XLM-USDT-SWAP,0.0,0.16978,512.94,,Синхронизация: позиция отсутствует на бирже,long,True,2026-03-28 18:28:47,20260328_174953_XLM-USDT-SWAP_long
+close_pending_exchange,THETA-USDT-SWAP,0.0,0.1556,1723.0,,SYNC confirmed close after exchange absence,long,True,2026-03-28 18:37:27,20260328_182539_THETA-USDT-SWAP_long
+close_pending_exchange,THETA-USDT-SWAP,0.0,0.1554,1723.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-28 18:40:13,20260328_182539_THETA-USDT-SWAP_long
+position_closed,THETA-USDT-SWAP,0.0,0.0,1723.0,sync_confirmed_close_after_stop_fault:_pending_recheck,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-28 18:40:13,20260328_182539_THETA-USDT-SWAP_long
+CLOSE,THETA-USDT-SWAP,0.0,0.1554,1723.0,,SYNC confirmed close after stop fault: PENDING_RECHECK,long,True,2026-03-28 18:40:13,20260328_182539_THETA-USDT-SWAP_long
+position_opened,LIT-USDT-SWAP,0.0,0.876,330.0,,,short,True,2026-03-28 18:48:02,20260328_184801_LIT-USDT-SWAP_short
+OPEN,LIT-USDT-SWAP,0.0,0.876,330.0,,Первичный вход + bootstrap-stop,short,True,2026-03-28 18:48:02,20260328_184801_LIT-USDT-SWAP_short
+position_closed,LIT-USDT-SWAP,0.0,0.0,660.0,синхронизация:_позиция_отсутствует_на_бирже,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-28 18:59:24,20260328_184801_LIT-USDT-SWAP_short
+CLOSE,LIT-USDT-SWAP,0.0,0.882,660.0,,Синхронизация: позиция отсутствует на бирже,short,True,2026-03-28 18:59:24,20260328_184801_LIT-USDT-SWAP_short
+position_opened,LDO-USDT-SWAP,0.0,0.3121,9282.0,,,long,True,2026-03-28 19:37:47,20260328_193747_LDO-USDT-SWAP_long
+OPEN,LDO-USDT-SWAP,0.0,0.3121,9282.0,,Первичный вход + bootstrap-stop,long,True,2026-03-28 19:37:47,20260328_193747_LDO-USDT-SWAP_long
+position_opened,CFX-USDT-SWAP,0.0,0.05762,4969.2,,,long,True,2026-03-28 20:00:39,20260328_200039_CFX-USDT-SWAP_long
+OPEN,CFX-USDT-SWAP,0.0,0.05762,4969.2,,Первичный вход + bootstrap-stop,long,True,2026-03-28 20:00:39,20260328_200039_CFX-USDT-SWAP_long
+position_opened,OP-USDT-SWAP,0.0,0.10539,26851.0,,,long,True,2026-03-28 20:02:42,20260328_200242_OP-USDT-SWAP_long
+OPEN,OP-USDT-SWAP,0.0,0.10539,26851.0,,Первичный вход + bootstrap-stop,long,True,2026-03-28 20:02:42,20260328_200242_OP-USDT-SWAP_long

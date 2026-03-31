@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: ETHFI-USDT-SWAP\nСторона: LONG\nЦена входа: 0.458550\nЦена выхода: 0.458900\nPnL: 4.1797\nPnL %: 0.38%\nЮнитов: 3\nПричина: SYNC confirmed close after stop fault: PENDING_RECHECK",
+  "id": "3debe1f6c88b4d46bc173542157f2c86",
+  "created_ts": 1774801498.6679108,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

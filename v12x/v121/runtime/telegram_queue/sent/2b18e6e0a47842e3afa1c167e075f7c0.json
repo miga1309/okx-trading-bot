@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: CELO-USDT-SWAP\nСторона: LONG\nЦена входа: 0.080050\nЦена выхода: 0.082400\nPnL: 301.4133\nPnL %: 14.68%\nЮнитов: 4\nПричина: SYNC confirmed close after stop fault: PENDING_RECHECK",
+  "id": "2b18e6e0a47842e3afa1c167e075f7c0",
+  "created_ts": 1774936452.469632,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

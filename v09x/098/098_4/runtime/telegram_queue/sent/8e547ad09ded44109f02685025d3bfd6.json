@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: IOTA-USDT-SWAP\nСторона: LONG\nЦена входа: 0.057729\nЦена выхода: 0.057490\nPnL: -9.9223\nPnL %: -0.41%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "8e547ad09ded44109f02685025d3bfd6",
+  "created_ts": 1774235686.9121115,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

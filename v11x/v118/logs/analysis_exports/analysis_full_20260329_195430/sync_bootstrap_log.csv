@@ -1,0 +1,9 @@
+inst_id,pyramid_restored,restored_fields,side,stop_restored,system_name,timestamp,trade_id,units_restored
+INJ-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 55,2026-03-29 17:08:39,20260329_161534_INJ-USDT-SWAP_short,2
+MAGIC-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 55,2026-03-29 17:27:50,20260329_171535_MAGIC-USDT-SWAP_short,2
+NEAR-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-29 18:36:45,20260329_183351_NEAR-USDT-SWAP_short,2
+XTZ-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 20,2026-03-29 18:39:45,20260329_183056_XTZ-USDT-SWAP_short,2
+MET-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 55,2026-03-29 18:47:19,20260329_171243_MET-USDT-SWAP_short,2
+LQTY-USDT-SWAP,False,exchange_stop_full_position,long,False,Turtle 20,2026-03-29 19:00:15,20260329_183353_LQTY-USDT-SWAP_long,2
+LTC-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 55,2026-03-29 19:13:03,20260329_183349_LTC-USDT-SWAP_short,2
+MAGIC-USDT-SWAP,False,exchange_stop_full_position,short,False,Turtle 55,2026-03-29 19:53:41,20260329_194607_MAGIC-USDT-SWAP_short,2

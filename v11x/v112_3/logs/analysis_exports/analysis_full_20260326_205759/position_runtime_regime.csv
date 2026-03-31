@@ -1,0 +1,2 @@
+avg_px,hybrid_stop_mode,inst_id,last_px,peak_pnl_pct,pnl_pct,position_age_sec,qty,reconciler_interval_sec,side,sync_status,system_name,trade_id,trend_hold_state,turtle_exit_period
+367.0702232142857,ATR_INITIAL,TSLA-USDT-SWAP,398.06,0.0,-13.468630041473444,0,1168.0,10,short,SYNC_DRIFT,Turtle 20,20260326_205741_TSLA-USDT-SWAP_short,,10

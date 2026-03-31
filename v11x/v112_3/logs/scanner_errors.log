@@ -1,0 +1,1 @@
+2026-03-26 20:50:07,106 | ERROR | root | market_scanner_runtime:refresh_symbol:305 | Scanner refresh temporary failure for YFI-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LDO-USDT-SWAP\nСторона: LONG\nЦена входа: 0.301371\nЦена выхода: 0.300400\nPnL: -14.2400\nPnL %: -0.32%\nЮнитов: 2\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "272e45b762bd435baec6b7d7e29205ad",
+  "created_ts": 1774423510.1184328,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

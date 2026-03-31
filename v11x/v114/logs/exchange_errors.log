@@ -1,0 +1,1 @@
+2026-03-28 23:58:34,842 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for ASP-USDT-SWAP: <ConnectionTerminated error_code:1, last_stream_id:1433, additional_data:None>

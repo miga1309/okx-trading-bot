@@ -1,0 +1,6 @@
+{"time": "2026-03-26 21:41:23", "component": "engine", "status": "cycle_finished", "duration_sec": 35.364, "open_positions": 0}
+{"time": "2026-03-26 21:41:24", "component": "gui", "status": "close_event", "bot_running": true, "worker_running": true}
+{"time": "2026-03-26 21:41:24", "component": "worker", "status": "thread_finished"}
+{"time": "2026-03-26 21:41:24", "component": "gui", "status": "close_after_stop"}
+{"time": "2026-03-26 21:41:24", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-26 21:41:24", "component": "app", "status": "shutdown", "exit_code": 0}

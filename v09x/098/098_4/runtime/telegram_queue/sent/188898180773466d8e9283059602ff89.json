@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ETHFI-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.556700\nЦена выхода: 0.559000\nPnL: -10.9112\nPnL %: -0.41%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "188898180773466d8e9283059602ff89",
+  "created_ts": 1774204335.7404957,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

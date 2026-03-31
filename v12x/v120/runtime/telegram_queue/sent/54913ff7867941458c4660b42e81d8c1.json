@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: YGG-USDT-SWAP\nСторона: LONG\nЦена входа: 0.034428\nЦена выхода: 0.034400\nPnL: -2.1858\nPnL %: -0.41%\nЮнитов: 1\nПричина: Ротация под новый сигнал IMX-USDT-SWAP",
+  "id": "54913ff7867941458c4660b42e81d8c1",
+  "created_ts": 1774836121.864684,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

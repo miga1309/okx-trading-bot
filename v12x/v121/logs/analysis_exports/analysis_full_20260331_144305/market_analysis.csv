@@ -1,0 +1,13 @@
+avg_pnl_pct,close_pending_events,entry_candidates,entry_rejections,inst_id,losses,market_risk_score,order_rejected_events,realized_pnl,stop_errors,stop_rejects,trades_count,wins
+0.0,0,0,68,ALGO-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,68,ASTER-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,64,BRETT-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,63,CATI-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,62,CHZ-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,57,H-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,54,JUP-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,51,LRC-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,48,NOT-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,40,XAG-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,0,38,XRP-USDT-SWAP,0,0.0,0,0,0,0,0,0
+0.0,0,16,30,XSR-USDT-SWAP,0,0.0,0,0,0,0,0,0

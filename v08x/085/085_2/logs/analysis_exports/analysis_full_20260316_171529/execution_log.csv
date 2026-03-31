@@ -1,0 +1,30 @@
+action,inst_id,latency_ms,price,qty,response_code,response_message,side,success,timestamp,trade_id
+position_opened,CELO-USDT-SWAP,0.0,0.0848487383045095,3527.0,,,long,True,2026-03-16 17:13:14,20260316_171314_CELO-USDT-SWAP_long
+OPEN,CELO-USDT-SWAP,0.0,0.0848487383045095,3527.0,,Первичный вход,long,True,2026-03-16 17:13:14,20260316_171314_CELO-USDT-SWAP_long
+position_opened,LRC-USDT-SWAP,0.0,0.02966,4000.0,,,long,True,2026-03-16 17:13:17,20260316_171316_LRC-USDT-SWAP_long
+OPEN,LRC-USDT-SWAP,0.0,0.02966,4000.0,,Первичный вход,long,True,2026-03-16 17:13:17,20260316_171316_LRC-USDT-SWAP_long
+order_rejected,RAVE-USDT-SWAP,0.0,0.0,0.0,51004,"Order failed. For buy/sell mode of RAVE-USDT-SWAP, the sum of current sell order size, position quantity, and pending sell orders can’t be more than 27,000(contracts) which is the maximum position amount under current leverage. Please lower the leverage or use a new sub-account to place the order again (current leverage: 5×, current sell order size: 18,820 contracts, position quantity: -18,820 contracts, pending sell orders: 0 contracts).",,False,2026-03-16 17:13:18,
+position_closed,TSLA-USDT-SWAP,0.0,0.0,260.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 17:13:18,20260316_171238_TSLA-USDT-SWAP_short
+CLOSE,TSLA-USDT-SWAP,0.0,430.72,260.0,,Локальный защитный выход 2.0N,short,True,2026-03-16 17:13:18,20260316_171238_TSLA-USDT-SWAP_short
+position_closed,CRO-USDT-SWAP,0.0,0.0,9507.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 17:13:19,20260316_171239_CRO-USDT-SWAP_short
+CLOSE,CRO-USDT-SWAP,0.0,0.10405,9507.0,,Локальный защитный выход 2.0N,short,True,2026-03-16 17:13:19,20260316_171239_CRO-USDT-SWAP_short
+position_closed,BREV-USDT-SWAP,0.0,0.0,120000.0,защита_тренда:_откат_от_пика_1027.38r_→_102.38r,Защита тренда: откат от пика 1027.38R → 102.38R,long,True,2026-03-16 17:13:21,20260316_171239_BREV-USDT-SWAP_long
+CLOSE,BREV-USDT-SWAP,0.0,1.013,120000.0,,Защита тренда: откат от пика 1027.38R → 102.38R,long,True,2026-03-16 17:13:21,20260316_171239_BREV-USDT-SWAP_long
+order_rejected,RAVE-USDT-SWAP,0.0,0.0,0.0,51004,"Order failed. For buy/sell mode of RAVE-USDT-SWAP, the sum of current sell order size, position quantity, and pending sell orders can’t be more than 27,000(contracts) which is the maximum position amount under current leverage. Please lower the leverage or use a new sub-account to place the order again (current leverage: 5×, current sell order size: 18,820 contracts, position quantity: -18,820 contracts, pending sell orders: 0 contracts).",,False,2026-03-16 17:14:04,
+position_closed,CELO-USDT-SWAP,0.0,0.0,4314.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,long,True,2026-03-16 17:14:05,20260316_171314_CELO-USDT-SWAP_long
+CLOSE,CELO-USDT-SWAP,0.0,0.0821,4314.0,,Локальный защитный выход 2.0N,long,True,2026-03-16 17:14:05,20260316_171314_CELO-USDT-SWAP_long
+position_closed,TSLA-USDT-SWAP,0.0,0.0,260.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 17:14:09,20260316_171329_TSLA-USDT-SWAP_short
+CLOSE,TSLA-USDT-SWAP,0.0,433.4,260.0,,Локальный защитный выход 2.0N,short,True,2026-03-16 17:14:09,20260316_171329_TSLA-USDT-SWAP_short
+position_closed,CRO-USDT-SWAP,0.0,0.0,9507.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 17:14:10,20260316_171330_CRO-USDT-SWAP_short
+CLOSE,CRO-USDT-SWAP,0.0,0.10405,9507.0,,Локальный защитный выход 2.0N,short,True,2026-03-16 17:14:10,20260316_171330_CRO-USDT-SWAP_short
+position_closed,BREV-USDT-SWAP,0.0,0.0,120000.0,защита_тренда:_откат_от_пика_984.88r_→_102.38r,Защита тренда: откат от пика 984.88R → 102.38R,long,True,2026-03-16 17:14:12,20260316_171330_BREV-USDT-SWAP_long
+CLOSE,BREV-USDT-SWAP,0.0,1.013,120000.0,,Защита тренда: откат от пика 984.88R → 102.38R,long,True,2026-03-16 17:14:12,20260316_171330_BREV-USDT-SWAP_long
+order_rejected,RAVE-USDT-SWAP,0.0,0.0,0.0,51004,"Order failed. For buy/sell mode of RAVE-USDT-SWAP, the sum of current sell order size, position quantity, and pending sell orders can’t be more than 27,000(contracts) which is the maximum position amount under current leverage. Please lower the leverage or use a new sub-account to place the order again (current leverage: 5×, current sell order size: 18,820 contracts, position quantity: -18,820 contracts, pending sell orders: 0 contracts).",,False,2026-03-16 17:14:51,
+position_closed,CELO-USDT-SWAP,0.0,0.0,11430.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,long,True,2026-03-16 17:14:54,20260316_171418_CELO-USDT-SWAP_long
+CLOSE,CELO-USDT-SWAP,0.0,0.0789,11430.0,,Локальный защитный выход 2.0N,long,True,2026-03-16 17:14:54,20260316_171418_CELO-USDT-SWAP_long
+position_closed,TSLA-USDT-SWAP,0.0,0.0,118.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 17:14:55,20260316_171418_TSLA-USDT-SWAP_short
+CLOSE,TSLA-USDT-SWAP,0.0,436.09,118.0,,Локальный защитный выход 2.0N,short,True,2026-03-16 17:14:55,20260316_171418_TSLA-USDT-SWAP_short
+position_closed,CRO-USDT-SWAP,0.0,0.0,9507.0,локальный_защитный_выход_2.0n,Локальный защитный выход 2.0N,short,True,2026-03-16 17:14:56,20260316_171418_CRO-USDT-SWAP_short
+CLOSE,CRO-USDT-SWAP,0.0,0.10405,9507.0,,Локальный защитный выход 2.0N,short,True,2026-03-16 17:14:56,20260316_171418_CRO-USDT-SWAP_short
+position_closed,BREV-USDT-SWAP,0.0,0.0,120000.0,защита_тренда:_откат_от_пика_997.38r_→_102.38r,Защита тренда: откат от пика 997.38R → 102.38R,long,True,2026-03-16 17:14:58,20260316_171419_BREV-USDT-SWAP_long
+CLOSE,BREV-USDT-SWAP,0.0,1.013,120000.0,,Защита тренда: откат от пика 997.38R → 102.38R,long,True,2026-03-16 17:14:58,20260316_171419_BREV-USDT-SWAP_long

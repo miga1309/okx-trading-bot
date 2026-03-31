@@ -1,0 +1,2 @@
+2026-03-25 19:42:13,062 | ERROR | root | market_scanner_runtime:refresh_symbol:302 | Scanner refresh temporary failure for LQTY-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно
+2026-03-25 20:45:02,408 | ERROR | root | market_scanner_runtime:refresh_symbol:302 | Scanner refresh temporary failure for ETC-USDT-SWAP: [WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно

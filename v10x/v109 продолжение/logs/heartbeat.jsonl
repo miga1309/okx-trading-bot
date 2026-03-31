@@ -1,0 +1,11 @@
+{"time": "2026-03-25 19:12:11", "component": "app", "status": "startup", "version": "v109"}
+{"time": "2026-03-25 19:12:11", "component": "gui", "status": "window_initialized", "version": "v109"}
+{"time": "2026-03-25 19:12:13", "component": "worker", "status": "thread_started", "timeframe": "5m"}
+{"time": "2026-03-25 19:12:15", "component": "worker", "status": "engine_constructed", "timeframe": "5m"}
+{"time": "2026-03-25 19:12:16", "component": "engine", "status": "cycle_started", "open_positions": 0, "timeframe": "5m"}
+{"time": "2026-03-25 19:12:17", "component": "engine", "status": "cycle_finished", "duration_sec": 1.728, "open_positions": 0}
+{"time": "2026-03-25 19:12:23", "component": "engine", "status": "cycle_started", "open_positions": 0, "timeframe": "5m"}
+{"time": "2026-03-25 19:12:55", "component": "engine", "status": "cycle_finished", "duration_sec": 32.874, "open_positions": 0}
+{"time": "2026-03-25 19:12:55", "component": "worker", "status": "thread_finished"}
+{"time": "2026-03-25 19:12:56", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-25 19:12:56", "component": "app", "status": "shutdown", "exit_code": 0}

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: IOTA-USDT-SWAP\nЦена входа: 0.052980\nQty: 4482.0\nATR: 0.000316\nBootstrap-stop: 0.054660\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "d0f6534faed04109a7b6cc4c0e7a1f01",
+  "created_ts": 1774825510.290996,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

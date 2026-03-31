@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: ZIL-USDT-SWAP\nСторона: LONG\nЦена входа: 0.003720\nЦена выхода: 0.003742\nPnL: 62.1008\nPnL %: 2.89%\nЮнитов: 4\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "844d9702e02c4f10bd8ea9a86c47f6d5",
+  "created_ts": 1774852508.9516354,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

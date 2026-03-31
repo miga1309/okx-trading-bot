@@ -1,0 +1,1 @@
+Run main_v096_8.py; run run_telegram_worker.py through VPN split tunnel if you launch it manually; GUI header controls now start/stop the worker automatically and store Telegram runtime files in ./runtime/.

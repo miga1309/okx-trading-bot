@@ -1,0 +1,4 @@
+{"time": "2026-03-29 16:06:29", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-29 16:07:25", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-29 16:08:05", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-29 16:08:05", "component": "app", "status": "shutdown", "exit_code": 0}

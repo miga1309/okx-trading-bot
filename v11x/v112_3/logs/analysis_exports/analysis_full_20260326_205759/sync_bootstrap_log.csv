@@ -1,0 +1,2 @@
+inst_id,pyramid_restored,restored_fields,side,stop_restored,system_name,timestamp,trade_id,units_restored
+TSLA-USDT-SWAP,True,"system_name,base_unit_qty,sync_restored_context",short,True,Turtle 20,2026-03-26 20:57:41,20260326_205741_TSLA-USDT-SWAP_short,1

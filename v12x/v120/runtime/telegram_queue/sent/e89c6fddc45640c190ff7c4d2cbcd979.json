@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: ZBCN-USDT-SWAP\nЦена входа: 0.002298\nQty: 1178.0\nATR: 0.000018\nBootstrap-stop: 0.002189\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "e89c6fddc45640c190ff7c4d2cbcd979",
+  "created_ts": 1774818010.2205513,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

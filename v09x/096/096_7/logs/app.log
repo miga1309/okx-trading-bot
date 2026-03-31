@@ -1,0 +1,70 @@
+2026-03-22 16:58:08,099 | INFO | HTTP Request: GET https://www.okx.com/api/v5/public/instruments?instType=SWAP "HTTP/2 200 OK"
+2026-03-22 16:58:08,100 | INFO | Loaded 112 swap instruments
+2026-03-22 16:58:08,103 | ERROR | WorkerThread crashed: [WinError 5] Отказано в доступе: 'logs\\telegram_queue'
+Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1011, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'logs\\telegram_queue\\pending'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v09x\096\096_7\main_v096_7.py", line 7821, in run
+    engine = TurtleEngine(self.cfg)
+  File "D:\GIT\okx-trading-bot\v09x\096\096_7\main_v096_7.py", line 2207, in __init__
+    self.telegram = TelegramNotifier(
+                    ~~~~~~~~~~~~~~~~^
+        enabled=False if TELEGRAM_HARD_DISABLED else cfg.telegram_enabled,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bot_token=cfg.telegram_bot_token,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        chat_id=cfg.telegram_chat_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\GIT\okx-trading-bot\v09x\096\096_7\telegram_notifier.py", line 31, in __init__
+    self.pending_dir.mkdir(parents=True, exist_ok=True)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1015, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1011, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'logs\\telegram_queue'
+2026-03-22 17:13:37,997 | INFO | HTTP Request: GET https://www.okx.com/api/v5/public/instruments?instType=SWAP "HTTP/2 200 OK"
+2026-03-22 17:13:37,999 | INFO | Loaded 112 swap instruments
+2026-03-22 17:13:38,001 | ERROR | WorkerThread crashed: [WinError 5] Отказано в доступе: 'logs\\telegram_queue'
+Traceback (most recent call last):
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1011, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'logs\\telegram_queue\\pending'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v09x\096\096_7\main_v096_7.py", line 7821, in run
+    engine = TurtleEngine(self.cfg)
+  File "D:\GIT\okx-trading-bot\v09x\096\096_7\main_v096_7.py", line 2207, in __init__
+    self.telegram = TelegramNotifier(
+                    ~~~~~~~~~~~~~~~~^
+        enabled=False if TELEGRAM_HARD_DISABLED else cfg.telegram_enabled,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bot_token=cfg.telegram_bot_token,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        chat_id=cfg.telegram_chat_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\GIT\okx-trading-bot\v09x\096\096_7\telegram_notifier.py", line 31, in __init__
+    self.pending_dir.mkdir(parents=True, exist_ok=True)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1015, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Home\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 1011, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+PermissionError: [WinError 5] Отказано в доступе: 'logs\\telegram_queue'

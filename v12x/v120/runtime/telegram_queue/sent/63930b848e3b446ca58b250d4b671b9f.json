@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: BAND-USDT-SWAP\nЦена входа: 0.202200\nQty: 9384.0\nATR: 0.000960\nBootstrap-stop: 0.193700\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "63930b848e3b446ca58b250d4b671b9f",
+  "created_ts": 1774845237.5923276,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: AVAX-USDT-SWAP\nЦена входа: 11.190000\nQty: 205.2\nATR: 0.413100\nBootstrap-stop: 8.205000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "dcf3b55f726f4ddd9a9b804a763d125f",
+  "created_ts": 1774829170.0891335,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

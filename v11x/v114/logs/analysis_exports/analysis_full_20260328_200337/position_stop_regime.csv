@@ -1,0 +1,4 @@
+avg_px,exchange_stop_status,hybrid_stop_mode,inst_id,last_px,qty,side,stop_price,sync_status,system_name,trade_id,turtle_exit_period
+0.3125,active_confirmed,ATR_INITIAL,LDO-USDT-SWAP,0.3139,9282.0,long,0.3106,SYNC_OK,Turtle 55,20260328_193747_LDO-USDT-SWAP_long,20
+0.0576286054093215,recovered,ATR_INITIAL,CFX-USDT-SWAP,0.05759,4969.2,long,0.05608,SYNC_OK,Turtle 55,20260328_200039_CFX-USDT-SWAP_long,20
+0.1052,active_confirmed,ATR_INITIAL,OP-USDT-SWAP,0.10514,26851.0,long,0.10422,SYNC_OK,Turtle 20,20260328_200242_OP-USDT-SWAP_long,10

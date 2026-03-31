@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: PEPE-USDT-SWAP\nЦена входа: 0.000003\nQty: 84.2\nATR: 0.000000\nBootstrap-stop: 0.000003\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "f27bf221a61b46ed8861995d295e0ade",
+  "created_ts": 1774816212.5054672,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

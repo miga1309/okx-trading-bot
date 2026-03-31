@@ -1,0 +1,4 @@
+{"time": "2026-03-26 23:06:30", "component": "app", "status": "startup", "version": "v112_7"}
+{"time": "2026-03-26 23:06:30", "component": "gui", "status": "window_initialized", "version": "v112_7"}
+{"time": "2026-03-26 23:06:32", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-26 23:06:32", "component": "app", "status": "shutdown", "exit_code": 0}

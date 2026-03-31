@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: TSLA-USDT-SWAP\nЦена входа: 376.480000\nQty: 784.0\nATR: 0.249000\nBootstrap-stop: 384.530000\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "a466b8aab2eb4fb59383c6be225d2605",
+  "created_ts": 1774547414.0418456,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

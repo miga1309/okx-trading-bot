@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: KSM-USDT-SWAP\nСторона: LONG\nЦена входа: 4.346000\nЦена выхода: 4.329000\nPnL: -10.2255\nPnL %: -0.39%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "929c653bea9b4b94815c5de2466d60f7",
+  "created_ts": 1774211290.1526873,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

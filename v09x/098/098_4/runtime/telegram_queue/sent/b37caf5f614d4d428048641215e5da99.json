@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: MINA-USDT-SWAP\nЦена входа: 0.056100\nQty: 44842.0\nATR: 0.000190\nСтоп: 0.056481\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "b37caf5f614d4d428048641215e5da99",
+  "created_ts": 1774237826.0525558,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

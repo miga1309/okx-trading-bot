@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: IOTA-USDT-SWAP\nЦена входа: 0.057729\nQty: 4153.0\nATR: 0.000117\nСтоп: 0.057495\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "9d23308736b54cd6a7583abfd363eaf1",
+  "created_ts": 1774235150.1100929,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,2234 @@
+2026-03-24 22:18:56,620 | INFO | Telegram worker started | queue=D:\GIT\okx-trading-bot\v10x\v105\runtime\telegram_queue
+2026-03-24 22:28:10,947 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:28:29,015 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:28:47,069 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:29:05,128 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:29:17,811 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2026-03-24 22:29:35,880 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:29:53,947 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:30:12,008 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:30:30,141 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:30:48,201 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:31:06,338 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:31:24,410 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:31:42,482 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:32:00,535 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:32:18,598 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:32:36,667 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:32:54,738 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:33:12,793 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:33:30,860 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:33:48,918 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:34:06,975 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:34:25,038 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:34:43,090 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:35:01,158 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:35:19,221 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:35:37,367 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:35:55,426 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:36:13,490 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:36:31,551 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:36:49,602 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:37:07,661 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:37:25,729 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:37:43,796 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:38:01,865 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:38:19,917 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:38:37,974 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:38:56,037 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:39:14,102 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:39:32,157 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:39:50,208 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:40:08,264 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:40:26,327 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:40:44,388 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:41:02,444 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:41:20,501 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:41:33,182 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2026-03-24 22:41:51,237 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:42:09,290 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:42:27,343 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:42:40,039 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2026-03-24 22:42:58,096 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:43:16,170 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:43:34,226 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:43:52,364 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:44:10,422 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:44:28,474 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:44:46,533 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:45:04,589 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:45:22,650 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:45:40,711 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:45:58,771 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:46:16,818 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:46:34,873 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:46:52,928 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:47:10,987 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:47:29,047 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:47:47,100 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:48:05,154 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:48:23,226 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:48:41,278 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:48:59,334 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:49:17,398 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:49:35,464 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:49:48,169 | ERROR | Telegram worker item processing failed: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2026-03-24 22:50:06,229 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:50:24,293 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-03-24 22:50:42,345 | ERROR | Telegram worker item processing failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+Traceback (most recent call last):
+  File "urllib\request.py", line 1321, in do_open
+  File "http\client.py", line 1358, in request
+  File "http\client.py", line 1404, in _send_request
+  File "http\client.py", line 1353, in endheaders
+  File "http\client.py", line 1113, in _send_output
+  File "http\client.py", line 1057, in send
+  File "http\client.py", line 1499, in connect
+  File "ssl.py", line 455, in wrap_socket
+  File "ssl.py", line 1076, in _create
+  File "ssl.py", line 1372, in do_handshake
+TimeoutError: _ssl.c:1063: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "telegram_notifier.py", line 391, in run_worker_forever
+    commands_processed = worker._process_commands()
+  File "telegram_notifier.py", line 137, in _process_commands
+    with urllib.request.urlopen(request, timeout=15) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "urllib\request.py", line 187, in urlopen
+  File "urllib\request.py", line 487, in open
+  File "urllib\request.py", line 504, in _open
+  File "urllib\request.py", line 464, in _call_chain
+  File "urllib\request.py", line 1369, in https_open
+  File "urllib\request.py", line 1324, in do_open
+urllib.error.URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>

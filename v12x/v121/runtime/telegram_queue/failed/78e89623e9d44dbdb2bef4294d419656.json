@@ -1,0 +1,11 @@
+{
+  "type": "photo",
+  "photo_path": "D:\\GIT\\okx-trading-bot\\v12x\\v121\\runtime\\telegram_queue\\files\\8dcb5478b9d946e08a87bb2cfd22510d.png",
+  "caption": "OKX Turtle Bot v120_2 | 2026-03-31 05:36:14",
+  "id": "78e89623e9d44dbdb2bef4294d419656",
+  "created_ts": 1774924574.8904195,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758",
+  "attempts": 10,
+  "last_error": "<urlopen error [WinError 10049] Требуемый адрес для своего контекста неверен>"
+}

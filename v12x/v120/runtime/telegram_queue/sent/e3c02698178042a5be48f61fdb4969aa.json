@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ICP-USDT-SWAP\nСторона: LONG\nЦена входа: 2.253823\nЦена выхода: 2.250000\nPnL: -3.1819\nPnL %: -0.85%\nЮнитов: 1\nПричина: Ротация под новый сигнал CATI-USDT-SWAP",
+  "id": "e3c02698178042a5be48f61fdb4969aa",
+  "created_ts": 1774848788.8357623,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

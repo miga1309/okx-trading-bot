@@ -1,0 +1,2 @@
+2026-03-30 23:02:40,066 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for ZETA-USDT-SWAP: <ConnectionTerminated error_code:0, last_stream_id:19999, additional_data:None>
+2026-03-31 04:06:36,078 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for XPL-USDT-SWAP: <ConnectionTerminated error_code:0, last_stream_id:19999, additional_data:None>

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: YGG-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.033290\nЦена выхода: 0.030300\nPnL: 1309.1927\nPnL %: 8.98%\nЮнитов: 6\nПричина: Канальный выход 10 свечей",
+  "id": "74a079b6a9274b7bba711fc63864e7b3",
+  "created_ts": 1774561150.0812936,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,2 @@
+time,event,inst_id,side,qty,price,atr,stop_price,system_name,note
+2026-03-24 22:25:32,CLOSE,ICP-USDT-SWAP,long,126029.8,2.363,0.002650000000000041,2.3577,Turtle 20,Синхронизация: позиция отсутствует на бирже

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LQTY-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.266570\nЦена выхода: 0.266700\nPnL: -5.5636\nPnL %: -0.05%\nЮнитов: 4\nПричина: SYNC confirmed close after stop fault: PENDING_RECHECK",
+  "id": "5e13194d46a9490f8ec27b6a03d55262",
+  "created_ts": 1774777440.9184284,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

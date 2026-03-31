@@ -1,0 +1,4 @@
+2026-03-26 18:46:47,188 | INFO | system_events | logger_factory:configure_logging:172 | logging_configured version=v111_6 logs_dir=D:\GIT\okx-trading-bot\v11x\v111\logs
+2026-03-26 18:46:48,027 | INFO | system_events | session_control_engine:_transition:23 | session_state=STARTING payload={}
+2026-03-26 18:46:49,114 | INFO | system_events | session_control_engine:_transition:23 | session_state=RUNNING payload={}
+2026-03-26 19:25:08,635 | INFO | system_events | session_control_engine:_transition:23 | session_state=STOPPED payload={'exit_code': 0}

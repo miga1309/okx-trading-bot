@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: COMP-USDT-SWAP\nЦена входа: 18.480000\nQty: 1380.5\nATR: 0.046500\nСтоп: 18.387000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "11c6956999064b51afe7167c36b97f22",
+  "created_ts": 1774229207.9151268,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

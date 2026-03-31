@@ -1,0 +1,2 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+70.9,False,active,XAG-USDT-SWAP,70.89,HEALTHY,4251.0,short,71.653,ACTIVE,SYNC_OK,20260319_141138_XAG-USDT-SWAP_short

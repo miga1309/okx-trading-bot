@@ -1,0 +1,3 @@
+atr,avg_px,close_pending,entry_time,inst_id,last_px,next_unit_level,peak_pnl_pct,peak_unrealized_pnl,pnl_pct,position_age_sec,qty,side,stop_price,trade_id,units,unrealized_pnl
+2.7000000000000287e-05,0.055567341170929,False,2026-03-29 19:46:08,MAGIC-USDT-SWAP,0.05565,0.0555211823418579,0.0,0.0,-0.5638098544094154,0,101902.0,short,0.05653,20260329_194607_MAGIC-USDT-SWAP_short,2,-6.3850599999929925
+0.0012500000000000011,0.841,False,2026-03-29 19:51:20,LIT-USDT-SWAP,0.841,0.841375,0.0,0.0,0.0,0,333.0,short,0.857,20260329_195120_LIT-USDT-SWAP_short,1,0.0

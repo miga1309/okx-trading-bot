@@ -1,0 +1,2 @@
+current_price,error_code,error_msg,event,inst_id,requested_stop,response,side,trade_id,ts
+0.92871,,market_already_crossed_stop,STOP_REJECTED,SUI-USDT-SWAP,0.91835,{},long,20260326_232246_SUI-USDT-SWAP_long,2026-03-26 23:22:58

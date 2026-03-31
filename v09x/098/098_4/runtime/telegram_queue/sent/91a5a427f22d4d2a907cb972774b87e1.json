@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: IMX-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.156200\nЦена выхода: 0.156600\nPnL: -6.5364\nPnL %: -0.26%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "91a5a427f22d4d2a907cb972774b87e1",
+  "created_ts": 1774212196.8371058,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

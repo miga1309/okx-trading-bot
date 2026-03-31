@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: CRV-USDT-SWAP\nСторона: LONG\nЦена входа: 0.229170\nЦена выхода: 0.228200\nPnL: -10.5412\nPnL %: -0.42%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "6deea9a3d928423d8fb05f6eea9283d3",
+  "created_ts": 1774403126.6154354,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

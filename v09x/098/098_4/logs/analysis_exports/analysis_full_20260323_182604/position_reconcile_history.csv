@@ -1,0 +1,2 @@
+avg_px,close_pending,exchange_stop_status,inst_id,last_px,position_health_state,qty,side,stop_price,stop_state,sync_status,trade_id
+0.2774426925397149,False,active,LQTY-USDT-SWAP,0.2892,HEALTHY,39784.0,long,0.2864,ACTIVE,,20260323_141312_LQTY-USDT-SWAP_long

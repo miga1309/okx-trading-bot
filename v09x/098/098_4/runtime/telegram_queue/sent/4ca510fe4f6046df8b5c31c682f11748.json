@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: NEAR-USDT-SWAP\nЦена входа: 1.252135\nQty: 196.8\nATR: 0.002990\nСтоп: 1.258115\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "4ca510fe4f6046df8b5c31c682f11748",
+  "created_ts": 1774258642.0643873,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

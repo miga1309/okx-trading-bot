@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: ZIL-USDT-SWAP\nЦена входа: 0.003673\nQty: 7699.0\nATR: 0.000007\nBootstrap-stop: 0.003780\nЮнитов: 1\nСистема: Turtle 55",
+  "id": "2196b1ebe53e416cbfcee3522ea1979b",
+  "created_ts": 1774787833.5371518,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

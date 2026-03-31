@@ -1,0 +1,42 @@
+2026-03-29 13:45:06,101 | ERROR | root | main_window_impl:show_manual_add_unit_dialog:595 | Manual add dialog failed: 'Позиция INJ-USDT-SWAP не найдена в snapshot'
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 587, in show_manual_add_unit_dialog
+    preview = self._manual_add_preview_from_snapshot(inst_id, extra_units=1)
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 518, in _manual_add_preview_from_snapshot
+    raise KeyError(f"Позиция {inst_id} не найдена в snapshot")
+KeyError: 'Позиция INJ-USDT-SWAP не найдена в snapshot'
+2026-03-29 13:45:18,245 | ERROR | root | main_window_impl:show_manual_add_unit_dialog:595 | Manual add dialog failed: 'Позиция LTC-USDT-SWAP не найдена в snapshot'
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 587, in show_manual_add_unit_dialog
+    preview = self._manual_add_preview_from_snapshot(inst_id, extra_units=1)
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 518, in _manual_add_preview_from_snapshot
+    raise KeyError(f"Позиция {inst_id} не найдена в snapshot")
+KeyError: 'Позиция LTC-USDT-SWAP не найдена в snapshot'
+2026-03-29 13:45:39,944 | ERROR | root | main_window_impl:show_manual_add_unit_dialog:595 | Manual add dialog failed: 'Позиция LTC-USDT-SWAP не найдена в snapshot'
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 587, in show_manual_add_unit_dialog
+    preview = self._manual_add_preview_from_snapshot(inst_id, extra_units=1)
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 518, in _manual_add_preview_from_snapshot
+    raise KeyError(f"Позиция {inst_id} не найдена в snapshot")
+KeyError: 'Позиция LTC-USDT-SWAP не найдена в snapshot'
+2026-03-29 13:46:05,544 | ERROR | root | main_window_impl:show_manual_add_unit_dialog:595 | Manual add dialog failed: 'Позиция LINK-USDT-SWAP не найдена в snapshot'
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 587, in show_manual_add_unit_dialog
+    preview = self._manual_add_preview_from_snapshot(inst_id, extra_units=1)
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 518, in _manual_add_preview_from_snapshot
+    raise KeyError(f"Позиция {inst_id} не найдена в snapshot")
+KeyError: 'Позиция LINK-USDT-SWAP не найдена в snapshot'
+2026-03-29 13:46:08,618 | ERROR | root | main_window_impl:show_manual_add_unit_dialog:595 | Manual add dialog failed: 'Позиция INJ-USDT-SWAP не найдена в snapshot'
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 587, in show_manual_add_unit_dialog
+    preview = self._manual_add_preview_from_snapshot(inst_id, extra_units=1)
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 518, in _manual_add_preview_from_snapshot
+    raise KeyError(f"Позиция {inst_id} не найдена в snapshot")
+KeyError: 'Позиция INJ-USDT-SWAP не найдена в snapshot'
+2026-03-29 13:58:16,081 | ERROR | root | main_window_impl:show_manual_add_unit_dialog:595 | Manual add dialog failed: 'Позиция LTC-USDT-SWAP не найдена в snapshot'
+Traceback (most recent call last):
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 587, in show_manual_add_unit_dialog
+    preview = self._manual_add_preview_from_snapshot(inst_id, extra_units=1)
+  File "D:\GIT\okx-trading-bot\v11x\v116\interface\gui\main_window_impl.py", line 518, in _manual_add_preview_from_snapshot
+    raise KeyError(f"Позиция {inst_id} не найдена в snapshot")
+KeyError: 'Позиция LTC-USDT-SWAP не найдена в snapshot'

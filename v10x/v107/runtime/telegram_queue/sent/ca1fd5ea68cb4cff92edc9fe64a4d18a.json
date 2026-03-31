@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📉 Открыта SHORT позиция\n\nИнструмент: DOT-USDT-SWAP\nЦена входа: 1.400000\nQty: 1691.9\nATR: 0.002550\nСтоп: 1.405100\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "ca1fd5ea68cb4cff92edc9fe64a4d18a",
+  "created_ts": 1774406333.9709225,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "✅ Позиция закрыта\n\nИнструмент: DOGE-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.096550\nЦена выхода: 0.096550\nPnL: 0.0000\nPnL %: 0.00%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "9208a966631a4232b51c504dec4a2408",
+  "created_ts": 1774431767.41425,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

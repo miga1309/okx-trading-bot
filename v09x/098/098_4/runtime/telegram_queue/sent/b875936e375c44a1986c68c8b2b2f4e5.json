@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ENA-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.097169\nЦена выхода: 0.097400\nPnL: -6.8020\nPnL %: -0.24%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "b875936e375c44a1986c68c8b2b2f4e5",
+  "created_ts": 1774199368.922086,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

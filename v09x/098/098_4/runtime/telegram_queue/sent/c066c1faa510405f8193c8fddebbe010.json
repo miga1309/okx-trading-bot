@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: AUCTION-USDT-SWAP\nСторона: SHORT\nЦена входа: 4.669781\nЦена выхода: 4.678000\nPnL: -5.0324\nPnL %: -0.18%\nЮнитов: 1\nПричина: ATR стоп 2.0N",
+  "id": "c066c1faa510405f8193c8fddebbe010",
+  "created_ts": 1774201208.802561,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

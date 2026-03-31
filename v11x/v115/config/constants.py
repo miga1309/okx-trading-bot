@@ -1,0 +1,2 @@
+APP_NAME = "OKX Turtle Bot"
+DEFAULT_LOG_ENCODING = "utf-8"

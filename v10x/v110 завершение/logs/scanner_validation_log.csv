@@ -1,0 +1,2 @@
+timestamp,pair,filter_type,user_verdict,review_tags,comment,hit_count,reason,side,timeframe,metrics_json
+2026-03-25 20:45:38,CRV-USDT-SWAP,GOOD,хороший,"[""хороший""]",,1234,Открытая позиция программы,long,5m,"{""pnl_pct"": -0.7270078860868435, ""unrealized_pnl"": -26.955600000006406, ""units"": 4.0, ""entry_price"": 0.0}"

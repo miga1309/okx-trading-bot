@@ -1,0 +1,23 @@
+{"time": "2026-03-16 15:49:19", "component": "app", "status": "startup", "version": "v084_7"}
+{"time": "2026-03-16 15:49:19", "component": "gui", "status": "window_initialized", "version": "v084_7"}
+{"time": "2026-03-16 15:49:21", "component": "worker", "status": "thread_started", "timeframe": "5m"}
+{"time": "2026-03-16 15:49:23", "component": "worker", "status": "engine_constructed", "timeframe": "5m"}
+{"time": "2026-03-16 15:49:23", "component": "engine", "status": "cycle_started", "open_positions": 0, "timeframe": "5m"}
+{"time": "2026-03-16 15:49:23", "component": "engine", "status": "cycle_error", "error": "[WinError 10035] Операция на незаблокированном сокете не может быть завершена немедленно"}
+{"time": "2026-03-16 15:49:28", "component": "engine", "status": "cycle_started", "open_positions": 0, "timeframe": "5m"}
+{"time": "2026-03-16 15:50:06", "component": "engine", "status": "cycle_finished", "duration_sec": 37.623, "open_positions": 3}
+{"time": "2026-03-16 15:50:11", "component": "engine", "status": "cycle_started", "open_positions": 3, "timeframe": "5m"}
+{"time": "2026-03-16 15:50:19", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:51:00", "component": "engine", "status": "cycle_finished", "duration_sec": 49.616, "open_positions": 2}
+{"time": "2026-03-16 15:51:05", "component": "engine", "status": "cycle_started", "open_positions": 2, "timeframe": "5m"}
+{"time": "2026-03-16 15:51:19", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:51:47", "component": "engine", "status": "cycle_finished", "duration_sec": 42.202, "open_positions": 2}
+{"time": "2026-03-16 15:51:52", "component": "engine", "status": "cycle_started", "open_positions": 2, "timeframe": "5m"}
+{"time": "2026-03-16 15:52:19", "component": "gui", "status": "alive", "bot_running": true, "transitioning": false, "worker_running": true}
+{"time": "2026-03-16 15:52:34", "component": "engine", "status": "cycle_finished", "duration_sec": 41.716, "open_positions": 2}
+{"time": "2026-03-16 15:52:39", "component": "engine", "status": "cycle_started", "open_positions": 2, "timeframe": "5m"}
+{"time": "2026-03-16 15:52:53", "component": "engine", "status": "cycle_finished", "duration_sec": 13.828, "open_positions": 2}
+{"time": "2026-03-16 15:52:54", "component": "worker", "status": "thread_finished"}
+{"time": "2026-03-16 15:53:19", "component": "gui", "status": "alive", "bot_running": false, "transitioning": false, "worker_running": false}
+{"time": "2026-03-16 15:53:32", "component": "gui", "status": "close_event", "bot_running": false, "worker_running": false}
+{"time": "2026-03-16 15:53:32", "component": "app", "status": "shutdown", "exit_code": 0}

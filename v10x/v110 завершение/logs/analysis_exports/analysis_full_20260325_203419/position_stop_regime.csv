@@ -1,0 +1,4 @@
+avg_px,exchange_stop_status,hybrid_stop_mode,inst_id,last_px,qty,side,stop_price,sync_status,system_name,trade_id,turtle_exit_period
+0.9159563934426233,active,DONCHIAN_ACTIVE,QTUM-USDT-SWAP,0.914,6100.0,long,0.9089,SYNC_OK,Turtle 20,20260325_193305_QTUM-USDT-SWAP_long,10
+0.2376759743589745,amend_fallback_replace,DONCHIAN_ACTIVE,CRV-USDT-SWAP,0.2375,46800.0,long,0.236,SYNC_OK,Turtle 20,20260325_194319_CRV-USDT-SWAP_long,10
+2.4049512820848955,active_confirmed,DONCHIAN_ACTIVE,ICP-USDT-SWAP,2.398,228846.0,long,2.3925,SYNC_OK,Turtle 20,20260325_203203_ICP-USDT-SWAP_long,10

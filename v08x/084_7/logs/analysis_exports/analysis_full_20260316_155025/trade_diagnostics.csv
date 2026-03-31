@@ -1,0 +1,2 @@
+early_exit_flag,early_exit_gap_pct,inst_id,last_stop_move_reason,mae_pct,market_risk_score,mfe_pct,pnl_pct,side,stop_move_events,trade_id,unit_add_events
+False,0.0,BREV-USDT-SWAP,pre_close:Защита тренда: откат от пика 23095003333.33R → 3695003333.33R,0.0,2.0,0.366239,0.3662389764685495,long,0,20260316_154930_BREV-USDT-SWAP_long,0

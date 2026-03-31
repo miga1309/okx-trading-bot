@@ -1,0 +1,6 @@
+2026-03-30 03:57:45,682 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for H-USDT-SWAP: Expecting value: line 1 column 1 (char 0)
+2026-03-30 07:03:15,648 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for XAU-USDT-SWAP: <ConnectionTerminated error_code:0, last_stream_id:19999, additional_data:None>
+2026-03-30 12:31:38,635 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for BLUAI-USDT-SWAP: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-03-30 12:38:25,066 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for LRC-USDT-SWAP: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-03-30 13:20:05,080 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for LRC-USDT-SWAP: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2026-03-30 18:48:38,935 | ERROR | root | market_data_cache:_run:146 | Market-data worker fetch failed for SOLV-USDT-SWAP: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение

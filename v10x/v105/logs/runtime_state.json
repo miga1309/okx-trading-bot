@@ -1,0 +1,34 @@
+{
+  "positions": {},
+  "closed_trades": [
+    {
+      "time": "2026-03-24 22:25:32",
+      "inst_id": "ICP-USDT-SWAP",
+      "side": "long",
+      "qty": 126029.8,
+      "entry_px": 2.363,
+      "exit_px": 2.363,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "units": 1,
+      "system_name": "Turtle 20",
+      "reason": "Синхронизация: позиция отсутствует на бирже",
+      "duration_sec": 148,
+      "trade_context_file": "D:\\GIT\\okx-trading-bot\\v10x\\v105\\logs\\trade_context\\20260324_222532_ICP-USDT-SWAP_long_trade.json",
+      "trade_id": "20260324_222304_ICP-USDT-SWAP_long",
+      "stop_confirmed": false,
+      "stop_state": "ERROR",
+      "position_health_state": "STOP_UNVERIFIED",
+      "block_reason": "position_absent_on_exchange",
+      "entry_distance_atr": 0.0
+    }
+  ],
+  "balance_history": [
+    {
+      "time": "2026-03-24 22:25:30",
+      "balance_total": 85028.1743497261,
+      "balance_available": 85063.90118822515,
+      "balance_used": 0.0
+    }
+  ]
+}

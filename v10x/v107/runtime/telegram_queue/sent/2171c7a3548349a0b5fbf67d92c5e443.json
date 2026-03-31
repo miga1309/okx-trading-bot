@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: ARB-USDT-SWAP\nСторона: SHORT\nЦена входа: 0.097200\nЦена выхода: 0.097500\nPnL: -6.9636\nPnL %: -0.31%\nЮнитов: 1\nПричина: SYNC confirmed close after protective exit: market_already_crossed_stop",
+  "id": "2171c7a3548349a0b5fbf67d92c5e443",
+  "created_ts": 1774409393.5027697,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

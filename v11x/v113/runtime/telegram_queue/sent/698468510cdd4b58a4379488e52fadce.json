@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: QTUM-USDT-SWAP\nЦена входа: 0.851000\nQty: 3006.0\nATR: 0.001450\nBootstrap-stop: 0.836000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "698468510cdd4b58a4379488e52fadce",
+  "created_ts": 1774557181.6806405,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

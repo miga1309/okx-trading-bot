@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "❌ Позиция закрыта\n\nИнструмент: LIT-USDT-SWAP\nСторона: LONG\nЦена входа: 0.997000\nЦена выхода: 0.992000\nPnL: -11.8000\nPnL %: -0.50%\nЮнитов: 1\nПричина: SYNC confirmed close after stop fault: MISSING",
+  "id": "5dd817af2148497eac3eb8cbb68c8708",
+  "created_ts": 1774391582.0008347,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

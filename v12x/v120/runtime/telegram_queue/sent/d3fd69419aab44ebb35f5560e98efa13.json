@@ -1,0 +1,8 @@
+{
+  "type": "message",
+  "text": "📈 Открыта LONG позиция\n\nИнструмент: YGG-USDT-SWAP\nЦена входа: 0.034800\nQty: 56700.0\nATR: 0.000260\nBootstrap-stop: 0.033000\nЮнитов: 1\nСистема: Turtle 20",
+  "id": "d3fd69419aab44ebb35f5560e98efa13",
+  "created_ts": 1774845010.0350468,
+  "bot_token": "8757299337:AAG1bR9fYBpZslnKMQShn4Vq0xE4ToeoMMI",
+  "chat_id": "1622502758"
+}

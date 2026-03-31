@@ -1,0 +1,4 @@
+avg_px,exchange_stop_status,hybrid_stop_mode,inst_id,last_px,qty,side,stop_price,sync_status,system_name,trade_id,turtle_exit_period
+53.72797619047619,active_confirmed,DONCHIAN_ACTIVE,LTC-USDT-SWAP,53.7,201.6,short,53.753,SYNC_OK,Turtle 55,20260329_131520_LTC-USDT-SWAP_short,20
+0.1502,active,DONCHIAN_ACTIVE,THETA-USDT-SWAP,0.1503,5343.0,short,0.15019,SYNC_OK,Turtle 55,20260329_132118_THETA-USDT-SWAP_short,20
+66456.7,active_confirmed,ATR_INITIAL,BTC-USDT-SWAP,66520.9,3.74,short,66601.51,SYNC_OK,Turtle 20,20260329_134111_BTC-USDT-SWAP_short,10
